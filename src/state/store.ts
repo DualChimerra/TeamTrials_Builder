@@ -10,6 +10,7 @@ export interface Settings {
   minAptitude: Grade
   requireSurface: boolean
   uniqueAcrossTeams: boolean
+  theme: 'dark' | 'light'
 }
 
 interface RosterState {
@@ -45,7 +46,7 @@ export const useRoster = create<RosterState>()(
     (set) => ({
       owned: {},
       overrides: {},
-      settings: { includeEvent: false, minAptitude: 'D', requireSurface: true, uniqueAcrossTeams: true },
+      settings: { includeEvent: false, minAptitude: 'D', requireSurface: true, uniqueAcrossTeams: true, theme: 'dark' },
 
       setOwned: (cardId, owned) =>
         set((s) => ({ owned: { ...s.owned, [cardId]: { ...ensure(s.owned, cardId), owned } } })),

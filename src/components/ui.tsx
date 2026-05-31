@@ -26,18 +26,21 @@ export function GradeBadge({ grade, label }: { grade: Grade; label?: string }) {
   )
 }
 
-export const STYLE_COLOR: Record<Style, string> = {
-  front: 'text-[#ff6b6b] bg-[#ff6b6b]/12 border-[#ff6b6b]/35',
-  pace: 'text-[#6ea8fe] bg-[#6ea8fe]/12 border-[#6ea8fe]/35',
-  late: 'text-[#34d399] bg-[#34d399]/12 border-[#34d399]/35',
-  end: 'text-[#c084fc] bg-[#c084fc]/12 border-[#c084fc]/35',
+export const STYLE_VAR: Record<Style, string> = {
+  front: 'var(--st-front)',
+  pace: 'var(--st-pace)',
+  late: 'var(--st-late)',
+  end: 'var(--st-end)',
 }
 
 export function StyleBadge({ style, full }: { style: Style; full?: boolean }) {
+  const color = STYLE_VAR[style]
   return (
     <span
-      className={`inline-flex items-center rounded border px-1.5 py-0.5 text-[11px] font-semibold ${STYLE_COLOR[style]}`}
+      className="inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 text-[11px] font-medium"
+      style={{ color, borderColor: 'var(--border)' }}
     >
+      <span className="h-1.5 w-1.5 rounded-full" style={{ background: color }} />
       {full ? STYLE_LABEL[style] : STYLE_LABEL[style].split(' ')[0]}
     </span>
   )

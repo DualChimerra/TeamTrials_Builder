@@ -79,7 +79,6 @@ export interface MatchOptions {
 
 export interface CardEval {
   matched: MatchedSkill[]
-  uniqueSkills: { id: number; name: string; rarity: number; iconid: number }[]
   goldCount: number
   goldBracketCount: number
   normalCount: number
@@ -103,7 +102,7 @@ export function effectiveSkillIds(
   for (const id of card.innate) add(id, 'inherit')
   for (const p of card.potential) if (p.rank <= opts.potentialLevel) add(p.id, 'potential')
   if (opts.includeEvent) for (const id of card.event) add(id, 'event')
-  for (const id of card.unique) add(id, 'unique')
+  // Uniques are intentionally ignored entirely.
   return out
 }
 
@@ -117,16 +116,12 @@ export function evalCard(
   categoryLabel: string,
 ): CardEval {
   const matched: MatchedSkill[] = []
-  const uniqueSkills: CardEval['uniqueSkills'] = []
   let skillScore = 0
 
   for (const { id, origin } of effectiveSkillIds(card, opts)) {
     const sk = skills[String(id)]
     if (!sk) continue
-    if (origin === 'unique' || sk.rarity >= 3) {
-      if (sk.rarity >= 3) uniqueSkills.push({ id: sk.id, name: sk.name, rarity: sk.rarity, iconid: sk.iconid })
-      continue
-    }
+    if (sk.rarity >= 3) continue // uniques & evolutions are not scored
     if (isDebuff(sk.name)) continue
     const e = LOOKUP.get(normalizeName(sk.name))
     if (!e) continue
@@ -156,11 +151,9 @@ export function evalCard(
   const normalCount = matched.filter((m) => m.tier === 'normal' && !m.bracket).length
   const normalBracketCount = matched.filter((m) => m.tier === 'normal' && m.bracket).length
 
-  // Uniques are intentionally NOT scored — only guaranteed white/gold skills
-  // count. We still surface the unique for information in the breakdown.
+  // Only guaranteed white/gold skills count toward the score.
   return {
     matched,
-    uniqueSkills,
     goldCount,
     goldBracketCount,
     normalCount,

@@ -1,24 +1,73 @@
 @import 'tailwindcss';
 
-@theme {
-  --color-bg: #0b0c10;
-  --color-surface: #14161d;
-  --color-surface-2: #1b1e27;
-  --color-border: #262a36;
-  --color-border-soft: #1f232e;
-  --color-text: #e6e8ee;
-  --color-muted: #9aa1b1;
-  --color-faint: #6b7280;
+/* ---- Theme tokens (dark default, light override) ---- */
+:root {
+  --bg: #101216;
+  --sidebar: #0d0e11;
+  --card: rgba(255, 255, 255, 0.025);
+  --chip: #15181d;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.12);
+  --text: #eceef2;
+  --muted: #969cab;
+  --faint: #646a78;
+  --accent: #6e79d6;
+  --accent-soft: rgba(110, 121, 214, 0.16);
+  --gold: #e3b261;
+  --good: #63b87f;
+  --bad: #d9655f;
+  --st-front: #df7a6f;
+  --st-pace: #5b9bd5;
+  --st-late: #63b87f;
+  --st-end: #a585dd;
+}
 
-  --color-brand: #8b5cf6;
-  --color-brand-2: #d946ef;
-  --color-gold: #f5b942;
-  --color-normal: #6ea8fe;
-  --color-unique: #ff7ac6;
-  --color-good: #34d399;
-  --color-bad: #f87171;
+[data-theme='light'] {
+  --bg: #faf9f5;
+  --sidebar: #f1efe8;
+  --card: #ffffff;
+  --chip: #f3f1ea;
+  --border: rgba(0, 0, 0, 0.09);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --text: #1c1d22;
+  --muted: #6b6e78;
+  --faint: #9a9ca6;
+  --accent: #5a63c9;
+  --accent-soft: rgba(110, 121, 214, 0.14);
+  --gold: #a9791d;
+  --good: #3e9b63;
+  --bad: #c5524c;
+  --st-front: #c75c52;
+  --st-pace: #3d82bd;
+  --st-late: #3e9b63;
+  --st-end: #8666c9;
+}
 
-  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+/* Map Tailwind color/font utilities to the runtime CSS variables (theme-switchable). */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-sidebar: var(--sidebar);
+  --color-surface: var(--card);
+  --color-surface-2: var(--chip);
+  --color-border: var(--border);
+  --color-border-soft: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-brand: var(--accent);
+  --color-brand-2: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-normal: var(--st-pace);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --color-st-front: var(--st-front);
+  --color-st-pace: var(--st-pace);
+  --color-st-late: var(--st-late);
+  --color-st-end: var(--st-end);
+
+  --font-sans: 'Geist', system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -33,11 +82,8 @@ body,
 
 body {
   margin: 0;
-  background:
-    radial-gradient(1200px 600px at 80% -10%, rgba(139, 92, 246, 0.12), transparent 60%),
-    radial-gradient(1000px 500px at 0% 0%, rgba(217, 70, 239, 0.08), transparent 55%),
-    var(--color-bg);
-  color: var(--color-text);
+  background: var(--bg);
+  color: var(--text);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -46,21 +92,21 @@ body {
 /* Thin custom scrollbars */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-border) transparent;
+  scrollbar-color: var(--border-strong) transparent;
 }
 *::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 *::-webkit-scrollbar-thumb {
-  background: var(--color-border);
+  background: var(--border-strong);
   border-radius: 999px;
 }
 
 @keyframes fade-in {
   from {
     opacity: 0;
-    transform: translateY(4px);
+    transform: translateY(3px);
   }
   to {
     opacity: 1;
@@ -68,5 +114,5 @@ body {
   }
 }
 .animate-fade-in {
-  animation: fade-in 0.18s ease-out;
+  animation: fade-in 0.16s ease-out;
 }
