@@ -1,0 +1,175 @@
+import type { Card, Category, Skill, Style } from '../types'
+import { GUARANTEED, type GuaranteedEntry, type Tier } from './guaranteedSkills'
+
+// Normalise a skill name for matching: strip a trailing ◎ / ○ / × badge and lowercase.
+// Positional white skills exist as "<name> ◎" (great), "<name> ○" (good) and "<name> ×"
+// (debuff). We match on the base name and treat × separately (see isDebuff).
+const BADGE_RE = /[\s　]*[◎○×∅]+\s*$/
+
+export function normalizeName(name: string): string {
+  return name.replace(BADGE_RE, '').trim().toLowerCase()
+}
+export function isDebuff(name: string): boolean {
+  return /×\s*$/.test(name.trim())
+}
+
+// base-name -> guaranteed entry lookup
+const LOOKUP: Map<string, GuaranteedEntry> = (() => {
+  const m = new Map<string, GuaranteedEntry>()
+  for (const e of GUARANTEED) m.set(normalizeName(e.name), e)
+  return m
+})()
+
+export type Origin = 'inherit' | 'potential' | 'event' | 'unique'
+
+export interface MatchedSkill {
+  skillId: number
+  name: string
+  rarity: number
+  iconid: number
+  tier: Tier
+  bracket: boolean
+  origin: Origin
+  reason: string
+}
+
+// Weights — gold strictly dominates normal; brackets discounted within a tier.
+// gold-bracket (600) still beats normal-non-bracket (100), per the user's rule.
+const W = { goldNonBracket: 1000, goldBracket: 600, normalNonBracket: 100, normalBracket: 40 }
+
+function entryWeight(e: GuaranteedEntry): number {
+  if (e.tier === 'gold') return e.bracket ? W.goldBracket : W.goldNonBracket
+  return e.bracket ? W.normalBracket : W.normalNonBracket
+}
+
+function relevant(e: GuaranteedEntry, style: Style, category: Category): boolean {
+  switch (e.scope.kind) {
+    case 'general':
+      return true
+    case 'style':
+      return e.scope.style === style
+    case 'dist':
+      return e.scope.category === category
+    case 'trickFront':
+      return style === 'front' || style === 'pace'
+    case 'trickBack':
+      return style === 'late' || style === 'end'
+  }
+}
+
+function reasonText(e: GuaranteedEntry, styleLabel: string, categoryLabel: string): string {
+  switch (e.scope.kind) {
+    case 'general':
+      return 'Always active'
+    case 'style':
+      return `${styleLabel} skill`
+    case 'dist':
+      return `${categoryLabel} skill`
+    case 'trickFront':
+      return 'Trick (front group)'
+    case 'trickBack':
+      return 'Trick (rear group)'
+  }
+}
+
+export interface MatchOptions {
+  potentialLevel: number // 1-5; potential skills with rank <= this are owned
+  includeEvent: boolean
+}
+
+export interface CardEval {
+  matched: MatchedSkill[]
+  uniqueSkills: { id: number; name: string; rarity: number; iconid: number }[]
+  goldCount: number
+  goldBracketCount: number
+  normalCount: number
+  normalBracketCount: number
+  skillScore: number
+  uniqueValue: number
+  score: number
+}
+
+// Collect the effective skill ids on a card for the given account state.
+export function effectiveSkillIds(
+  card: Card,
+  opts: MatchOptions,
+): { id: number; origin: Origin }[] {
+  const out: { id: number; origin: Origin }[] = []
+  const seen = new Set<number>()
+  const add = (id: number, origin: Origin) => {
+    if (seen.has(id)) return
+    seen.add(id)
+    out.push({ id, origin })
+  }
+  for (const id of card.innate) add(id, 'inherit')
+  for (const p of card.potential) if (p.rank <= opts.potentialLevel) add(p.id, 'potential')
+  if (opts.includeEvent) for (const id of card.event) add(id, 'event')
+  for (const id of card.unique) add(id, 'unique')
+  return out
+}
+
+export function evalCard(
+  card: Card,
+  style: Style,
+  category: Category,
+  stars: number,
+  skills: Record<string, Skill>,
+  opts: MatchOptions,
+  styleLabel: string,
+  categoryLabel: string,
+): CardEval {
+  const matched: MatchedSkill[] = []
+  const uniqueSkills: CardEval['uniqueSkills'] = []
+  let skillScore = 0
+
+  for (const { id, origin } of effectiveSkillIds(card, opts)) {
+    const sk = skills[String(id)]
+    if (!sk) continue
+    if (origin === 'unique' || sk.rarity >= 3) {
+      if (sk.rarity >= 3) uniqueSkills.push({ id: sk.id, name: sk.name, rarity: sk.rarity, iconid: sk.iconid })
+      continue
+    }
+    if (isDebuff(sk.name)) continue
+    const e = LOOKUP.get(normalizeName(sk.name))
+    if (!e) continue
+    if (!relevant(e, style, category)) continue
+    matched.push({
+      skillId: sk.id,
+      name: sk.name,
+      rarity: sk.rarity,
+      iconid: sk.iconid,
+      tier: e.tier,
+      bracket: e.bracket,
+      origin,
+      reason: reasonText(e, styleLabel, categoryLabel),
+    })
+    skillScore += entryWeight(e)
+  }
+
+  // sort matched: gold first, non-bracket first, then by name
+  matched.sort((a, b) => {
+    if (a.tier !== b.tier) return a.tier === 'gold' ? -1 : 1
+    if (a.bracket !== b.bracket) return a.bracket ? 1 : -1
+    return a.name.localeCompare(b.name)
+  })
+
+  const goldCount = matched.filter((m) => m.tier === 'gold' && !m.bracket).length
+  const goldBracketCount = matched.filter((m) => m.tier === 'gold' && m.bracket).length
+  const normalCount = matched.filter((m) => m.tier === 'normal' && !m.bracket).length
+  const normalBracketCount = matched.filter((m) => m.tier === 'normal' && m.bracket).length
+
+  // unique value: rewards owning the character's unique, scaled by stars (3★+ = stronger)
+  const uniqueValue = uniqueSkills.length > 0 ? 180 + stars * 70 : 0
+
+  return {
+    matched,
+    uniqueSkills,
+    goldCount,
+    goldBracketCount,
+    normalCount,
+    normalBracketCount,
+    skillScore,
+    uniqueValue,
+    score: skillScore + uniqueValue,
+  }
+}
