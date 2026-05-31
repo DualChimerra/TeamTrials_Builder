@@ -85,7 +85,6 @@ export interface CardEval {
   normalCount: number
   normalBracketCount: number
   skillScore: number
-  uniqueValue: number
   score: number
 }
 
@@ -112,7 +111,6 @@ export function evalCard(
   card: Card,
   style: Style,
   category: Category,
-  stars: number,
   skills: Record<string, Skill>,
   opts: MatchOptions,
   styleLabel: string,
@@ -158,9 +156,8 @@ export function evalCard(
   const normalCount = matched.filter((m) => m.tier === 'normal' && !m.bracket).length
   const normalBracketCount = matched.filter((m) => m.tier === 'normal' && m.bracket).length
 
-  // unique value: rewards owning the character's unique, scaled by stars (3★+ = stronger)
-  const uniqueValue = uniqueSkills.length > 0 ? 180 + stars * 70 : 0
-
+  // Uniques are intentionally NOT scored — only guaranteed white/gold skills
+  // count. We still surface the unique for information in the breakdown.
   return {
     matched,
     uniqueSkills,
@@ -169,7 +166,6 @@ export function evalCard(
     normalCount,
     normalBracketCount,
     skillScore,
-    uniqueValue,
-    score: skillScore + uniqueValue,
+    score: skillScore,
   }
 }

@@ -4,14 +4,14 @@
 
 **Build optimal [Team Trials](https://gametora.com/umamusume/team-trials-pvp-scoring) teams in _Uma Musume: Pretty Derby_ from the characters on your account.**
 
-[![Deploy](https://github.com/DualChimerra/uma_ttbuilder/actions/workflows/deploy.yml/badge.svg)](https://github.com/DualChimerra/uma_ttbuilder/actions/workflows/deploy.yml)
-[![Refresh data](https://github.com/DualChimerra/uma_ttbuilder/actions/workflows/update-data.yml/badge.svg)](https://github.com/DualChimerra/uma_ttbuilder/actions/workflows/update-data.yml)
+[![Deploy](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/deploy.yml/badge.svg)](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/deploy.yml)
+[![Refresh data](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/update-data.yml/badge.svg)](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/update-data.yml)
 ![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-4-38BDF8?logo=tailwindcss&logoColor=white)
 
-### 🐎 **[Open the app →](https://dualchimerra.github.io/uma_ttbuilder/)**
+### 🐎 **[Open the app →](https://dualchimerra.github.io/TeamTrials_Builder/)**
 
 </div>
 
@@ -37,7 +37,8 @@ This tool encodes those rules. You tell it what you own; it tells you the best t
 | 🗂️ **Roster tracking** | Mark owned cards, **stars (★)**, **potential level (1–5)**, with search & filters. Saved in your browser. |
 | 🏇 **5 teams** | Suggests 3 horses for each race category: **Sprint / Mile / Medium / Long / Dirt**. |
 | 🎯 **Smart assignment** | Picks **3 distinct running styles** per team and assigns each horse the style (aptitude ≥ your threshold) where its skills score best. |
-| 🥇 **Skill-tier scoring** | Golds ≫ normals; lower-priority ("bracketed") skills discounted; unique value scales with stars. |
+| 🥇 **Skill-tier scoring** | Only guaranteed-activation white/gold skills count: golds ≫ normals, lower-priority ("bracketed") skills discounted. Uniques and raw aptitude grades are **not** scored. |
+| 🔄 **Quick Change** | Each slot has a dropdown of the next best-fitting horses (sorted by score) to swap in manually. |
 | 🔁 **Unique-across-teams toggle** | Keep every horse to one team (real Team Trials rules), or allow reuse. |
 | 🔒 **Locks** | Exclude a horse globally or per race category. |
 | 🧪 **Event-skill toggle** | Count training-event skills or ignore them. |
@@ -52,8 +53,7 @@ flowchart LR
   B -- yes --> C{Relevant to assigned<br/>style + race category?}
   C -- no --> X
   C -- yes --> D[Weighted score<br/>gold ≫ normal · brackets ↓]
-  D --> E[+ unique value scaled by ★]
-  E --> F[Team = best 3 cards<br/>with 3 distinct styles]
+  D --> F[Team = best 3 cards<br/>with 3 distinct styles]
 ```
 
 - **Guaranteed lists** (general / per-style / per-distance / Trick) — [`src/scoring/guaranteedSkills.ts`](src/scoring/guaranteedSkills.ts)
@@ -67,7 +67,7 @@ GitHub Pages via Actions.
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173/uma_ttbuilder/
+npm run dev      # http://localhost:5173/TeamTrials_Builder/
 npm run build    # production build → dist/
 ```
 

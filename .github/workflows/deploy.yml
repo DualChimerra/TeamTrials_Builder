@@ -30,7 +30,7 @@ jobs:
       - run: npm run build
         env:
           # Project site is served from /<repo>/ — keep in sync with the repo name.
-          VITE_BASE: /uma_ttbuilder/
+          VITE_BASE: /TeamTrials_Builder/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

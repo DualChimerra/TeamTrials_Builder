@@ -68,7 +68,7 @@ export function candidatesFor(
     const cardOpts: BuildOptions = { ...opts, potentialLevel: st.potential }
     for (const style of STYLES) {
       if (!aptEligible(card, style, category, opts)) continue
-      const ev = evalCard(card, style, category, st.stars, skills, cardOpts, STYLE_LABEL[style], catLabel)
+      const ev = evalCard(card, style, category, skills, cardOpts, STYLE_LABEL[style], catLabel)
       out.push({ card, style, eval: ev })
     }
   }

@@ -1,6 +1,9 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { Category, Grade, OwnedState } from '../types'
+import type { Category, Grade, OwnedState, Style } from '../types'
+
+// Manual per-slot overrides: category -> running style -> chosen cardId.
+export type Overrides = Partial<Record<Category, Partial<Record<Style, number>>>>
 
 export interface Settings {
   includeEvent: boolean
@@ -12,6 +15,7 @@ export interface Settings {
 interface RosterState {
   owned: Record<number, OwnedState>
   settings: Settings
+  overrides: Overrides
   // actions
   setOwned: (cardId: number, owned: boolean) => void
   setStars: (cardId: number, stars: number) => void
@@ -20,6 +24,7 @@ interface RosterState {
   toggleLockCategory: (cardId: number, category: Category) => void
   bulkOwn: (cardIds: number[], owned: boolean) => void
   updateSettings: (patch: Partial<Settings>) => void
+  setOverride: (category: Category, style: Style, cardId: number | null) => void
   reset: () => void
 }
 
@@ -39,6 +44,7 @@ export const useRoster = create<RosterState>()(
   persist(
     (set) => ({
       owned: {},
+      overrides: {},
       settings: { includeEvent: false, minAptitude: 'D', requireSurface: true, uniqueAcrossTeams: true },
 
       setOwned: (cardId, owned) =>
@@ -79,7 +85,15 @@ export const useRoster = create<RosterState>()(
 
       updateSettings: (patch) => set((s) => ({ settings: { ...s.settings, ...patch } })),
 
-      reset: () => set({ owned: {} }),
+      setOverride: (category, style, cardId) =>
+        set((s) => {
+          const cat = { ...(s.overrides[category] ?? {}) }
+          if (cardId == null) delete cat[style]
+          else cat[style] = cardId
+          return { overrides: { ...s.overrides, [category]: cat } }
+        }),
+
+      reset: () => set({ owned: {}, overrides: {} }),
     }),
     {
       name: 'uma-tt-builder-v1',
