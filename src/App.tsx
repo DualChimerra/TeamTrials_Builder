@@ -37,6 +37,11 @@ function Header() {
           {openSettings && (
             <div className="animate-fade-in absolute right-0 mt-2 w-72 space-y-3 rounded-2xl border border-border bg-surface p-4 shadow-xl">
               <Toggle
+                checked={settings.uniqueAcrossTeams}
+                onChange={(v) => updateSettings({ uniqueAcrossTeams: v })}
+                label="Unique horses across teams"
+              />
+              <Toggle
                 checked={settings.includeEvent}
                 onChange={(v) => updateSettings({ includeEvent: v })}
                 label="Count event skills"

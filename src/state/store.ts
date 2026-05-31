@@ -6,6 +6,7 @@ export interface Settings {
   includeEvent: boolean
   minAptitude: Grade
   requireSurface: boolean
+  uniqueAcrossTeams: boolean
 }
 
 interface RosterState {
@@ -38,7 +39,7 @@ export const useRoster = create<RosterState>()(
   persist(
     (set) => ({
       owned: {},
-      settings: { includeEvent: false, minAptitude: 'D', requireSurface: true },
+      settings: { includeEvent: false, minAptitude: 'D', requireSurface: true, uniqueAcrossTeams: true },
 
       setOwned: (cardId, owned) =>
         set((s) => ({ owned: { ...s.owned, [cardId]: { ...ensure(s.owned, cardId), owned } } })),
@@ -80,6 +81,17 @@ export const useRoster = create<RosterState>()(
 
       reset: () => set({ owned: {} }),
     }),
-    { name: 'uma-tt-builder-v1' },
+    {
+      name: 'uma-tt-builder-v1',
+      // Deep-merge persisted state so new settings get their defaults for existing users.
+      merge: (persisted, current) => {
+        const p = (persisted ?? {}) as Partial<RosterState>
+        return {
+          ...current,
+          ...p,
+          settings: { ...current.settings, ...(p.settings ?? {}) },
+        }
+      },
+    },
   ),
 )

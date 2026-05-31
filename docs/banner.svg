@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="Uma Team Trials Builder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0c10"/>
+      <stop offset="1" stop-color="#15101f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientTransform="translate(1050 40) rotate(130) scale(420)">
+      <stop stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientTransform="translate(120 300) rotate(-50) scale(420)">
+      <stop stop-color="#d946ef" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="16" fill="url(#glow1)"/>
+  <rect width="1280" height="320" rx="16" fill="url(#glow2)"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="16" stroke="#262a36"/>
+
+  <!-- logo mark -->
+  <g transform="translate(96 116)">
+    <rect width="88" height="88" rx="22" fill="url(#logo)"/>
+    <text x="44" y="58" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800" fill="#fff" text-anchor="middle">TT</text>
+  </g>
+
+  <text x="212" y="150" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="800" fill="url(#title)">Uma Team Trials Builder</text>
+  <text x="214" y="196" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="500" fill="#9aa1b1">Optimal 3-horse teams from your roster — scored by guaranteed-activation skills.</text>
+
+  <!-- category pills -->
+  <g font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700">
+    <g transform="translate(214 234)">
+      <rect width="104" height="40" rx="12" fill="#8b5cf6" fill-opacity="0.16" stroke="#8b5cf6" stroke-opacity="0.5"/>
+      <text x="52" y="26" fill="#c4b5fd" text-anchor="middle">Sprint</text>
+    </g>
+    <g transform="translate(330 234)">
+      <rect width="86" height="40" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#262a36"/>
+      <text x="43" y="26" fill="#9aa1b1" text-anchor="middle">Mile</text>
+    </g>
+    <g transform="translate(428 234)">
+      <rect width="116" height="40" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#262a36"/>
+      <text x="58" y="26" fill="#9aa1b1" text-anchor="middle">Medium</text>
+    </g>
+    <g transform="translate(556 234)">
+      <rect width="86" height="40" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#262a36"/>
+      <text x="43" y="26" fill="#9aa1b1" text-anchor="middle">Long</text>
+    </g>
+    <g transform="translate(654 234)">
+      <rect width="84" height="40" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#262a36"/>
+      <text x="42" y="26" fill="#9aa1b1" text-anchor="middle">Dirt</text>
+    </g>
+  </g>
+
+  <!-- decorative skill chips -->
+  <g font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700">
+    <g transform="translate(980 96)">
+      <rect width="170" height="38" rx="10" fill="#f5b942" fill-opacity="0.12" stroke="#f5b942" stroke-opacity="0.4"/>
+      <text x="16" y="25" fill="#f5b942">★ GOLD skill</text>
+    </g>
+    <g transform="translate(1000 146)">
+      <rect width="150" height="38" rx="10" fill="#6ea8fe" fill-opacity="0.12" stroke="#6ea8fe" stroke-opacity="0.4"/>
+      <text x="16" y="25" fill="#6ea8fe">NORMAL skill</text>
+    </g>
+    <g transform="translate(956 196)">
+      <rect width="194" height="38" rx="10" fill="#ff7ac6" fill-opacity="0.12" stroke="#ff7ac6" stroke-opacity="0.4"/>
+      <text x="16" y="25" fill="#ff7ac6">UNIQUE · scales ★</text>
+    </g>
+  </g>
+</svg>

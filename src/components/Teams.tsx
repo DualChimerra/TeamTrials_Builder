@@ -191,10 +191,11 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
   const built = useMemo(
     () =>
       buildAllTeams(cards, skills, owned, {
-        potentialLevel: 5, // gating is per-card; see note below
+        potentialLevel: 5, // overridden per-card inside the optimizer
         includeEvent: settings.includeEvent,
         minAptitude: settings.minAptitude,
         requireSurface: settings.requireSurface,
+        uniqueAcrossTeams: settings.uniqueAcrossTeams,
       }),
     [cards, skills, owned, settings],
   )

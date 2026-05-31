@@ -163,13 +163,34 @@ export function buildAllTeams(
   cards: Card[],
   skills: Record<string, Skill>,
   owned: Record<number, OwnedState>,
-  opts: BuildOptions,
+  opts: BuildOptions & { uniqueAcrossTeams?: boolean },
 ): Record<Category, { team: Team; candidates: Candidate[] }> {
   const result = {} as Record<Category, { team: Team; candidates: Candidate[] }>
+  const candidatesByCat = {} as Record<Category, Candidate[]>
   for (const category of CATEGORIES) {
-    const candidates = candidatesFor(category, cards, skills, owned, opts)
-    const team = buildTeam(category, candidates)
-    result[category] = { team, candidates }
+    candidatesByCat[category] = candidatesFor(category, cards, skills, owned, opts)
+  }
+
+  if (!opts.uniqueAcrossTeams) {
+    for (const category of CATEGORIES) {
+      result[category] = {
+        team: buildTeam(category, candidatesByCat[category]),
+        candidates: candidatesByCat[category],
+      }
+    }
+    return result
+  }
+
+  // Unique mode: a trained Uma can sit in only one team. Build sequentially,
+  // most-constrained category first (fewest distinct eligible cards), removing
+  // each team's cards from the pool so later teams can't reuse them.
+  const distinctCount = (cands: Candidate[]) => new Set(cands.map((c) => c.card.cardId)).size
+  const order = [...CATEGORIES].sort((a, b) => distinctCount(candidatesByCat[a]) - distinctCount(candidatesByCat[b]))
+  const used = new Set<number>()
+  for (const category of order) {
+    const team = buildTeam(category, candidatesByCat[category], { excludeCardIds: used })
+    for (const slot of team.slots) used.add(slot.card.cardId)
+    result[category] = { team, candidates: candidatesByCat[category] }
   }
   return result
 }
