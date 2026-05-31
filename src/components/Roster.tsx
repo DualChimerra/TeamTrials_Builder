@@ -3,7 +3,7 @@ import type { Card, Category } from '../types'
 import { CATEGORIES, CATEGORY_LABEL } from '../types'
 import { useRoster, defaultOwnedState } from '../state/store'
 import { Avatar } from './Avatar'
-import { GradeBadge, Segmented, StyleBadge } from './ui'
+import { AptitudeGrid, Checkbox, Segmented } from './ui'
 
 const CAT_SHORT: Record<Category, string> = {
   sprint: 'Spr',
@@ -24,95 +24,76 @@ function CardTile({ card }: { card: Card }) {
 
   return (
     <div
-      className={`rounded-2xl border bg-surface p-3 transition-colors ${
-        st.owned ? 'border-border' : 'border-border-soft opacity-65 hover:opacity-100'
+      className={`rounded-xl border bg-surface p-2.5 transition-colors ${
+        st.owned ? 'border-border' : 'border-border-soft opacity-60 hover:opacity-100'
       }`}
     >
-      <div className="flex items-start gap-3">
-        <Avatar card={card} size={56} />
-        <div className="min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-2">
-            <div className="min-w-0">
-              <div className="truncate font-semibold text-text" title={card.name}>
-                {card.name}
-              </div>
-              {card.title && (
-                <div className="truncate text-xs text-faint" title={card.title}>
-                  {card.title}
-                </div>
-              )}
-            </div>
-            <button
-              onClick={() => setOwned(card.cardId, !st.owned)}
-              className={`shrink-0 rounded-lg border px-2.5 py-1 text-xs font-semibold transition-colors ${
-                st.owned
-                  ? 'border-brand/50 bg-brand/15 text-brand'
-                  : 'border-border bg-surface-2 text-muted hover:text-text'
-              }`}
-            >
-              {st.owned ? 'Owned' : 'Add'}
-            </button>
-          </div>
-
-          {/* aptitudes */}
-          <div className="mt-2 flex flex-wrap gap-1">
-            <GradeBadge grade={card.apt.turf} label="Turf" />
-            <GradeBadge grade={card.apt.dirt} label="Dirt" />
-            {card.defaultStyle && <StyleBadge style={card.defaultStyle} />}
+      <div className="flex items-center gap-2.5">
+        {/* avatar with full-aptitude hover popover */}
+        <div className="group/apt relative">
+          <Avatar card={card} size={48} />
+          <div className="pointer-events-none absolute left-0 top-full z-30 mt-1.5 hidden w-60 rounded-xl border border-border bg-surface-2 p-2.5 shadow-xl group-hover/apt:block">
+            <AptitudeGrid card={card} />
           </div>
         </div>
+        <div className="min-w-0 flex-1">
+          <div className="truncate text-[13px] font-semibold leading-tight text-text" title={card.name}>
+            {card.name}
+          </div>
+          {card.title && (
+            <div className="truncate text-[11px] text-faint" title={card.title}>
+              {card.title}
+            </div>
+          )}
+        </div>
+        <button
+          onClick={() => setOwned(card.cardId, !st.owned)}
+          className={`shrink-0 rounded-md border px-2 py-1 text-[11px] font-semibold transition-colors ${
+            st.owned
+              ? 'border-brand/50 bg-brand/15 text-brand'
+              : 'border-border bg-surface-2 text-muted hover:text-text'
+          }`}
+        >
+          {st.owned ? 'Owned' : 'Add'}
+        </button>
       </div>
 
       {st.owned && (
-        <div className="mt-3 space-y-2 border-t border-border-soft pt-3">
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-            <label className="flex items-center gap-2 text-xs text-muted">
-              <span className="w-12 text-faint">Stars</span>
-              <Segmented
-                size="sm"
-                value={st.stars}
-                onChange={(v) => setStars(card.cardId, v)}
-                options={[1, 2, 3, 4, 5].map((n) => ({ value: n, label: '★'.repeat(n) || '0' }))}
-              />
-            </label>
+        <div className="mt-2.5 space-y-1.5 border-t border-border-soft pt-2.5">
+          <div className="flex items-center gap-2">
+            <span className="w-9 shrink-0 text-[10px] uppercase tracking-wide text-faint">Stars</span>
+            <Segmented
+              value={st.stars}
+              onChange={(v) => setStars(card.cardId, v)}
+              options={[1, 2, 3, 4, 5].map((n) => ({ value: n, label: String(n) }))}
+            />
           </div>
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-            <label className="flex items-center gap-2 text-xs text-muted">
-              <span className="w-12 text-faint">Pot.</span>
-              <Segmented
-                size="sm"
-                value={st.potential}
-                onChange={(v) => setPotential(card.cardId, v)}
-                options={[1, 2, 3, 4, 5].map((n) => ({ value: n, label: String(n) }))}
-              />
-            </label>
+          <div className="flex items-center gap-2">
+            <span className="w-9 shrink-0 text-[10px] uppercase tracking-wide text-faint">Pot.</span>
+            <Segmented
+              value={st.potential}
+              onChange={(v) => setPotential(card.cardId, v)}
+              options={[1, 2, 3, 4, 5].map((n) => ({ value: n, label: String(n) }))}
+            />
           </div>
 
-          {/* distance aptitudes */}
-          <div className="flex flex-wrap gap-1">
-            <GradeBadge grade={card.apt.short} label="Spr" />
-            <GradeBadge grade={card.apt.mile} label="Mile" />
-            <GradeBadge grade={card.apt.medium} label="Med" />
-            <GradeBadge grade={card.apt.long} label="Long" />
-          </div>
-
-          <div className="flex items-center justify-between">
+          <div className="flex items-center gap-1.5 pt-0.5">
             <button
               onClick={() => toggleLockGlobal(card.cardId)}
-              className={`rounded-md border px-2 py-1 text-xs font-medium transition-colors ${
+              className={`rounded-md border px-2 py-1 text-[11px] font-medium transition-colors ${
                 st.lockedGlobal
                   ? 'border-bad/50 bg-bad/15 text-bad'
                   : 'border-border bg-surface-2 text-muted hover:text-text'
               }`}
               title="Exclude from all teams"
             >
-              {st.lockedGlobal ? '🔒 Excluded' : '🔓 Lock all'}
+              {st.lockedGlobal ? 'Excluded' : 'Lock all'}
             </button>
             <button
               onClick={() => setShowLocks((v) => !v)}
-              className="rounded-md border border-border bg-surface-2 px-2 py-1 text-xs text-muted hover:text-text"
+              className="rounded-md border border-border bg-surface-2 px-2 py-1 text-[11px] text-muted hover:text-text"
             >
-              Per-race {st.lockedCategories.length > 0 ? `(${st.lockedCategories.length})` : ''}
+              Per-race{st.lockedCategories.length > 0 ? ` (${st.lockedCategories.length})` : ''}
             </button>
           </div>
 
@@ -124,7 +105,7 @@ function CardTile({ card }: { card: Card }) {
                   <button
                     key={c}
                     onClick={() => toggleLockCategory(card.cardId, c)}
-                    className={`rounded-md border px-2 py-1 text-xs font-medium transition-colors ${
+                    className={`rounded-md border px-2 py-1 text-[11px] font-medium transition-colors ${
                       locked
                         ? 'border-bad/50 bg-bad/15 text-bad'
                         : 'border-border bg-surface-2 text-muted hover:text-text'
@@ -163,23 +144,17 @@ export function Roster({ cards }: { cards: Card[] }) {
   const ownedCount = useMemo(() => Object.values(owned).filter((o) => o.owned).length, [owned])
 
   return (
-    <div className="space-y-4">
-      <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-border bg-surface/60 p-3 backdrop-blur">
+    <div className="space-y-3">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl border border-border bg-surface/60 p-2.5 backdrop-blur">
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search horse…"
-          className="min-w-[180px] flex-1 rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text outline-none placeholder:text-faint focus:border-brand"
+          className="min-w-[180px] flex-1 rounded-lg border border-border bg-surface-2 px-3 py-1.5 text-[13px] text-text outline-none placeholder:text-faint focus:border-brand"
         />
-        <label className="flex items-center gap-2 text-sm text-muted">
-          <input type="checkbox" checked={ownedOnly} onChange={(e) => setOwnedOnly(e.target.checked)} />
-          Owned only
-        </label>
-        <label className="flex items-center gap-2 text-sm text-muted">
-          <input type="checkbox" checked={enOnly} onChange={(e) => setEnOnly(e.target.checked)} />
-          Global (EN) only
-        </label>
-        <div className="ml-auto flex items-center gap-2 text-xs">
+        <Checkbox checked={ownedOnly} onChange={setOwnedOnly} label="Owned only" />
+        <Checkbox checked={enOnly} onChange={setEnOnly} label="Global (EN) only" />
+        <div className="ml-auto flex items-center gap-2 text-[11px]">
           <span className="text-faint">
             {ownedCount} owned · {filtered.length} shown
           </span>
@@ -192,7 +167,7 @@ export function Roster({ cards }: { cards: Card[] }) {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {filtered.map((c) => (
           <CardTile key={c.cardId} card={c} />
         ))}

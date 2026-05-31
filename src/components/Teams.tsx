@@ -126,31 +126,29 @@ function SlotCard({ slot, category, idx }: { slot: Slot; category: Category; idx
   const [open, setOpen] = useState(false)
   const ev = slot.eval
   return (
-    <div className="rounded-2xl border border-border bg-surface p-3">
-      <button onClick={() => setOpen((v) => !v)} className="flex w-full items-center gap-3 text-left">
-        <Avatar card={slot.card} size={56} />
+    <div className="rounded-xl border border-border bg-surface p-2.5">
+      <button onClick={() => setOpen((v) => !v)} className="flex w-full items-center gap-2.5 text-left">
+        <Avatar card={slot.card} size={48} />
         <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5">
             {idx === 0 && (
-              <span className="rounded bg-brand/20 px-1.5 text-[10px] font-bold uppercase text-brand">
-                Ace
-              </span>
+              <span className="rounded bg-brand/20 px-1 text-[10px] font-bold uppercase text-brand">Ace</span>
             )}
-            <span className="truncate font-semibold text-text" title={slot.card.name}>
+            <span className="truncate text-[13px] font-semibold text-text" title={slot.card.name}>
               {slot.card.name}
             </span>
           </div>
-          {slot.card.title && <div className="truncate text-xs text-faint">{slot.card.title}</div>}
+          {slot.card.title && <div className="truncate text-[11px] text-faint">{slot.card.title}</div>}
           <div className="mt-1 flex items-center gap-2">
             <StyleBadge style={slot.style} full />
-            <span className="text-xs text-faint">
+            <span className="text-[11px] text-faint">
               <span className="text-gold">{ev.goldCount}g</span> /{' '}
               <span className="text-normal">{ev.normalCount}n</span>
             </span>
           </div>
         </div>
         <div className="shrink-0 text-right">
-          <div className="text-lg font-bold text-brand">{ev.score}</div>
+          <div className="text-base font-bold text-brand">{ev.score}</div>
           <div className="text-[10px] text-faint">{open ? 'hide' : 'why?'}</div>
         </div>
       </button>
@@ -213,40 +211,34 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
   }
 
   return (
-    <div className="space-y-4">
-      <div className="flex flex-wrap gap-2">
+    <div className="space-y-3">
+      <div className="flex flex-wrap gap-1.5">
         {CATEGORIES.map((c) => {
           const t = built[c].team
           return (
             <button
               key={c}
               onClick={() => setActive(c)}
-              className={`flex items-center gap-2 rounded-xl border px-3 py-2 text-sm font-semibold transition-colors ${
+              className={`flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-[13px] font-semibold transition-colors ${
                 active === c
                   ? 'border-brand bg-brand/15 text-text'
                   : 'border-border bg-surface text-muted hover:text-text'
               }`}
             >
               {CATEGORY_LABEL[c]}
-              <span className={`text-xs ${t.complete ? 'text-brand' : 'text-bad'}`}>{t.total}</span>
+              <span className={`text-[11px] ${t.complete ? 'text-brand' : 'text-bad'}`}>{t.total}</span>
             </button>
           )
         })}
       </div>
 
-      <div className="flex items-center justify-between rounded-xl border border-border bg-surface/60 px-4 py-2">
-        <div className="text-sm text-muted">
-          {CATEGORY_LABEL[active]} team total{' '}
-          <b className="text-brand">{team.total}</b>
+      {!team.complete && (
+        <div className="rounded-lg border border-bad/30 bg-bad/10 px-3 py-1.5 text-[12px] text-bad">
+          Could not fill 3 distinct running styles — add more eligible horses or relax the minimum aptitude.
         </div>
-        {!team.complete && (
-          <div className="text-xs text-bad">
-            Could not fill 3 distinct running styles — add more eligible horses or relax aptitude.
-          </div>
-        )}
-      </div>
+      )}
 
-      <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-2.5 lg:grid-cols-3">
         {team.slots.map((slot, i) => (
           <SlotCard key={slot.card.cardId} slot={slot} category={active} idx={i} />
         ))}
@@ -254,7 +246,7 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
           Array.from({ length: 3 - team.slots.length }).map((_, i) => (
             <div
               key={`empty-${i}`}
-              className="flex items-center justify-center rounded-2xl border border-dashed border-border bg-surface/40 p-6 text-sm text-faint"
+              className="flex items-center justify-center rounded-xl border border-dashed border-border bg-surface/40 p-6 text-[13px] text-faint"
             >
               No eligible horse
             </div>
