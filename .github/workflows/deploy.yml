@@ -23,7 +23,10 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: npm ci
+      # npm install (not ci): Tailwind's oxide pulls platform-specific optional
+      # native deps whose tree differs from the lockfile's generation platform,
+      # which trips npm ci's strict sync check.
+      - run: npm install --no-audit --no-fund
       - run: npm run build
         env:
           # Project site is served from /<repo>/ — keep in sync with the repo name.
