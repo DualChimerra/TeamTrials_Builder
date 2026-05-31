@@ -1,7 +1,5 @@
 <div align="center">
 
-![Uma Team Trials Builder](docs/banner.svg)
-
 # Uma Team Trials Builder
 
 **Build optimal [Team Trials](https://gametora.com/umamusume/team-trials-pvp-scoring) teams in _Uma Musume: Pretty Derby_ from the characters on your account.**
