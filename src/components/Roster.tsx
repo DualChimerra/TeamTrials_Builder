@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
-import type { Card, Category } from '../types'
-import { CATEGORIES, CATEGORY_LABEL } from '../types'
+import type { Card, Category, Grade, Style } from '../types'
+import { CATEGORIES, CATEGORY_LABEL, STYLE_LABEL, STYLES } from '../types'
 import { useRoster, defaultOwnedState } from '../state/store'
 import { Avatar } from './Avatar'
-import { AptitudeGrid, Checkbox, Segmented } from './ui'
+import { AptitudeGrid, Checkbox, GradeBadge, Segmented } from './ui'
 
 const CAT_SHORT: Record<Category, string> = {
   sprint: 'Spr',
@@ -12,6 +12,8 @@ const CAT_SHORT: Record<Category, string> = {
   long: 'Long',
   dirt: 'Dirt',
 }
+const STYLE_ABBR: Record<Style, string> = { front: 'F', pace: 'P', late: 'L', end: 'E' }
+const GRADE_CYCLE: Grade[] = ['G', 'F', 'E', 'D', 'C', 'B', 'A', 'S']
 
 function CardTile({ card }: { card: Card }) {
   const st = useRoster((s) => s.owned[card.cardId]) ?? defaultOwnedState()
@@ -20,7 +22,16 @@ function CardTile({ card }: { card: Card }) {
   const setPotential = useRoster((s) => s.setPotential)
   const toggleLockGlobal = useRoster((s) => s.toggleLockGlobal)
   const toggleLockCategory = useRoster((s) => s.toggleLockCategory)
+  const setAptStyle = useRoster((s) => s.setAptStyle)
   const [showLocks, setShowLocks] = useState(false)
+
+  const cycleApt = (style: Style) => {
+    const base = card.apt[style]
+    const cur = st.aptStyle?.[style] ?? base
+    const next = GRADE_CYCLE[(GRADE_CYCLE.indexOf(cur) + 1) % GRADE_CYCLE.length]
+    setAptStyle(card.cardId, style, next === base ? null : next)
+  }
+  const hasAptOverride = !!st.aptStyle && Object.keys(st.aptStyle).length > 0
 
   return (
     <div
@@ -33,7 +44,7 @@ function CardTile({ card }: { card: Card }) {
         <div className="group/apt relative">
           <Avatar card={card} size={48} />
           <div className="pointer-events-none absolute left-0 top-full z-30 mt-1.5 hidden w-60 rounded-xl border border-border bg-surface-2 p-2.5 shadow-xl group-hover/apt:block">
-            <AptitudeGrid card={card} />
+            <AptitudeGrid card={card} aptStyle={st.aptStyle} />
           </div>
         </div>
         <div className="min-w-0 flex-1">
@@ -75,6 +86,34 @@ function CardTile({ card }: { card: Card }) {
               onChange={(v) => setPotential(card.cardId, v)}
               options={[1, 2, 3, 4, 5].map((n) => ({ value: n, label: String(n) }))}
             />
+          </div>
+
+          <div className="flex items-center gap-1.5">
+            <span className="w-9 shrink-0 text-[10px] uppercase leading-tight tracking-wide text-faint">Style apt</span>
+            <div className="flex flex-wrap gap-1">
+              {STYLES.map((style) => {
+                const overr = st.aptStyle?.[style] != null
+                return (
+                  <button
+                    key={style}
+                    onClick={() => cycleApt(style)}
+                    title={`${STYLE_LABEL[style]} aptitude — click to change`}
+                    className={`rounded ${overr ? 'ring-1 ring-brand' : ''}`}
+                  >
+                    <GradeBadge grade={st.aptStyle?.[style] ?? card.apt[style]} label={STYLE_ABBR[style]} />
+                  </button>
+                )
+              })}
+            </div>
+            {hasAptOverride && (
+              <button
+                onClick={() => STYLES.forEach((s) => setAptStyle(card.cardId, s, null))}
+                title="Reset style aptitudes"
+                className="text-[12px] text-faint hover:text-text"
+              >
+                ↺
+              </button>
+            )}
           </div>
 
           <div className="flex items-center gap-1.5 pt-0.5">

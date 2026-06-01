@@ -9,6 +9,11 @@ function gradeRank(g: Grade): number {
 }
 const MIN_APT = gradeRank('D')
 
+// Effective style aptitude = the per-card manual override, falling back to the base grade.
+export function effectiveApt(card: Card, style: Style, st?: OwnedState): Grade {
+  return st?.aptStyle?.[style] ?? card.apt[style]
+}
+
 export interface BuildOptions extends MatchOptions {
   minAptitude?: Grade // default D
   requireSurface?: boolean // default true
@@ -33,10 +38,10 @@ export interface Candidate {
   eval: CardEval
 }
 
-function aptEligible(card: Card, style: Style, category: Category, opts: BuildOptions): boolean {
+function aptEligible(card: Card, style: Style, category: Category, opts: BuildOptions, st?: OwnedState): boolean {
   const minRank = opts.minAptitude ? gradeRank(opts.minAptitude) : MIN_APT
   const reqSurface = opts.requireSurface ?? true
-  if (gradeRank(card.apt[style]) > minRank) return false
+  if (gradeRank(effectiveApt(card, style, st)) > minRank) return false
   const dist = CATEGORY_DISTANCE[category]
   if (dist) {
     if (gradeRank(card.apt[dist]) > minRank) return false
@@ -67,7 +72,7 @@ export function candidatesFor(
     // potential gating is per-card (the awakening level the player has reached)
     const cardOpts: BuildOptions = { ...opts, potentialLevel: st.potential }
     for (const style of STYLES) {
-      if (!aptEligible(card, style, category, opts)) continue
+      if (!aptEligible(card, style, category, opts, st)) continue
       const ev = evalCard(card, style, category, skills, cardOpts, STYLE_LABEL[style], catLabel)
       out.push({ card, style, eval: ev })
     }

@@ -47,7 +47,9 @@ export function StyleBadge({ style, full }: { style: Style; full?: boolean }) {
 }
 
 // Full aptitude breakdown (surface / distance / style) for hover popovers.
-export function AptitudeGrid({ card }: { card: Card }) {
+// `aptStyle` applies the player's manual style-aptitude overrides.
+export function AptitudeGrid({ card, aptStyle }: { card: Card; aptStyle?: Partial<Record<Style, Grade>> }) {
+  const sg = (s: Style): Grade => aptStyle?.[s] ?? card.apt[s]
   const sections: [string, [string, Grade][]][] = [
     [
       'Surface',
@@ -68,10 +70,10 @@ export function AptitudeGrid({ card }: { card: Card }) {
     [
       'Style',
       [
-        ['Front', card.apt.front],
-        ['Pace', card.apt.pace],
-        ['Late', card.apt.late],
-        ['End', card.apt.end],
+        ['Front', sg('front')],
+        ['Pace', sg('pace')],
+        ['Late', sg('late')],
+        ['End', sg('end')],
       ],
     ],
   ]

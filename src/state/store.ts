@@ -2,8 +2,14 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { Category, Grade, OwnedState, Style } from '../types'
 
-// Manual per-slot overrides: category -> running style -> chosen cardId.
-export type Overrides = Partial<Record<Category, Partial<Record<Style, number>>>>
+// Manual per-slot override keyed by the slot's auto-assigned running style.
+//  - card:  a chosen cardId, or 'empty' to leave the slot blank (undefined = auto)
+//  - style: run the slot's horse in a different style (undefined = the slot's style)
+export interface SlotOverride {
+  card?: number | 'empty'
+  style?: Style
+}
+export type Overrides = Partial<Record<Category, Partial<Record<Style, SlotOverride>>>>
 
 export interface Settings {
   includeEvent: boolean
@@ -25,7 +31,8 @@ interface RosterState {
   toggleLockCategory: (cardId: number, category: Category) => void
   bulkOwn: (cardIds: number[], owned: boolean) => void
   updateSettings: (patch: Partial<Settings>) => void
-  setOverride: (category: Category, style: Style, cardId: number | null) => void
+  setSlotOverride: (category: Category, slotStyle: Style, patch: SlotOverride | null) => void
+  setAptStyle: (cardId: number, style: Style, grade: Grade | null) => void
   reset: () => void
 }
 
@@ -86,12 +93,21 @@ export const useRoster = create<RosterState>()(
 
       updateSettings: (patch) => set((s) => ({ settings: { ...s.settings, ...patch } })),
 
-      setOverride: (category, style, cardId) =>
+      setSlotOverride: (category, slotStyle, patch) =>
         set((s) => {
           const cat = { ...(s.overrides[category] ?? {}) }
-          if (cardId == null) delete cat[style]
-          else cat[style] = cardId
+          if (patch === null) delete cat[slotStyle]
+          else cat[slotStyle] = { ...(cat[slotStyle] ?? {}), ...patch }
           return { overrides: { ...s.overrides, [category]: cat } }
+        }),
+
+      setAptStyle: (cardId, style, grade) =>
+        set((s) => {
+          const cur = ensure(s.owned, cardId)
+          const aptStyle = { ...(cur.aptStyle ?? {}) }
+          if (grade == null) delete aptStyle[style]
+          else aptStyle[style] = grade
+          return { owned: { ...s.owned, [cardId]: { ...cur, aptStyle } } }
         }),
 
       reset: () => set({ owned: {}, overrides: {} }),

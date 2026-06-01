@@ -74,4 +74,6 @@ export interface OwnedState {
   potential: number // 1-5 awakening level reached
   lockedGlobal: boolean
   lockedCategories: Category[]
+  // Manual style-aptitude overrides (e.g. raised in-game). Only set styles override the base.
+  aptStyle?: Partial<Record<Style, Grade>>
 }
