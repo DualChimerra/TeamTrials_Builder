@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import type { Card, Category, Grade, Skill, Style } from '../types'
 import { CATEGORIES, CATEGORY_LABEL, STYLE_LABEL, STYLES } from '../types'
 import { useRoster, defaultOwnedState, type SlotOverride } from '../state/store'
@@ -22,6 +22,18 @@ const gradeRank = (g: Grade) => GRADE_ORDER.indexOf(g)
 type EvalFor = (card: Card, style: Style) => CardEval
 type AptOf = (card: Card, style: Style) => Grade
 
+// Drag payload shared across all team panels (a horse dragged from one slot to another).
+interface DragInfo {
+  category: Category
+  slotStyle: Style // the slot's auto-assigned style = override key
+  cardId: number
+}
+// A slot's drop target identity + the handler the panel binds for it.
+interface SlotDnD {
+  onDragStart?: () => void
+  onDrop: () => void
+}
+
 // A resolved slot: either a horse, or an intentionally empty slot.
 interface DisplaySlot {
   style: Style
@@ -29,6 +41,19 @@ interface DisplaySlot {
   eval?: CardEval
   empty?: boolean
   overridden?: boolean
+}
+
+// Compact gold/normal counts, now including the bracketed ("low") tiers so they
+// don't look ignored — they ARE scored (see classify.ts entryWeight).
+function Counts({ ev }: { ev: CardEval }) {
+  return (
+    <span className="text-[11.5px]">
+      <span className="text-gold">{ev.goldCount}g</span>
+      {ev.goldBracketCount > 0 && <span className="text-gold/70"> {ev.goldBracketCount}gl</span>}{' '}
+      <span className="text-faint">{ev.normalCount}n</span>
+      {ev.normalBracketCount > 0 && <span className="text-faint"> {ev.normalBracketCount}nl</span>}
+    </span>
+  )
 }
 
 function SkillChip({ m }: { m: MatchedSkill }) {
@@ -40,7 +65,7 @@ function SkillChip({ m }: { m: MatchedSkill }) {
         gold ? 'border-gold/25 bg-gold/[0.12] text-gold' : 'border-border bg-surface-2 text-muted'
       }`}
     >
-      <img src={skillIcon(m.iconid)} alt="" className="h-4 w-4 rounded" loading="lazy" onError={(e) => (e.currentTarget.style.visibility = 'hidden')} />
+      <img src={skillIcon(m.iconid)} alt="" className="h-4 w-4 rounded" loading="lazy" draggable={false} onError={(e) => (e.currentTarget.style.visibility = 'hidden')} />
       {m.name}
     </span>
   )
@@ -49,7 +74,7 @@ function SkillChip({ m }: { m: MatchedSkill }) {
 function SkillRow({ m }: { m: MatchedSkill }) {
   return (
     <div className="flex items-center gap-2 rounded-md px-1.5 py-1 hover:bg-white/[0.04]">
-      <img src={skillIcon(m.iconid)} alt="" className="h-5 w-5 shrink-0 rounded" loading="lazy" />
+      <img src={skillIcon(m.iconid)} alt="" className="h-5 w-5 shrink-0 rounded" loading="lazy" draggable={false} />
       <span className="min-w-0 flex-1 truncate text-[13px] text-text" title={m.name}>
         {m.name}
       </span>
@@ -131,8 +156,8 @@ function SwapDropdown({ alternatives, currentId, overridden, onPick, onClose }: 
             <span title={`${STYLE_LABEL[c.style]} aptitude`} className={gradeRank(grade) <= 2 ? 'text-good' : 'text-faint'}>
               <GradeBadge grade={grade} />
             </span>
-            <span className="shrink-0 text-[11px]">
-              <span className="text-gold">{c.eval.goldCount}g</span> <span className="text-faint">{c.eval.normalCount}n</span>
+            <span className="shrink-0">
+              <Counts ev={c.eval} />
             </span>
             <span className="shrink-0 text-[13px] font-semibold text-text">{c.eval.score}</span>
           </button>
@@ -172,16 +197,46 @@ function StyleSwitcher({ card, current, aptOf, minRank, onPick, onClose }: { car
   )
 }
 
-function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, onSet }: { slot: DisplaySlot; category: Category; idx: number; alternatives: { c: Candidate; grade: Grade }[]; minRank: number; aptOf: AptOf; onSet: (patch: SlotOverride | null) => void }) {
+// Style picker for an EMPTY slot — no card, so no aptitude grades, just the 4 styles.
+function StylePicker({ current, onPick, onClose }: { current: Style; onPick: (style: Style) => void; onClose: () => void }) {
+  return (
+    <>
+      <div className="fixed inset-0 z-20" onClick={onClose} />
+      <div className="absolute left-1/2 top-full z-30 mt-1.5 w-44 -translate-x-1/2 rounded-xl border border-border bg-surface-2 p-1 shadow-xl">
+        {STYLES.map((style) => (
+          <button
+            key={style}
+            onClick={() => { onPick(style); onClose() }}
+            className={`flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-left text-[12px] hover:bg-white/[0.05] ${style === current ? 'bg-accent-soft' : ''}`}
+          >
+            <span className="h-1.5 w-1.5 rounded-full" style={{ background: `var(--st-${style})` }} />
+            <span style={{ color: `var(--st-${style})` }}>{STYLE_LABEL[style]}</span>
+          </button>
+        ))}
+      </div>
+    </>
+  )
+}
+
+function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, dnd, onSet }: { slot: DisplaySlot; category: Category; idx: number; alternatives: { c: Candidate; grade: Grade }[]; minRank: number; aptOf: AptOf; dnd: SlotDnD; onSet: (patch: SlotOverride | null) => void }) {
   const [whyOpen, setWhyOpen] = useState(false)
   const [swapOpen, setSwapOpen] = useState(false)
   const [styleOpen, setStyleOpen] = useState(false)
+  const [dragOver, setDragOver] = useState(false)
   const card = slot.card!
   const ev = slot.eval!
   const miniBtn = 'rounded-md border border-border px-2 py-0.5 text-[11px] text-faint hover:text-text'
 
   return (
-    <div className="relative rounded-[13px] border border-border bg-surface p-3.5">
+    <div
+      draggable
+      onDragStart={(e) => { e.dataTransfer.effectAllowed = 'move'; e.dataTransfer.setData('text/plain', String(card.cardId)); dnd.onDragStart?.() }}
+      onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = 'move' }}
+      onDragEnter={() => setDragOver(true)}
+      onDragLeave={() => setDragOver(false)}
+      onDrop={(e) => { e.preventDefault(); setDragOver(false); dnd.onDrop() }}
+      className={`group relative cursor-grab rounded-[13px] border bg-surface p-3.5 active:cursor-grabbing ${dragOver ? 'border-brand ring-1 ring-brand/40' : 'border-border'}`}
+    >
       <button onClick={() => onSet({ card: 'empty' })} title="Leave this slot empty" className="absolute right-2 top-2 grid h-5 w-5 place-items-center rounded text-faint hover:bg-white/10 hover:text-text">
         ✕
       </button>
@@ -206,9 +261,7 @@ function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, onSet }: 
                 <StyleSwitcher card={card} current={slot.style} aptOf={aptOf} minRank={minRank} onPick={(style) => onSet({ style })} onClose={() => setStyleOpen(false)} />
               )}
             </div>
-            <span className="text-[11.5px]">
-              <span className="text-gold">{ev.goldCount}g</span> <span className="text-faint">{ev.normalCount}n</span>
-            </span>
+            <Counts ev={ev} />
             <div className="ml-auto flex items-center gap-1.5">
               <button onClick={() => setWhyOpen((v) => !v)} className={miniBtn}>Why</button>
               <div className="relative">
@@ -235,11 +288,24 @@ function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, onSet }: 
   )
 }
 
-function EmptySlot({ style, alternatives, onSet }: { style: Style; alternatives: { c: Candidate; grade: Grade }[]; onSet: (patch: SlotOverride | null) => void }) {
+function EmptySlot({ style, alternatives, dnd, onSet }: { style: Style; alternatives: { c: Candidate; grade: Grade }[]; dnd: SlotDnD; onSet: (patch: SlotOverride | null) => void }) {
   const [swapOpen, setSwapOpen] = useState(false)
+  const [styleOpen, setStyleOpen] = useState(false)
+  const [dragOver, setDragOver] = useState(false)
   return (
-    <div className="flex flex-col items-center justify-center gap-2 rounded-[13px] border border-dashed border-border bg-surface/40 p-6">
-      <StyleBadge style={style} full />
+    <div
+      onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = 'move' }}
+      onDragEnter={() => setDragOver(true)}
+      onDragLeave={() => setDragOver(false)}
+      onDrop={(e) => { e.preventDefault(); setDragOver(false); dnd.onDrop() }}
+      className={`flex flex-col items-center justify-center gap-2 rounded-[13px] border border-dashed bg-surface/40 p-6 ${dragOver ? 'border-brand ring-1 ring-brand/40' : 'border-border'}`}
+    >
+      <div className="relative">
+        <button onClick={() => setStyleOpen((v) => !v)} title="Change running style for this slot">
+          <StyleBadge style={style} full />
+        </button>
+        {styleOpen && <StylePicker current={style} onPick={(s) => onSet({ style: s })} onClose={() => setStyleOpen(false)} />}
+      </div>
       <div className="text-[12px] text-faint">Empty slot</div>
       <div className="relative flex items-center gap-1.5">
         <button onClick={() => setSwapOpen((v) => !v)} className="rounded-md border border-border px-2 py-0.5 text-[11px] text-muted hover:text-text">Add horse</button>
@@ -252,28 +318,27 @@ function EmptySlot({ style, alternatives, onSet }: { style: Style; alternatives:
   )
 }
 
-function TeamPanel({ category, autoSlots, candidates, ov, evalFor, aptOf, minRank, onSet }: {
+function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFor, aptOf, minRank, onSet, onDragStart, onDrop }: {
   category: Category
   autoSlots: { card: Card; style: Style }[]
   candidates: Candidate[]
   ov: Partial<Record<Style, SlotOverride>> | undefined
+  globalCardById: Map<number, Card>
   evalFor: EvalFor
   aptOf: AptOf
   minRank: number
   onSet: (slotStyle: Style, patch: SlotOverride | null) => void
+  onDragStart: (slotStyle: Style, cardId: number) => void
+  onDrop: (slotStyle: Style) => void
 }) {
-  const cardById = useMemo(() => {
-    const m = new Map<number, Card>()
-    for (const c of candidates) m.set(c.card.cardId, c.card)
-    return m
-  }, [candidates])
-
   // Resolve each auto slot through its override (card / style / empty).
+  // Overrides may reference ANY card (e.g. one dragged in from another race),
+  // so resolve against the global card map, not just this category's candidates.
   const slots: DisplaySlot[] = autoSlots.map((auto) => {
     const o = ov?.[auto.style]
     const style = o?.style ?? auto.style
     if (o?.card === 'empty') return { style, empty: true, overridden: true }
-    const card = typeof o?.card === 'number' ? cardById.get(o.card) ?? auto.card : auto.card
+    const card = typeof o?.card === 'number' ? globalCardById.get(o.card) ?? auto.card : auto.card
     return { style, card, eval: evalFor(card, style), overridden: !!o }
   })
 
@@ -304,7 +369,13 @@ function TeamPanel({ category, autoSlots, candidates, ov, evalFor, aptOf, minRan
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
         {slots.map((slot, i) =>
           slot.empty ? (
-            <EmptySlot key={`${slot.style}-empty`} style={slot.style} alternatives={altsFor(slot.style)} onSet={(p) => onSet(autoSlots[i].style, p)} />
+            <EmptySlot
+              key={`${autoSlots[i].style}-empty`}
+              style={slot.style}
+              alternatives={altsFor(slot.style)}
+              dnd={{ onDrop: () => onDrop(autoSlots[i].style) }}
+              onSet={(p) => onSet(autoSlots[i].style, p)}
+            />
           ) : (
             <SlotCard
               key={`${autoSlots[i].style}-${slot.card!.cardId}`}
@@ -314,6 +385,7 @@ function TeamPanel({ category, autoSlots, candidates, ov, evalFor, aptOf, minRan
               alternatives={altsFor(slot.style, slot.card!.cardId)}
               minRank={minRank}
               aptOf={aptOf}
+              dnd={{ onDragStart: () => onDragStart(autoSlots[i].style, slot.card!.cardId), onDrop: () => onDrop(autoSlots[i].style) }}
               onSet={(p) => onSet(autoSlots[i].style, p)}
             />
           ),
@@ -350,6 +422,61 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
   const aptOf = useCallback<AptOf>((card, style) => effectiveApt(card, style, owned[card.cardId]), [owned])
   const minRank = gradeRank(settings.minAptitude)
 
+  // Global card lookup so overrides can reference any horse (incl. cross-race drags).
+  const globalCardById = useMemo(() => {
+    const m = new Map<number, Card>()
+    for (const c of cards) m.set(c.cardId, c)
+    return m
+  }, [cards])
+
+  // The auto-assigned slots per category, indexed by their style key.
+  const autoSlotsByCat = useMemo(() => {
+    const m = {} as Record<Category, { card: Card; style: Style }[]>
+    for (const cat of CATEGORIES) m[cat] = built[cat].team.slots.map((s) => ({ card: s.card, style: s.style }))
+    return m
+  }, [built])
+
+  // Resolve which card currently sits in a slot (category + its style key).
+  const resolveCardId = useCallback(
+    (cat: Category, slotStyle: Style): number | 'empty' | null => {
+      const o = overrides[cat]?.[slotStyle]
+      if (o?.card === 'empty') return 'empty'
+      if (typeof o?.card === 'number') return o.card
+      const auto = autoSlotsByCat[cat].find((s) => s.style === slotStyle)
+      return auto ? auto.card.cardId : null
+    },
+    [overrides, autoSlotsByCat],
+  )
+
+  const drag = useRef<DragInfo | null>(null)
+
+  // A horse was dropped from one slot onto another.
+  //  - same team  → swap the two slots' horses (each keeps its own style)
+  //  - other team → MOVE the horse in, emptying the source slot (keeps teams ≤3,
+  //                 and avoids the same Uma sitting in two teams in unique mode)
+  const handleDrop = useCallback(
+    (dstCat: Category, dstStyle: Style) => {
+      const src = drag.current
+      drag.current = null
+      if (!src) return
+      if (src.category === dstCat && src.slotStyle === dstStyle) return
+
+      if (src.category === dstCat) {
+        const dstCard = resolveCardId(dstCat, dstStyle)
+        setSlotOverride(src.category, src.slotStyle, { card: dstCard ?? 'empty' })
+        setSlotOverride(dstCat, dstStyle, { card: src.cardId })
+        return
+      }
+
+      // Cross-team: refuse if that horse already occupies another slot in the target team.
+      const dup = autoSlotsByCat[dstCat].some((s) => s.style !== dstStyle && resolveCardId(dstCat, s.style) === src.cardId)
+      if (dup) return
+      setSlotOverride(dstCat, dstStyle, { card: src.cardId })
+      setSlotOverride(src.category, src.slotStyle, { card: 'empty' })
+    },
+    [resolveCardId, setSlotOverride, autoSlotsByCat],
+  )
+
   const ownedCount = useMemo(() => Object.values(owned).filter((o) => o.owned).length, [owned])
   if (ownedCount === 0) {
     return (
@@ -365,9 +492,10 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
         <TeamPanel
           key={category}
           category={category}
-          autoSlots={built[category].team.slots.map((s) => ({ card: s.card, style: s.style }))}
+          autoSlots={autoSlotsByCat[category]}
           candidates={built[category].candidates}
           ov={overrides[category]}
+          globalCardById={globalCardById}
           evalFor={(card, style) => {
             // evalFor needs the category for reason labels; rebind here.
             const st = owned[card.cardId] ?? defaultOwnedState()
@@ -376,6 +504,8 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
           aptOf={aptOf}
           minRank={minRank}
           onSet={(slotStyle, patch) => setSlotOverride(category, slotStyle, patch)}
+          onDragStart={(slotStyle, cardId) => (drag.current = { category, slotStyle, cardId })}
+          onDrop={(slotStyle) => handleDrop(category, slotStyle)}
         />
       ))}
     </div>
