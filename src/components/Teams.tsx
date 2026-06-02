@@ -1,9 +1,10 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
-import type { Card, Category, Grade, Skill, Style } from '../types'
+import type { Card, Category, Grade, Skill, Style, TtMeta } from '../types'
 import { CATEGORIES, CATEGORY_LABEL, STYLE_LABEL, STYLES } from '../types'
 import { useRoster, defaultOwnedState, type SlotOverride } from '../state/store'
 import { buildAllTeams, effectiveApt, type Candidate } from '../scoring/optimizer'
 import { evalCard, type CardEval, type MatchedSkill } from '../scoring/classify'
+import { buildMetaIndex, popRank, type MetaIndex } from '../data/meta'
 import { skillIcon } from '../data/load'
 import { Avatar } from './Avatar'
 import { GradeBadge, StyleBadge } from './ui'
@@ -130,8 +131,12 @@ function WhyPanel({ slot, category, aptOf }: { slot: DisplaySlot; category: Cate
   )
 }
 
+// An alternative horse offered in the swap list, with its aptitude grade and
+// (when known) its top-100 popularity rank for this race+style slot.
+type Alt = { c: Candidate; grade: Grade; pop?: number }
+
 // Dropdown listing alternative horses for a style (incl. off-main-style ones, marked with grade).
-function SwapDropdown({ alternatives, currentId, overridden, onPick, onClose }: { alternatives: { c: Candidate; grade: Grade }[]; currentId?: number; overridden: boolean; onPick: (cardId: number | null) => void; onClose: () => void }) {
+function SwapDropdown({ alternatives, currentId, overridden, onPick, onClose }: { alternatives: Alt[]; currentId?: number; overridden: boolean; onPick: (cardId: number | null) => void; onClose: () => void }) {
   return (
     <>
       <div className="fixed inset-0 z-20" onClick={onClose} />
@@ -142,7 +147,7 @@ function SwapDropdown({ alternatives, currentId, overridden, onPick, onClose }: 
           </button>
         )}
         {alternatives.length === 0 && <div className="px-2 py-3 text-center text-[11px] text-faint">No other eligible horse for this style.</div>}
-        {alternatives.map(({ c, grade }) => (
+        {alternatives.map(({ c, grade, pop }) => (
           <button
             key={c.card.cardId}
             onClick={() => { onPick(c.card.cardId); onClose() }}
@@ -150,7 +155,17 @@ function SwapDropdown({ alternatives, currentId, overridden, onPick, onClose }: 
           >
             <Avatar card={c.card} size={26} />
             <div className="min-w-0 flex-1">
-              <div className="truncate text-[12px] text-text">{c.card.name}</div>
+              <div className="flex items-center gap-1.5">
+                <span className="truncate text-[12px] text-text">{c.card.name}</span>
+                {pop != null && (
+                  <span
+                    title={`#${pop + 1} most-used here in the top-100`}
+                    className="shrink-0 rounded bg-brand/15 px-1 text-[9.5px] font-bold uppercase text-brand"
+                  >
+                    Meta #{pop + 1}
+                  </span>
+                )}
+              </div>
               <div className="truncate text-[10px] text-faint">{c.card.title}</div>
             </div>
             <span title={`${STYLE_LABEL[c.style]} aptitude`} className={gradeRank(grade) <= 2 ? 'text-good' : 'text-faint'}>
@@ -218,7 +233,7 @@ function StylePicker({ current, onPick, onClose }: { current: Style; onPick: (st
   )
 }
 
-function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, dnd, onSet }: { slot: DisplaySlot; category: Category; idx: number; alternatives: { c: Candidate; grade: Grade }[]; minRank: number; aptOf: AptOf; dnd: SlotDnD; onSet: (patch: SlotOverride | null) => void }) {
+function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, dnd, onSet }: { slot: DisplaySlot; category: Category; idx: number; alternatives: Alt[]; minRank: number; aptOf: AptOf; dnd: SlotDnD; onSet: (patch: SlotOverride | null) => void }) {
   const [whyOpen, setWhyOpen] = useState(false)
   const [swapOpen, setSwapOpen] = useState(false)
   const [styleOpen, setStyleOpen] = useState(false)
@@ -288,7 +303,7 @@ function SlotCard({ slot, category, idx, alternatives, minRank, aptOf, dnd, onSe
   )
 }
 
-function EmptySlot({ style, alternatives, dnd, onSet }: { style: Style; alternatives: { c: Candidate; grade: Grade }[]; dnd: SlotDnD; onSet: (patch: SlotOverride | null) => void }) {
+function EmptySlot({ style, alternatives, dnd, onSet }: { style: Style; alternatives: Alt[]; dnd: SlotDnD; onSet: (patch: SlotOverride | null) => void }) {
   const [swapOpen, setSwapOpen] = useState(false)
   const [styleOpen, setStyleOpen] = useState(false)
   const [dragOver, setDragOver] = useState(false)
@@ -318,7 +333,7 @@ function EmptySlot({ style, alternatives, dnd, onSet }: { style: Style; alternat
   )
 }
 
-function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFor, aptOf, minRank, onSet, onDragStart, onDrop }: {
+function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFor, aptOf, minRank, metaIndex, prioritizePopular, blockedIds, uniqueAcrossTeams, onSet, onDragStart, onDrop }: {
   category: Category
   autoSlots: { card: Card; style: Style }[]
   candidates: Candidate[]
@@ -327,6 +342,10 @@ function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFo
   evalFor: EvalFor
   aptOf: AptOf
   minRank: number
+  metaIndex: MetaIndex
+  prioritizePopular: boolean
+  blockedIds: Set<number> // cards already used in OTHER teams (unique mode)
+  uniqueAcrossTeams: boolean
   onSet: (slotStyle: Style, patch: SlotOverride | null) => void
   onDragStart: (slotStyle: Style, cardId: number) => void
   onDrop: (slotStyle: Style) => void
@@ -346,11 +365,21 @@ function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFo
   const dupStyle = new Set(slots.filter((s) => !s.empty).map((s) => s.style)).size < slots.filter((s) => !s.empty).length
   const usedIds = slots.filter((s) => s.card).map((s) => s.card!.cardId)
 
-  const altsFor = (style: Style, currentId?: number) =>
+  const altsFor = (style: Style, currentId?: number): Alt[] =>
     candidates
-      .filter((c) => c.style === style && c.card.cardId !== currentId && !usedIds.includes(c.card.cardId))
-      .map((c) => ({ c, grade: aptOf(c.card, style) }))
-      .sort((a, b) => b.c.eval.score - a.c.eval.score)
+      .filter(
+        (c) =>
+          c.style === style &&
+          c.card.cardId !== currentId &&
+          !usedIds.includes(c.card.cardId) &&
+          !(uniqueAcrossTeams && blockedIds.has(c.card.cardId)), // not already in another team
+      )
+      .map((c) => ({ c, grade: aptOf(c.card, style), pop: popRank(metaIndex, category, style, c.card.charId) }))
+      .sort((a, b) =>
+        prioritizePopular
+          ? (a.pop ?? 999) - (b.pop ?? 999) || b.c.eval.score - a.c.eval.score
+          : b.c.eval.score - a.c.eval.score,
+      )
       .slice(0, 16)
 
   return (
@@ -401,11 +430,12 @@ function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFo
   )
 }
 
-export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string, Skill> }) {
+export function Teams({ cards, skills, ttMeta }: { cards: Card[]; skills: Record<string, Skill>; ttMeta: TtMeta | null }) {
   const owned = useRoster((s) => s.owned)
   const settings = useRoster((s) => s.settings)
   const overrides = useRoster((s) => s.overrides)
   const setSlotOverride = useRoster((s) => s.setSlotOverride)
+  const metaIndex = useMemo(() => buildMetaIndex(ttMeta), [ttMeta])
 
   const built = useMemo(
     () =>
@@ -448,6 +478,21 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
     [overrides, autoSlotsByCat],
   )
 
+  // The card currently sitting in each category's slots — used to keep a horse
+  // out of more than one team's swap list when "unique across teams" is on.
+  const resolvedByCat = useMemo(() => {
+    const m = {} as Record<Category, Set<number>>
+    for (const cat of CATEGORIES) {
+      const s = new Set<number>()
+      for (const slot of autoSlotsByCat[cat]) {
+        const r = resolveCardId(cat, slot.style)
+        if (typeof r === 'number') s.add(r)
+      }
+      m[cat] = s
+    }
+    return m
+  }, [autoSlotsByCat, resolveCardId])
+
   const drag = useRef<DragInfo | null>(null)
 
   // A horse was dropped from one slot onto another.
@@ -488,7 +533,10 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
 
   return (
     <div className="space-y-4">
-      {CATEGORIES.map((category) => (
+      {CATEGORIES.map((category) => {
+        const blocked = new Set<number>()
+        for (const c of CATEGORIES) if (c !== category) resolvedByCat[c].forEach((id) => blocked.add(id))
+        return (
         <TeamPanel
           key={category}
           category={category}
@@ -496,6 +544,10 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
           candidates={built[category].candidates}
           ov={overrides[category]}
           globalCardById={globalCardById}
+          metaIndex={metaIndex}
+          prioritizePopular={settings.prioritizePopular}
+          blockedIds={blocked}
+          uniqueAcrossTeams={settings.uniqueAcrossTeams}
           evalFor={(card, style) => {
             // evalFor needs the category for reason labels; rebind here.
             const st = owned[card.cardId] ?? defaultOwnedState()
@@ -507,7 +559,8 @@ export function Teams({ cards, skills }: { cards: Card[]; skills: Record<string,
           onDragStart={(slotStyle, cardId) => (drag.current = { category, slotStyle, cardId })}
           onDrop={(slotStyle) => handleDrop(category, slotStyle)}
         />
-      ))}
+        )
+      })}
     </div>
   )
 }

@@ -25,3 +25,18 @@ dist-ssr
 
 # game db (large, fetched on demand by scripts/fetch_raw.sh)
 *.mdb
+re/
+scripts/.venv/
+scripts/uma_capture/
+
+# Local-only game-data collection tooling (kept out of the public repo).
+# Only the aggregated, anonymous result (public/data/tt_meta.json) is committed.
+scripts/mitm_dump_uma.py
+scripts/decode_uma.py
+scripts/decode_hook.py
+scripts/extract_tt.py
+scripts/tt_meta.py
+scripts/build_tt_meta.py
+scripts/sniff_umamoe.mjs
+scripts/umamoe_requests*.json
+scripts/tt_out/

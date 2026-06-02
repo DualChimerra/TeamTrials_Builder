@@ -67,6 +67,50 @@ export interface Dataset {
   cards: Card[]
 }
 
+// ---- Top-100 Team Trials meta (public/data/tt_meta.json) ----
+export interface TtCharEntry {
+  charId: number
+  cardId: number | null // representative variant for the avatar
+  count: number
+}
+export interface TtSkillEntry {
+  skillId: number
+  count: number
+}
+export interface TtSupportEntry {
+  supportId: number
+  count: number
+}
+export interface TtStats {
+  speed: number
+  stamina: number
+  power: number
+  guts: number
+  wiz: number
+  n: number
+}
+export interface TtCell {
+  chars: TtCharEntry[]
+  skills: TtSkillEntry[]
+  supports: TtSupportEntry[]
+  stats: TtStats | null
+}
+
+// Support-card name lookup (public/data/supports.json)
+export interface SupportCard {
+  name: string
+  title: string
+  rarity: number | null // 1 R, 2 SR, 3 SSR
+  type: string | null // speed/stamina/power/guts/intelligence/friend/group
+  urlName: string | null
+}
+export interface TtMeta {
+  teams: number
+  generated: string
+  byCatStyle: Partial<Record<Category, Partial<Record<Style, TtCell>>>>
+  byCat: Partial<Record<Category, TtCell>>
+}
+
 // ---- Per-card account state (persisted) ----
 export interface OwnedState {
   owned: boolean
