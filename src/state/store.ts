@@ -16,6 +16,9 @@ export interface Settings {
   minAptitude: Grade
   requireSurface: boolean
   uniqueAcrossTeams: boolean
+  // In the swap dropdown, sort top-100-popular horses to the top (vs. just
+  // highlighting them in score order).
+  prioritizePopular: boolean
   theme: 'dark' | 'light'
 }
 
@@ -53,7 +56,7 @@ export const useRoster = create<RosterState>()(
     (set) => ({
       owned: {},
       overrides: {},
-      settings: { includeEvent: false, minAptitude: 'D', requireSurface: true, uniqueAcrossTeams: true, theme: 'dark' },
+      settings: { includeEvent: false, minAptitude: 'D', requireSurface: true, uniqueAcrossTeams: true, prioritizePopular: false, theme: 'dark' },
 
       setOwned: (cardId, owned) =>
         set((s) => ({ owned: { ...s.owned, [cardId]: { ...ensure(s.owned, cardId), owned } } })),

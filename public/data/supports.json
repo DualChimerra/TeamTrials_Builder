@@ -1,0 +1,3775 @@
+{
+"10001": {
+"name": "Special Week",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10001-special-week"
+},
+"10002": {
+"name": "Silence Suzuka",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10002-silence-suzuka"
+},
+"10003": {
+"name": "Tokai Teio",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10003-tokai-teio"
+},
+"10004": {
+"name": "Maruzensky",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10004-maruzensky"
+},
+"10005": {
+"name": "Oguri Cap",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10005-oguri-cap"
+},
+"10006": {
+"name": "Gold Ship",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10006-gold-ship"
+},
+"10007": {
+"name": "Vodka",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10007-vodka"
+},
+"10008": {
+"name": "Taiki Shuttle",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10008-taiki-shuttle"
+},
+"10009": {
+"name": "Grass Wonder",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10009-grass-wonder"
+},
+"10010": {
+"name": "Mejiro McQueen",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10010-mejiro-mcqueen"
+},
+"10011": {
+"name": "El Condor Pasa",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10011-el-condor-pasa"
+},
+"10012": {
+"name": "TM Opera O",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10012-tm-opera-o"
+},
+"10013": {
+"name": "Symboli Rudolf",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10013-symboli-rudolf"
+},
+"10014": {
+"name": "Seiun Sky",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10014-seiun-sky"
+},
+"10015": {
+"name": "Rice Shower",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10015-rice-shower"
+},
+"10016": {
+"name": "Winning Ticket",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10016-winning-ticket"
+},
+"10017": {
+"name": "Gold City",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10017-gold-city"
+},
+"10018": {
+"name": "Sakura Bakushin O",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10018-sakura-bakushin-o"
+},
+"10019": {
+"name": "Super Creek",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10019-super-creek"
+},
+"10020": {
+"name": "Haru Urara",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10020-haru-urara"
+},
+"10021": {
+"name": "Tazuna Hayakawa",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "friend",
+"urlName": "10021-tazuna-hayakawa"
+},
+"10022": {
+"name": "Aoi Kiryuin",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "friend",
+"urlName": "10022-aoi-kiryuin"
+},
+"10023": {
+"name": "Daiwa Scarlet",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10023-daiwa-scarlet"
+},
+"10024": {
+"name": "Hishi Amazon",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10024-hishi-amazon"
+},
+"10025": {
+"name": "Air Groove",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10025-air-groove"
+},
+"10026": {
+"name": "Agnes Digital",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10026-agnes-digital"
+},
+"10027": {
+"name": "Tamamo Cross",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10027-tamamo-cross"
+},
+"10028": {
+"name": "Fine Motion",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10028-fine-motion"
+},
+"10029": {
+"name": "Biwa Hayahide",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10029-biwa-hayahide"
+},
+"10030": {
+"name": "Mayano Top Gun",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10030-mayano-top-gun"
+},
+"10031": {
+"name": "Manhattan Cafe",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10031-manhattan-cafe"
+},
+"10032": {
+"name": "Mihono Bourbon",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10032-mihono-bourbon"
+},
+"10033": {
+"name": "Mejiro Ryan",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10033-mejiro-ryan"
+},
+"10034": {
+"name": "Yukino Bijin",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10034-yukino-bijin"
+},
+"10035": {
+"name": "Ines Fujin",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10035-ines-fujin"
+},
+"10036": {
+"name": "Agnes Tachyon",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10036-agnes-tachyon"
+},
+"10037": {
+"name": "Air Shakur",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10037-air-shakur"
+},
+"10038": {
+"name": "Eishin Flash",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10038-eishin-flash"
+},
+"10039": {
+"name": "Smart Falcon",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10039-smart-falcon"
+},
+"10040": {
+"name": "Narita Taishin",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10040-narita-taishin"
+},
+"10041": {
+"name": "Nishino Flower",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10041-nishino-flower"
+},
+"10042": {
+"name": "Biko Pegasus",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10042-biko-pegasus"
+},
+"10043": {
+"name": "Marvelous Sunday",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10043-marvelous-sunday"
+},
+"10044": {
+"name": "Matikanefukukitaru",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10044-matikanefukukitaru"
+},
+"10045": {
+"name": "Meisho Doto",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10045-meisho-doto"
+},
+"10046": {
+"name": "Mejiro Dober",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10046-mejiro-dober"
+},
+"10047": {
+"name": "Nice Nature",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10047-nice-nature"
+},
+"10048": {
+"name": "King Halo",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10048-king-halo"
+},
+"10049": {
+"name": "Fuji Kiseki",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10049-fuji-kiseki"
+},
+"10050": {
+"name": "Sweep Tosho",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10050-sweep-tosho"
+},
+"10051": {
+"name": "Twin Turbo",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10051-twin-turbo"
+},
+"10052": {
+"name": "Daitaku Helios",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10052-daitaku-helios"
+},
+"10053": {
+"name": "Ikuno Dictus",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10053-ikuno-dictus"
+},
+"10054": {
+"name": "Mejiro Palmer",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10054-mejiro-palmer"
+},
+"10055": {
+"name": "Kitasan Black",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10055-kitasan-black"
+},
+"10056": {
+"name": "Satono Diamond",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10056-satono-diamond"
+},
+"10057": {
+"name": "Matikanetannhauser",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10057-matikanetannhauser"
+},
+"10058": {
+"name": "Yaeno Muteki",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10058-yaeno-muteki"
+},
+"10059": {
+"name": "Zenno Rob Roy",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10059-zenno-rob-roy"
+},
+"10060": {
+"name": "Riko Kashimoto",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "friend",
+"urlName": "10060-riko-kashimoto"
+},
+"10061": {
+"name": "Seeking the Pearl",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10061-seeking-the-pearl"
+},
+"10062": {
+"name": "Sakura Chiyono O",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10062-sakura-chiyono-o"
+},
+"10063": {
+"name": "Kawakami Princess",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10063-kawakami-princess"
+},
+"10064": {
+"name": "Hishi Akebono",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10064-hishi-akebono"
+},
+"10065": {
+"name": "Bamboo Memory",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10065-bamboo-memory"
+},
+"10066": {
+"name": "Shinko Windy",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10066-shinko-windy"
+},
+"10067": {
+"name": "Nakayama Festa",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10067-nakayama-festa"
+},
+"10068": {
+"name": "Inari One",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10068-inari-one"
+},
+"10069": {
+"name": "Mejiro Ardan",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10069-mejiro-ardan"
+},
+"10070": {
+"name": "Tosen Jordan",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10070-tosen-jordan"
+},
+"10071": {
+"name": "Sirius Symboli",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10071-sirius-symboli"
+},
+"10072": {
+"name": "Narita Brian",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10072-narita-brian"
+},
+"10073": {
+"name": "Curren Chan",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10073-curren-chan"
+},
+"10074": {
+"name": "Sasami Anshinzawa",
+"title": "[Acupuncturist]",
+"rarity": 1,
+"type": "friend",
+"urlName": "10074-sasami-anshinzawa"
+},
+"10075": {
+"name": "Admire Vega",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "power",
+"urlName": "10075-admire-vega"
+},
+"10076": {
+"name": "Mejiro Bright",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10076-mejiro-bright"
+},
+"10077": {
+"name": "Narita Top Road",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "speed",
+"urlName": "10077-narita-top-road"
+},
+"10078": {
+"name": "Mr. C.B.",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10078-mr-cb"
+},
+"10079": {
+"name": "Daiichi Ruby",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10079-daiichi-ruby"
+},
+"10080": {
+"name": "K.S.Miracle",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10080-ksmiracle"
+},
+"10081": {
+"name": "Tsurumaru Tsuyoshi",
+"title": "[Tracen Academy]",
+"rarity": 1,
+"type": "guts",
+"urlName": "10081-tsurumaru-tsuyoshi"
+},
+"10082": {
+"name": "Symboli Kris S",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10082-symboli-kris-s"
+},
+"10083": {
+"name": "Light Hello",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10083-light-hello"
+},
+"10084": {
+"name": "Tanino Gimlet",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10084-tanino-gimlet"
+},
+"10085": {
+"name": "Sakura Laurel",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10085-sakura-laurel"
+},
+"10086": {
+"name": "Yamanin Zephyr",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10086-yamanin-zephyr"
+},
+"10087": {
+"name": "Aston Machan",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10087-aston-machan"
+},
+"10088": {
+"name": "Mejiro Ramonu",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10088-mejiro-ramonu"
+},
+"10089": {
+"name": "Jungle Pocket",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10089-jungle-pocket"
+},
+"10090": {
+"name": "Hokko Tarumae",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10090-hokko-tarumae"
+},
+"10091": {
+"name": "Katsuragi Ace",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10091-katsuragi-ace"
+},
+"10092": {
+"name": "Copano Rickey",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10092-copano-rickey"
+},
+"10093": {
+"name": "Wonder Acute",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10093-wonder-acute"
+},
+"10094": {
+"name": "Mei Satake",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10094-mei-satake"
+},
+"10095": {
+"name": "Tap Dance City",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10095-tap-dance-city"
+},
+"10096": {
+"name": "Still in Love",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10096-still-in-love"
+},
+"10097": {
+"name": "Verxina",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10097-verxina"
+},
+"10098": {
+"name": "Sounds of Earth",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10098-sounds-of-earth"
+},
+"10099": {
+"name": "Vivlos",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10099-vivlos"
+},
+"10100": {
+"name": "Royce and Royce",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10100-royce-and-royce"
+},
+"10101": {
+"name": "Duramente",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10101-duramente"
+},
+"10102": {
+"name": "North Flight",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10102-north-flight"
+},
+"10103": {
+"name": "Orfevre",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10103-orfevre"
+},
+"10104": {
+"name": "Ryoka Tsurugi",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10104-ryoka-tsurugi"
+},
+"10105": {
+"name": "Cheval Grand",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10105-cheval-grand"
+},
+"10106": {
+"name": "Neo Universe",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10106-neo-universe"
+},
+"10107": {
+"name": "Hishi Miracle",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10107-hishi-miracle"
+},
+"10108": {
+"name": "Dantsu Flame",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10108-dantsu-flame"
+},
+"10109": {
+"name": "Yayoi Akikawa",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10109-yayoi-akikawa"
+},
+"10110": {
+"name": "Espoir City",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10110-espoir-city"
+},
+"10111": {
+"name": "Bubble Gum Fellow",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10111-bubble-gum-fellow"
+},
+"10113": {
+"name": "Gentildonna",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10113-gentildonna"
+},
+"10114": {
+"name": "Rhein Kraft",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10114-rhein-kraft"
+},
+"10115": {
+"name": "Cesario",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10115-cesario"
+},
+"10116": {
+"name": "Blast Onepiece",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10116-blast-onepiece"
+},
+"10117": {
+"name": "No Reason",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10117-no-reason"
+},
+"10118": {
+"name": "Buena Vista",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10118-buena-vista"
+},
+"10119": {
+"name": "Dream Journey",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10119-dream-journey"
+},
+"10120": {
+"name": "Daring Tact",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10120-daring-tact"
+},
+"10121": {
+"name": "Daring Heart",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10121-daring-heart"
+},
+"10122": {
+"name": "Almond Eye",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10122-almond-eye"
+},
+"10123": {
+"name": "Lucky Lilac",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10123-lucky-lilac"
+},
+"10124": {
+"name": "Gran Alegria",
+"title": "",
+"rarity": 1,
+"type": "power",
+"urlName": "10124-gran-alegria"
+},
+"10125": {
+"name": "Transcend",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10125-transcend"
+},
+"10126": {
+"name": "Curren Bouquetd'or",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10126-curren-bouquetdor"
+},
+"10127": {
+"name": "Air Messiah",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10127-air-messiah"
+},
+"10128": {
+"name": "Tucker Bryne",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10128-tucker-bryne"
+},
+"10129": {
+"name": "Fusaichi Pandora",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10129-fusaichi-pandora"
+},
+"10131": {
+"name": "Win Variation",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10131-win-variation"
+},
+"10132": {
+"name": "Stay Gold",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10132-stay-gold"
+},
+"10133": {
+"name": "Admire Groove",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10133-admire-groove"
+},
+"10134": {
+"name": "Chrono Genesis",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10134-chrono-genesis"
+},
+"10135": {
+"name": "Calstone Light O",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10135-calstone-light-o"
+},
+"10136": {
+"name": "Durandal",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10136-durandal"
+},
+"10137": {
+"name": "Sakura Chitose O",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10137-sakura-chitose-o"
+},
+"10138": {
+"name": "Kiyoko Hoshina",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10138-kiyoko-hoshina"
+},
+"10139": {
+"name": "Fenomeno",
+"title": "",
+"rarity": 1,
+"type": "stamina",
+"urlName": "10139-fenomeno"
+},
+"10140": {
+"name": "Forever Young",
+"title": "",
+"rarity": 1,
+"type": "intelligence",
+"urlName": "10140-forever-young"
+},
+"10141": {
+"name": "Casino Drive",
+"title": "",
+"rarity": 1,
+"type": "friend",
+"urlName": "10141-casino-drive"
+},
+"10142": {
+"name": "Red Desire",
+"title": "",
+"rarity": 1,
+"type": "guts",
+"urlName": "10142-red-desire"
+},
+"10143": {
+"name": "Victoire Pisa",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10143-victoire-pisa"
+},
+"10144": {
+"name": "Marche Lorraine",
+"title": "",
+"rarity": 1,
+"type": "speed",
+"urlName": "10144-marche-lorraine"
+},
+"20001": {
+"name": "Fuji Kiseki",
+"title": "[Well, Look Who's Home]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20001-fuji-kiseki"
+},
+"20002": {
+"name": "Daiwa Scarlet",
+"title": "[Nothing Hard Work Can't Solve!]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20002-daiwa-scarlet"
+},
+"20003": {
+"name": "Hishi Amazon",
+"title": "[Reach the Top!]",
+"rarity": 2,
+"type": "power",
+"urlName": "20003-hishi-amazon"
+},
+"20004": {
+"name": "Air Groove",
+"title": "[Nothing Escapes the Vice Prez]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20004-air-groove"
+},
+"20005": {
+"name": "Agnes Digital",
+"title": "[Digital's Recharge Station]",
+"rarity": 2,
+"type": "power",
+"urlName": "20005-agnes-digital"
+},
+"20006": {
+"name": "Biwa Hayahide",
+"title": "[Trial Initiation]",
+"rarity": 2,
+"type": "power",
+"urlName": "20006-biwa-hayahide"
+},
+"20007": {
+"name": "Mayano Top Gun",
+"title": "[Cute + Cute = ?]",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20007-mayano-top-gun"
+},
+"20008": {
+"name": "Manhattan Cafe",
+"title": "[My Solo Drawn to Raindrop Drums]",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20008-manhattan-cafe"
+},
+"20009": {
+"name": "Mihono Bourbon",
+"title": "[Pal-Assisted Training]",
+"rarity": 2,
+"type": "power",
+"urlName": "20009-mihono-bourbon"
+},
+"20010": {
+"name": "Mejiro Ryan",
+"title": "[On and Off the Court]",
+"rarity": 2,
+"type": "power",
+"urlName": "20010-mejiro-ryan"
+},
+"20011": {
+"name": "Yukino Bijin",
+"title": "[City Girl 101]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20011-yukino-bijin"
+},
+"20012": {
+"name": "Agnes Tachyon",
+"title": "[Experimental Studies on Subject A]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20012-agnes-tachyon"
+},
+"20013": {
+"name": "Eishin Flash",
+"title": "[5:00 a.m.—Right on Schedule]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20013-eishin-flash"
+},
+"20014": {
+"name": "Narita Taishin",
+"title": "[Poolside High Tides]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20014-narita-taishin"
+},
+"20015": {
+"name": "Marvelous Sunday",
+"title": "[A Marvelous ☆ Plan]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20015-marvelous-sunday"
+},
+"20016": {
+"name": "Matikanefukukitaru",
+"title": "[Fate's Forecast]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20016-matikanefukukitaru"
+},
+"20017": {
+"name": "Meisho Doto",
+"title": "[Fighting for Fortune]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20017-meisho-doto"
+},
+"20018": {
+"name": "Mejiro Dober",
+"title": "[Ignore the Stares]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20018-mejiro-dober"
+},
+"20019": {
+"name": "Nice Nature",
+"title": "[It's Just Water]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20019-nice-nature"
+},
+"20020": {
+"name": "King Halo",
+"title": "[First-Rate Plan]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20020-king-halo"
+},
+"20021": {
+"name": "Aoi Kiryuin",
+"title": "[Trainers' Teamwork]",
+"rarity": 2,
+"type": "friend",
+"urlName": "20021-aoi-kiryuin"
+},
+"20022": {
+"name": "Tamamo Cross",
+"title": "[Now Dat's What I Call Grilled Squid!]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20022-tamamo-cross"
+},
+"20023": {
+"name": "Sweep Tosho",
+"title": "[Lamplit Training of a Witch-to-Be]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20023-sweep-tosho"
+},
+"20024": {
+"name": "Daitaku Helios",
+"title": "[Let's Get This Party Lit!]",
+"rarity": 2,
+"type": "power",
+"urlName": "20024-daitaku-helios"
+},
+"20025": {
+"name": "Ikuno Dictus",
+"title": "[Never Skip Warm-Ups]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20025-ikuno-dictus"
+},
+"20026": {
+"name": "Nice Nature",
+"title": "[Messing Around]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20026-nice-nature"
+},
+"20027": {
+"name": "Nishino Flower",
+"title": "[Lifting Your Spirits]",
+"rarity": 2,
+"type": "power",
+"urlName": "20027-nishino-flower"
+},
+"20028": {
+"name": "Zenno Rob Roy",
+"title": "[The Perfect Book for You]",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20028-zenno-rob-roy"
+},
+"20029": {
+"name": "Seeking the Pearl",
+"title": "[The World's My Oyster]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20029-seeking-the-pearl"
+},
+"20030": {
+"name": "Ines Fujin",
+"title": "[You Earned It!]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20030-ines-fujin"
+},
+"20031": {
+"name": "Shinko Windy",
+"title": "[///WARNING GATE///]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20031-shinko-windy"
+},
+"20032": {
+"name": "Inari One",
+"title": "[Laughing through the Mud]",
+"rarity": 2,
+"type": "power",
+"urlName": "20032-inari-one"
+},
+"20033": {
+"name": "El Condor Pasa",
+"title": "[Mud-Caked Compañero]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20033-el-condor-pasa"
+},
+"20034": {
+"name": "Mejiro Ardan",
+"title": "[My Heart Will Go On]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20034-mejiro-ardan"
+},
+"20035": {
+"name": "Tosen Jordan",
+"title": "[Turf as Nails]",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20035-tosen-jordan"
+},
+"20036": {
+"name": "Mejiro Palmer",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20036-mejiro-palmer"
+},
+"20037": {
+"name": "Fine Motion",
+"title": "[Grma, Ramen ♪]",
+"rarity": 2,
+"type": "power",
+"urlName": "20037-fine-motion"
+},
+"20038": {
+"name": "Sirius Symboli",
+"title": "[The Brightest Star Shines On]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20038-sirius-symboli"
+},
+"20039": {
+"name": "Vodka",
+"title": "[An Annoying Supervisor]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20039-vodka"
+},
+"20040": {
+"name": "Mejiro Ryan",
+"title": "[Hot Hearts and Cool Drinks]",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20040-mejiro-ryan"
+},
+"20041": {
+"name": "Admire Vega",
+"title": "[Aim for the Brightest]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20041-admire-vega"
+},
+"20042": {
+"name": "Sakura Bakushin O",
+"title": "[The Perfect Morning Greeting!]",
+"rarity": 2,
+"type": "power",
+"urlName": "20042-sakura-bakushin-o"
+},
+"20043": {
+"name": "Special Week",
+"title": "[At the End of the Day]",
+"rarity": 2,
+"type": "power",
+"urlName": "20043-special-week"
+},
+"20044": {
+"name": "Curren Chan",
+"title": "[Cozy Cute Memory ♪]",
+"rarity": 2,
+"type": "speed",
+"urlName": "20044-curren-chan"
+},
+"20045": {
+"name": "Smart Falcon",
+"title": "[Almost... an Umadol?! ♡]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20045-smart-falcon"
+},
+"20046": {
+"name": "Sweep Tosho",
+"title": "[Reckless Witch Training]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20046-sweep-tosho"
+},
+"20047": {
+"name": "Tokai Teio",
+"title": "[Step! Smile! Wink!]",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20047-tokai-teio"
+},
+"20048": {
+"name": "Oguri Cap",
+"title": "[I Love You... Dear Food]",
+"rarity": 2,
+"type": "guts",
+"urlName": "20048-oguri-cap"
+},
+"20049": {
+"name": "Gold City",
+"title": "[Going for Gold]",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20049-gold-city"
+},
+"20050": {
+"name": "Seiun Sky",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20050-seiun-sky"
+},
+"20051": {
+"name": "K.S.Miracle",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20051-ksmiracle"
+},
+"20052": {
+"name": "Tsurumaru Tsuyoshi",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20052-tsurumaru-tsuyoshi"
+},
+"20053": {
+"name": "Narita Top Road",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20053-narita-top-road"
+},
+"20054": {
+"name": "TM Opera O",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20054-tm-opera-o"
+},
+"20055": {
+"name": "Aston Machan",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20055-aston-machan"
+},
+"20056": {
+"name": "Jungle Pocket",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20056-jungle-pocket"
+},
+"20057": {
+"name": "Mejiro Dober",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20057-mejiro-dober"
+},
+"20058": {
+"name": "Symboli Rudolf",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20058-symboli-rudolf"
+},
+"20059": {
+"name": "Agnes Tachyon",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20059-agnes-tachyon"
+},
+"20060": {
+"name": "Hishi Akebono",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20060-hishi-akebono"
+},
+"20061": {
+"name": "Gold Ship",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20061-gold-ship"
+},
+"20062": {
+"name": "Maruzensky",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20062-maruzensky"
+},
+"20063": {
+"name": "Silence Suzuka",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20063-silence-suzuka"
+},
+"20064": {
+"name": "Copano Rickey",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20064-copano-rickey"
+},
+"20065": {
+"name": "Grass Wonder",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20065-grass-wonder"
+},
+"20066": {
+"name": "Kitasan Black",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20066-kitasan-black"
+},
+"20067": {
+"name": "Taiki Shuttle",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20067-taiki-shuttle"
+},
+"20068": {
+"name": "Nice Nature",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20068-nice-nature"
+},
+"20069": {
+"name": "Matikanetannhauser",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20069-matikanetannhauser"
+},
+"20070": {
+"name": "Verxina",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20070-verxina"
+},
+"20071": {
+"name": "Royce and Royce",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20071-royce-and-royce"
+},
+"20072": {
+"name": "Tanino Gimlet",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20072-tanino-gimlet"
+},
+"20073": {
+"name": "Tosen Jordan",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20073-tosen-jordan"
+},
+"20074": {
+"name": "Yaeno Muteki",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20074-yaeno-muteki"
+},
+"20075": {
+"name": "Tap Dance City",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20075-tap-dance-city"
+},
+"20076": {
+"name": "Air Shakur",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20076-air-shakur"
+},
+"20077": {
+"name": "Dantsu Flame",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20077-dantsu-flame"
+},
+"20078": {
+"name": "Matikanefukukitaru",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20078-matikanefukukitaru"
+},
+"20079": {
+"name": "Marvelous Sunday",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20079-marvelous-sunday"
+},
+"20080": {
+"name": "Sakura Laurel",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20080-sakura-laurel"
+},
+"20081": {
+"name": "North Flight",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20081-north-flight"
+},
+"20082": {
+"name": "Bubble Gum Fellow",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20082-bubble-gum-fellow"
+},
+"20083": {
+"name": "Mejiro Ramonu",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20083-mejiro-ramonu"
+},
+"20084": {
+"name": "Lucky Lilac",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20084-lucky-lilac"
+},
+"20085": {
+"name": "Mejiro McQueen",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20085-mejiro-mcqueen"
+},
+"20086": {
+"name": "Rice Shower",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20086-rice-shower"
+},
+"20087": {
+"name": "Daring Heart",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20087-daring-heart"
+},
+"20088": {
+"name": "Curren Bouquetd'or",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20088-curren-bouquetdor"
+},
+"20089": {
+"name": "Kawakami Princess",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20089-kawakami-princess"
+},
+"20090": {
+"name": "Biko Pegasus",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20090-biko-pegasus"
+},
+"20091": {
+"name": "Sakura Chitose O",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20091-sakura-chitose-o"
+},
+"20092": {
+"name": "Hokko Tarumae",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20092-hokko-tarumae"
+},
+"20093": {
+"name": "Mejiro Dober",
+"title": "",
+"rarity": 2,
+"type": "speed",
+"urlName": "20093-mejiro-dober"
+},
+"20094": {
+"name": "Satono Diamond",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20094-satono-diamond"
+},
+"20095": {
+"name": "Red Desire",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20095-red-desire"
+},
+"20096": {
+"name": "Taiki Shuttle",
+"title": "",
+"rarity": 2,
+"type": "guts",
+"urlName": "20096-taiki-shuttle"
+},
+"20097": {
+"name": "Super Creek",
+"title": "",
+"rarity": 2,
+"type": "power",
+"urlName": "20097-super-creek"
+},
+"20098": {
+"name": "Hishi Amazon",
+"title": "",
+"rarity": 2,
+"type": "intelligence",
+"urlName": "20098-hishi-amazon"
+},
+"20099": {
+"name": "Mejiro Ardan",
+"title": "",
+"rarity": 2,
+"type": "stamina",
+"urlName": "20099-mejiro-ardan"
+},
+"30001": {
+"name": "Special Week",
+"title": "[The Brightest Star in Japan!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30001-special-week"
+},
+"30002": {
+"name": "Silence Suzuka",
+"title": "[Beyond This Shining Moment]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30002-silence-suzuka"
+},
+"30003": {
+"name": "Tokai Teio",
+"title": "[Dream Big!]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30003-tokai-teio"
+},
+"30004": {
+"name": "Gold Ship",
+"title": "[Breakaway Battleship]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30004-gold-ship"
+},
+"30005": {
+"name": "Vodka",
+"title": "[Wild Rider]",
+"rarity": 3,
+"type": "power",
+"urlName": "30005-vodka"
+},
+"30006": {
+"name": "Grass Wonder",
+"title": "[Fairest Fleur]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30006-grass-wonder"
+},
+"30007": {
+"name": "El Condor Pasa",
+"title": "[Champion's Passion]",
+"rarity": 3,
+"type": "power",
+"urlName": "30007-el-condor-pasa"
+},
+"30008": {
+"name": "Seiun Sky",
+"title": "[Foolproof Plan]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30008-seiun-sky"
+},
+"30009": {
+"name": "Tamamo Cross",
+"title": "[Split the Sky, White Lightning!]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30009-tamamo-cross"
+},
+"30010": {
+"name": "Fine Motion",
+"title": "[Wave of Gratitude]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30010-fine-motion"
+},
+"30011": {
+"name": "Ines Fujin",
+"title": "[Watch My Star Fly!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30011-ines-fujin"
+},
+"30012": {
+"name": "Winning Ticket",
+"title": "[BNWinner!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30012-winning-ticket"
+},
+"30013": {
+"name": "Air Shakur",
+"title": "[7 More Centimeters]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30013-air-shakur"
+},
+"30014": {
+"name": "Gold City",
+"title": "[Run(my)way]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30014-gold-city"
+},
+"30015": {
+"name": "Sakura Bakushin O",
+"title": "[Eat Fast! Yum Fast!]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30015-sakura-bakushin-o"
+},
+"30016": {
+"name": "Super Creek",
+"title": "[Piece of Mind]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30016-super-creek"
+},
+"30017": {
+"name": "Smart Falcon",
+"title": "[My Umadol Way! ☆]",
+"rarity": 3,
+"type": "power",
+"urlName": "30017-smart-falcon"
+},
+"30018": {
+"name": "Nishino Flower",
+"title": "[Even the Littlest Bud]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30018-nishino-flower"
+},
+"30019": {
+"name": "Haru Urara",
+"title": "[Urara's Day Off!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30019-haru-urara"
+},
+"30020": {
+"name": "Biko Pegasus",
+"title": "[Double Carrot Punch!]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30020-biko-pegasus"
+},
+"30021": {
+"name": "Tazuna Hayakawa",
+"title": "[Tracen Reception]",
+"rarity": 3,
+"type": "friend",
+"urlName": "30021-tazuna-hayakawa"
+},
+"30022": {
+"name": "Mejiro McQueen",
+"title": "[Your Team Ace]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30022-mejiro-mcqueen"
+},
+"30023": {
+"name": "Rice Shower",
+"title": "[Showered in Joy]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30023-rice-shower"
+},
+"30024": {
+"name": "Oguri Cap",
+"title": "[Get Lots of Hugs for Me]",
+"rarity": 3,
+"type": "power",
+"urlName": "30024-oguri-cap"
+},
+"30025": {
+"name": "Special Week",
+"title": "[The Setting Sun and Rising Stars]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30025-special-week"
+},
+"30026": {
+"name": "Twin Turbo",
+"title": "[Turbo Booooost!]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30026-twin-turbo"
+},
+"30027": {
+"name": "Mejiro Palmer",
+"title": "[Go Ahead and Laugh]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30027-mejiro-palmer"
+},
+"30028": {
+"name": "Kitasan Black",
+"title": "[Fire at My Heels]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30028-kitasan-black"
+},
+"30029": {
+"name": "Satono Diamond",
+"title": "[The Will to Overtake]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30029-satono-diamond"
+},
+"30030": {
+"name": "Matikanetannhauser",
+"title": "[Just Keep Going]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30030-matikanetannhauser"
+},
+"30031": {
+"name": "Yukino Bijin",
+"title": "[Hometown Cheers]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30031-yukino-bijin"
+},
+"30032": {
+"name": "Yaeno Muteki",
+"title": "[Fiery Discipline]",
+"rarity": 3,
+"type": "power",
+"urlName": "30032-yaeno-muteki"
+},
+"30033": {
+"name": "Winning Ticket",
+"title": "[Dreams Do Come True!]",
+"rarity": 3,
+"type": "power",
+"urlName": "30033-winning-ticket"
+},
+"30034": {
+"name": "Rice Shower",
+"title": "[Happiness Just around the Bend]",
+"rarity": 3,
+"type": "power",
+"urlName": "30034-rice-shower"
+},
+"30036": {
+"name": "Riko Kashimoto",
+"title": "[Planned Perfection]",
+"rarity": 3,
+"type": "friend",
+"urlName": "30036-riko-kashimoto"
+},
+"30037": {
+"name": "Symboli Rudolf",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30037-symboli-rudolf"
+},
+"30038": {
+"name": "Sakura Chiyono O",
+"title": "[Peak Sakura Season]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30038-sakura-chiyono-o"
+},
+"30039": {
+"name": "Kawakami Princess",
+"title": "[Princess Bride]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30039-kawakami-princess"
+},
+"30040": {
+"name": "Hishi Akebono",
+"title": "[Who Wants the First Bite?]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30040-hishi-akebono"
+},
+"30041": {
+"name": "Mejiro Dober",
+"title": "[My Thoughts, My Desires]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30041-mejiro-dober"
+},
+"30042": {
+"name": "Bamboo Memory",
+"title": "[Head-on Fight!]",
+"rarity": 3,
+"type": "power",
+"urlName": "30042-bamboo-memory"
+},
+"30043": {
+"name": "Nakayama Festa",
+"title": "[43, 8, 1]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30043-nakayama-festa"
+},
+"30044": {
+"name": "Narita Brian",
+"title": "[Two Pieces]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30044-narita-brian"
+},
+"30045": {
+"name": "Sweep Tosho",
+"title": "[It's All Mine!]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30045-sweep-tosho"
+},
+"30046": {
+"name": "Winning Ticket",
+"title": "[Full-Blown Tantrum]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30046-winning-ticket"
+},
+"30047": {
+"name": "Daiwa Scarlet",
+"title": "[Mini☆Vacation]",
+"rarity": 3,
+"type": "power",
+"urlName": "30047-daiwa-scarlet"
+},
+"30048": {
+"name": "Mejiro Ryan",
+"title": "[Winning Pitch]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30048-mejiro-ryan"
+},
+"30052": {
+"name": "Light Hello",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30052-light-hello"
+},
+"30053": {
+"name": "Taiki Shuttle",
+"title": "[Hands Up, Crook!]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30053-taiki-shuttle"
+},
+"30054": {
+"name": "Nice Nature",
+"title": "[Daring to Dream]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30054-nice-nature"
+},
+"30055": {
+"name": "Seiun Sky",
+"title": "[Paint the Sky Red]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30055-seiun-sky"
+},
+"30056": {
+"name": "King Halo",
+"title": "[Tonight, We Waltz]",
+"rarity": 3,
+"type": "power",
+"urlName": "30056-king-halo"
+},
+"30057": {
+"name": "Gold Ship",
+"title": "[That Time I Became the Strongest]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30057-gold-ship"
+},
+"30058": {
+"name": "Tokai Teio",
+"title": "[Regal Racers]",
+"rarity": 3,
+"type": "power",
+"urlName": "30058-tokai-teio"
+},
+"30059": {
+"name": "Mihono Bourbon",
+"title": "[Fugue of Fortune]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30059-mihono-bourbon"
+},
+"30060": {
+"name": "Twin Turbo",
+"title": "[Constellation of Stars]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30060-twin-turbo"
+},
+"30061": {
+"name": "Biwa Hayahide",
+"title": "[Our Resounding Steps]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30061-biwa-hayahide"
+},
+"30062": {
+"name": "Silence Suzuka",
+"title": "[Winning Dream]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30062-silence-suzuka"
+},
+"30063": {
+"name": "Ikuno Dictus",
+"title": "[Warm Heart, Soft Steps]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30063-ikuno-dictus"
+},
+"30064": {
+"name": "Tamamo Cross",
+"title": "[Beware! Halloween Night!]",
+"rarity": 3,
+"type": "power",
+"urlName": "30064-tamamo-cross"
+},
+"30065": {
+"name": "Zenno Rob Roy",
+"title": "[Magical Heroine]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30065-zenno-rob-roy"
+},
+"30066": {
+"name": "Mihono Bourbon",
+"title": "[The Ghost Finds Halloween Magic]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30066-mihono-bourbon"
+},
+"30067": {
+"name": "The Throne's Assemblage",
+"title": "[Esteemed and Adored]",
+"rarity": 3,
+"type": "group",
+"urlName": "30067-the-thrones-assemblage"
+},
+"30068": {
+"name": "Curren Chan",
+"title": "[Cutie Pie with Shining Eyes]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30068-curren-chan"
+},
+"30069": {
+"name": "Narita Brian",
+"title": "[The Whistling Arrow's Taunt]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30069-narita-brian"
+},
+"30070": {
+"name": "Yukino Bijin",
+"title": "[Dancing Light into the Night]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30070-yukino-bijin"
+},
+"30071": {
+"name": "Daitaku Helios",
+"title": "[Make! Some! NOISE!]",
+"rarity": 3,
+"type": "power",
+"urlName": "30071-daitaku-helios"
+},
+"30072": {
+"name": "Mayano Top Gun",
+"title": "[Party Formation]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30072-mayano-top-gun"
+},
+"30073": {
+"name": "Narita Taishin",
+"title": "[Strict Shopper]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30073-narita-taishin"
+},
+"30074": {
+"name": "Marvelous Sunday",
+"title": "[Dazzling Day in the Snow]",
+"rarity": 3,
+"type": "power",
+"urlName": "30074-marvelous-sunday"
+},
+"30075": {
+"name": "Manhattan Cafe",
+"title": "[My Solo Spun in Spiraling Runs]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30075-manhattan-cafe"
+},
+"30076": {
+"name": "Silence Suzuka",
+"title": "[Searching for Unseen Sights]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30076-silence-suzuka"
+},
+"30077": {
+"name": "Admire Vega",
+"title": "[Lucky Star in the Sky]",
+"rarity": 3,
+"type": "power",
+"urlName": "30077-admire-vega"
+},
+"30078": {
+"name": "Matikanefukukitaru",
+"title": "[Touching Sleeves Is Good Luck! ♪]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30078-matikanefukukitaru"
+},
+"30079": {
+"name": "Meisho Doto",
+"title": "[Leaping into the Unknown]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30079-meisho-doto"
+},
+"30080": {
+"name": "Sasami Anshinzawa",
+"title": "[This Might Sting!]",
+"rarity": 3,
+"type": "friend",
+"urlName": "30080-sasami-anshinzawa"
+},
+"30081": {
+"name": "Team Sirius",
+"title": "[Passing the Dream On]",
+"rarity": 3,
+"type": "group",
+"urlName": "30081-team-sirius"
+},
+"30082": {
+"name": "Nishino Flower",
+"title": "[Little Cupcakes, Big Emotions]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30082-nishino-flower"
+},
+"30083": {
+"name": "Sakura Bakushin O",
+"title": "[Super! Sonic! Flower Power!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30083-sakura-bakushin-o"
+},
+"30084": {
+"name": "Tosen Jordan",
+"title": "[My Way]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30084-tosen-jordan"
+},
+"30085": {
+"name": "Agnes Digital",
+"title": "[A Fan's Joy]",
+"rarity": 3,
+"type": "power",
+"urlName": "30085-agnes-digital"
+},
+"30086": {
+"name": "Narita Top Road",
+"title": "[Peachy Silhouette]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30086-narita-top-road"
+},
+"30087": {
+"name": "Mejiro Bright",
+"title": "[Little by Little]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30087-mejiro-bright"
+},
+"30088": {
+"name": "Satono Diamond",
+"title": "[Special Dreamers!]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30088-satono-diamond"
+},
+"30089": {
+"name": "Marvelous Sunday",
+"title": "[A MORE MARVELOUS WORLD! ☆]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30089-marvelous-sunday"
+},
+"30090": {
+"name": "Symboli Rudolf",
+"title": "[Enchaînement]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30090-symboli-rudolf"
+},
+"30091": {
+"name": "Sirius Symboli",
+"title": "[Escorte Étoile]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30091-sirius-symboli"
+},
+"30092": {
+"name": "Air Shakur",
+"title": "[Mag!c Number]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30092-air-shakur"
+},
+"30093": {
+"name": "Daiwa Scarlet",
+"title": "[Number 1 Outfit]",
+"rarity": 3,
+"type": "power",
+"urlName": "30093-daiwa-scarlet"
+},
+"30094": {
+"name": "Bamboo Memory",
+"title": "[Make These Feelings Reach You!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30094-bamboo-memory"
+},
+"30095": {
+"name": "Seeking the Pearl",
+"title": "[Cheer that Changed the World]",
+"rarity": 3,
+"type": "speed",
+"urlName": "30095-seeking-the-pearl"
+},
+"30096": {
+"name": "Kawakami Princess",
+"title": "[Go Go☆Princess!]",
+"rarity": 3,
+"type": "power",
+"urlName": "30096-kawakami-princess"
+},
+"30097": {
+"name": "Mr. C.B.",
+"title": "[Dear Mr. C.B.]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30097-mr-cb"
+},
+"30098": {
+"name": "Haru Urara",
+"title": "[Sunny Passion ♪]",
+"rarity": 3,
+"type": "power",
+"urlName": "30098-haru-urara"
+},
+"30099": {
+"name": "Ikuno Dictus",
+"title": "[Beloved Orchid Bouquet]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30099-ikuno-dictus"
+},
+"30100": {
+"name": "Rice Shower",
+"title": "[Day I Dreamed Of]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30100-rice-shower"
+},
+"30101": {
+"name": "Agnes Tachyon",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30101-agnes-tachyon"
+},
+"30102": {
+"name": "El Condor Pasa",
+"title": "[Twinkle in Your Eyes ∞]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30102-el-condor-pasa"
+},
+"30103": {
+"name": "Matikanetannhauser",
+"title": "[Machitan☆Adventure]",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30103-matikanetannhauser"
+},
+"30104": {
+"name": "Zenno Rob Roy",
+"title": "[\"Rhodonite and the Dreamstone\"]",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30104-zenno-rob-roy"
+},
+"30105": {
+"name": "Special Week",
+"title": "[Take Hold of Our Dreams!]",
+"rarity": 3,
+"type": "guts",
+"urlName": "30105-special-week"
+},
+"30106": {
+"name": "Air Groove",
+"title": "[Tailwind to My Goals]",
+"rarity": 3,
+"type": "power",
+"urlName": "30106-air-groove"
+},
+"30107": {
+"name": "Maruzensky",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30107-maruzensky"
+},
+"30108": {
+"name": "Nakayama Festa",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30108-nakayama-festa"
+},
+"30109": {
+"name": "Sakura Chiyono O",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30109-sakura-chiyono-o"
+},
+"30110": {
+"name": "Manhattan Cafe",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30110-manhattan-cafe"
+},
+"30111": {
+"name": "Tokai Teio",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30111-tokai-teio"
+},
+"30112": {
+"name": "Twin Turbo",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30112-twin-turbo"
+},
+"30113": {
+"name": "Biwa Hayahide",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30113-biwa-hayahide"
+},
+"30114": {
+"name": "Daiichi Ruby",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30114-daiichi-ruby"
+},
+"30115": {
+"name": "Mejiro Palmer",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30115-mejiro-palmer"
+},
+"30116": {
+"name": "Daitaku Helios",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30116-daitaku-helios"
+},
+"30117": {
+"name": "Shinko Windy",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30117-shinko-windy"
+},
+"30118": {
+"name": "Symboli Kris S",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30118-symboli-kris-s"
+},
+"30119": {
+"name": "Mejiro Ardan",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30119-mejiro-ardan"
+},
+"30120": {
+"name": "Yaeno Muteki",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30120-yaeno-muteki"
+},
+"30121": {
+"name": "Mihono Bourbon",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30121-mihono-bourbon"
+},
+"30122": {
+"name": "Eishin Flash",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30122-eishin-flash"
+},
+"30123": {
+"name": "Narita Brian",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30123-narita-brian"
+},
+"30124": {
+"name": "Air Groove",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30124-air-groove"
+},
+"30125": {
+"name": "Sakura Laurel",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30125-sakura-laurel"
+},
+"30126": {
+"name": "Yamanin Zephyr",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30126-yamanin-zephyr"
+},
+"30127": {
+"name": "Special Week",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30127-special-week"
+},
+"30128": {
+"name": "Sweep Tosho",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30128-sweep-tosho"
+},
+"30129": {
+"name": "Grass Wonder",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30129-grass-wonder"
+},
+"30130": {
+"name": "K.S.Miracle",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30130-ksmiracle"
+},
+"30131": {
+"name": "Marvelous Sunday",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30131-marvelous-sunday"
+},
+"30132": {
+"name": "Biko Pegasus",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30132-biko-pegasus"
+},
+"30133": {
+"name": "Hishi Akebono",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30133-hishi-akebono"
+},
+"30134": {
+"name": "Mejiro Ramonu",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30134-mejiro-ramonu"
+},
+"30135": {
+"name": "Katsuragi Ace",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30135-katsuragi-ace"
+},
+"30136": {
+"name": "Symboli Kris S",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30136-symboli-kris-s"
+},
+"30137": {
+"name": "Ancestors & Guides",
+"title": "",
+"rarity": 3,
+"type": "group",
+"urlName": "30137-ancestors-guides"
+},
+"30138": {
+"name": "Nice Nature",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30138-nice-nature"
+},
+"30139": {
+"name": "Mejiro McQueen",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30139-mejiro-mcqueen"
+},
+"30140": {
+"name": "Tokai Teio",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30140-tokai-teio"
+},
+"30141": {
+"name": "Mihono Bourbon",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30141-mihono-bourbon"
+},
+"30142": {
+"name": "Sakura Laurel",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30142-sakura-laurel"
+},
+"30143": {
+"name": "Ikuno Dictus",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30143-ikuno-dictus"
+},
+"30145": {
+"name": "Tanino Gimlet",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30145-tanino-gimlet"
+},
+"30146": {
+"name": "Oguri Cap",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30146-oguri-cap"
+},
+"30147": {
+"name": "Jungle Pocket",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30147-jungle-pocket"
+},
+"30148": {
+"name": "Daiwa Scarlet",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30148-daiwa-scarlet"
+},
+"30149": {
+"name": "Aston Machan",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30149-aston-machan"
+},
+"30150": {
+"name": "Vodka",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30150-vodka"
+},
+"30151": {
+"name": "Mayano Top Gun",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30151-mayano-top-gun"
+},
+"30152": {
+"name": "TM Opera O",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30152-tm-opera-o"
+},
+"30153": {
+"name": "Gold City",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30153-gold-city"
+},
+"30154": {
+"name": "Mejiro Palmer",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30154-mejiro-palmer"
+},
+"30155": {
+"name": "Daitaku Helios",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30155-daitaku-helios"
+},
+"30156": {
+"name": "Wonder Acute",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30156-wonder-acute"
+},
+"30157": {
+"name": "Manhattan Cafe",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30157-manhattan-cafe"
+},
+"30158": {
+"name": "Jungle Pocket",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30158-jungle-pocket"
+},
+"30159": {
+"name": "Air Groove",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30159-air-groove"
+},
+"30160": {
+"name": "Mei Satake",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30160-mei-satake"
+},
+"30161": {
+"name": "El Condor Pasa",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30161-el-condor-pasa"
+},
+"30162": {
+"name": "Admire Vega",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30162-admire-vega"
+},
+"30163": {
+"name": "Nakayama Festa",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30163-nakayama-festa"
+},
+"30164": {
+"name": "Hishi Amazon",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30164-hishi-amazon"
+},
+"30165": {
+"name": "Tanino Gimlet",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30165-tanino-gimlet"
+},
+"30166": {
+"name": "Tap Dance City",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30166-tap-dance-city"
+},
+"30167": {
+"name": "Fine Motion",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30167-fine-motion"
+},
+"30168": {
+"name": "Gold Ship",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30168-gold-ship"
+},
+"30169": {
+"name": "Tsurumaru Tsuyoshi",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30169-tsurumaru-tsuyoshi"
+},
+"30170": {
+"name": "King Halo",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30170-king-halo"
+},
+"30171": {
+"name": "Haru Urara",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30171-haru-urara"
+},
+"30172": {
+"name": "Mejiro McQueen",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30172-mejiro-mcqueen"
+},
+"30173": {
+"name": "Sounds of Earth",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30173-sounds-of-earth"
+},
+"30174": {
+"name": "Mejiro Dober",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30174-mejiro-dober"
+},
+"30175": {
+"name": "Mejiro Ramonu",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30175-mejiro-ramonu"
+},
+"30176": {
+"name": "Mejiro Ryan",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30176-mejiro-ryan"
+},
+"30177": {
+"name": "Vivlos",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30177-vivlos"
+},
+"30178": {
+"name": "Duramente",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30178-duramente"
+},
+"30179": {
+"name": "Satono Diamond",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30179-satono-diamond"
+},
+"30180": {
+"name": "Carvers of History",
+"title": "",
+"rarity": 3,
+"type": "group",
+"urlName": "30180-group"
+},
+"30181": {
+"name": "Twin Turbo",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30181-twin-turbo"
+},
+"30182": {
+"name": "Hokko Tarumae",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30182-hokko-tarumae"
+},
+"30183": {
+"name": "Winning Ticket",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30183-winning-ticket"
+},
+"30184": {
+"name": "Sakura Bakushin O",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30184-sakura-bakushin-o"
+},
+"30185": {
+"name": "North Flight",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30185-north-flight"
+},
+"30186": {
+"name": "Gentildonna",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30186-gentildonna"
+},
+"30187": {
+"name": "Orfevre",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30187-orfevre"
+},
+"30188": {
+"name": "Ryoka Tsurugi",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30188-ryoka-tsurugi"
+},
+"30189": {
+"name": "Kitasan Black",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30189-kitasan-black"
+},
+"30190": {
+"name": "Duramente",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30190-duramente"
+},
+"30191": {
+"name": "Sounds of Earth",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30191-sounds-of-earth"
+},
+"30192": {
+"name": "Vivlos",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30192-vivlos"
+},
+"30193": {
+"name": "Cheval Grand",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30193-cheval-grand"
+},
+"30194": {
+"name": "Rhein Kraft",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30194-rhein-kraft"
+},
+"30195": {
+"name": "K.S.Miracle",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30195-ksmiracle"
+},
+"30196": {
+"name": "Yamanin Zephyr",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30196-yamanin-zephyr"
+},
+"30197": {
+"name": "Bamboo Memory",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30197-bamboo-memory"
+},
+"30198": {
+"name": "Neo Universe",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30198-neo-universe"
+},
+"30199": {
+"name": "Hishi Miracle",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30199-hishi-miracle"
+},
+"30200": {
+"name": "No Reason",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30200-no-reason"
+},
+"30201": {
+"name": "Narita Taishin",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30201-narita-taishin"
+},
+"30202": {
+"name": "Vodka",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30202-vodka"
+},
+"30203": {
+"name": "Jungle Pocket",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30203-jungle-pocket"
+},
+"30204": {
+"name": "Seiun Sky",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30204-seiun-sky"
+},
+"30205": {
+"name": "Verxina",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30205-verxina"
+},
+"30206": {
+"name": "Vivlos",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30206-vivlos"
+},
+"30207": {
+"name": "Yayoi Akikawa",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30207-yayoi-akikawa"
+},
+"30208": {
+"name": "Nishino Flower",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30208-nishino-flower"
+},
+"30209": {
+"name": "Dantsu Flame",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30209-dantsu-flame"
+},
+"30210": {
+"name": "Smart Falcon",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30210-smart-falcon"
+},
+"30211": {
+"name": "Copano Rickey",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30211-copano-rickey"
+},
+"30212": {
+"name": "Wonder Acute",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30212-wonder-acute"
+},
+"30213": {
+"name": "Tokai Teio",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30213-tokai-teio"
+},
+"30214": {
+"name": "Fine Motion",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30214-fine-motion"
+},
+"30215": {
+"name": "Still in Love",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30215-still-in-love"
+},
+"30216": {
+"name": "Buena Vista",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30216-buena-vista"
+},
+"30217": {
+"name": "Cesario",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30217-cesario"
+},
+"30218": {
+"name": "Taiki Shuttle",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30218-taiki-shuttle"
+},
+"30219": {
+"name": "Fuji Kiseki",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30219-fuji-kiseki"
+},
+"30220": {
+"name": "Symboli Kris S",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30220-symboli-kris-s"
+},
+"30221": {
+"name": "Satono Diamond",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30221-satono-diamond"
+},
+"30222": {
+"name": "Espoir City",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30222-espoir-city"
+},
+"30223": {
+"name": "Hishi Amazon",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30223-hishi-amazon"
+},
+"30224": {
+"name": "Narita Brian",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30224-narita-brian"
+},
+"30225": {
+"name": "Matikanefukukitaru",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30225-matikanefukukitaru"
+},
+"30226": {
+"name": "Air Shakur",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30226-air-shakur"
+},
+"30227": {
+"name": "Daiwa Scarlet",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30227-daiwa-scarlet"
+},
+"30228": {
+"name": "Symboli Kris S",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30228-symboli-kris-s"
+},
+"30229": {
+"name": "Agnes Digital",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30229-agnes-digital"
+},
+"30230": {
+"name": "Meisho Doto",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30230-meisho-doto"
+},
+"30231": {
+"name": "TM Opera O",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30231-tm-opera-o"
+},
+"30232": {
+"name": "Blast Onepiece",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30232-blast-onepiece"
+},
+"30233": {
+"name": "Symboli Rudolf",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30233-symboli-rudolf"
+},
+"30234": {
+"name": "Mejiro Ardan",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30234-mejiro-ardan"
+},
+"30235": {
+"name": "Maruzensky",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30235-maruzensky"
+},
+"30236": {
+"name": "Seeking the Pearl",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30236-seeking-the-pearl"
+},
+"30237": {
+"name": "Curren Chan",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30237-curren-chan"
+},
+"30238": {
+"name": "Ikuno Dictus",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30238-ikuno-dictus"
+},
+"30239": {
+"name": "Nice Nature",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30239-nice-nature"
+},
+"30240": {
+"name": "Jungle Pocket",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30240-jungle-pocket"
+},
+"30241": {
+"name": "Embodiment of Legends",
+"title": "",
+"rarity": 3,
+"type": "group",
+"urlName": "30241-group"
+},
+"30242": {
+"name": "Almond Eye",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30242-almond-eye"
+},
+"30243": {
+"name": "Gran Alegria",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30243-gran-alegria"
+},
+"30244": {
+"name": "Mejiro Bright",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30244-mejiro-bright"
+},
+"30245": {
+"name": "Vodka",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30245-vodka"
+},
+"30246": {
+"name": "Dream Journey",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30246-dream-journey"
+},
+"30247": {
+"name": "Symboli Kris S",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30247-symboli-kris-s"
+},
+"30248": {
+"name": "Daring Tact",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30248-daring-tact"
+},
+"30249": {
+"name": "Transcend",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30249-transcend"
+},
+"30250": {
+"name": "Buena Vista",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30250-buena-vista"
+},
+"30251": {
+"name": "Espoir City",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30251-espoir-city"
+},
+"30252": {
+"name": "Silence Suzuka",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30252-silence-suzuka"
+},
+"30253": {
+"name": "Rhein Kraft",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30253-rhein-kraft"
+},
+"30254": {
+"name": "Daring Heart",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30254-daring-heart"
+},
+"30255": {
+"name": "Air Messiah",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30255-air-messiah"
+},
+"30256": {
+"name": "Tamamo Cross",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30256-tamamo-cross"
+},
+"30257": {
+"name": "Tucker Bryne",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30257-tucker-bryne"
+},
+"30258": {
+"name": "Mejiro Ryan",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30258-mejiro-ryan"
+},
+"30259": {
+"name": "Fusaichi Pandora",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30259-fusaichi-pandora"
+},
+"30260": {
+"name": "Mejiro McQueen",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30260-mejiro-mcqueen"
+},
+"30261": {
+"name": "Win Variation",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30261-win-variation"
+},
+"30262": {
+"name": "Duramente",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30262-duramente"
+},
+"30263": {
+"name": "Vivlos",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30263-vivlos"
+},
+"30264": {
+"name": "Stay Gold",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30264-stay-gold"
+},
+"30265": {
+"name": "Admire Groove",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30265-admire-groove"
+},
+"30266": {
+"name": "Chrono Genesis",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30266-chrono-genesis"
+},
+"30267": {
+"name": "Calstone Light O",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30267-calstone-light-o"
+},
+"30268": {
+"name": "Durandal",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30268-durandal"
+},
+"30269": {
+"name": "Dantsu Flame",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30269-dantsu-flame"
+},
+"30270": {
+"name": "Daiichi Ruby",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30270-daiichi-ruby"
+},
+"30271": {
+"name": "Fuji Kiseki",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30271-fuji-kiseki"
+},
+"30272": {
+"name": "Eishin Flash",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30272-eishin-flash"
+},
+"30273": {
+"name": "Tosen Jordan",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30273-tosen-jordan"
+},
+"30274": {
+"name": "Curren Bouquetd'or",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30274-curren-bouquetdor"
+},
+"30275": {
+"name": "Tokai Teio",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30275-tokai-teio"
+},
+"30276": {
+"name": "Kiyoko Hoshina",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30276-kiyoko-hoshina"
+},
+"30277": {
+"name": "Mihono Bourbon",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30277-mihono-bourbon"
+},
+"30278": {
+"name": "Gold Ship",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30278-gold-ship"
+},
+"30279": {
+"name": "Fenomeno",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30279-fenomeno"
+},
+"30280": {
+"name": "Orfevre",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30280-orfevre"
+},
+"30281": {
+"name": "Inari One",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30281-inari-one"
+},
+"30282": {
+"name": "Air Groove",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30282-air-groove"
+},
+"30283": {
+"name": "Fine Motion",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30283-fine-motion"
+},
+"30284": {
+"name": "Bubble Gum Fellow",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30284-bubble-gum-fellow"
+},
+"30285": {
+"name": "King Halo",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30285-king-halo"
+},
+"30286": {
+"name": "Matikanefukukitaru",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30286-matikanefukukitaru"
+},
+"30287": {
+"name": "Neo Universe",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30287-neo-universe"
+},
+"30288": {
+"name": "Silence Suzuka",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30288-silence-suzuka"
+},
+"30289": {
+"name": "Forever Young",
+"title": "",
+"rarity": 3,
+"type": "intelligence",
+"urlName": "30289-forever-young"
+},
+"30290": {
+"name": "Casino Drive",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30290-casino-drive"
+},
+"30291": {
+"name": "Victoire Pisa",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30291-victoire-pisa"
+},
+"30292": {
+"name": "Marche Lorraine",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30292-marche-lorraine"
+},
+"30293": {
+"name": "Daring Tact",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30293-daring-tact"
+},
+"30294": {
+"name": "Daring Heart",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30294-daring-heart"
+},
+"30295": {
+"name": "Curren Bouquetd'or",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30295-curren-bouquetdor"
+},
+"30296": {
+"name": "Aston Machan",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30296-aston-machan"
+},
+"30297": {
+"name": "Agnes Digital",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30297-agnes-digital"
+},
+"30298": {
+"name": "Tap Dance City",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30298-tap-dance-city"
+},
+"30299": {
+"name": "Agnes Tachyon",
+"title": "",
+"rarity": 3,
+"type": "guts",
+"urlName": "30299-agnes-tachyon"
+},
+"30300": {
+"name": "Sakura Chiyono O",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30300-sakura-chiyono-o"
+},
+"30301": {
+"name": "Gran Alegria",
+"title": "",
+"rarity": 3,
+"type": "power",
+"urlName": "30301-gran-alegria"
+},
+"30302": {
+"name": "Satono Diamond",
+"title": "",
+"rarity": 3,
+"type": "speed",
+"urlName": "30302-satono-diamond"
+},
+"30303": {
+"name": "Blast Onepiece",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30303-blast-onepiece"
+}
+}

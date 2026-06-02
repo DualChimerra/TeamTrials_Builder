@@ -2,7 +2,7 @@
 
 # Uma Team Trials Builder
 
-**Build optimal [Team Trials](https://gametora.com/umamusume/team-trials-pvp-scoring) teams in _Uma Musume: Pretty Derby_ from the characters on your account.**
+**Build optimal [Team Trials](https://gametora.com/umamusume/team-trials-pvp-scoring) teams in _Uma Musume: Pretty Derby_ from the characters on your account — and see exactly what the [top 100 ranked players](#-top-100-meta--what-the-best-actually-run) actually run.**
 
 [![Deploy](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/deploy.yml/badge.svg)](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/deploy.yml)
 [![Refresh data](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/update-data.yml/badge.svg)](https://github.com/DualChimerra/TeamTrials_Builder/actions/workflows/update-data.yml)
@@ -43,6 +43,28 @@ This tool encodes those rules. You tell it what you own; it tells you the best t
 | 🔒 **Locks** | Exclude a horse globally or per race category. |
 | 🧪 **Event-skill toggle** | Count training-event skills or ignore them. |
 | 💡 **"Why this horse?"** | Every pick explains its matched skills (origin · tier · reason) and the full score math. |
+| 🏆 **Top-100 meta** | A dedicated tab showing what the **top 100 ranked players** actually field — per race & running style. *(see below)* |
+| ✨ **Meta-aware swaps** | Horses popular in the top-100 are tagged **Meta #N** right in the swap dropdown, with an optional "prioritize meta" mode. |
+
+## 🏆 Top-100 meta — what the best *actually* run
+
+Most team builders score horses in a vacuum. This one goes further: it analyzes the **real teams of
+the 100 highest-ranked Team Trials players** and turns them into a meta breakdown you can act on.
+
+For **every race × running style** (Sprint / Mile / Medium / Long / Dirt × Front / Pace / Late / End) it shows:
+
+- 🐎 **Most-used horses** — ranked by how many of the top 100 field them there, with usage %.
+- 🎴 **Support-card builds** — the actual support cards the top players trained those horses on.
+- 📊 **Average stats** — the real Speed / Stamina / Power / Guts / Wisdom the top teams hit.
+- ⚡ **Most-used skills** — the guaranteed-activation skills that win at the top, by frequency.
+
+And it feeds back into team-building: in the swap dropdown, top-100 picks are flagged **Meta #N**, so
+you can match the meta using **the horses you already own**.
+
+> As far as we know, **no other Team Trials tool surfaces the live top-100 like this** — usage,
+> builds, supports, stats and skills, broken down by race and style. The meta dataset
+> ([`public/data/tt_meta.json`](public/data/tt_meta.json)) is aggregated, fully anonymous (counts only),
+> and refreshed from the current top 100 global ranking.
 
 ## How a horse is scored
 
@@ -80,6 +102,10 @@ unlock ranks), and committed so the app needs no network at build time.
 A scheduled GitHub Action ([`update-data.yml`](.github/workflows/update-data.yml)) re-pulls the
 data **weekly**, so **new global horses and skills appear automatically** — gametora tags each
 card with its global release date, and the Roster's *Global (EN) only* filter picks them up.
+
+Support-card names ([`public/data/supports.json`](public/data)) come from the same gametora data
+layer. The **top-100 meta** ([`public/data/tt_meta.json`](public/data)) is an aggregated, anonymous
+snapshot (usage counts per race & style — no player identities) of the current global top 100.
 
 Refresh manually any time:
 
