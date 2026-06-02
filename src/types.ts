@@ -68,11 +68,6 @@ export interface Dataset {
 }
 
 // ---- Top-100 Team Trials meta (public/data/tt_meta.json) ----
-export interface TtCharEntry {
-  charId: number
-  cardId: number | null // representative variant for the avatar
-  count: number
-}
 export interface TtSkillEntry {
   skillId: number
   count: number
@@ -80,6 +75,11 @@ export interface TtSkillEntry {
 export interface TtSupportEntry {
   supportId: number
   count: number
+}
+export interface TtBuildEntry {
+  supports: number[] // the full support-card deck used to train the horse
+  count: number
+  bestRank: number | null // best (lowest) top-100 rank that ran this deck
 }
 export interface TtStats {
   speed: number
@@ -89,11 +89,22 @@ export interface TtStats {
   wiz: number
   n: number
 }
+// A specific CARD (costume) within a (race × style) cell, with its own breakdown.
+export interface TtCharEntry {
+  cardId: number
+  charId: number
+  count: number
+  stats: TtStats | null
+  skills: TtSkillEntry[]
+  supports: TtSupportEntry[]
+  builds: TtBuildEntry[]
+}
 export interface TtCell {
+  stats: TtStats | null
   chars: TtCharEntry[]
   skills: TtSkillEntry[]
   supports: TtSupportEntry[]
-  stats: TtStats | null
+  builds: TtBuildEntry[]
 }
 
 // Support-card name lookup (public/data/supports.json)
@@ -106,9 +117,9 @@ export interface SupportCard {
 }
 export interface TtMeta {
   teams: number
+  rankedTeams?: number
   generated: string
   byCatStyle: Partial<Record<Category, Partial<Record<Style, TtCell>>>>
-  byCat: Partial<Record<Category, TtCell>>
 }
 
 // ---- Per-card account state (persisted) ----

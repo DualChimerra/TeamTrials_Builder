@@ -374,7 +374,7 @@ function TeamPanel({ category, autoSlots, candidates, ov, globalCardById, evalFo
           !usedIds.includes(c.card.cardId) &&
           !(uniqueAcrossTeams && blockedIds.has(c.card.cardId)), // not already in another team
       )
-      .map((c) => ({ c, grade: aptOf(c.card, style), pop: popRank(metaIndex, category, style, c.card.charId) }))
+      .map((c) => ({ c, grade: aptOf(c.card, style), pop: popRank(metaIndex, category, style, c.card.cardId) }))
       .sort((a, b) =>
         prioritizePopular
           ? (a.pop ?? 999) - (b.pop ?? 999) || b.c.eval.score - a.c.eval.score

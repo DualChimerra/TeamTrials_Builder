@@ -50,3 +50,5 @@ export const charIcon = (card: Card) =>
   `https://gametora.com/images/umamusume/characters/icons/chr_icon_${card.cardId}.png`
 export const skillIcon = (iconid: number) =>
   `https://media.gametora.com/umamusume/skills/icon/${iconid}.png`
+export const supportIcon = (supportId: number) =>
+  `https://gametora.com/images/umamusume/supports/support_card_s_${supportId}.png`
