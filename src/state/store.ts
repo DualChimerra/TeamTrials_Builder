@@ -36,7 +36,17 @@ interface RosterState {
   updateSettings: (patch: Partial<Settings>) => void
   setSlotOverride: (category: Category, slotStyle: Style, patch: SlotOverride | null) => void
   setAptStyle: (cardId: number, style: Style, grade: Grade | null) => void
+  importData: (data: RosterExport) => void
   reset: () => void
+}
+
+// Shape of the JSON produced by exportRoster() / accepted by importData().
+export interface RosterExport {
+  app?: string
+  version?: number
+  owned?: Record<number, OwnedState>
+  overrides?: Overrides
+  settings?: Partial<Settings>
 }
 
 export const defaultOwnedState = (): OwnedState => ({
@@ -113,6 +123,13 @@ export const useRoster = create<RosterState>()(
           return { owned: { ...s.owned, [cardId]: { ...cur, aptStyle } } }
         }),
 
+      importData: (data) =>
+        set((s) => ({
+          owned: data.owned ?? s.owned,
+          overrides: data.overrides ?? s.overrides,
+          settings: data.settings ? { ...s.settings, ...data.settings } : s.settings,
+        })),
+
       reset: () => set({ owned: {}, overrides: {} }),
     }),
     {
@@ -129,3 +146,9 @@ export const useRoster = create<RosterState>()(
     },
   ),
 )
+
+// Snapshot of the roster suitable for download as a JSON backup.
+export function exportRoster(): RosterExport {
+  const s = useRoster.getState()
+  return { app: 'uma-tt-builder', version: 1, owned: s.owned, overrides: s.overrides, settings: s.settings }
+}
