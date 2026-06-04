@@ -38,13 +38,30 @@ function GithubMark({ className = 'h-4 w-4' }: { className?: string }) {
   )
 }
 
-function Sidebar({ tab, setTab, ownedCount, metaTeams }: { tab: Tab; setTab: (t: Tab) => void; ownedCount: number; metaTeams: number }) {
+function Sidebar({
+  tab,
+  setTab,
+  ownedCount,
+  metaTeams,
+  open,
+  onClose,
+}: {
+  tab: Tab
+  setTab: (t: Tab) => void
+  ownedCount: number
+  metaTeams: number
+  open: boolean
+  onClose: () => void
+}) {
   const nav = (key: Tab, label: string, icon: string, count: number) => {
     const active = tab === key
     return (
       <button
         key={key}
-        onClick={() => setTab(key)}
+        onClick={() => {
+          setTab(key)
+          onClose()
+        }}
         className={`flex w-full items-center gap-2.5 rounded-md px-2.5 py-2 text-[13px] font-medium transition-colors ${
           active ? 'bg-accent-soft text-text' : 'text-muted hover:bg-white/[0.04] hover:text-text'
         }`}
@@ -56,7 +73,11 @@ function Sidebar({ tab, setTab, ownedCount, metaTeams }: { tab: Tab; setTab: (t:
     )
   }
   return (
-    <aside className="fixed inset-y-0 left-0 z-10 flex w-[232px] flex-col border-r border-border bg-sidebar px-3 py-4">
+    <aside
+      className={`fixed inset-y-0 left-0 z-40 flex w-[232px] flex-col border-r border-border bg-sidebar px-3 py-4 transition-transform duration-200 md:z-10 md:translate-x-0 ${
+        open ? 'translate-x-0 shadow-2xl' : '-translate-x-full'
+      }`}
+    >
       <div className="flex items-center gap-2.5 px-1.5">
         <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-[#7e88e0] to-[#5a63c9] text-[13px] font-bold text-white">
           TT
@@ -161,6 +182,7 @@ function SettingsMenu() {
 export default function App() {
   const { data, error, loading } = useGameData()
   const [tab, setTab] = useState<Tab>('teams')
+  const [navOpen, setNavOpen] = useState(false)
   const owned = useRoster((s) => s.owned)
   const theme = useRoster((s) => s.settings.theme)
   const updateSettings = useRoster((s) => s.updateSettings)
@@ -180,15 +202,35 @@ export default function App() {
 
   return (
     <div className="min-h-full">
-      <Sidebar tab={tab} setTab={setTab} ownedCount={ownedCount} metaTeams={data?.ttMeta?.teams ?? 0} />
+      <Sidebar
+        tab={tab}
+        setTab={setTab}
+        ownedCount={ownedCount}
+        metaTeams={data?.ttMeta?.teams ?? 0}
+        open={navOpen}
+        onClose={() => setNavOpen(false)}
+      />
+      {navOpen && (
+        <div className="fixed inset-0 z-30 bg-black/40 backdrop-blur-sm md:hidden" onClick={() => setNavOpen(false)} />
+      )}
 
-      <div className="ml-[232px]">
-        <div className="sticky top-0 z-10 flex items-center justify-between border-b border-border bg-bg/85 px-7 py-4 backdrop-blur">
-          <div>
-            <h1 className="text-[18px] font-semibold text-text">{title}</h1>
-            <p className="text-[12px] text-faint">{subtitle}</p>
+      <div className="md:ml-[232px]">
+        <div className="sticky top-0 z-10 flex items-center justify-between gap-3 border-b border-border bg-bg/85 px-4 py-4 backdrop-blur md:px-7">
+          <div className="flex min-w-0 items-center gap-2">
+            <button
+              onClick={() => setNavOpen(true)}
+              className="grid h-[34px] w-[34px] shrink-0 place-items-center rounded-lg border border-border bg-surface text-muted hover:text-text md:hidden"
+              title="Menu"
+              aria-label="Open menu"
+            >
+              <Icon d="M4 6h16M4 12h16M4 18h16" />
+            </button>
+            <div className="min-w-0">
+              <h1 className="truncate text-[18px] font-semibold text-text">{title}</h1>
+              <p className="truncate text-[12px] text-faint">{subtitle}</p>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <button
               onClick={() => updateSettings({ theme: theme === 'dark' ? 'light' : 'dark' })}
               className="grid h-[34px] w-[34px] place-items-center rounded-lg border border-border bg-surface text-muted hover:text-text"
@@ -200,7 +242,7 @@ export default function App() {
           </div>
         </div>
 
-        <main className="px-7 py-6">
+        <main className="px-4 py-6 md:px-7">
           {loading && <div className="py-20 text-center text-muted">Loading game data…</div>}
           {error && (
             <div className="rounded-xl border border-bad/40 bg-bad/10 p-6 text-center text-bad">
