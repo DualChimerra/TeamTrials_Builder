@@ -1,7 +1,7 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Grade } from './types'
 import { useGameData } from './data/useGameData'
-import { useRoster } from './state/store'
+import { exportRoster, useRoster, type RosterExport } from './state/store'
 import { Roster } from './components/Roster'
 import { Teams } from './components/Teams'
 import { Rankings } from './components/Rankings'
@@ -22,6 +22,8 @@ const I = {
   sun: 'M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z',
   moon: 'M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z',
   gear: 'M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm7.4-3a7.5 7.5 0 0 0-.1-1l2-1.5-2-3.46-2.4 1a7.6 7.6 0 0 0-1.7-1l-.4-2.54H9.8L9.4 5.5a7.6 7.6 0 0 0-1.7 1l-2.4-1-2 3.46 2 1.5a7.6 7.6 0 0 0 0 2l-2 1.5 2 3.46 2.4-1c.5.4 1.1.74 1.7 1l.4 2.54h4.4l.4-2.54c.6-.26 1.2-.6 1.7-1l2.4 1 2-3.46-2-1.5c.07-.33.1-.66.1-1Z',
+  download: 'M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2',
+  upload: 'M12 21V9m0 0 4 4m-4-4-4 4M4 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2',
 }
 function Icon({ d, className = 'h-4 w-4' }: { d: string; className?: string }) {
   return (
@@ -122,8 +124,38 @@ function Sidebar({
 function SettingsMenu() {
   const settings = useRoster((s) => s.settings)
   const updateSettings = useRoster((s) => s.updateSettings)
+  const importData = useRoster((s) => s.importData)
   const reset = useRoster((s) => s.reset)
   const [open, setOpen] = useState(false)
+  const fileInput = useRef<HTMLInputElement>(null)
+
+  const handleExport = () => {
+    const blob = new Blob([JSON.stringify(exportRoster(), null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `tt-roster-${new Date().toISOString().slice(0, 10)}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  const handleImport = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    e.target.value = '' // allow re-importing the same file
+    if (!file) return
+    file
+      .text()
+      .then((txt) => {
+        const data = JSON.parse(txt) as RosterExport
+        if (!data || typeof data !== 'object' || (!data.owned && !data.overrides && !data.settings)) {
+          throw new Error('Not a roster file')
+        }
+        importData(data)
+        setOpen(false)
+      })
+      .catch(() => alert('Could not import: the file is not a valid roster JSON.'))
+  }
+
   return (
     <div className="relative">
       <button
@@ -163,6 +195,24 @@ function SettingsMenu() {
                 onChange={(v: Grade) => updateSettings({ minAptitude: v })}
                 options={(['A', 'B', 'C', 'D', 'E', 'G'] as Grade[]).map((g) => ({ value: g, label: g }))}
               />
+            </div>
+            <div className="space-y-1.5 border-t border-border pt-2.5">
+              <div className="text-[11px] uppercase tracking-wide text-faint">Roster backup</div>
+              <div className="flex gap-1.5">
+                <button
+                  onClick={handleExport}
+                  className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-border bg-surface px-2.5 py-1.5 text-[13px] text-muted hover:text-text"
+                >
+                  <Icon d={I.download} /> Export
+                </button>
+                <button
+                  onClick={() => fileInput.current?.click()}
+                  className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-border bg-surface px-2.5 py-1.5 text-[13px] text-muted hover:text-text"
+                >
+                  <Icon d={I.upload} /> Import
+                </button>
+                <input ref={fileInput} type="file" accept="application/json,.json" className="hidden" onChange={handleImport} />
+              </div>
             </div>
             <button
               onClick={() => {
