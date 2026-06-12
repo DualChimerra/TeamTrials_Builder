@@ -1,0 +1,1975 @@
+[
+ {
+  "name": "All-Seeing Eyes",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Beeline Burst",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Best in Japan",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Big-Sisterly",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Blast Forward",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Breath of Fresh Air",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Burning Spirit GUTS",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Burning Spirit PWR",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Burning Spirit SPD",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Burning Spirit STA",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Burning Spirit WIT",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Calm and Collected",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Center Stage",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Clairvoyance",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Concentration",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Cooldown",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Corner Connoisseur",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Crusader",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Daring Strike",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Dazzling Disorientation",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Dream Run",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Encroaching Shadow",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Escape Artist",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Fast & Furious",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Flash Forward",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Gourmand",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Hard Worker",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Illusionist",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "In Body and Mind",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "It's On!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "trickBack"
+  }
+ },
+ {
+  "name": "Keep Going!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Lane Legerdemain",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Lead the Charge!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Lie in Wait",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Miraculous Step",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Moonlit Flash",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Neck and Neck",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "On Your Left!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Overwhelming Pressure",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Perfect Prep!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Professor of Curvature",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Race Planner",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Refraction Arc",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Relax",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Rising Dragon",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Runaway",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Rushing Gale!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Sleeping Lion",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Speed Star",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Step on the Gas!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Sturm und Drang",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Swinging Maestro",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Taking the Lead",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Technician",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "The Bigger Picture",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "The Coast Is Clear!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Turbo Sprint",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "VIP Pass",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "15,000,000 CC",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Adored by All",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Adrenaline Rush",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Battle Formation",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Blinding Flash",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Burning Soul",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Changing Gears",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Come What May",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Determined Descent",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Dominator",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Elated",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "From the Brink",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Full of Vigor",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Furious Feat",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Go-Home Specialist",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Greed for Speed",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Headliner",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "In High Spirits",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Indomitable",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Keen Eye",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Killer Tunes",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Lightning Step",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Master of the Sands",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Mile Maven",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "No Stopping Me!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Of Calm Mind",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Petrifying Gaze",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Plan X",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Reignition",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Restless",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "See Ya Later!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Shatterproof",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Sixth Sense",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Staggering Lead",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Stamina Siphon",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Top Runner",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Trackblazer",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Trending in the Charts!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Unrestrained",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Unyielding",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Vanguard Spirit",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Wild Wind",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "You've Got No Shot",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "A Small Breather",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Acceleration",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Be Still",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Corner Acceleration ○",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Corner Adept ○",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Corner Recovery ○",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Deep Breaths",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Disorient",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Early Lead",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Early Start",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "End Closer Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "End Closer Savvy ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "End Closer Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Fast-Paced",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Fighter",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Focus",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Forward, March!",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Front Runner Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Front Runner Savvy ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Front Runner Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Full Throttle",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Go with the Flow",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Hawkeye",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Head-On",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Homestretch Haste",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Hydrate",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "I Can See Right Through You",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Ignited Spirit GUTS",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Ignited Spirit PWR",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Ignited Spirit SPD",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Ignited Spirit STA",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Ignited Spirit WIT",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Late Surger Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Late Surger Savvy ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Late Surger Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Long Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Long Race Enthusiast",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Long Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Masterful Gambit",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Medium Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Medium Race Enthusiast",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Medium Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Meticulous Measures",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Mile Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Mile Race Enthusiast",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Mile Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Outer Swell",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Pace Chaser Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Pace Chaser Savvy ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Pace Chaser Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Passing Pro",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Position Pilfer",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Preferred Position",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Prepared to Pass",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Pressure",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Prudent Positioning",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Ramp Up",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "trickBack"
+  }
+ },
+ {
+  "name": "Sharp Gaze",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Shrewd Step",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Slick Surge",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Smoke Screen",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Soft Step",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Sprint Corners ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Sprint Straightaways ◎",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Sprinting Gear",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Stamina to Spare",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Standing By",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Straightaway Acceleration",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Straightaway Adept",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Straightaway Recovery",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Straightaway Spurt",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Strategist",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Studious",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Triple 7s",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Unyielding Spirit",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "1,500,000 CC",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "After-School Stroll",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "All I've Got",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Countermeasure",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Dodging Danger",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Downhill Speedster",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Eager",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Extra Tank",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Familiar Ground",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Feature Act",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Fighting Spirit",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Final Push",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Free-Spirited",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Gap Closer",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Highlander",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Huge Lead",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Intense Gaze",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
+  "name": "Intimidate",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Keeping the Lead",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Leader's Pride",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Light as a Feather",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Moxie",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Nimble Navigator",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Opening Gambit",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Pace Strategy",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Playtime's Over!",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Productive Plan",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Pumped",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Restart",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Rosy Outlook",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Second Wind",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Shifting Gears",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Slipstream",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Speed Eater",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Stamina Eater",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Steadfast",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Stop Right There!",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Straight Descent",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Tactical Tweak",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
+  "name": "Take the Chance",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Tether",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Thunderbolt Step",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Top Pick",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Up-Tempo",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Updrafters",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Wait-and-See",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Watchful Eye",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "With All My Soul",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ }
+]

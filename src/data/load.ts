@@ -1,4 +1,6 @@
 import type { Card, Dataset, Skill, SupportCard, TtMeta } from '../types'
+import { setAutoGuaranteed } from '../scoring/classify'
+import type { GuaranteedEntry } from '../scoring/guaranteedSkills'
 
 const base = import.meta.env.BASE_URL
 
@@ -37,6 +39,17 @@ export function loadGameData(): Promise<GameData> {
       if (r.ok) supports = await r.json()
     } catch {
       supports = {}
+    }
+    // Auto-classified guaranteed skills (optional) — merged behind the
+    // curated list so newly released skills are picked up automatically.
+    try {
+      const r = await fetch(`${base}data/guaranteed_auto.json`)
+      if (r.ok) {
+        const auto: GuaranteedEntry[] = await r.json()
+        if (Array.isArray(auto)) setAutoGuaranteed(auto)
+      }
+    } catch {
+      // fall back to the curated list only
     }
     return { cards: ds.cards, skills, version: ds.version, ttMeta, supports }
   })()

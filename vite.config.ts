@@ -9,4 +9,8 @@ const base = process.env.VITE_BASE ?? '/TeamTrials_Builder/'
 export default defineConfig({
   base,
   plugins: [react(), tailwindcss()],
+  server: {
+    // honour PORT from the environment (e.g. preview tooling)
+    port: process.env.PORT ? Number(process.env.PORT) : undefined,
+  },
 })

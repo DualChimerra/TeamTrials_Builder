@@ -125,6 +125,10 @@ def main():
     if sw:
         print("sample Special Week potential:", sw["potential"])
 
+    # Auto-classify guaranteed-activation skills -> guaranteed_auto.json
+    import classify_guaranteed
+    classify_guaranteed.main()
+
 
 if __name__ == "__main__":
     main()

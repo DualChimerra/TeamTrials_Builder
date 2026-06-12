@@ -47,6 +47,9 @@ const GENERAL: GuaranteedEntry[] = scoped({ kind: 'general' }, [
   g('Rushing Gale!'),
   g('Lane Legerdemain'),
   g('Concentration'),
+  g('Dream Run'),
+  gb('See Ya Later!'),
+  gb('No Stopping Me!'),
   // normals
   n('Prudent Positioning'),
   n('Corner Recovery'),
@@ -63,6 +66,8 @@ const GENERAL: GuaranteedEntry[] = scoped({ kind: 'general' }, [
   nb('Slipstream'),
   nb("Playtime's Over!"),
   nb('Highlander'),
+  nb('Nimble Navigator'),
+  nb('Downhill Speedster'),
 ])
 
 // ---- Positional generics tied to a race category --------------------------
@@ -93,6 +98,9 @@ const FRONT = scoped({ kind: 'style', style: 'front' }, [
   g('Taking The Lead'),
   gb('Unrestrained'),
   gb('Restless'),
+  gb('Top Runner'),
+  gb('Reignition'),
+  nb('Second Wind'),
   n('Fast-Paced'),
   n('Early Lead'),
   nb('Final Push'),
@@ -106,8 +114,12 @@ const PACE = scoped({ kind: 'style', style: 'pace' }, [
   g('Speed Star'),
   g('Technician'),
   g('Dazzling Disorientation'),
+  g('Neck and Neck'),
   gb('Calm and Collected'),
   gb('Determined Descent'),
+  gb('Shatterproof'),
+  n('Head-On'),
+  nb('Tactical Tweak'),
   n('Hydrate'),
   n('Preferred Position'),
   n('Prepared to Pass'),
@@ -122,6 +134,10 @@ const LATE = scoped({ kind: 'style', style: 'late' }, [
   g('Hard Worker'),
   g('The Bigger Picture'),
   g('All-Seeing Eyes'),
+  g('Keep Going!'),
+  g('Lie in Wait'),
+  n('Full Throttle'),
+  n('Be Still'),
   gb('15,000,000 CC'),
   gb('Rising Dragon'),
   gb('On Your Left!'),
@@ -139,6 +155,10 @@ const LATE = scoped({ kind: 'style', style: 'late' }, [
 const END = scoped({ kind: 'style', style: 'end' }, [
   g('Encroaching Shadow'),
   g('The Coast Is Clear!'),
+  g('Daring Strike'),
+  g('Sturm und Drang'),
+  n('Early Start'),
+  n('Masterful Gambit'),
   gb('Sleeping Lion'),
   gb('Go-Home Specialist'),
   gb('Crusader'),
@@ -152,8 +172,8 @@ const END = scoped({ kind: 'style', style: 'end' }, [
 ])
 
 const TRICK: GuaranteedEntry[] = [
-  ...scoped({ kind: 'trickFront' }, [n('Trick (Front)')]),
-  ...scoped({ kind: 'trickBack' }, [n('Trick (Rear)')]),
+  ...scoped({ kind: 'trickFront' }, [n('Trick (Front)'), gb('Indomitable'), nb('Pace Strategy')]),
+  ...scoped({ kind: 'trickBack' }, [n('Trick (Rear)'), g("It's On!"), n('Ramp Up')]),
 ]
 
 // ---- Per race category -----------------------------------------------------
@@ -165,6 +185,8 @@ const SPRINT = scoped({ kind: 'dist', category: 'sprint' }, [
   gb('Staggering Lead'),
   gb("You've Got No Shot"),
   gb('Blinding Flash'),
+  gb('In High Spirits'),
+  nb('Light as a Feather'),
   n('Sprinting Gear'),
   n('Meticulous Measures'),
   nb('Wait-and-See'),
@@ -184,6 +206,8 @@ const MILE = scoped({ kind: 'dist', category: 'mile' }, [
   gb('Mile Maven'),
   gb('Keen Eye'),
   gb('Battle Formation'),
+  gb('Full of Vigor'),
+  nb('Pumped'),
   n('Unyielding Spirit'),
   n('Acceleration'),
   nb('Shifting Gears'),
@@ -197,25 +221,46 @@ const MILE = scoped({ kind: 'dist', category: 'mile' }, [
 const MEDIUM = scoped({ kind: 'dist', category: 'medium' }, [
   g('Clairvoyance'),
   g('Miraculous Step'),
+  g('Flash Forward'),
   gb('Killer Tunes'),
   gb('Lightning Step'),
   gb('Trackblazer'),
   gb('Dominator'),
+  gb('Wild Wind'),
+  gb('Unyielding'),
+  gb('From the Brink'),
+  gb('Come What May'),
+  gb('Burning Soul'),
   n('Hawkeye'),
   n('Soft Step'),
   nb('Up-Tempo'),
   nb('Thunderbolt Step'),
   nb('Rosy Outlook'),
   nb('Tether'),
+  nb('With All My Soul'),
+  nb('Steadfast'),
+  nb('Take the Chance'),
+  nb('Eager'),
+  nb("All I've Got"),
+  nb('Fighting Spirit'),
 ])
 
 const LONG = scoped({ kind: 'dist', category: 'long' }, [
   g('Illusionist'),
   g('Overwhelming Pressure'),
   g('Cooldown'),
+  g('Blast Forward'),
+  g('Best in Japan'),
+  g('VIP Pass'),
+  g('Adrenaline Rush'),
   gb('Stamina Siphon'),
   gb('Vanguard Spirit'),
+  gb('Headliner'),
+  gb('Of Calm Mind'),
   n('Smoke Screen'),
+  n('Extra Tank'),
+  nb('Feature Act'),
+  nb('Free-Spirited'),
   n('Pressure'),
   n('Deep Breaths'),
   n('Passing Pro'),
@@ -223,7 +268,14 @@ const LONG = scoped({ kind: 'dist', category: 'long' }, [
   nb('Keeping the Lead'),
 ])
 
-const DIRT = scoped({ kind: 'dist', category: 'dirt' }, [g('Lead the Charge!'), n('Forward, March!')])
+const DIRT = scoped({ kind: 'dist', category: 'dirt' }, [
+  g('Lead the Charge!'),
+  gb('Master of the Sands'),
+  gb('Trending in the Charts!'),
+  n('Forward, March!'),
+  nb('Familiar Ground'),
+  nb('Top Pick'),
+])
 
 export const GUARANTEED: GuaranteedEntry[] = [
   ...GENERAL,
