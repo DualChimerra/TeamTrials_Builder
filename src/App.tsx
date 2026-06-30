@@ -2,12 +2,14 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Grade } from './types'
 import { useGameData } from './data/useGameData'
 import { exportRoster, useRoster, type RosterExport } from './state/store'
+import { allGuaranteedEntries } from './scoring/classify'
 import { Roster } from './components/Roster'
 import { Teams } from './components/Teams'
 import { Rankings } from './components/Rankings'
+import { Skills } from './components/Skills'
 import { Segmented, Toggle } from './components/ui'
 
-type Tab = 'teams' | 'roster' | 'rankings'
+type Tab = 'teams' | 'roster' | 'rankings' | 'skills'
 
 const GITHUB_URL = 'https://github.com/DualChimerra'
 const KOFI_URL = 'https://ko-fi.com/dualchimerra'
@@ -16,6 +18,7 @@ const I = {
   trophy: 'M6 3h12v2a4 4 0 0 1-3 3.87V11a3 3 0 0 0 6 0M6 5V3m0 2a4 4 0 0 0 3 3.87M9 21h6m-3-3v3m0-3a3 3 0 0 1-3-3',
   grid: 'M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z',
   chart: 'M4 20V10m6 10V4m6 16v-7M4 20h16',
+  spark: 'M13 2 4 14h7l-1 8 9-12h-7l1-8Z',
   github:
     'M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49l-.01-1.86c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9l-.01 2.81c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z',
   heart: 'M12 21s-7-4.35-9.5-8.5C1 9.5 2.5 6 6 6c2 0 3 1.5 3 1.5S10 6 12 6s3.5 1 3.5 1.5S16 6 18 6c3.5 0 5 3.5 3.5 6.5C19 16.65 12 21 12 21Z',
@@ -45,6 +48,7 @@ function Sidebar({
   setTab,
   ownedCount,
   metaTeams,
+  skillsCount,
   open,
   onClose,
 }: {
@@ -52,6 +56,7 @@ function Sidebar({
   setTab: (t: Tab) => void
   ownedCount: number
   metaTeams: number
+  skillsCount: number
   open: boolean
   onClose: () => void
 }) {
@@ -94,6 +99,7 @@ function Sidebar({
       <nav className="mt-2 space-y-1">
         {nav('teams', 'Teams', I.trophy, 5)}
         {nav('rankings', 'Top-100 meta', I.chart, metaTeams)}
+        {nav('skills', 'Skills', I.spark, skillsCount)}
         {nav('roster', 'Roster', I.grid, ownedCount)}
       </nav>
 
@@ -237,17 +243,22 @@ export default function App() {
   const theme = useRoster((s) => s.settings.theme)
   const updateSettings = useRoster((s) => s.updateSettings)
   const ownedCount = useMemo(() => Object.values(owned).filter((o) => o.owned).length, [owned])
+  // depends on `data` so it recomputes after guaranteed_auto.json is merged in
+  const skillsCount = useMemo(() => (data ? allGuaranteedEntries().length : 0), [data])
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme
   }, [theme])
 
-  const title = tab === 'teams' ? 'Suggested teams' : tab === 'rankings' ? 'Top-100 meta' : 'Roster'
+  const title =
+    tab === 'teams' ? 'Suggested teams' : tab === 'rankings' ? 'Top-100 meta' : tab === 'skills' ? 'Scored skills' : 'Roster'
   const subtitle =
     tab === 'teams'
       ? 'Three distinct styles per race · scored on guaranteed skills'
       : tab === 'rankings'
       ? `Most-used horses & skills per race and style · from the top ${data?.ttMeta?.teams ?? 100} Team Trials players`
+      : tab === 'skills'
+      ? 'Every guaranteed-activation skill that counts toward scoring · auto-updated from new releases'
       : 'Mark the horses on your account, their stars and potential.'
 
   return (
@@ -257,6 +268,7 @@ export default function App() {
         setTab={setTab}
         ownedCount={ownedCount}
         metaTeams={data?.ttMeta?.teams ?? 0}
+        skillsCount={skillsCount}
         open={navOpen}
         onClose={() => setNavOpen(false)}
       />
@@ -305,6 +317,8 @@ export default function App() {
                 <Teams cards={data.cards} skills={data.skills} ttMeta={data.ttMeta} />
               ) : tab === 'rankings' ? (
                 <Rankings cards={data.cards} skills={data.skills} ttMeta={data.ttMeta} supports={data.supports} />
+              ) : tab === 'skills' ? (
+                <Skills skills={data.skills} />
               ) : (
                 <Roster cards={data.cards} />
               )}

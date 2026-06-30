@@ -30,6 +30,12 @@ export function setAutoGuaranteed(auto: GuaranteedEntry[]): void {
   LOOKUP = buildLookup(auto)
 }
 
+// All criteria-matching skills currently in scope (curated + auto-classified,
+// de-duplicated by name with the curated entry winning). Used by the Skills tab.
+export function allGuaranteedEntries(): GuaranteedEntry[] {
+  return Array.from(LOOKUP.values())
+}
+
 export type Origin = 'inherit' | 'potential' | 'event' | 'unique'
 
 export interface MatchedSkill {
