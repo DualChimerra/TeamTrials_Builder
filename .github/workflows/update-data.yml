@@ -1,11 +1,14 @@
 name: Refresh game data
 
-# Re-pulls EN game data from gametora + master.mdb weekly so new global horses
-# and skills appear automatically. Commits only if something changed, then
-# triggers the Pages deploy. Can also be run manually.
+# Re-pulls EN game data from gametora + master.mdb daily so new global horses
+# (umas) and skills appear automatically. build_dataset.py rebuilds every card
+# from character-cards.raw.json, and classify_guaranteed.py re-scans skills for
+# criteria-matching entries — so both new umas and new scored skills are picked
+# up without manual edits. Commits only if something changed, then triggers the
+# Pages deploy. Can also be run manually.
 on:
   schedule:
-    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+    - cron: '0 6 * * *' # daily 06:00 UTC
   workflow_dispatch:
 
 permissions:
