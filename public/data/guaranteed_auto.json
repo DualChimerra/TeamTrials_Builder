@@ -17,6 +17,15 @@
   }
  },
  {
+  "name": "Before Anyone!",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
   "name": "Best in Japan",
   "tier": "gold",
   "bracket": false,
@@ -41,6 +50,15 @@
   "scope": {
    "kind": "dist",
    "category": "long"
+  }
+ },
+ {
+  "name": "Breakin' Ahead",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
   }
  },
  {
@@ -118,6 +136,15 @@
   }
  },
  {
+  "name": "Claw Forward",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
   "name": "Concentration",
   "tier": "gold",
   "bracket": false,
@@ -140,6 +167,24 @@
   "bracket": false,
   "scope": {
    "kind": "general"
+  }
+ },
+ {
+  "name": "Crescent Gale",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Crescent Gust",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
   }
  },
  {
@@ -214,6 +259,15 @@
   }
  },
  {
+  "name": "Givin' It 1000%",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
   "name": "Gourmand",
   "tier": "gold",
   "bracket": false,
@@ -224,6 +278,15 @@
  },
  {
   "name": "Hard Worker",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Hot Pursuit",
   "tier": "gold",
   "bracket": false,
   "scope": {
@@ -292,6 +355,33 @@
   }
  },
  {
+  "name": "Light-Footed as a Hare",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Lightning Step",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Miracle for My Future",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
   "name": "Miraculous Step",
   "tier": "gold",
   "bracket": false,
@@ -337,6 +427,14 @@
   }
  },
  {
+  "name": "Past My Limits",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
   "name": "Perfect Prep!",
   "tier": "gold",
   "bracket": false,
@@ -363,12 +461,30 @@
   }
  },
  {
+  "name": "Rampaging Passion",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
   "name": "Refraction Arc",
   "tier": "gold",
   "bracket": false,
   "scope": {
    "kind": "dist",
    "category": "medium"
+  }
+ },
+ {
+  "name": "Reignition",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
   }
  },
  {
@@ -407,6 +523,42 @@
   }
  },
  {
+  "name": "Send It! ☆",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Sharp Arc",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Sharp Streak",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Shocking Flash",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
   "name": "Sleeping Lion",
   "tier": "gold",
   "bracket": false,
@@ -440,6 +592,15 @@
   "scope": {
    "kind": "style",
    "style": "end"
+  }
+ },
+ {
+  "name": "Superb Gait",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
   }
  },
  {
@@ -496,6 +657,15 @@
   }
  },
  {
+  "name": "Unstoppable",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
   "name": "VIP Pass",
   "tier": "gold",
   "bracket": false,
@@ -505,7 +675,41 @@
   }
  },
  {
+  "name": "Vying for the Throne",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Wisdom of the Earth",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Wisdom of the Sea",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
   "name": "15,000,000 CC",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "A Journey in a Step",
   "tier": "gold",
   "bracket": true,
   "scope": {
@@ -541,6 +745,24 @@
   }
  },
  {
+  "name": "Be the Center!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Beautiful Form",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
   "name": "Blinding Flash",
   "tier": "gold",
   "bracket": true,
@@ -556,6 +778,33 @@
   "scope": {
    "kind": "dist",
    "category": "medium"
+  }
+ },
+ {
+  "name": "Can't Even Catch My Shadow",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "Can't Keep Me Down",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
+  "name": "Chance of Victory",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
   }
  },
  {
@@ -577,6 +826,15 @@
   }
  },
  {
+  "name": "Dancer in the Dirt",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "Determined Descent",
   "tier": "gold",
   "bracket": true,
@@ -595,6 +853,15 @@
   }
  },
  {
+  "name": "Dust Cloud Idol",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "Elated",
   "tier": "gold",
   "bracket": true,
@@ -610,6 +877,15 @@
   "scope": {
    "kind": "dist",
    "category": "medium"
+  }
+ },
+ {
+  "name": "Full Speed!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
   }
  },
  {
@@ -658,6 +934,15 @@
   }
  },
  {
+  "name": "High Voltage",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
   "name": "In High Spirits",
   "tier": "gold",
   "bracket": true,
@@ -693,12 +978,11 @@
   }
  },
  {
-  "name": "Lightning Step",
+  "name": "Master of Declines",
   "tier": "gold",
   "bracket": true,
   "scope": {
-   "kind": "dist",
-   "category": "medium"
+   "kind": "general"
   }
  },
  {
@@ -737,6 +1021,14 @@
   }
  },
  {
+  "name": "Perfect Spot!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
   "name": "Petrifying Gaze",
   "tier": "gold",
   "bracket": true,
@@ -755,12 +1047,12 @@
   }
  },
  {
-  "name": "Reignition",
+  "name": "Reckless Charge",
   "tier": "gold",
   "bracket": true,
   "scope": {
-   "kind": "style",
-   "style": "front"
+   "kind": "dist",
+   "category": "mile"
   }
  },
  {
@@ -773,11 +1065,38 @@
   }
  },
  {
+  "name": "Rising Pulse",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Run Like Crazy!",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "See Ya Later!",
   "tier": "gold",
   "bracket": true,
   "scope": {
    "kind": "general"
+  }
+ },
+ {
+  "name": "Serenity",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "end"
   }
  },
  {
@@ -809,6 +1128,15 @@
  },
  {
   "name": "Stamina Siphon",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Sure Shot",
   "tier": "gold",
   "bracket": true,
   "scope": {
@@ -853,15 +1181,6 @@
   }
  },
  {
-  "name": "Unyielding",
-  "tier": "gold",
-  "bracket": true,
-  "scope": {
-   "kind": "dist",
-   "category": "medium"
-  }
- },
- {
   "name": "Vanguard Spirit",
   "tier": "gold",
   "bracket": true,
@@ -877,6 +1196,14 @@
   "scope": {
    "kind": "dist",
    "category": "medium"
+  }
+ },
+ {
+  "name": "Wisdom of the Sun",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
   }
  },
  {
@@ -916,6 +1243,15 @@
   }
  },
  {
+  "name": "Breakin' Out",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
   "name": "Corner Acceleration ○",
   "tier": "normal",
   "bracket": false,
@@ -933,6 +1269,14 @@
  },
  {
   "name": "Corner Recovery ○",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Dashing Hero",
   "tier": "normal",
   "bracket": false,
   "scope": {
@@ -976,6 +1320,14 @@
   }
  },
  {
+  "name": "Earth's Blessing",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
   "name": "End Closer Corners ◎",
   "tier": "normal",
   "bracket": false,
@@ -1000,6 +1352,14 @@
   "scope": {
    "kind": "style",
    "style": "end"
+  }
+ },
+ {
+  "name": "Eyes on the Goal",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
   }
  },
  {
@@ -1079,6 +1439,24 @@
   "bracket": false,
   "scope": {
    "kind": "general"
+  }
+ },
+ {
+  "name": "Goin' First",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Graceful Gait",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
   }
  },
  {
@@ -1166,6 +1544,15 @@
   }
  },
  {
+  "name": "Latch On",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
   "name": "Late Surger Corners ◎",
   "tier": "normal",
   "bracket": false,
@@ -1217,6 +1604,15 @@
   "scope": {
    "kind": "dist",
    "category": "long"
+  }
+ },
+ {
+  "name": "Mad Dash",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
   }
  },
  {
@@ -1292,6 +1688,15 @@
   }
  },
  {
+  "name": "On the Attack",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "pace"
+  }
+ },
+ {
   "name": "Outer Swell",
   "tier": "normal",
   "bracket": false,
@@ -1329,6 +1734,15 @@
  },
  {
   "name": "Passing Pro",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Pop Off!",
   "tier": "normal",
   "bracket": false,
   "scope": {
@@ -1381,11 +1795,53 @@
   }
  },
  {
+  "name": "Racing Spirit: Power",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "trickBack"
+  }
+ },
+ {
+  "name": "Racing Spirit: Speed",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
   "name": "Ramp Up",
   "tier": "normal",
   "bracket": false,
   "scope": {
    "kind": "trickBack"
+  }
+ },
+ {
+  "name": "Scramble",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "Sea's Blessing",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Second Wind",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "front"
   }
  },
  {
@@ -1443,6 +1899,15 @@
   }
  },
  {
+  "name": "Sprint Race Enthusiast",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
   "name": "Sprint Straightaways ◎",
   "tier": "normal",
   "bracket": false,
@@ -1476,6 +1941,15 @@
   "scope": {
    "kind": "style",
    "style": "end"
+  }
+ },
+ {
+  "name": "Start the Charge",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
   }
  },
  {
@@ -1530,11 +2004,38 @@
   }
  },
  {
+  "name": "Thunderbolt Step",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
   "name": "Triple 7s",
   "tier": "normal",
   "bracket": false,
   "scope": {
    "kind": "general"
+  }
+ },
+ {
+  "name": "Undistracted",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
+  }
+ },
+ {
+  "name": "Unrestrained Passion",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
   }
  },
  {
@@ -1574,6 +2075,33 @@
   }
  },
  {
+  "name": "Beating Heart",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
+  }
+ },
+ {
+  "name": "Break the Mold",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "medium"
+  }
+ },
+ {
+  "name": "Comeback",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "Countermeasure",
   "tier": "normal",
   "bracket": true,
@@ -1592,11 +2120,29 @@
   }
  },
  {
+  "name": "Down in the Dirt ○",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "Downhill Speedster",
   "tier": "normal",
   "bracket": true,
   "scope": {
    "kind": "general"
+  }
+ },
+ {
+  "name": "Dust Cloud",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
   }
  },
  {
@@ -1654,6 +2200,24 @@
   }
  },
  {
+  "name": "Firm Resolve",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "front"
+  }
+ },
+ {
+  "name": "First Step",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
   "name": "Free-Spirited",
   "tier": "normal",
   "bracket": true,
@@ -1663,12 +2227,30 @@
   }
  },
  {
+  "name": "Full Tilt",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "Gap Closer",
   "tier": "normal",
   "bracket": true,
   "scope": {
    "kind": "dist",
    "category": "sprint"
+  }
+ },
+ {
+  "name": "Got the Spirit!",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
   }
  },
  {
@@ -1725,12 +2307,39 @@
   }
  },
  {
+  "name": "Leap Forward",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
+  "name": "Levelheaded",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "style",
+   "style": "end"
+  }
+ },
+ {
   "name": "Light as a Feather",
   "tier": "normal",
   "bracket": true,
   "scope": {
    "kind": "dist",
    "category": "sprint"
+  }
+ },
+ {
+  "name": "Locked On",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "long"
   }
  },
  {
@@ -1748,6 +2357,15 @@
   "bracket": true,
   "scope": {
    "kind": "general"
+  }
+ },
+ {
+  "name": "No Looking Back",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "mile"
   }
  },
  {
@@ -1794,6 +2412,23 @@
   }
  },
  {
+  "name": "Racing Spirit: Stamina",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Rapid Gain",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
+  }
+ },
+ {
   "name": "Restart",
   "tier": "normal",
   "bracket": true,
@@ -1803,7 +2438,7 @@
   }
  },
  {
-  "name": "Rosy Outlook",
+  "name": "Rising Heat",
   "tier": "normal",
   "bracket": true,
   "scope": {
@@ -1812,12 +2447,12 @@
   }
  },
  {
-  "name": "Second Wind",
+  "name": "Rosy Outlook",
   "tier": "normal",
   "bracket": true,
   "scope": {
-   "kind": "style",
-   "style": "front"
+   "kind": "dist",
+   "category": "medium"
   }
  },
  {
@@ -1856,15 +2491,6 @@
   }
  },
  {
-  "name": "Steadfast",
-  "tier": "normal",
-  "bracket": true,
-  "scope": {
-   "kind": "dist",
-   "category": "medium"
-  }
- },
- {
   "name": "Stop Right There!",
   "tier": "normal",
   "bracket": true,
@@ -1880,6 +2506,23 @@
   "scope": {
    "kind": "style",
    "style": "pace"
+  }
+ },
+ {
+  "name": "Sun's Blessing",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "general"
+  }
+ },
+ {
+  "name": "Sunny Sign",
+  "tier": "normal",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "dirt"
   }
  },
  {
@@ -1902,15 +2545,6 @@
  },
  {
   "name": "Tether",
-  "tier": "normal",
-  "bracket": true,
-  "scope": {
-   "kind": "dist",
-   "category": "medium"
-  }
- },
- {
-  "name": "Thunderbolt Step",
   "tier": "normal",
   "bracket": true,
   "scope": {
