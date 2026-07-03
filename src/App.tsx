@@ -318,7 +318,7 @@ export default function App() {
               ) : tab === 'rankings' ? (
                 <Rankings cards={data.cards} skills={data.skills} ttMeta={data.ttMeta} supports={data.supports} />
               ) : tab === 'skills' ? (
-                <Skills skills={data.skills} />
+                <Skills skills={data.skills} cards={data.cards} />
               ) : (
                 <Roster cards={data.cards} />
               )}
