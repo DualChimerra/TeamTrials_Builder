@@ -31,12 +31,20 @@ def main():
             continue
         char = c.get("char_name") or ""
         title = c.get("title_en") or ""
+        hints = c.get("hints") or {}
         out[str(sid)] = {
             "name": char,
             "title": title,
             "rarity": c.get("rarity"),  # 1 R, 2 SR, 3 SSR
             "type": c.get("type"),
             "urlName": c.get("url_name"),
+            # Skills this support can grant, split by how (used by the Skills tab
+            # popover): hint_skills = taught via training hints ("random"),
+            # event_skills = from the support's story events ("event").
+            "hintSkills": hints.get("hint_skills") or [],
+            "eventSkills": c.get("event_skills") or [],
+            # EN/global release date (falsy = not yet on global).
+            "releaseEn": c.get("release_en"),
         }
     json.dump(out, open(OUT, "w"), ensure_ascii=False, indent=0)
     print(f"wrote {len(out)} support cards -> {OUT}")

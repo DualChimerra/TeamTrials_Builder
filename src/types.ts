@@ -114,6 +114,9 @@ export interface SupportCard {
   rarity: number | null // 1 R, 2 SR, 3 SSR
   type: string | null // speed/stamina/power/guts/intelligence/friend/group
   urlName: string | null
+  hintSkills?: number[] // skills taught via training hints ("random")
+  eventSkills?: number[] // skills from the support's story events ("event")
+  releaseEn?: string | null // EN/global release date (falsy = not on global)
 }
 export interface TtMeta {
   teams: number

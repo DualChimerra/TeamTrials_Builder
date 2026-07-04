@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react'
-import type { Card, Category, Skill, Style } from '../types'
+import { useMemo, useState, type ReactNode } from 'react'
+import type { Card, Category, Skill, Style, SupportCard } from '../types'
 import { CATEGORIES, CATEGORY_LABEL, STYLES, STYLE_LABEL } from '../types'
-import { charThumb, skillIcon } from '../data/load'
+import { charThumb, skillIcon, supportIcon } from '../data/load'
 import { allGuaranteedEntries, normalizeName } from '../scoring/classify'
 import type { GuaranteedEntry, Scope } from '../scoring/guaranteedSkills'
 
@@ -53,15 +53,29 @@ function matchesDist(scope: Scope, sel: Set<Category>): boolean {
   return scope.kind === 'dist' && sel.has(scope.category)
 }
 
-// Cards that grant a skill, split by how the skill is obtained.
-interface SkillCards {
-  random: Card[] // innate + potential (training / hints)
-  event: Card[] // event-choice rewards
+// A support card carrying its own id (supports.json is keyed by id).
+type SupportEntry = SupportCard & { id: number }
+
+// Everything that can grant a skill, split by card kind (support card vs
+// character) and by how it is obtained (random = training/hints, event = story
+// events). Only global-released cards are collected.
+interface SkillSources {
+  supRandom: SupportEntry[] // support cards: taught via training hints
+  supEvent: SupportEntry[] // support cards: from the card's story events
+  charRandom: Card[] // characters: innate + potential (training)
+  charEvent: Card[] // characters: event-choice rewards
 }
 
-// Sort cards: higher ★ first, then by name.
+function sourceCount(s?: SkillSources): number {
+  return s ? s.supRandom.length + s.supEvent.length + s.charRandom.length + s.charEvent.length : 0
+}
+
+// Sort: higher ★ first, then by name.
 function byCard(a: Card, b: Card): number {
   return b.rarity - a.rarity || a.name.localeCompare(b.name)
+}
+function bySupport(a: SupportEntry, b: SupportEntry): number {
+  return (b.rarity ?? 0) - (a.rarity ?? 0) || a.name.localeCompare(b.name)
 }
 
 function CardChip({ card }: { card: Card }) {
@@ -93,45 +107,113 @@ function CardChip({ card }: { card: Card }) {
   )
 }
 
-function CardRow({ cards }: { cards: Card[] }) {
+function SupportChip({ sup }: { sup: SupportEntry }) {
+  const [err, setErr] = useState(false)
   return (
-    <div className="space-y-1">
-      {cards.map((c) => (
-        <CardChip key={c.cardId} card={c} />
-      ))}
+    <div
+      className="flex items-center gap-1.5 rounded-md bg-bg px-1.5 py-1"
+      title={`${sup.name} — ${sup.title}`}
+    >
+      {err ? (
+        <div className="grid h-6 w-6 shrink-0 place-items-center rounded-md bg-surface-2 text-[10px] text-faint">
+          {sup.name.charAt(0)}
+        </div>
+      ) : (
+        <img
+          src={supportIcon(sup.id)}
+          alt=""
+          className="h-6 w-6 shrink-0 rounded-md object-cover"
+          loading="lazy"
+          draggable={false}
+          onError={() => setErr(true)}
+        />
+      )}
+      <div className="min-w-0 leading-tight">
+        <div className="truncate text-[11px] font-medium text-text">{sup.name}</div>
+        {sup.title && <div className="truncate text-[9px] text-faint">{sup.title}</div>}
+      </div>
     </div>
   )
 }
 
-function CardsPopover({ cards }: { cards?: SkillCards }) {
-  const random = cards?.random ?? []
-  const event = cards?.event ?? []
+// A "Random" / "Event" labelled sub-list within a popover section.
+function SrcGroup({ kind, n, children }: { kind: 'random' | 'event'; n: number; children: ReactNode }) {
+  const isEvent = kind === 'event'
+  return (
+    <div>
+      <div className="mb-1 flex items-center gap-1.5">
+        <span
+          className={`rounded px-1 text-[9px] font-bold uppercase ${
+            isEvent ? 'bg-gold/15 text-gold' : 'bg-brand/15 text-brand'
+          }`}
+        >
+          {isEvent ? 'Event' : 'Random'}
+        </span>
+        <span className="text-[10px] text-faint">{n}</span>
+      </div>
+      <div className="space-y-1">{children}</div>
+    </div>
+  )
+}
+
+function CardsPopover({ src }: { src?: SkillSources }) {
+  const s = src ?? { supRandom: [], supEvent: [], charRandom: [], charEvent: [] }
+  const hasSup = s.supRandom.length + s.supEvent.length > 0
+  const hasChar = s.charRandom.length + s.charEvent.length > 0
   return (
     <div className="absolute left-0 top-full z-50 w-80 max-w-[min(22rem,88vw)] rounded-lg border border-border-strong bg-surface-2 p-2.5 shadow-2xl">
       <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-faint">
-        Cards granting this skill
+        Where to get this skill
       </div>
-      {random.length === 0 && event.length === 0 ? (
-        <div className="text-[11px] text-faint">No cards provide this skill.</div>
+      {!hasSup && !hasChar ? (
+        <div className="text-[11px] text-faint">No global card provides this skill.</div>
       ) : (
-        <div className="max-h-64 space-y-2 overflow-y-auto pr-0.5">
-          {random.length > 0 && (
-            <div>
-              <div className="mb-1 flex items-center gap-1.5">
-                <span className="rounded bg-brand/15 px-1 text-[9px] font-bold uppercase text-brand">Random</span>
-                <span className="text-[10px] text-faint">{random.length}</span>
+        <div className="max-h-72 space-y-3 overflow-y-auto pr-0.5">
+          {hasSup && (
+            <section>
+              <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-muted">
+                Support cards
               </div>
-              <CardRow cards={random} />
-            </div>
+              <div className="space-y-2">
+                {s.supRandom.length > 0 && (
+                  <SrcGroup kind="random" n={s.supRandom.length}>
+                    {s.supRandom.map((x) => (
+                      <SupportChip key={x.id} sup={x} />
+                    ))}
+                  </SrcGroup>
+                )}
+                {s.supEvent.length > 0 && (
+                  <SrcGroup kind="event" n={s.supEvent.length}>
+                    {s.supEvent.map((x) => (
+                      <SupportChip key={x.id} sup={x} />
+                    ))}
+                  </SrcGroup>
+                )}
+              </div>
+            </section>
           )}
-          {event.length > 0 && (
-            <div>
-              <div className="mb-1 flex items-center gap-1.5">
-                <span className="rounded bg-gold/15 px-1 text-[9px] font-bold uppercase text-gold">Event</span>
-                <span className="text-[10px] text-faint">{event.length}</span>
+          {hasChar && (
+            <section>
+              <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-muted">
+                Characters
               </div>
-              <CardRow cards={event} />
-            </div>
+              <div className="space-y-2">
+                {s.charRandom.length > 0 && (
+                  <SrcGroup kind="random" n={s.charRandom.length}>
+                    {s.charRandom.map((c) => (
+                      <CardChip key={c.cardId} card={c} />
+                    ))}
+                  </SrcGroup>
+                )}
+                {s.charEvent.length > 0 && (
+                  <SrcGroup kind="event" n={s.charEvent.length}>
+                    {s.charEvent.map((c) => (
+                      <CardChip key={c.cardId} card={c} />
+                    ))}
+                  </SrcGroup>
+                )}
+              </div>
+            </section>
           )}
         </div>
       )}
@@ -139,10 +221,11 @@ function CardsPopover({ cards }: { cards?: SkillCards }) {
   )
 }
 
-function SkillCard({ entry, skill, cards }: { entry: GuaranteedEntry; skill?: Skill; cards?: SkillCards }) {
+function SkillCard({ entry, skill, src }: { entry: GuaranteedEntry; skill?: Skill; src?: SkillSources }) {
   const gold = entry.tier === 'gold'
   const [open, setOpen] = useState(false)
-  const hasCards = !!cards && (cards.random.length > 0 || cards.event.length > 0)
+  const count = sourceCount(src)
+  const hasCards = count > 0
   return (
     <div
       className="relative"
@@ -192,9 +275,9 @@ function SkillCard({ entry, skill, cards }: { entry: GuaranteedEntry; skill?: Sk
             {hasCards && (
               <span
                 className="ml-auto shrink-0 rounded bg-surface-2 px-1 text-[9px] font-medium text-faint"
-                title="Number of cards that grant this skill — hover to see them"
+                title="Number of global cards that grant this skill — hover to see them"
               >
-                {cards!.random.length + cards!.event.length} cards
+                {count} cards
               </span>
             )}
           </div>
@@ -205,7 +288,7 @@ function SkillCard({ entry, skill, cards }: { entry: GuaranteedEntry; skill?: Sk
           )}
         </div>
       </div>
-      {open && hasCards && <CardsPopover cards={cards} />}
+      {open && hasCards && <CardsPopover src={src} />}
     </div>
   )
 }
@@ -248,7 +331,15 @@ function ChipGroup<T extends string>({
 type Tier = 'gold' | 'white'
 type Freq = 'always' | 'situational'
 
-export function Skills({ skills, cards }: { skills: Record<string, Skill>; cards: Card[] }) {
+export function Skills({
+  skills,
+  cards,
+  supports,
+}: {
+  skills: Record<string, Skill>
+  cards: Card[]
+  supports: Record<string, SupportCard>
+}) {
   const [q, setQ] = useState('')
   const [styleSel, setStyleSel] = useState<Set<Style>>(new Set())
   const [distSel, setDistSel] = useState<Set<Category>>(new Set())
@@ -275,28 +366,51 @@ export function Skills({ skills, cards }: { skills: Record<string, Skill>; cards
     return map
   }, [skills])
 
-  // Reverse index: normalized skill name -> cards that grant it, split by how it
-  // is obtained (innate/potential = "random", event = "event").
-  const cardsByName = useMemo(() => {
+  // Reverse index: normalized skill name -> every global card that grants it,
+  // split by card kind (support / character) and how it is obtained (training
+  // hints or innate/potential = "random", story events = "event"). Cards not yet
+  // released on global are skipped so the list matches what players can obtain.
+  const sourcesByName = useMemo(() => {
     const idName = new Map<number, string>()
     for (const s of Object.values(skills)) idName.set(s.id, normalizeName(s.name))
-    const map = new Map<string, SkillCards>()
+    const map = new Map<string, SkillSources>()
     const bucket = (nm: string) => {
       let e = map.get(nm)
       if (!e) {
-        e = { random: [], event: [] }
+        e = { supRandom: [], supEvent: [], charRandom: [], charEvent: [] }
         map.set(nm, e)
       }
       return e
     }
+    // Support cards (global only): hint_skills = random, event_skills = event.
+    for (const [idStr, sc] of Object.entries(supports)) {
+      if (!sc.releaseEn) continue
+      const sup: SupportEntry = { ...sc, id: Number(idStr) }
+      const rSeen = new Set<string>()
+      const eSeen = new Set<string>()
+      for (const id of sc.hintSkills ?? []) {
+        const nm = idName.get(id)
+        if (!nm || rSeen.has(nm)) continue
+        rSeen.add(nm)
+        bucket(nm).supRandom.push(sup)
+      }
+      for (const id of sc.eventSkills ?? []) {
+        const nm = idName.get(id)
+        if (!nm || eSeen.has(nm)) continue
+        eSeen.add(nm)
+        bucket(nm).supEvent.push(sup)
+      }
+    }
+    // Characters (global only): innate + potential = random, event = event.
     for (const card of cards) {
+      if (!card.releaseEn) continue
       const rSeen = new Set<string>()
       const eSeen = new Set<string>()
       const addRandom = (id: number) => {
         const nm = idName.get(id)
         if (!nm || rSeen.has(nm)) return
         rSeen.add(nm)
-        bucket(nm).random.push(card)
+        bucket(nm).charRandom.push(card)
       }
       for (const id of card.innate) addRandom(id)
       for (const p of card.potential) addRandom(p.id)
@@ -304,21 +418,23 @@ export function Skills({ skills, cards }: { skills: Record<string, Skill>; cards
         const nm = idName.get(id)
         if (!nm || eSeen.has(nm)) continue
         eSeen.add(nm)
-        bucket(nm).event.push(card)
+        bucket(nm).charEvent.push(card)
       }
     }
     for (const e of map.values()) {
-      e.random.sort(byCard)
-      e.event.sort(byCard)
+      e.supRandom.sort(bySupport)
+      e.supEvent.sort(bySupport)
+      e.charRandom.sort(byCard)
+      e.charEvent.sort(byCard)
     }
     return map
-  }, [skills, cards])
+  }, [skills, cards, supports])
 
   const entries = useMemo(() => allGuaranteedEntries(), [])
 
   const groups = useMemo(() => {
     const query = q.trim().toLowerCase()
-    const buckets = new Map<GroupKey, { label: string; order: number; items: { entry: GuaranteedEntry; skill?: Skill; cards?: SkillCards }[] }>()
+    const buckets = new Map<GroupKey, { label: string; order: number; items: { entry: GuaranteedEntry; skill?: Skill; src?: SkillSources }[] }>()
     for (const entry of entries) {
       if (query && !entry.name.toLowerCase().includes(query)) continue
       if (tierSel.size && !tierSel.has(entry.tier === 'gold' ? 'gold' : 'white')) continue
@@ -338,7 +454,7 @@ export function Skills({ skills, cards }: { skills: Record<string, Skill>; cards
         b = { label: g.label, order: g.order, items: [] }
         buckets.set(g.key, b)
       }
-      b.items.push({ entry, skill: byName.get(normalizeName(entry.name)), cards: cardsByName.get(normalizeName(entry.name)) })
+      b.items.push({ entry, skill: byName.get(normalizeName(entry.name)), src: sourcesByName.get(normalizeName(entry.name)) })
     }
     for (const b of buckets.values()) {
       b.items.sort((a, z) => tierRank(a.entry) - tierRank(z.entry) || a.entry.name.localeCompare(z.entry.name))
@@ -346,7 +462,7 @@ export function Skills({ skills, cards }: { skills: Record<string, Skill>; cards
     return Array.from(buckets.entries())
       .map(([key, b]) => ({ key, ...b }))
       .sort((a, z) => a.order - z.order || a.label.localeCompare(z.label))
-  }, [entries, byName, cardsByName, q, styleSel, distSel, tierSel, freqSel])
+  }, [entries, byName, sourcesByName, q, styleSel, distSel, tierSel, freqSel])
 
   const total = useMemo(() => groups.reduce((n, g) => n + g.items.length, 0), [groups])
   const anyFilter = q.trim() || styleSel.size || distSel.size || tierSel.size || freqSel.size
@@ -418,8 +534,8 @@ export function Skills({ skills, cards }: { skills: Record<string, Skill>; cards
             <span className="text-[11px] text-faint">{g.items.length}</span>
           </div>
           <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {g.items.map(({ entry, skill, cards }) => (
-              <SkillCard key={`${g.key}:${entry.name}`} entry={entry} skill={skill} cards={cards} />
+            {g.items.map(({ entry, skill, src }) => (
+              <SkillCard key={`${g.key}:${entry.name}`} entry={entry} skill={skill} src={src} />
             ))}
           </div>
         </section>

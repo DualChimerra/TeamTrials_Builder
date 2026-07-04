@@ -4,3786 +4,11705 @@
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10001-special-week"
+"urlName": "10001-special-week",
+"hintSkills": [
+200162,
+200232,
+200512,
+200612,
+200732,
+201352,
+201542
+],
+"eventSkills": [
+200762
+],
+"releaseEn": "2025-06-26"
 },
 "10002": {
 "name": "Silence Suzuka",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10002-silence-suzuka"
+"urlName": "10002-silence-suzuka",
+"hintSkills": [
+200432,
+200532,
+200542,
+200552,
+200712,
+201242,
+201252,
+201522,
+201272
+],
+"eventSkills": [
+200022
+],
+"releaseEn": "2025-06-26"
 },
 "10003": {
 "name": "Tokai Teio",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10003-tokai-teio"
+"urlName": "10003-tokai-teio",
+"hintSkills": [
+200452,
+200492,
+200502,
+201132,
+201142,
+201332
+],
+"eventSkills": [
+201312
+],
+"releaseEn": "2025-06-26"
 },
 "10004": {
 "name": "Maruzensky",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10004-maruzensky"
+"urlName": "10004-maruzensky",
+"hintSkills": [
+200532,
+200682,
+201042,
+201052,
+201062
+],
+"eventSkills": [
+200532
+],
+"releaseEn": "2025-06-26"
 },
 "10005": {
 "name": "Oguri Cap",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10005-oguri-cap"
+"urlName": "10005-oguri-cap",
+"hintSkills": [
+200222,
+200332,
+200342,
+200432,
+200492,
+200512,
+200722,
+201062,
+201352,
+201601
+],
+"eventSkills": [
+200042
+],
+"releaseEn": "2025-06-26"
 },
 "10006": {
 "name": "Gold Ship",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10006-gold-ship"
+"urlName": "10006-gold-ship",
+"hintSkills": [
+200622,
+200642,
+200752,
+201212,
+201232,
+201472,
+201482,
+201502,
+201512,
+201552,
+201581,
+201591,
+201601,
+201631
+],
+"eventSkills": [
+200052
+],
+"releaseEn": "2025-06-26"
 },
 "10007": {
 "name": "Vodka",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10007-vodka"
+"urlName": "10007-vodka",
+"hintSkills": [
+200032,
+200362,
+200372,
+200382,
+200512,
+200602,
+200702,
+201032,
+201102
+],
+"eventSkills": [
+200492
+],
+"releaseEn": "2025-06-26"
 },
 "10008": {
 "name": "Taiki Shuttle",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10008-taiki-shuttle"
+"urlName": "10008-taiki-shuttle",
+"hintSkills": [
+200572,
+200582,
+200682,
+200702,
+201032,
+201052
+],
+"eventSkills": [
+202992,
+200582
+],
+"releaseEn": "2025-06-26"
 },
 "10009": {
 "name": "Grass Wonder",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10009-grass-wonder"
+"urlName": "10009-grass-wonder",
+"hintSkills": [
+200042,
+200282,
+200512,
+200592,
+200602,
+200702,
+200871,
+201152
+],
+"eventSkills": [
+200801,
+200292
+],
+"releaseEn": "2025-06-26"
 },
 "10010": {
 "name": "Mejiro McQueen",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10010-mejiro-mcqueen"
+"urlName": "10010-mejiro-mcqueen",
+"hintSkills": [
+200062,
+200172,
+200562,
+200742,
+201182,
+201192,
+201352,
+201372
+],
+"eventSkills": [
+200532
+],
+"releaseEn": "2025-06-26"
 },
 "10011": {
 "name": "El Condor Pasa",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10011-el-condor-pasa"
+"urlName": "10011-el-condor-pasa",
+"hintSkills": [
+200132,
+200212,
+200582,
+200722,
+201102,
+201122,
+201312
+],
+"eventSkills": [
+200212
+],
+"releaseEn": "2025-06-26"
 },
 "10012": {
 "name": "TM Opera O",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10012-tm-opera-o"
+"urlName": "10012-tm-opera-o",
+"hintSkills": [
+200562,
+200722,
+201182,
+201312,
+201362,
+201382,
+201432
+],
+"eventSkills": [
+200142
+],
+"releaseEn": "2025-06-26"
 },
 "10013": {
 "name": "Symboli Rudolf",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10013-symboli-rudolf"
+"urlName": "10013-symboli-rudolf",
+"hintSkills": [
+200572,
+200831,
+200861,
+200891,
+200921,
+201152,
+201532,
+201601
+],
+"eventSkills": [
+200232
+],
+"releaseEn": "2025-06-26"
 },
 "10014": {
 "name": "Seiun Sky",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10014-seiun-sky"
+"urlName": "10014-seiun-sky",
+"hintSkills": [
+200252,
+200302,
+200771,
+200811,
+200881,
+201611
+],
+"eventSkills": [
+201192
+],
+"releaseEn": "2025-06-26"
 },
 "10015": {
 "name": "Rice Shower",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10015-rice-shower"
+"urlName": "10015-rice-shower",
+"hintSkills": [
+200062,
+200272,
+200742,
+200801,
+200861,
+200871,
+201342,
+201372,
+201581
+],
+"eventSkills": [
+200152
+],
+"releaseEn": "2025-06-26"
 },
 "10016": {
 "name": "Winning Ticket",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10016-winning-ticket"
+"urlName": "10016-winning-ticket",
+"hintSkills": [
+200152,
+200222,
+200592,
+200602,
+200612
+],
+"eventSkills": [
+201392
+],
+"releaseEn": "2025-06-26"
 },
 "10017": {
 "name": "Gold City",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10017-gold-city"
+"urlName": "10017-gold-city",
+"hintSkills": [
+200082,
+200692,
+201062
+],
+"eventSkills": [
+201422
+],
+"releaseEn": "2025-06-26"
 },
 "10018": {
 "name": "Sakura Bakushin O",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10018-sakura-bakushin-o"
+"urlName": "10018-sakura-bakushin-o",
+"hintSkills": [
+200652,
+200791,
+200841,
+200962,
+200972,
+200982,
+200992,
+201012
+],
+"eventSkills": [
+200672
+],
+"releaseEn": "2025-06-26"
 },
 "10019": {
 "name": "Super Creek",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10019-super-creek"
+"urlName": "10019-super-creek",
+"hintSkills": [
+200152,
+200352,
+200462,
+200512,
+200881
+],
+"eventSkills": [
+200742
+],
+"releaseEn": "2025-06-26"
 },
 "10020": {
 "name": "Haru Urara",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10020-haru-urara"
+"urlName": "10020-haru-urara",
+"hintSkills": [],
+"eventSkills": [
+200302
+],
+"releaseEn": "2025-06-26"
 },
 "10021": {
 "name": "Tazuna Hayakawa",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "friend",
-"urlName": "10021-tazuna-hayakawa"
+"urlName": "10021-tazuna-hayakawa",
+"hintSkills": [],
+"eventSkills": [
+200692,
+200432,
+201611
+],
+"releaseEn": "2025-06-26"
 },
 "10022": {
 "name": "Aoi Kiryuin",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "friend",
-"urlName": "10022-aoi-kiryuin"
+"urlName": "10022-aoi-kiryuin",
+"hintSkills": [],
+"eventSkills": [
+200272,
+200831,
+200941,
+200442,
+201621
+],
+"releaseEn": "2025-06-26"
 },
 "10023": {
 "name": "Daiwa Scarlet",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10023-daiwa-scarlet"
+"urlName": "10023-daiwa-scarlet",
+"hintSkills": [
+200282,
+200572,
+200582,
+200712,
+200722,
+201052
+],
+"eventSkills": [
+200562
+],
+"releaseEn": "2025-06-26"
 },
 "10024": {
 "name": "Hishi Amazon",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10024-hishi-amazon"
+"urlName": "10024-hishi-amazon",
+"hintSkills": [
+200562,
+200642,
+201452,
+201532,
+201552
+],
+"eventSkills": [
+200941
+],
+"releaseEn": "2025-06-26"
 },
 "10025": {
 "name": "Air Groove",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10025-air-groove"
+"urlName": "10025-air-groove",
+"hintSkills": [
+200472,
+200722,
+200931,
+200941,
+201102,
+201601
+],
+"eventSkills": [
+200502
+],
+"releaseEn": "2025-06-26"
 },
 "10026": {
 "name": "Agnes Digital",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10026-agnes-digital"
+"urlName": "10026-agnes-digital",
+"hintSkills": [
+200442,
+200482,
+201032,
+201092,
+201102,
+201382
+],
+"eventSkills": [
+200232,
+200162
+],
+"releaseEn": "2025-06-26"
 },
 "10027": {
 "name": "Tamamo Cross",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10027-tamamo-cross"
+"urlName": "10027-tamamo-cross",
+"hintSkills": [
+200712,
+200811,
+200901,
+201112,
+201132,
+201142,
+201412
+],
+"eventSkills": [
+200482
+],
+"releaseEn": "2025-06-26"
 },
 "10028": {
 "name": "Fine Motion",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10028-fine-motion"
+"urlName": "10028-fine-motion",
+"hintSkills": [
+200012,
+200192,
+200262,
+200372,
+200492
+],
+"eventSkills": [
+200332
+],
+"releaseEn": "2025-06-26"
 },
 "10029": {
 "name": "Biwa Hayahide",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10029-biwa-hayahide"
+"urlName": "10029-biwa-hayahide",
+"hintSkills": [
+200052,
+200162,
+200222,
+200262,
+200821
+],
+"eventSkills": [
+200752
+],
+"releaseEn": "2025-06-26"
 },
 "10030": {
 "name": "Mayano Top Gun",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10030-mayano-top-gun"
+"urlName": "10030-mayano-top-gun",
+"hintSkills": [
+200142,
+200332,
+200362,
+200382,
+200492,
+200502
+],
+"eventSkills": [
+200362
+],
+"releaseEn": "2025-06-26"
 },
 "10031": {
 "name": "Manhattan Cafe",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10031-manhattan-cafe"
+"urlName": "10031-manhattan-cafe",
+"hintSkills": [
+200162,
+200232,
+201172,
+201202,
+201222,
+201581
+],
+"eventSkills": [
+200142
+],
+"releaseEn": "2025-06-26"
 },
 "10032": {
 "name": "Mihono Bourbon",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10032-mihono-bourbon"
+"urlName": "10032-mihono-bourbon",
+"hintSkills": [
+200242,
+200532,
+201242,
+201252
+],
+"eventSkills": [
+200432
+],
+"releaseEn": "2025-06-26"
 },
 "10033": {
 "name": "Mejiro Ryan",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10033-mejiro-ryan"
+"urlName": "10033-mejiro-ryan",
+"hintSkills": [
+200162,
+200232,
+200722,
+201102
+],
+"eventSkills": [
+200472
+],
+"releaseEn": "2025-06-26"
 },
 "10034": {
 "name": "Yukino Bijin",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10034-yukino-bijin"
+"urlName": "10034-yukino-bijin",
+"hintSkills": [
+200042,
+200202,
+200732,
+201112
+],
+"eventSkills": [
+200342
+],
+"releaseEn": "2025-06-26"
 },
 "10035": {
 "name": "Ines Fujin",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10035-ines-fujin"
+"urlName": "10035-ines-fujin",
+"hintSkills": [
+200732,
+201082,
+201282,
+201651,
+201661
+],
+"eventSkills": [
+200542
+],
+"releaseEn": "2025-06-26"
 },
 "10036": {
 "name": "Agnes Tachyon",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10036-agnes-tachyon"
+"urlName": "10036-agnes-tachyon",
+"hintSkills": [
+200722,
+201102,
+201112,
+201152
+],
+"eventSkills": [
+201542
+],
+"releaseEn": "2025-06-26"
 },
 "10037": {
 "name": "Air Shakur",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10037-air-shakur"
+"urlName": "10037-air-shakur",
+"hintSkills": [
+201212,
+201492,
+201502
+],
+"eventSkills": [
+200472
+],
+"releaseEn": "2025-06-26"
 },
 "10038": {
 "name": "Eishin Flash",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10038-eishin-flash"
+"urlName": "10038-eishin-flash",
+"hintSkills": [
+200132,
+200372,
+201382,
+201392,
+201402
+],
+"eventSkills": [
+200292
+],
+"releaseEn": "2025-06-26"
 },
 "10039": {
 "name": "Smart Falcon",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10039-smart-falcon"
+"urlName": "10039-smart-falcon",
+"hintSkills": [
+200162,
+200222,
+200262,
+200352,
+200952,
+201292,
+201302,
+201522
+],
+"eventSkills": [
+200552
+],
+"releaseEn": "2025-06-26"
 },
 "10040": {
 "name": "Narita Taishin",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10040-narita-taishin"
+"urlName": "10040-narita-taishin",
+"hintSkills": [
+200442,
+200482,
+200622,
+200632,
+201462,
+201512,
+201641
+],
+"eventSkills": [
+201212
+],
+"releaseEn": "2025-06-26"
 },
 "10041": {
 "name": "Nishino Flower",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10041-nishino-flower"
+"urlName": "10041-nishino-flower",
+"hintSkills": [
+200052,
+200132,
+200152,
+200702,
+201322
+],
+"eventSkills": [],
+"releaseEn": "2025-06-26"
 },
 "10042": {
 "name": "Biko Pegasus",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10042-biko-pegasus"
+"urlName": "10042-biko-pegasus",
+"hintSkills": [
+200262,
+200662,
+200672,
+200682,
+200702,
+201002,
+201022
+],
+"eventSkills": [
+200962
+],
+"releaseEn": "2025-06-26"
 },
 "10043": {
 "name": "Marvelous Sunday",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10043-marvelous-sunday"
+"urlName": "10043-marvelous-sunday",
+"hintSkills": [
+200362,
+200462,
+200851,
+200881,
+201611
+],
+"eventSkills": [
+200052
+],
+"releaseEn": "2025-06-26"
 },
 "10044": {
 "name": "Matikanefukukitaru",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10044-matikanefukukitaru"
+"urlName": "10044-matikanefukukitaru",
+"hintSkills": [
+200092,
+200482,
+200781,
+201392,
+201422,
+201562,
+201571
+],
+"eventSkills": [],
+"releaseEn": "2025-06-26"
 },
 "10045": {
 "name": "Meisho Doto",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10045-meisho-doto"
+"urlName": "10045-meisho-doto",
+"hintSkills": [
+200142,
+200152,
+200252,
+200302,
+201122,
+201382,
+201621
+],
+"eventSkills": [
+201322
+],
+"releaseEn": "2025-06-26"
 },
 "10046": {
 "name": "Mejiro Dober",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10046-mejiro-dober"
+"urlName": "10046-mejiro-dober",
+"hintSkills": [
+200062,
+200212,
+200722,
+200732,
+201542
+],
+"eventSkills": [
+201072
+],
+"releaseEn": "2025-06-26"
 },
 "10047": {
 "name": "Nice Nature",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10047-nice-nature"
+"urlName": "10047-nice-nature",
+"hintSkills": [
+200122,
+200342,
+200442,
+200502,
+200911,
+201162,
+201422,
+201442
+],
+"eventSkills": [
+200462
+],
+"releaseEn": "2025-06-26"
 },
 "10048": {
 "name": "King Halo",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10048-king-halo"
+"urlName": "10048-king-halo",
+"hintSkills": [
+200152,
+200222,
+200262,
+200352,
+200662,
+200672
+],
+"eventSkills": [
+200512
+],
+"releaseEn": "2025-06-26"
 },
 "10049": {
 "name": "Fuji Kiseki",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10049-fuji-kiseki"
+"urlName": "10049-fuji-kiseki",
+"hintSkills": [
+200182,
+200222,
+200771,
+201042,
+201072
+],
+"eventSkills": [
+200582
+],
+"releaseEn": "2025-06-26"
 },
 "10050": {
 "name": "Sweep Tosho",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10050-sweep-tosho"
+"urlName": "10050-sweep-tosho",
+"hintSkills": [
+200452,
+200771,
+200781,
+201162,
+201472,
+201482,
+201651
+],
+"eventSkills": [],
+"releaseEn": "2025-06-26"
 },
 "10051": {
 "name": "Twin Turbo",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10051-twin-turbo"
+"urlName": "10051-twin-turbo",
+"hintSkills": [
+200282,
+200292,
+200532,
+200542,
+201272,
+201282
+],
+"eventSkills": [
+200532
+],
+"releaseEn": "2025-07-02"
 },
 "10052": {
 "name": "Daitaku Helios",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10052-daitaku-helios"
+"urlName": "10052-daitaku-helios",
+"hintSkills": [
+200462,
+200562,
+201042,
+201052,
+201082,
+201631,
+201651
+],
+"eventSkills": [
+200302
+],
+"releaseEn": "2025-07-02"
 },
 "10053": {
 "name": "Ikuno Dictus",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10053-ikuno-dictus"
+"urlName": "10053-ikuno-dictus",
+"hintSkills": [
+200442,
+200482,
+201122,
+201432,
+201442
+],
+"eventSkills": [
+200781
+],
+"releaseEn": "2025-07-10"
 },
 "10054": {
 "name": "Mejiro Palmer",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10054-mejiro-palmer"
+"urlName": "10054-mejiro-palmer",
+"hintSkills": [
+200042,
+200052,
+200532,
+200542,
+200871,
+201282,
+201631
+],
+"eventSkills": [
+200162
+],
+"releaseEn": "2025-07-10"
 },
 "10055": {
 "name": "Kitasan Black",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10055-kitasan-black"
+"urlName": "10055-kitasan-black",
+"hintSkills": [
+200332,
+200352,
+200382,
+200432,
+200762,
+201182,
+201242,
+201262
+],
+"eventSkills": [],
+"releaseEn": "2025-07-16"
 },
 "10056": {
 "name": "Satono Diamond",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10056-satono-diamond"
+"urlName": "10056-satono-diamond",
+"hintSkills": [
+200152,
+200212,
+200841,
+201112,
+201152,
+201422,
+201432
+],
+"eventSkills": [
+200851
+],
+"releaseEn": "2025-07-16"
 },
 "10057": {
 "name": "Matikanetannhauser",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10057-matikanetannhauser"
+"urlName": "10057-matikanetannhauser",
+"hintSkills": [
+200442,
+200472,
+200732,
+200742,
+201402
+],
+"eventSkills": [
+200831
+],
+"releaseEn": "2025-07-16"
 },
 "10058": {
 "name": "Yaeno Muteki",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10058-yaeno-muteki"
+"urlName": "10058-yaeno-muteki",
+"hintSkills": [
+200462,
+200512,
+200582,
+200722,
+201611
+],
+"eventSkills": [
+201112
+],
+"releaseEn": "2025-08-03"
 },
 "10059": {
 "name": "Zenno Rob Roy",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10059-zenno-rob-roy"
+"urlName": "10059-zenno-rob-roy",
+"hintSkills": [
+200362,
+200452,
+200492,
+200502,
+201332,
+201432,
+201532,
+201542
+],
+"eventSkills": [
+201102
+],
+"releaseEn": "2025-08-03"
 },
 "10060": {
 "name": "Riko Kashimoto",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "friend",
-"urlName": "10060-riko-kashimoto"
+"urlName": "10060-riko-kashimoto",
+"hintSkills": [],
+"eventSkills": [
+200462,
+200272,
+201641,
+200372,
+201631
+],
+"releaseEn": "2025-11-06"
 },
 "10061": {
 "name": "Seeking the Pearl",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10061-seeking-the-pearl"
+"urlName": "10061-seeking-the-pearl",
+"hintSkills": [
+200152,
+200472,
+200652,
+200692,
+200962,
+201072
+],
+"eventSkills": [
+202992,
+201591
+],
+"releaseEn": "2025-08-20"
 },
 "10062": {
 "name": "Sakura Chiyono O",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10062-sakura-chiyono-o"
+"urlName": "10062-sakura-chiyono-o",
+"hintSkills": [
+200732,
+201052,
+201112,
+201532
+],
+"eventSkills": [
+200172
+],
+"releaseEn": "2025-08-20"
 },
 "10063": {
 "name": "Kawakami Princess",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10063-kawakami-princess"
+"urlName": "10063-kawakami-princess",
+"hintSkills": [
+200132,
+200572,
+201142,
+201362
+],
+"eventSkills": [
+200732
+],
+"releaseEn": "2025-08-28"
 },
 "10064": {
 "name": "Hishi Akebono",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10064-hishi-akebono"
+"urlName": "10064-hishi-akebono",
+"hintSkills": [
+200212,
+200552,
+200972,
+200992,
+201002,
+201352
+],
+"eventSkills": [
+200652
+],
+"releaseEn": "2025-08-28"
 },
 "10065": {
 "name": "Bamboo Memory",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10065-bamboo-memory"
+"urlName": "10065-bamboo-memory",
+"hintSkills": [
+200292,
+200362,
+200672,
+201032,
+201062,
+201382
+],
+"eventSkills": [
+200132
+],
+"releaseEn": "2025-09-17"
 },
 "10066": {
 "name": "Shinko Windy",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10066-shinko-windy"
+"urlName": "10066-shinko-windy",
+"hintSkills": [
+200162,
+200282,
+200582,
+200851
+],
+"eventSkills": [
+201072
+],
+"releaseEn": "2025-09-17"
 },
 "10067": {
 "name": "Nakayama Festa",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10067-nakayama-festa"
+"urlName": "10067-nakayama-festa",
+"hintSkills": [
+200162,
+200302,
+200602,
+200612,
+200732,
+201382,
+201442,
+201562,
+201702
+],
+"eventSkills": [
+200042,
+200052
+],
+"releaseEn": "2025-12-08"
 },
 "10068": {
 "name": "Inari One",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10068-inari-one"
+"urlName": "10068-inari-one",
+"hintSkills": [
+200172,
+200202,
+200292,
+200462,
+201442,
+201611,
+201682,
+202002
+],
+"eventSkills": [
+200062
+],
+"releaseEn": "2026-01-15"
 },
 "10069": {
 "name": "Mejiro Ardan",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10069-mejiro-ardan"
+"urlName": "10069-mejiro-ardan",
+"hintSkills": [
+200022,
+200572,
+201142,
+201322,
+201532
+],
+"eventSkills": [
+200881
+],
+"releaseEn": "2025-10-02"
 },
 "10070": {
 "name": "Tosen Jordan",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10070-tosen-jordan"
+"urlName": "10070-tosen-jordan",
+"hintSkills": [
+200302,
+200562,
+200592,
+201102,
+201112,
+201312
+],
+"eventSkills": [
+201562
+],
+"releaseEn": "2025-10-30"
 },
 "10071": {
 "name": "Sirius Symboli",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10071-sirius-symboli"
+"urlName": "10071-sirius-symboli",
+"hintSkills": [
+200162,
+200582,
+201112,
+201641
+],
+"eventSkills": [
+201372
+],
+"releaseEn": "2025-12-08"
 },
 "10072": {
 "name": "Narita Brian",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10072-narita-brian"
+"urlName": "10072-narita-brian",
+"hintSkills": [
+200012,
+200572,
+200612,
+200752,
+201102,
+201112,
+201172,
+201352
+],
+"eventSkills": [
+201641
+],
+"releaseEn": "2025-10-07"
 },
 "10073": {
 "name": "Curren Chan",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10073-curren-chan"
+"urlName": "10073-curren-chan",
+"hintSkills": [
+200652,
+200911,
+200962,
+201002,
+201372
+],
+"eventSkills": [
+201012
+],
+"releaseEn": "2025-12-14"
 },
 "10074": {
 "name": "Sasami Anshinzawa",
 "title": "[Acupuncturist]",
 "rarity": 1,
 "type": "friend",
-"urlName": "10074-sasami-anshinzawa"
+"urlName": "10074-sasami-anshinzawa",
+"hintSkills": [],
+"eventSkills": [
+200283,
+200353,
+202032,
+200521,
+201591
+],
+"releaseEn": "2026-02-05"
 },
 "10075": {
 "name": "Admire Vega",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10075-admire-vega"
+"urlName": "10075-admire-vega",
+"hintSkills": [
+200632,
+201152,
+201452,
+201492,
+201502
+],
+"eventSkills": [
+200861
+],
+"releaseEn": "2026-01-29"
 },
 "10076": {
 "name": "Mejiro Bright",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10076-mejiro-bright"
+"urlName": "10076-mejiro-bright",
+"hintSkills": [
+200012,
+200762,
+201202,
+201212,
+201222
+],
+"eventSkills": [
+200742
+],
+"releaseEn": "2026-03-12"
 },
 "10077": {
 "name": "Narita Top Road",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10077-narita-top-road"
+"urlName": "10077-narita-top-road",
+"hintSkills": [
+200142,
+200152,
+200252,
+200572,
+200582,
+201172,
+201702
+],
+"eventSkills": [
+200722
+],
+"releaseEn": "2026-03-12"
 },
 "10078": {
 "name": "Mr. C.B.",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10078-mr-cb"
+"urlName": "10078-mr-cb",
+"hintSkills": [
+200232,
+200342,
+200512,
+200642,
+201112,
+201502,
+201611
+],
+"eventSkills": [
+202022
+],
+"releaseEn": "2026-04-30"
 },
 "10079": {
 "name": "Daiichi Ruby",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10079-daiichi-ruby"
+"urlName": "10079-daiichi-ruby",
+"hintSkills": [
+200602,
+200672,
+200831,
+200841,
+200851,
+201022,
+201092,
+201152,
+201382,
+201641,
+202122
+],
+"eventSkills": [
+200672
+],
+"releaseEn": null
 },
 "10080": {
 "name": "K.S.Miracle",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10080-ksmiracle"
+"urlName": "10080-ksmiracle",
+"hintSkills": [
+200702,
+200972,
+200992,
+201312,
+201532,
+202372
+],
+"eventSkills": [
+202042
+],
+"releaseEn": null
 },
 "10081": {
 "name": "Tsurumaru Tsuyoshi",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10081-tsurumaru-tsuyoshi"
+"urlName": "10081-tsurumaru-tsuyoshi",
+"hintSkills": [
+200302,
+200722,
+202032,
+202092,
+202152
+],
+"eventSkills": [
+201402
+],
+"releaseEn": "2026-06-25"
 },
 "10082": {
 "name": "Symboli Kris S",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10082-symboli-kris-s"
+"urlName": "10082-symboli-kris-s",
+"hintSkills": [
+200352,
+200602,
+201172,
+201202,
+201392,
+201412,
+202122,
+202422
+],
+"eventSkills": [
+200222
+],
+"releaseEn": null
 },
 "10083": {
 "name": "Light Hello",
 "title": "[Event Producer]",
 "rarity": 1,
 "type": "friend",
-"urlName": "10083-light-hello"
+"urlName": "10083-light-hello",
+"hintSkills": [],
+"eventSkills": [
+200272,
+201661,
+201522,
+201532
+],
+"releaseEn": null
 },
 "10084": {
 "name": "Tanino Gimlet",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10084-tanino-gimlet"
+"urlName": "10084-tanino-gimlet",
+"hintSkills": [
+200152,
+200642,
+200702,
+201122,
+202082,
+202102
+],
+"eventSkills": [
+201552
+],
+"releaseEn": null
 },
 "10085": {
 "name": "Sakura Laurel",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10085-sakura-laurel"
+"urlName": "10085-sakura-laurel",
+"hintSkills": [
+200172,
+200202,
+200212,
+200742,
+201182,
+201222,
+201422,
+202072,
+202422
+],
+"eventSkills": [
+200861
+],
+"releaseEn": null
 },
 "10086": {
 "name": "Yamanin Zephyr",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10086-yamanin-zephyr"
+"urlName": "10086-yamanin-zephyr",
+"hintSkills": [
+200192,
+200302,
+200342,
+201042,
+201052,
+201072,
+201112,
+201532,
+202412
+],
+"eventSkills": [
+202412
+],
+"releaseEn": null
 },
 "10087": {
 "name": "Aston Machan",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10087-aston-machan"
+"urlName": "10087-aston-machan",
+"hintSkills": [
+200162,
+200532,
+200962,
+201022,
+201262,
+201302,
+201601
+],
+"eventSkills": [
+202042
+],
+"releaseEn": null
 },
 "10088": {
 "name": "Mejiro Ramonu",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10088-mejiro-ramonu"
+"urlName": "10088-mejiro-ramonu",
+"hintSkills": [
+200362,
+200432,
+201032,
+201052,
+201042,
+201102,
+201702,
+202432,
+202532
+],
+"eventSkills": [
+201112
+],
+"releaseEn": null
 },
 "10089": {
 "name": "Jungle Pocket",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10089-jungle-pocket"
+"urlName": "10089-jungle-pocket",
+"hintSkills": [
+201392,
+201462,
+202022,
+202082,
+202122,
+202452,
+202492
+],
+"eventSkills": [
+202422
+],
+"releaseEn": null
 },
 "10090": {
 "name": "Hokko Tarumae",
 "title": "",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10090-hokko-tarumae"
+"urlName": "10090-hokko-tarumae",
+"hintSkills": [
+201682,
+202262,
+202282,
+202312,
+202832,
+202842
+],
+"eventSkills": [
+201672
+],
+"releaseEn": null
 },
 "10091": {
 "name": "Katsuragi Ace",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
-"urlName": "10091-katsuragi-ace"
+"urlName": "10091-katsuragi-ace",
+"hintSkills": [
+200032,
+200542,
+200732,
+201102,
+201252,
+201272,
+202412,
+202432,
+202462
+],
+"eventSkills": [
+201601
+],
+"releaseEn": null
 },
 "10092": {
 "name": "Copano Rickey",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
-"urlName": "10092-copano-rickey"
+"urlName": "10092-copano-rickey",
+"hintSkills": [
+200952,
+201532,
+201672,
+201682,
+202212,
+202222,
+202252,
+202302
+],
+"eventSkills": [
+202262
+],
+"releaseEn": null
 },
 "10093": {
 "name": "Wonder Acute",
 "title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
-"urlName": "10093-wonder-acute"
+"urlName": "10093-wonder-acute",
+"hintSkills": [
+201072,
+201672,
+201682,
+202212,
+202232,
+202282,
+202302,
+202343,
+202362
+],
+"eventSkills": [
+202332
+],
+"releaseEn": null
 },
 "10094": {
 "name": "Mei Satake",
 "title": "",
 "rarity": 1,
 "type": "friend",
-"urlName": "10094-mei-satake"
+"urlName": "10094-mei-satake",
+"hintSkills": [],
+"eventSkills": [
+201641,
+202722,
+200362
+],
+"releaseEn": null
 },
 "10095": {
 "name": "Tap Dance City",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10095-tap-dance-city"
+"urlName": "10095-tap-dance-city",
+"hintSkills": [
+200252,
+200532,
+200542,
+200552,
+201252
+],
+"eventSkills": [
+201272
+],
+"releaseEn": null
 },
 "10096": {
 "name": "Still in Love",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10096-still-in-love"
+"urlName": "10096-still-in-love",
+"hintSkills": [
+200332,
+200362,
+200492,
+201112,
+201611,
+201661,
+202742,
+202962
+],
+"eventSkills": [
+202532
+],
+"releaseEn": null
 },
 "10097": {
 "name": "Verxina",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10097-verxina"
+"urlName": "10097-verxina",
+"hintSkills": [
+200032,
+200132,
+200452,
+200542,
+201292
+],
+"eventSkills": [
+200682
+],
+"releaseEn": null
 },
 "10098": {
 "name": "Sounds of Earth",
 "title": "",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10098-sounds-of-earth"
+"urlName": "10098-sounds-of-earth",
+"hintSkills": [
+200382,
+200492,
+200512,
+201651,
+201661,
+202792,
+202802
+],
+"eventSkills": [
+202562
+],
+"releaseEn": null
 },
 "10099": {
 "name": "Vivlos",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10099-vivlos"
+"urlName": "10099-vivlos",
+"hintSkills": [
+200592,
+200602,
+201102,
+201412,
+201692,
+202102,
+202652
+],
+"eventSkills": [
+201382
+],
+"releaseEn": null
 },
 "10100": {
 "name": "Royce and Royce",
 "title": "",
 "rarity": 1,
 "type": "power",
-"urlName": "10100-royce-and-royce"
+"urlName": "10100-royce-and-royce",
+"hintSkills": [
+200432,
+200442,
+200472,
+200482,
+200492,
+200722,
+201651
+],
+"eventSkills": [
+200502
+],
+"releaseEn": null
 },
 "10101": {
 "name": "Duramente",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10101-duramente"
+"urlName": "10101-duramente",
+"hintSkills": [
+200382,
+201102,
+201452,
+201651,
+202552,
+202662,
+202722
+],
+"eventSkills": [
+202602
+],
+"releaseEn": null
 },
 "10102": {
 "name": "North Flight",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10102-north-flight"
+"urlName": "10102-north-flight",
+"hintSkills": [
+200132,
+200432,
+200502,
+200582,
+200682,
+200702,
+201042,
+201062
+],
+"eventSkills": [
+202672
+],
+"releaseEn": null
 },
 "10103": {
 "name": "Orfevre",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10103-orfevre"
+"urlName": "10103-orfevre",
+"hintSkills": [
+200332,
+200492,
+201611,
+201661,
+202552,
+202662,
+202872
+],
+"eventSkills": [
+202522
+],
+"releaseEn": null
 },
 "10104": {
 "name": "Ryoka Tsurugi",
 "title": "",
 "rarity": 1,
 "type": "friend",
-"urlName": "10104-ryoka-tsurugi"
+"urlName": "10104-ryoka-tsurugi",
+"hintSkills": [],
+"eventSkills": [
+200282,
+202802,
+200512
+],
+"releaseEn": null
 },
 "10105": {
 "name": "Cheval Grand",
 "title": "",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10105-cheval-grand"
+"urlName": "10105-cheval-grand",
+"hintSkills": [
+200562,
+200582,
+200752,
+201172,
+201182,
+201312,
+202372,
+202482
+],
+"eventSkills": [
+202762
+],
+"releaseEn": null
 },
 "10106": {
 "name": "Neo Universe",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10106-neo-universe"
+"urlName": "10106-neo-universe",
+"hintSkills": [
+200132,
+201112,
+201591,
+201702,
+202102,
+202161,
+202522,
+202602
+],
+"eventSkills": [
+202622
+],
+"releaseEn": null
 },
 "10107": {
 "name": "Hishi Miracle",
 "title": "",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10107-hishi-miracle"
+"urlName": "10107-hishi-miracle",
+"hintSkills": [
+200602,
+200742,
+201222,
+201422,
+202562,
+202592,
+202622
+],
+"eventSkills": [
+202072
+],
+"releaseEn": null
 },
 "10108": {
 "name": "Dantsu Flame",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10108-dantsu-flame"
+"urlName": "10108-dantsu-flame",
+"hintSkills": [
+200462,
+201102,
+201132,
+201591,
+201702,
+202092,
+202472,
+202792
+],
+"eventSkills": [
+202472
+],
+"releaseEn": null
 },
 "10109": {
 "name": "Yayoi Akikawa",
 "title": "",
 "rarity": 1,
 "type": "friend",
-"urlName": "10109-yayoi-akikawa"
+"urlName": "10109-yayoi-akikawa",
+"hintSkills": [],
+"eventSkills": [
+200362,
+201591,
+202792
+],
+"releaseEn": null
 },
 "10110": {
 "name": "Espoir City",
 "title": "",
 "rarity": 1,
 "type": "power",
-"urlName": "10110-espoir-city"
+"urlName": "10110-espoir-city",
+"hintSkills": [
+201072,
+201661,
+202252,
+202262,
+202302,
+202332,
+202952,
+203103,
+203182
+],
+"eventSkills": [
+202842
+],
+"releaseEn": null
 },
 "10111": {
 "name": "Bubble Gum Fellow",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10111-bubble-gum-fellow"
+"urlName": "10111-bubble-gum-fellow",
+"hintSkills": [
+200462,
+200502,
+201352,
+202412,
+202802,
+202982
+],
+"eventSkills": [
+201902
+],
+"releaseEn": null
 },
 "10113": {
 "name": "Gentildonna",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10113-gentildonna"
+"urlName": "10113-gentildonna",
+"hintSkills": [
+200152,
+200362,
+200512,
+200562,
+201402,
+201591,
+202532
+],
+"eventSkills": [
+202172
+],
+"releaseEn": null
 },
 "10114": {
 "name": "Rhein Kraft",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10114-rhein-kraft"
+"urlName": "10114-rhein-kraft",
+"hintSkills": [
+200052,
+200582,
+200682,
+201032,
+201062,
+201072,
+201082
+],
+"eventSkills": [
+201042
+],
+"releaseEn": null
 },
 "10115": {
 "name": "Cesario",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10115-cesario"
+"urlName": "10115-cesario",
+"hintSkills": [
+200132,
+200462,
+200512,
+201702,
+202092,
+202472
+],
+"eventSkills": [
+202712
+],
+"releaseEn": null
 },
 "10116": {
 "name": "Blast Onepiece",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10116-blast-onepiece"
+"urlName": "10116-blast-onepiece",
+"hintSkills": [
+200332,
+200562,
+201312,
+201591,
+202372,
+202772,
+203132,
+203412,
+203422
+],
+"eventSkills": [
+201172
+],
+"releaseEn": null
 },
 "10117": {
 "name": "No Reason",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10117-no-reason"
+"urlName": "10117-no-reason",
+"hintSkills": [
+200302,
+200372,
+201402,
+201422,
+202092,
+202472,
+202652
+],
+"eventSkills": [
+201702
+],
+"releaseEn": null
 },
 "10118": {
 "name": "Buena Vista",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10118-buena-vista"
+"urlName": "10118-buena-vista",
+"hintSkills": [
+200342,
+200372,
+200462,
+200702,
+201072,
+202112,
+202652
+],
+"eventSkills": [
+202612
+],
+"releaseEn": null
 },
 "10119": {
 "name": "Dream Journey",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10119-dream-journey"
+"urlName": "10119-dream-journey",
+"hintSkills": [
+200012,
+200492,
+200632,
+201462,
+202022,
+202882,
+202902,
+202922,
+202932,
+203582
+],
+"eventSkills": [
+202902
+],
+"releaseEn": null
 },
 "10120": {
 "name": "Daring Tact",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10120-daring-tact"
+"urlName": "10120-daring-tact",
+"hintSkills": [
+200172,
+200592,
+201382,
+201412,
+202172,
+202452,
+202612,
+202622,
+203322,
+203592
+],
+"eventSkills": [
+203362
+],
+"releaseEn": null
 },
 "10121": {
 "name": "Daring Heart",
 "title": "",
 "rarity": 1,
 "type": "power",
-"urlName": "10121-daring-heart"
+"urlName": "10121-daring-heart",
+"hintSkills": [
+200462,
+200502,
+200582,
+200682,
+201052,
+201072,
+201631,
+203022
+],
+"eventSkills": [
+203222
+],
+"releaseEn": null
 },
 "10122": {
 "name": "Almond Eye",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10122-almond-eye"
+"urlName": "10122-almond-eye",
+"hintSkills": [
+200332,
+200362,
+200492,
+201591,
+201611,
+202702,
+202982,
+203122,
+203432,
+203442
+],
+"eventSkills": [
+202742
+],
+"releaseEn": null
 },
 "10123": {
 "name": "Lucky Lilac",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10123-lucky-lilac"
+"urlName": "10123-lucky-lilac",
+"hintSkills": [
+200142,
+200342,
+200732,
+201112,
+201142,
+202652,
+203312
+],
+"eventSkills": [
+203142
+],
+"releaseEn": null
 },
 "10124": {
 "name": "Gran Alegria",
 "title": "",
 "rarity": 1,
 "type": "power",
-"urlName": "10124-gran-alegria"
+"urlName": "10124-gran-alegria",
+"hintSkills": [
+200132,
+200702,
+202112,
+202552,
+202652,
+203042,
+203362
+],
+"eventSkills": [
+201032
+],
+"releaseEn": null
 },
 "10125": {
 "name": "Transcend",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10125-transcend"
+"urlName": "10125-transcend",
+"hintSkills": [
+201601,
+201661,
+201672,
+201682,
+202332,
+202952,
+203093,
+203103,
+203182,
+203602
+],
+"eventSkills": [
+201682
+],
+"releaseEn": null
 },
 "10126": {
 "name": "Curren Bouquetd'or",
 "title": "",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10126-curren-bouquetdor"
+"urlName": "10126-curren-bouquetdor",
+"hintSkills": [
+200352,
+200462,
+200572,
+201142,
+201352,
+202372,
+202762,
+202982,
+203312
+],
+"eventSkills": [
+203122
+],
+"releaseEn": null
 },
 "10127": {
 "name": "Air Messiah",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10127-air-messiah"
+"urlName": "10127-air-messiah",
+"hintSkills": [
+200132,
+200502,
+200592,
+201402,
+201581,
+203242,
+203322
+],
+"eventSkills": [
+200602
+],
+"releaseEn": null
 },
 "10128": {
 "name": "Tucker Bryne",
 "title": "",
 "rarity": 1,
 "type": "friend",
-"urlName": "10128-tucker-bryne"
+"urlName": "10128-tucker-bryne",
+"hintSkills": [],
+"eventSkills": [
+200382,
+203652,
+203651,
+203242
+],
+"releaseEn": null
 },
 "10129": {
 "name": "Fusaichi Pandora",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10129-fusaichi-pandora"
+"urlName": "10129-fusaichi-pandora",
+"hintSkills": [
+200502,
+200512,
+200572,
+201322,
+201342,
+202432,
+202982
+],
+"eventSkills": [
+203172
+],
+"releaseEn": null
 },
 "10131": {
 "name": "Win Variation",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10131-win-variation"
+"urlName": "10131-win-variation",
+"hintSkills": [
+200012,
+200182,
+200382,
+200752,
+201172,
+202582,
+202852,
+203562,
+203652,
+203732,
+203772
+],
+"eventSkills": [
+201182
+],
+"releaseEn": null
 },
 "10132": {
 "name": "Stay Gold",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10132-stay-gold"
+"urlName": "10132-stay-gold",
+"hintSkills": [
+200332,
+201591,
+201601,
+201651,
+202532,
+202602,
+202722,
+203362,
+203502,
+203632,
+203852,
+203862
+],
+"eventSkills": [
+200362
+],
+"releaseEn": null
 },
 "10133": {
 "name": "Admire Groove",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10133-admire-groove"
+"urlName": "10133-admire-groove",
+"hintSkills": [
+200192,
+201102,
+201112,
+201412,
+202122,
+203322,
+203432,
+203572,
+203672,
+203832,
+203842
+],
+"eventSkills": [
+202082
+],
+"releaseEn": null
 },
 "10134": {
 "name": "Chrono Genesis",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10134-chrono-genesis"
+"urlName": "10134-chrono-genesis",
+"hintSkills": [
+200142,
+200482,
+202472,
+203052,
+203142,
+203232
+],
+"eventSkills": [
+203112
+],
+"releaseEn": null
 },
 "10135": {
 "name": "Calstone Light O",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10135-calstone-light-o"
+"urlName": "10135-calstone-light-o",
+"hintSkills": [
+200192,
+200362,
+200452,
+200652,
+200962,
+201661,
+202862,
+203032,
+203042,
+203061,
+203071,
+203482,
+203882
+],
+"eventSkills": [
+200362,
+202992
+],
+"releaseEn": null
 },
 "10136": {
 "name": "Durandal",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10136-durandal"
+"urlName": "10136-durandal",
+"hintSkills": [
+200152,
+200362,
+201452,
+202382,
+202402,
+202922,
+203152,
+203762,
+203892,
+203902
+],
+"eventSkills": [
+203582
+],
+"releaseEn": null
 },
 "10137": {
 "name": "Sakura Chitose O",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10137-sakura-chitose-o"
+"urlName": "10137-sakura-chitose-o",
+"hintSkills": [
+200222,
+201112,
+201142,
+202532,
+203142,
+203172,
+203242,
+203312,
+203432
+],
+"eventSkills": [
+202102
+],
+"releaseEn": null
 },
 "10138": {
 "name": "Kiyoko Hoshina",
 "title": "",
 "rarity": 1,
 "type": "friend",
-"urlName": "10138-kiyoko-hoshina"
+"urlName": "10138-kiyoko-hoshina",
+"hintSkills": [],
+"eventSkills": [
+202802,
+201661,
+202792
+],
+"releaseEn": null
 },
 "10139": {
 "name": "Fenomeno",
 "title": "",
 "rarity": 1,
 "type": "stamina",
-"urlName": "10139-fenomeno"
+"urlName": "10139-fenomeno",
+"hintSkills": [
+201182,
+202012,
+202192,
+202482,
+202662,
+202772,
+203132,
+203412,
+203702,
+203712,
+204012
+],
+"eventSkills": [
+202772
+],
+"releaseEn": null
 },
 "10140": {
 "name": "Forever Young",
 "title": "",
 "rarity": 1,
 "type": "intelligence",
-"urlName": "10140-forever-young"
+"urlName": "10140-forever-young",
+"hintSkills": [
+200362,
+200462,
+200492,
+201601,
+201611,
+201661,
+202552,
+202952,
+203502,
+203852,
+204122,
+204182,
+204222
+],
+"eventSkills": [
+204052
+],
+"releaseEn": null
 },
 "10141": {
 "name": "Casino Drive",
 "title": "",
 "rarity": 1,
 "type": "friend",
-"urlName": "10141-casino-drive"
+"urlName": "10141-casino-drive",
+"hintSkills": [],
+"eventSkills": [
+201591,
+201651,
+201652,
+200512
+],
+"releaseEn": null
 },
 "10142": {
 "name": "Red Desire",
 "title": "",
 "rarity": 1,
 "type": "guts",
-"urlName": "10142-red-desire"
+"urlName": "10142-red-desire",
+"hintSkills": [
+200602,
+200612,
+201402,
+201631,
+202122,
+202452,
+202642,
+203852
+],
+"eventSkills": [
+203672
+],
+"releaseEn": null
 },
 "10143": {
 "name": "Victoire Pisa",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10143-victoire-pisa"
+"urlName": "10143-victoire-pisa",
+"hintSkills": [
+200042,
+200352,
+200512,
+201591,
+202602,
+202792,
+203652,
+203662,
+204142
+],
+"eventSkills": [
+203852
+],
+"releaseEn": null
 },
 "10144": {
 "name": "Marche Lorraine",
 "title": "",
 "rarity": 1,
 "type": "speed",
-"urlName": "10144-marche-lorraine"
+"urlName": "10144-marche-lorraine",
+"hintSkills": [
+200302,
+201672,
+201682,
+202262,
+202302,
+202332,
+203093,
+203103,
+203182,
+203602,
+203612,
+203792,
+203982
+],
+"eventSkills": [
+204102
+],
+"releaseEn": null
 },
 "20001": {
 "name": "Fuji Kiseki",
 "title": "[Well, Look Who's Home]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20001-fuji-kiseki"
+"urlName": "20001-fuji-kiseki",
+"hintSkills": [
+200182,
+200222,
+200771,
+201042,
+201072
+],
+"eventSkills": [
+200931,
+200582
+],
+"releaseEn": "2025-06-26"
 },
 "20002": {
 "name": "Daiwa Scarlet",
 "title": "[Nothing Hard Work Can't Solve!]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20002-daiwa-scarlet"
+"urlName": "20002-daiwa-scarlet",
+"hintSkills": [
+200282,
+200572,
+200582,
+200712,
+200722,
+201052
+],
+"eventSkills": [
+201362,
+200562
+],
+"releaseEn": "2025-06-26"
 },
 "20003": {
 "name": "Hishi Amazon",
 "title": "[Reach the Top!]",
 "rarity": 2,
 "type": "power",
-"urlName": "20003-hishi-amazon"
+"urlName": "20003-hishi-amazon",
+"hintSkills": [
+200562,
+200642,
+201452,
+201532,
+201552
+],
+"eventSkills": [
+200632,
+200941
+],
+"releaseEn": "2025-06-26"
 },
 "20004": {
 "name": "Air Groove",
 "title": "[Nothing Escapes the Vice Prez]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20004-air-groove"
+"urlName": "20004-air-groove",
+"hintSkills": [
+200472,
+200722,
+200931,
+200941,
+201102,
+201601
+],
+"eventSkills": [
+200372,
+200502
+],
+"releaseEn": "2025-06-26"
 },
 "20005": {
 "name": "Agnes Digital",
 "title": "[Digital's Recharge Station]",
 "rarity": 2,
 "type": "power",
-"urlName": "20005-agnes-digital"
+"urlName": "20005-agnes-digital",
+"hintSkills": [
+200442,
+200482,
+201032,
+201092,
+201102,
+201382
+],
+"eventSkills": [
+200821,
+200232,
+200162
+],
+"releaseEn": "2025-06-26"
 },
 "20006": {
 "name": "Biwa Hayahide",
 "title": "[Trial Initiation]",
 "rarity": 2,
 "type": "power",
-"urlName": "20006-biwa-hayahide"
+"urlName": "20006-biwa-hayahide",
+"hintSkills": [
+200052,
+200162,
+200222,
+200262,
+200821
+],
+"eventSkills": [
+201212,
+200752
+],
+"releaseEn": "2025-06-26"
 },
 "20007": {
 "name": "Mayano Top Gun",
 "title": "[Cute + Cute = ?]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20007-mayano-top-gun"
+"urlName": "20007-mayano-top-gun",
+"hintSkills": [
+200142,
+200332,
+200362,
+200382,
+200492,
+200502
+],
+"eventSkills": [
+200432,
+200362
+],
+"releaseEn": "2025-06-26"
 },
 "20008": {
 "name": "Manhattan Cafe",
 "title": "[My Solo Drawn to Raindrop Drums]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20008-manhattan-cafe"
+"urlName": "20008-manhattan-cafe",
+"hintSkills": [
+200162,
+200232,
+201172,
+201202,
+201222,
+201581
+],
+"eventSkills": [
+201432,
+200142
+],
+"releaseEn": "2025-06-26"
 },
 "20009": {
 "name": "Mihono Bourbon",
 "title": "[Pal-Assisted Training]",
 "rarity": 2,
 "type": "power",
-"urlName": "20009-mihono-bourbon"
+"urlName": "20009-mihono-bourbon",
+"hintSkills": [
+200242,
+200532,
+201242,
+201252
+],
+"eventSkills": [
+200352,
+201242,
+200432
+],
+"releaseEn": "2025-06-26"
 },
 "20010": {
 "name": "Mejiro Ryan",
 "title": "[On and Off the Court]",
 "rarity": 2,
 "type": "power",
-"urlName": "20010-mejiro-ryan"
+"urlName": "20010-mejiro-ryan",
+"hintSkills": [
+200162,
+200232,
+200722,
+201102
+],
+"eventSkills": [
+200492,
+200472
+],
+"releaseEn": "2025-06-26"
 },
 "20011": {
 "name": "Yukino Bijin",
 "title": "[City Girl 101]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20011-yukino-bijin"
+"urlName": "20011-yukino-bijin",
+"hintSkills": [
+200042,
+200202,
+200732,
+201112
+],
+"eventSkills": [
+200342
+],
+"releaseEn": "2025-06-26"
 },
 "20012": {
 "name": "Agnes Tachyon",
 "title": "[Experimental Studies on Subject A]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20012-agnes-tachyon"
+"urlName": "20012-agnes-tachyon",
+"hintSkills": [
+200722,
+201102,
+201112,
+201152
+],
+"eventSkills": [
+200831,
+201542
+],
+"releaseEn": "2025-06-26"
 },
 "20013": {
 "name": "Eishin Flash",
 "title": "[5:00 a.m.—Right on Schedule]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20013-eishin-flash"
+"urlName": "20013-eishin-flash",
+"hintSkills": [
+200132,
+200372,
+201382,
+201392,
+201402
+],
+"eventSkills": [
+200512,
+200292
+],
+"releaseEn": "2025-06-26"
 },
 "20014": {
 "name": "Narita Taishin",
 "title": "[Poolside High Tides]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20014-narita-taishin"
+"urlName": "20014-narita-taishin",
+"hintSkills": [
+200442,
+200482,
+200622,
+200632,
+201462,
+201512,
+201641
+],
+"eventSkills": [
+201472,
+201212
+],
+"releaseEn": "2025-06-26"
 },
 "20015": {
 "name": "Marvelous Sunday",
 "title": "[A Marvelous ☆ Plan]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20015-marvelous-sunday"
+"urlName": "20015-marvelous-sunday",
+"hintSkills": [
+200362,
+200462,
+200851,
+200881,
+201611
+],
+"eventSkills": [
+200052
+],
+"releaseEn": "2025-06-26"
 },
 "20016": {
 "name": "Matikanefukukitaru",
 "title": "[Fate's Forecast]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20016-matikanefukukitaru"
+"urlName": "20016-matikanefukukitaru",
+"hintSkills": [
+200092,
+200482,
+200781,
+201392,
+201422,
+201562,
+201571
+],
+"eventSkills": [
+200012
+],
+"releaseEn": "2025-06-26"
 },
 "20017": {
 "name": "Meisho Doto",
 "title": "[Fighting for Fortune]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20017-meisho-doto"
+"urlName": "20017-meisho-doto",
+"hintSkills": [
+200142,
+200152,
+200252,
+200302,
+201122,
+201382,
+201621
+],
+"eventSkills": [
+200582,
+201322
+],
+"releaseEn": "2025-06-26"
 },
 "20018": {
 "name": "Mejiro Dober",
 "title": "[Ignore the Stares]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20018-mejiro-dober"
+"urlName": "20018-mejiro-dober",
+"hintSkills": [
+200062,
+200212,
+200722,
+200732,
+201542
+],
+"eventSkills": [
+200602,
+201072
+],
+"releaseEn": "2025-06-26"
 },
 "20019": {
 "name": "Nice Nature",
 "title": "[It's Just Water]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20019-nice-nature"
+"urlName": "20019-nice-nature",
+"hintSkills": [
+200122,
+200342,
+200442,
+200502,
+200911,
+201162,
+201422,
+201442
+],
+"eventSkills": [
+200762,
+200462
+],
+"releaseEn": "2025-06-26"
 },
 "20020": {
 "name": "King Halo",
 "title": "[First-Rate Plan]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20020-king-halo"
+"urlName": "20020-king-halo",
+"hintSkills": [
+200152,
+200222,
+200262,
+200352,
+200662,
+200672
+],
+"eventSkills": [
+200512
+],
+"releaseEn": "2025-06-26"
 },
 "20021": {
 "name": "Aoi Kiryuin",
 "title": "[Trainers' Teamwork]",
 "rarity": 2,
 "type": "friend",
-"urlName": "20021-aoi-kiryuin"
+"urlName": "20021-aoi-kiryuin",
+"hintSkills": [],
+"eventSkills": [
+200272,
+200831,
+200941,
+200442,
+201621
+],
+"releaseEn": "2025-06-26"
 },
 "20022": {
 "name": "Tamamo Cross",
 "title": "[Now Dat's What I Call Grilled Squid!]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20022-tamamo-cross"
+"urlName": "20022-tamamo-cross",
+"hintSkills": [
+200712,
+200811,
+200901,
+201112,
+201132,
+201142,
+201412
+],
+"eventSkills": [
+201322,
+201392,
+200482
+],
+"releaseEn": "2026-02-05"
 },
 "20023": {
 "name": "Sweep Tosho",
 "title": "[Lamplit Training of a Witch-to-Be]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20023-sweep-tosho"
+"urlName": "20023-sweep-tosho",
+"hintSkills": [
+200452,
+200771,
+200781,
+201162,
+201472,
+201482,
+201651
+],
+"eventSkills": [
+201562,
+200272,
+201492,
+201641
+],
+"releaseEn": "2025-06-26"
 },
 "20024": {
 "name": "Daitaku Helios",
 "title": "[Let's Get This Party Lit!]",
 "rarity": 2,
 "type": "power",
-"urlName": "20024-daitaku-helios"
+"urlName": "20024-daitaku-helios",
+"hintSkills": [
+200462,
+200562,
+201042,
+201052,
+201082,
+201631,
+201651
+],
+"eventSkills": [
+201342,
+200692,
+200302
+],
+"releaseEn": "2025-07-02"
 },
 "20025": {
 "name": "Ikuno Dictus",
 "title": "[Never Skip Warm-Ups]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20025-ikuno-dictus"
+"urlName": "20025-ikuno-dictus",
+"hintSkills": [
+200442,
+200482,
+201122,
+201432,
+201442
+],
+"eventSkills": [
+200791,
+200821,
+200781
+],
+"releaseEn": "2025-07-10"
 },
 "20026": {
 "name": "Nice Nature",
 "title": "[Messing Around]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20026-nice-nature"
+"urlName": "20026-nice-nature",
+"hintSkills": [
+200122,
+200342,
+200442,
+200502,
+200911,
+201162,
+201422,
+201442
+],
+"eventSkills": [
+200302,
+200462
+],
+"releaseEn": "2025-07-16"
 },
 "20027": {
 "name": "Nishino Flower",
 "title": "[Lifting Your Spirits]",
 "rarity": 2,
 "type": "power",
-"urlName": "20027-nishino-flower"
+"urlName": "20027-nishino-flower",
+"hintSkills": [
+200052,
+200132,
+200152,
+200702,
+201322
+],
+"eventSkills": [
+200362,
+200372
+],
+"releaseEn": "2025-07-27"
 },
 "20028": {
 "name": "Zenno Rob Roy",
 "title": "[The Perfect Book for You]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20028-zenno-rob-roy"
+"urlName": "20028-zenno-rob-roy",
+"hintSkills": [
+200362,
+200452,
+200492,
+200502,
+201332,
+201432,
+201532,
+201542
+],
+"eventSkills": [
+201442,
+201102
+],
+"releaseEn": "2025-08-03"
 },
 "20029": {
 "name": "Seeking the Pearl",
 "title": "[The World's My Oyster]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20029-seeking-the-pearl"
+"urlName": "20029-seeking-the-pearl",
+"hintSkills": [
+200152,
+200472,
+200652,
+200692,
+200962,
+201072
+],
+"eventSkills": [
+201562,
+201052,
+202992,
+201591
+],
+"releaseEn": "2025-08-20"
 },
 "20030": {
 "name": "Ines Fujin",
 "title": "[You Earned It!]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20030-ines-fujin"
+"urlName": "20030-ines-fujin",
+"hintSkills": [
+200732,
+201082,
+201282,
+201651,
+201661
+],
+"eventSkills": [
+201102,
+201631,
+200132,
+200552,
+200542
+],
+"releaseEn": "2026-02-25"
 },
 "20031": {
 "name": "Shinko Windy",
 "title": "[///WARNING GATE///]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20031-shinko-windy"
+"urlName": "20031-shinko-windy",
+"hintSkills": [
+200162,
+200282,
+200582,
+200851
+],
+"eventSkills": [
+201052,
+201072
+],
+"releaseEn": "2025-09-17"
 },
 "20032": {
 "name": "Inari One",
 "title": "[Laughing through the Mud]",
 "rarity": 2,
 "type": "power",
-"urlName": "20032-inari-one"
+"urlName": "20032-inari-one",
+"hintSkills": [
+200172,
+200202,
+200292,
+200462,
+201442,
+201611,
+201682,
+202002
+],
+"eventSkills": [
+200952,
+200062
+],
+"releaseEn": "2026-01-15"
 },
 "20033": {
 "name": "El Condor Pasa",
 "title": "[Mud-Caked Compañero]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20033-el-condor-pasa"
+"urlName": "20033-el-condor-pasa",
+"hintSkills": [
+200132,
+200582,
+200722,
+201312,
+201902
+],
+"eventSkills": [
+201322,
+200212
+],
+"releaseEn": "2026-06-25"
 },
 "20034": {
 "name": "Mejiro Ardan",
 "title": "[My Heart Will Go On]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20034-mejiro-ardan"
+"urlName": "20034-mejiro-ardan",
+"hintSkills": [
+200022,
+200572,
+201142,
+201322,
+201532
+],
+"eventSkills": [
+200881
+],
+"releaseEn": "2025-10-02"
 },
 "20035": {
 "name": "Tosen Jordan",
 "title": "[Turf as Nails]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20035-tosen-jordan"
+"urlName": "20035-tosen-jordan",
+"hintSkills": [
+200302,
+200562,
+200592,
+201102,
+201112,
+201312
+],
+"eventSkills": [
+200462,
+201562
+],
+"releaseEn": "2025-10-30"
 },
 "20036": {
 "name": "Mejiro Palmer",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20036-mejiro-palmer"
+"urlName": "20036-mejiro-palmer",
+"hintSkills": [
+200332,
+200742,
+200762,
+201192,
+201282,
+202012,
+202582,
+202792
+],
+"eventSkills": [
+202682,
+200162
+],
+"releaseEn": null
 },
 "20037": {
 "name": "Fine Motion",
 "title": "[Grma, Ramen ♪]",
 "rarity": 2,
 "type": "power",
-"urlName": "20037-fine-motion"
+"urlName": "20037-fine-motion",
+"hintSkills": [
+200012,
+200192,
+200262,
+200372,
+200492
+],
+"eventSkills": [
+200732,
+200332
+],
+"releaseEn": "2025-11-19"
 },
 "20038": {
 "name": "Sirius Symboli",
 "title": "[The Brightest Star Shines On]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20038-sirius-symboli"
+"urlName": "20038-sirius-symboli",
+"hintSkills": [
+200162,
+200582,
+201112,
+201641
+],
+"eventSkills": [
+201332,
+201372
+],
+"releaseEn": "2025-12-08"
 },
 "20039": {
 "name": "Vodka",
 "title": "[An Annoying Supervisor]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20039-vodka"
+"urlName": "20039-vodka",
+"hintSkills": [
+200032,
+200362,
+200372,
+200382,
+200512,
+200602,
+200702,
+201032,
+201102
+],
+"eventSkills": [
+201042,
+200492
+],
+"releaseEn": "2025-12-28"
 },
 "20040": {
 "name": "Mejiro Ryan",
 "title": "[Hot Hearts and Cool Drinks]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20040-mejiro-ryan"
+"urlName": "20040-mejiro-ryan",
+"hintSkills": [
+200602,
+200722,
+201102
+],
+"eventSkills": [
+201382,
+200472
+],
+"releaseEn": "2026-03-12"
 },
 "20041": {
 "name": "Admire Vega",
 "title": "[Aim for the Brightest]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20041-admire-vega"
+"urlName": "20041-admire-vega",
+"hintSkills": [
+200632,
+201152,
+201452,
+201492,
+201502
+],
+"eventSkills": [
+201552,
+200861
+],
+"releaseEn": "2026-03-12"
 },
 "20042": {
 "name": "Sakura Bakushin O",
 "title": "[The Perfect Morning Greeting!]",
 "rarity": 2,
 "type": "power",
-"urlName": "20042-sakura-bakushin-o"
+"urlName": "20042-sakura-bakushin-o",
+"hintSkills": [
+200652,
+200791,
+200841,
+200962,
+200972,
+200982,
+200992,
+201012
+],
+"eventSkills": [
+201611,
+200672
+],
+"releaseEn": "2026-03-12"
 },
 "20043": {
 "name": "Special Week",
 "title": "[At the End of the Day]",
 "rarity": 2,
 "type": "power",
-"urlName": "20043-special-week"
+"urlName": "20043-special-week",
+"hintSkills": [
+200162,
+200512,
+200562,
+200732,
+201312,
+201352,
+201362
+],
+"eventSkills": [
+201902,
+200762
+],
+"releaseEn": "2026-03-12"
 },
 "20044": {
 "name": "Curren Chan",
 "title": "[Cozy Cute Memory ♪]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20044-curren-chan"
+"urlName": "20044-curren-chan",
+"hintSkills": [
+200652,
+200911,
+200962,
+201002,
+201372
+],
+"eventSkills": [
+201332,
+200972,
+201012
+],
+"releaseEn": "2026-03-22"
 },
 "20045": {
 "name": "Smart Falcon",
 "title": "[Almost... an Umadol?! ♡]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20045-smart-falcon"
+"urlName": "20045-smart-falcon",
+"hintSkills": [
+200162,
+200222,
+200952,
+201242,
+201522,
+201672,
+201682
+],
+"eventSkills": [
+201272,
+201672,
+200552
+],
+"releaseEn": "2026-04-06"
 },
 "20046": {
 "name": "Sweep Tosho",
 "title": "[Reckless Witch Training]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20046-sweep-tosho"
+"urlName": "20046-sweep-tosho",
+"hintSkills": [
+200452,
+201162,
+201462,
+201472,
+201482,
+201552,
+201651
+],
+"eventSkills": [
+200781,
+200921,
+201452
+],
+"releaseEn": "2026-04-12"
 },
 "20047": {
 "name": "Tokai Teio",
 "title": "[Step! Smile! Wink!]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20047-tokai-teio"
+"urlName": "20047-tokai-teio",
+"hintSkills": [
+200452,
+200492,
+200502,
+201132,
+201142,
+201332
+],
+"eventSkills": [
+201112,
+201312
+],
+"releaseEn": "2026-04-30"
 },
 "20048": {
 "name": "Oguri Cap",
 "title": "[I Love You... Dear Food]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20048-oguri-cap"
+"urlName": "20048-oguri-cap",
+"hintSkills": [
+200342,
+200492,
+200512,
+201062,
+201072,
+201601,
+202112,
+202122
+],
+"eventSkills": [
+200162,
+200042
+],
+"releaseEn": "2026-06-04"
 },
 "20049": {
 "name": "Gold City",
 "title": "[Going for Gold]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20049-gold-city"
+"urlName": "20049-gold-city",
+"hintSkills": [
+200232,
+200302,
+200692,
+201611,
+201641
+],
+"eventSkills": [
+200382,
+200242,
+201422
+],
+"releaseEn": "2026-06-18"
 },
 "20050": {
 "name": "Seiun Sky",
 "title": "[Bobbing with the Waves]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20050-seiun-sky"
+"urlName": "20050-seiun-sky",
+"hintSkills": [
+200532,
+200542,
+200881,
+200811,
+201522,
+201601
+],
+"eventSkills": [
+200911,
+201292,
+201192
+],
+"releaseEn": null
 },
 "20051": {
 "name": "K.S.Miracle",
 "title": "[The 3rd Miracle]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20051-ksmiracle"
+"urlName": "20051-ksmiracle",
+"hintSkills": [
+200702,
+200972,
+200992,
+201312,
+201532,
+202372
+],
+"eventSkills": [
+200962,
+202042
+],
+"releaseEn": null
 },
 "20052": {
 "name": "Tsurumaru Tsuyoshi",
 "title": "[Go, Go! Tsuyoshi!]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20052-tsurumaru-tsuyoshi"
+"urlName": "20052-tsurumaru-tsuyoshi",
+"hintSkills": [
+200302,
+200722,
+202032,
+202092,
+202152
+],
+"eventSkills": [
+201382,
+201402
+],
+"releaseEn": null
 },
 "20053": {
 "name": "Narita Top Road",
 "title": "[Stop, Prez!]",
 "rarity": 2,
 "type": "power",
-"urlName": "20053-narita-top-road"
+"urlName": "20053-narita-top-road",
+"hintSkills": [
+200012,
+200142,
+200152,
+200572,
+200582
+],
+"eventSkills": [
+200252,
+200722
+],
+"releaseEn": null
 },
 "20054": {
 "name": "TM Opera O",
 "title": "[Mighty Fotografia]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20054-tm-opera-o"
+"urlName": "20054-tm-opera-o",
+"hintSkills": [
+200142,
+200352,
+200362,
+200562,
+200582,
+200722,
+201182,
+201902,
+202012
+],
+"eventSkills": [
+200572,
+200142
+],
+"releaseEn": null
 },
 "20055": {
 "name": "Aston Machan",
 "title": "[A Clip to Keep Your Heart Warm]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20055-aston-machan"
+"urlName": "20055-aston-machan",
+"hintSkills": [
+200162,
+200532,
+200962,
+201022,
+201262,
+201302,
+201601
+],
+"eventSkills": [
+201002,
+200992,
+200272,
+201012,
+202392,
+202042
+],
+"releaseEn": null
 },
 "20056": {
 "name": "Jungle Pocket",
 "title": "[Dead End: Blocking the Path]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20056-jungle-pocket"
+"urlName": "20056-jungle-pocket",
+"hintSkills": [
+201392,
+201462,
+202022,
+202082,
+202122,
+202452,
+202492
+],
+"eventSkills": [
+202102,
+200642,
+202422
+],
+"releaseEn": null
 },
 "20057": {
 "name": "Mejiro Dober",
 "title": "[Gentle and Sleek]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20057-mejiro-dober"
+"urlName": "20057-mejiro-dober",
+"hintSkills": [
+200012,
+200142,
+201112,
+201132,
+201152,
+202082
+],
+"eventSkills": [
+200062,
+201072
+],
+"releaseEn": null
 },
 "20058": {
 "name": "Symboli Rudolf",
 "title": "[Your Laugh After School]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20058-symboli-rudolf"
+"urlName": "20058-symboli-rudolf",
+"hintSkills": [
+200831,
+200861,
+200891,
+200921,
+201172,
+201182,
+202012,
+202422
+],
+"eventSkills": [
+200352,
+200012,
+200232
+],
+"releaseEn": null
 },
 "20059": {
 "name": "Agnes Tachyon",
 "title": "[Ah, Wonderful Saccharinity]",
 "rarity": 2,
 "type": "power",
-"urlName": "20059-agnes-tachyon"
+"urlName": "20059-agnes-tachyon",
+"hintSkills": [
+200012,
+200042,
+200722,
+201102,
+201152,
+201532,
+201902,
+202032,
+202372
+],
+"eventSkills": [
+202032,
+201542
+],
+"releaseEn": null
 },
 "20060": {
 "name": "Hishi Akebono",
 "title": "[Try a Sweet Swim Ring]",
 "rarity": 2,
 "type": "power",
-"urlName": "20060-hishi-akebono"
+"urlName": "20060-hishi-akebono",
+"hintSkills": [
+200212,
+200342,
+200652,
+200972,
+200992,
+201002,
+202412
+],
+"eventSkills": [
+200962,
+200652
+],
+"releaseEn": null
 },
 "20061": {
 "name": "Gold Ship",
 "title": "[Golshi's House Specialty]",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20061-gold-ship"
+"urlName": "20061-gold-ship",
+"hintSkills": [
+200622,
+200642,
+200752,
+200791,
+200801,
+200811,
+200821,
+201202,
+201212,
+201222,
+201232,
+201452,
+201462,
+201472,
+201482,
+201502,
+201512,
+201552,
+201591,
+201631,
+202022,
+202032,
+202382,
+202492
+],
+"eventSkills": [
+202032,
+201552,
+200752,
+201482,
+200052
+],
+"releaseEn": null
 },
 "20062": {
 "name": "Maruzensky",
 "title": "[One Bomb Drive ♪]",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20062-maruzensky"
+"urlName": "20062-maruzensky",
+"hintSkills": [
+200042,
+200532,
+200552,
+200682,
+201062,
+201082,
+202532
+],
+"eventSkills": [
+201072,
+201262,
+201042,
+200532
+],
+"releaseEn": null
 },
 "20063": {
 "name": "Silence Suzuka",
 "title": "[Summer Evening Shower]",
 "rarity": 2,
 "type": "speed",
-"urlName": "20063-silence-suzuka"
+"urlName": "20063-silence-suzuka",
+"hintSkills": [
+200022,
+200152,
+200212,
+200542,
+201242,
+201302,
+201621,
+202502
+],
+"eventSkills": [
+201272,
+201252,
+200022
+],
+"releaseEn": null
 },
 "20064": {
 "name": "Copano Rickey",
 "title": "[Gods of Luck Are Early to Rise]",
 "rarity": 2,
 "type": "guts",
-"urlName": "20064-copano-rickey"
+"urlName": "20064-copano-rickey",
+"hintSkills": [
+200952,
+201532,
+201672,
+201682,
+202212,
+202222,
+202252,
+202302
+],
+"eventSkills": [
+202242,
+202343,
+202332,
+202262
+],
+"releaseEn": null
 },
 "20065": {
 "name": "Grass Wonder",
 "title": "[The Splendid Aftertaste of Good Tea]",
 "rarity": 2,
 "type": "power",
-"urlName": "20065-grass-wonder"
+"urlName": "20065-grass-wonder",
+"hintSkills": [
+200592,
+200612,
+201042,
+201072,
+201412,
+201442
+],
+"eventSkills": [
+200871,
+200602,
+200801,
+200292
+],
+"releaseEn": null
 },
 "20066": {
 "name": "Kitasan Black",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20066-kitasan-black"
+"urlName": "20066-kitasan-black",
+"hintSkills": [
+200332,
+200352,
+200382,
+200762,
+201192,
+201242,
+202462
+],
+"eventSkills": [
+201182
+],
+"releaseEn": null
 },
 "20067": {
 "name": "Taiki Shuttle",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20067-taiki-shuttle"
+"urlName": "20067-taiki-shuttle",
+"hintSkills": [
+200682,
+201042,
+201052,
+201062,
+201082
+],
+"eventSkills": [
+202672,
+202992,
+200582
+],
+"releaseEn": null
 },
 "20068": {
 "name": "Nice Nature",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20068-nice-nature"
+"urlName": "20068-nice-nature",
+"hintSkills": [
+200602,
+201162,
+201402,
+201422,
+201442,
+201692
+],
+"eventSkills": [
+200512,
+200462
+],
+"releaseEn": null
 },
 "20069": {
 "name": "Matikanetannhauser",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20069-matikanetannhauser"
+"urlName": "20069-matikanetannhauser",
+"hintSkills": [
+200482,
+200592,
+201212,
+201222,
+201382,
+201692
+],
+"eventSkills": [
+202642,
+200831
+],
+"releaseEn": null
 },
 "20070": {
 "name": "Verxina",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20070-verxina"
+"urlName": "20070-verxina",
+"hintSkills": [
+200032,
+200132,
+200452,
+200542,
+201292
+],
+"eventSkills": [
+202502,
+200682
+],
+"releaseEn": null
 },
 "20071": {
 "name": "Royce and Royce",
 "title": "",
 "rarity": 2,
 "type": "power",
-"urlName": "20071-royce-and-royce"
+"urlName": "20071-royce-and-royce",
+"hintSkills": [
+200432,
+200442,
+200472,
+200482,
+200492,
+200722,
+201651
+],
+"eventSkills": [
+202092,
+200502
+],
+"releaseEn": null
 },
 "20072": {
 "name": "Tanino Gimlet",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20072-tanino-gimlet"
+"urlName": "20072-tanino-gimlet",
+"hintSkills": [
+200362,
+200502,
+200632,
+200642,
+201102,
+201452,
+201472
+],
+"eventSkills": [
+201462,
+201552
+],
+"releaseEn": null
 },
 "20073": {
 "name": "Tosen Jordan",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20073-tosen-jordan"
+"urlName": "20073-tosen-jordan",
+"hintSkills": [
+200302,
+200502,
+200582,
+200722,
+201102,
+202652,
+202792
+],
+"eventSkills": [
+202472,
+201562
+],
+"releaseEn": null
 },
 "20074": {
 "name": "Yaeno Muteki",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20074-yaeno-muteki"
+"urlName": "20074-yaeno-muteki",
+"hintSkills": [
+200472,
+200512,
+200572,
+200732,
+201112,
+202092,
+202412
+],
+"eventSkills": [
+202762,
+201112
+],
+"releaseEn": null
 },
 "20075": {
 "name": "Tap Dance City",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20075-tap-dance-city"
+"urlName": "20075-tap-dance-city",
+"hintSkills": [
+200032,
+200372,
+200712,
+200722,
+201262,
+202132,
+202652,
+202792
+],
+"eventSkills": [
+202462,
+201272
+],
+"releaseEn": null
 },
 "20076": {
 "name": "Air Shakur",
 "title": "",
 "rarity": 2,
 "type": "power",
-"urlName": "20076-air-shakur"
+"urlName": "20076-air-shakur",
+"hintSkills": [
+200372,
+200632,
+201452,
+201492,
+202382,
+202942
+],
+"eventSkills": [
+202882,
+200472
+],
+"releaseEn": null
 },
 "20077": {
 "name": "Dantsu Flame",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20077-dantsu-flame"
+"urlName": "20077-dantsu-flame",
+"hintSkills": [
+200462,
+201102,
+201132,
+201591,
+201702,
+202092,
+202472,
+202792
+],
+"eventSkills": [
+202432,
+202472
+],
+"releaseEn": null
 },
 "20078": {
 "name": "Matikanefukukitaru",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20078-matikanefukukitaru"
+"urlName": "20078-matikanefukukitaru",
+"hintSkills": [
+201212,
+201222,
+201562,
+201571,
+202072,
+202792
+],
+"eventSkills": [
+200142
+],
+"releaseEn": null
 },
 "20079": {
 "name": "Marvelous Sunday",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20079-marvelous-sunday"
+"urlName": "20079-marvelous-sunday",
+"hintSkills": [
+200012,
+200372,
+200462,
+200572,
+200722,
+201332,
+202082
+],
+"eventSkills": [
+201312,
+200052
+],
+"releaseEn": null
 },
 "20080": {
 "name": "Sakura Laurel",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20080-sakura-laurel"
+"urlName": "20080-sakura-laurel",
+"hintSkills": [
+200442,
+200502,
+200742,
+201202,
+201222,
+202422,
+202662
+],
+"eventSkills": [
+202592,
+200861
+],
+"releaseEn": null
 },
 "20081": {
 "name": "North Flight",
 "title": "",
 "rarity": 2,
 "type": "power",
-"urlName": "20081-north-flight"
+"urlName": "20081-north-flight",
+"hintSkills": [
+200132,
+200462,
+200502,
+200682,
+201042,
+201062,
+202502,
+203022
+],
+"eventSkills": [
+202372,
+202672
+],
+"releaseEn": null
 },
 "20082": {
 "name": "Bubble Gum Fellow",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20082-bubble-gum-fellow"
+"urlName": "20082-bubble-gum-fellow",
+"hintSkills": [
+200462,
+200502,
+201352,
+202412,
+202802,
+202982
+],
+"eventSkills": [
+203132,
+201902
+],
+"releaseEn": null
 },
 "20083": {
 "name": "Mejiro Ramonu",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20083-mejiro-ramonu"
+"urlName": "20083-mejiro-ramonu",
+"hintSkills": [
+200462,
+200732,
+201142,
+201702,
+202092,
+202532,
+203312
+],
+"eventSkills": [
+203112,
+201112
+],
+"releaseEn": null
 },
 "20084": {
 "name": "Lucky Lilac",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20084-lucky-lilac"
+"urlName": "20084-lucky-lilac",
+"hintSkills": [
+200142,
+200342,
+200732,
+201112,
+201142,
+202652,
+203312
+],
+"eventSkills": [
+203222,
+203142
+],
+"releaseEn": null
 },
 "20085": {
 "name": "Mejiro McQueen",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20085-mejiro-mcqueen"
+"urlName": "20085-mejiro-mcqueen",
+"hintSkills": [
+200472,
+200482,
+200742,
+201532,
+202372,
+202762,
+203132,
+203302
+],
+"eventSkills": [
+202012,
+200532
+],
+"releaseEn": null
 },
 "20086": {
 "name": "Rice Shower",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20086-rice-shower"
+"urlName": "20086-rice-shower",
+"hintSkills": [
+200062,
+200742,
+201352,
+201581,
+202722,
+202772,
+203302
+],
+"eventSkills": [
+202482,
+200152
+],
+"releaseEn": null
 },
 "20087": {
 "name": "Daring Heart",
 "title": "",
 "rarity": 2,
 "type": "power",
-"urlName": "20087-daring-heart"
+"urlName": "20087-daring-heart",
+"hintSkills": [
+200462,
+200502,
+200582,
+200682,
+201052,
+201072,
+201631,
+203022
+],
+"eventSkills": [
+203162,
+203222
+],
+"releaseEn": null
 },
 "20088": {
 "name": "Curren Bouquetd'or",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20088-curren-bouquetdor"
+"urlName": "20088-curren-bouquetdor",
+"hintSkills": [
+200352,
+200462,
+200572,
+201142,
+201352,
+202372,
+202762,
+202982,
+203312
+],
+"eventSkills": [
+200722,
+203122
+],
+"releaseEn": null
 },
 "20089": {
 "name": "Kawakami Princess",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20089-kawakami-princess"
+"urlName": "20089-kawakami-princess",
+"hintSkills": [
+200342,
+201132,
+201631,
+202102,
+202472,
+202722,
+203592
+],
+"eventSkills": [
+202452,
+200732
+],
+"releaseEn": null
 },
 "20090": {
 "name": "Biko Pegasus",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20090-biko-pegasus"
+"urlName": "20090-biko-pegasus",
+"hintSkills": [
+200162,
+200652,
+201402,
+202152,
+202402,
+202722,
+203012,
+203152
+],
+"eventSkills": [
+203042,
+200962
+],
+"releaseEn": null
 },
 "20091": {
 "name": "Sakura Chitose O",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20091-sakura-chitose-o"
+"urlName": "20091-sakura-chitose-o",
+"hintSkills": [
+200222,
+201112,
+201142,
+202532,
+203142,
+203172,
+203242,
+203312,
+203432
+],
+"eventSkills": [
+203632,
+202102
+],
+"releaseEn": null
 },
 "20092": {
 "name": "Hokko Tarumae",
 "title": "",
 "rarity": 2,
 "type": "power",
-"urlName": "20092-hokko-tarumae"
+"urlName": "20092-hokko-tarumae",
+"hintSkills": [
+201332,
+201631,
+202302,
+202312,
+203093,
+203222,
+203422,
+203602
+],
+"eventSkills": [
+202982,
+201672
+],
+"releaseEn": null
 },
 "20093": {
 "name": "Mejiro Dober",
 "title": "",
 "rarity": 2,
 "type": "speed",
-"urlName": "20093-mejiro-dober"
+"urlName": "20093-mejiro-dober",
+"hintSkills": [
+200202,
+200502,
+201432,
+202112,
+202642,
+202962,
+203322,
+203552
+],
+"eventSkills": [
+202122,
+201072
+],
+"releaseEn": null
 },
 "20094": {
 "name": "Satono Diamond",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20094-satono-diamond"
+"urlName": "20094-satono-diamond",
+"hintSkills": [
+200202,
+201402,
+201422,
+202082,
+202092,
+202662,
+203312,
+203622,
+203742
+],
+"eventSkills": [
+203512,
+200851
+],
+"releaseEn": null
 },
 "20095": {
 "name": "Red Desire",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20095-red-desire"
+"urlName": "20095-red-desire",
+"hintSkills": [
+200602,
+200612,
+201402,
+201631,
+202122,
+202452,
+202642,
+203852
+],
+"eventSkills": [
+202622,
+203672
+],
+"releaseEn": null
 },
 "20096": {
 "name": "Taiki Shuttle",
 "title": "",
 "rarity": 2,
 "type": "guts",
-"urlName": "20096-taiki-shuttle"
+"urlName": "20096-taiki-shuttle",
+"hintSkills": [
+200162,
+201352,
+201532,
+202672,
+202762,
+203042,
+203162,
+204162
+],
+"eventSkills": [
+203962,
+202992,
+200582
+],
+"releaseEn": null
 },
 "20097": {
 "name": "Super Creek",
 "title": "",
 "rarity": 2,
 "type": "power",
-"urlName": "20097-super-creek"
+"urlName": "20097-super-creek",
+"hintSkills": [
+200352,
+200752,
+201182,
+201202,
+201212,
+203772,
+204142
+],
+"eventSkills": [
+202802,
+203302,
+200742
+],
+"releaseEn": null
 },
 "20098": {
 "name": "Hishi Amazon",
 "title": "",
 "rarity": 2,
 "type": "intelligence",
-"urlName": "20098-hishi-amazon"
+"urlName": "20098-hishi-amazon",
+"hintSkills": [
+201452,
+202492,
+202882,
+202892,
+203532,
+203662,
+203752
+],
+"eventSkills": [
+203582,
+200941
+],
+"releaseEn": null
 },
 "20099": {
 "name": "Mejiro Ardan",
 "title": "",
 "rarity": 2,
 "type": "stamina",
-"urlName": "20099-mejiro-ardan"
+"urlName": "20099-mejiro-ardan",
+"hintSkills": [
+200582,
+200732,
+201142,
+201631,
+202742,
+203112,
+203312,
+204322
+],
+"eventSkills": [
+204042,
+200881
+],
+"releaseEn": null
 },
 "30001": {
 "name": "Special Week",
 "title": "[The Brightest Star in Japan!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30001-special-week"
+"urlName": "30001-special-week",
+"hintSkills": [
+200162,
+200232,
+200512,
+200612,
+200732,
+201352,
+201542
+],
+"eventSkills": [
+201142,
+201342,
+200512,
+200511,
+200762
+],
+"releaseEn": "2025-06-26"
 },
 "30002": {
 "name": "Silence Suzuka",
 "title": "[Beyond This Shining Moment]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30002-silence-suzuka"
+"urlName": "30002-silence-suzuka",
+"hintSkills": [
+200432,
+200532,
+200542,
+200552,
+200712,
+201242,
+201252,
+201522,
+201272
+],
+"eventSkills": [
+201302,
+200432,
+200551,
+200022
+],
+"releaseEn": "2025-06-26"
 },
 "30003": {
 "name": "Tokai Teio",
 "title": "[Dream Big!]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30003-tokai-teio"
+"urlName": "30003-tokai-teio",
+"hintSkills": [
+200452,
+200492,
+200502,
+201132,
+201142,
+201332
+],
+"eventSkills": [
+200371,
+201312
+],
+"releaseEn": "2025-06-26"
 },
 "30004": {
 "name": "Gold Ship",
 "title": "[Breakaway Battleship]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30004-gold-ship"
+"urlName": "30004-gold-ship",
+"hintSkills": [
+200622,
+200642,
+200752,
+201212,
+201232,
+201472,
+201482,
+201502,
+201512,
+201552,
+201581,
+201591,
+201601,
+201631
+],
+"eventSkills": [
+202022,
+201552,
+200341,
+202032,
+200052
+],
+"releaseEn": "2025-06-26"
 },
 "30005": {
 "name": "Vodka",
 "title": "[Wild Rider]",
 "rarity": 3,
 "type": "power",
-"urlName": "30005-vodka"
+"urlName": "30005-vodka",
+"hintSkills": [
+200032,
+200362,
+200372,
+200382,
+200512,
+200602,
+200702,
+201032,
+201102
+],
+"eventSkills": [
+200702,
+200381,
+200492
+],
+"releaseEn": "2025-06-26"
 },
 "30006": {
 "name": "Grass Wonder",
 "title": "[Fairest Fleur]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30006-grass-wonder"
+"urlName": "30006-grass-wonder",
+"hintSkills": [
+200042,
+200282,
+200512,
+200592,
+200602,
+200702,
+200871,
+201152
+],
+"eventSkills": [
+201152,
+201542,
+200701,
+200801,
+200292
+],
+"releaseEn": "2025-06-26"
 },
 "30007": {
 "name": "El Condor Pasa",
 "title": "[Champion's Passion]",
 "rarity": 3,
 "type": "power",
-"urlName": "30007-el-condor-pasa"
+"urlName": "30007-el-condor-pasa",
+"hintSkills": [
+200132,
+200212,
+200582,
+200722,
+201102,
+201122,
+201312
+],
+"eventSkills": [
+200562,
+200721,
+200212
+],
+"releaseEn": "2025-06-26"
 },
 "30008": {
 "name": "Seiun Sky",
 "title": "[Foolproof Plan]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30008-seiun-sky"
+"urlName": "30008-seiun-sky",
+"hintSkills": [
+200252,
+200302,
+200771,
+200811,
+200881,
+201611
+],
+"eventSkills": [
+201262,
+201292,
+200542,
+200541,
+201192
+],
+"releaseEn": "2025-06-26"
 },
 "30009": {
 "name": "Tamamo Cross",
 "title": "[Split the Sky, White Lightning!]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30009-tamamo-cross"
+"urlName": "30009-tamamo-cross",
+"hintSkills": [
+200712,
+200811,
+200901,
+201112,
+201132,
+201142,
+201412
+],
+"eventSkills": [
+201611,
+200591,
+200482
+],
+"releaseEn": "2025-06-26"
 },
 "30010": {
 "name": "Fine Motion",
 "title": "[Wave of Gratitude]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30010-fine-motion"
+"urlName": "30010-fine-motion",
+"hintSkills": [
+200012,
+200192,
+200262,
+200372,
+200492
+],
+"eventSkills": [
+200581,
+200582,
+200332
+],
+"releaseEn": "2025-06-26"
 },
 "30011": {
 "name": "Ines Fujin",
 "title": "[Watch My Star Fly!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30011-ines-fujin"
+"urlName": "30011-ines-fujin",
+"hintSkills": [
+200732,
+201082,
+201282,
+201651,
+201661
+],
+"eventSkills": [
+201281,
+201282,
+200542
+],
+"releaseEn": "2025-06-26"
 },
 "30012": {
 "name": "Winning Ticket",
 "title": "[BNWinner!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30012-winning-ticket"
+"urlName": "30012-winning-ticket",
+"hintSkills": [
+200152,
+200222,
+200592,
+200602,
+200612
+],
+"eventSkills": [
+201402,
+200601,
+201392
+],
+"releaseEn": "2025-06-26"
 },
 "30013": {
 "name": "Air Shakur",
 "title": "[7 More Centimeters]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30013-air-shakur"
+"urlName": "30013-air-shakur",
+"hintSkills": [
+201212,
+201492,
+201502
+],
+"eventSkills": [
+201512,
+200642,
+200731,
+200472
+],
+"releaseEn": "2025-06-26"
 },
 "30014": {
 "name": "Gold City",
 "title": "[Run(my)way]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30014-gold-city"
+"urlName": "30014-gold-city",
+"hintSkills": [
+200082,
+200692,
+201062
+],
+"eventSkills": [
+200502,
+200691,
+201422
+],
+"releaseEn": "2025-06-26"
 },
 "30015": {
 "name": "Sakura Bakushin O",
 "title": "[Eat Fast! Yum Fast!]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30015-sakura-bakushin-o"
+"urlName": "30015-sakura-bakushin-o",
+"hintSkills": [
+200652,
+200791,
+200841,
+200962,
+200972,
+200982,
+200992,
+201012
+],
+"eventSkills": [
+200651,
+200672
+],
+"releaseEn": "2025-06-26"
 },
 "30016": {
 "name": "Super Creek",
 "title": "[Piece of Mind]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30016-super-creek"
+"urlName": "30016-super-creek",
+"hintSkills": [
+200152,
+200352,
+200462,
+200512,
+200881
+],
+"eventSkills": [
+200351,
+200742
+],
+"releaseEn": "2025-06-26"
 },
 "30017": {
 "name": "Smart Falcon",
 "title": "[My Umadol Way! ☆]",
 "rarity": 3,
 "type": "power",
-"urlName": "30017-smart-falcon"
+"urlName": "30017-smart-falcon",
+"hintSkills": [
+200162,
+200222,
+200262,
+200352,
+200952,
+201292,
+201302,
+201522
+],
+"eventSkills": [
+201601,
+200432,
+201672,
+200452,
+200451,
+200552
+],
+"releaseEn": "2025-06-26"
 },
 "30018": {
 "name": "Nishino Flower",
 "title": "[Even the Littlest Bud]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30018-nishino-flower"
+"urlName": "30018-nishino-flower",
+"hintSkills": [
+200052,
+200132,
+200152,
+200702,
+201322
+],
+"eventSkills": [
+200992,
+200361,
+200362
+],
+"releaseEn": "2025-06-26"
 },
 "30019": {
 "name": "Haru Urara",
 "title": "[Urara's Day Off!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30019-haru-urara"
+"urlName": "30019-haru-urara",
+"hintSkills": [],
+"eventSkills": [
+200481,
+200302
+],
+"releaseEn": "2025-06-26"
 },
 "30020": {
 "name": "Biko Pegasus",
 "title": "[Double Carrot Punch!]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30020-biko-pegasus"
+"urlName": "30020-biko-pegasus",
+"hintSkills": [
+200262,
+200662,
+200672,
+200682,
+200702,
+201002,
+201022
+],
+"eventSkills": [
+200991,
+200962
+],
+"releaseEn": "2025-06-26"
 },
 "30021": {
 "name": "Tazuna Hayakawa",
 "title": "[Tracen Reception]",
 "rarity": 3,
 "type": "friend",
-"urlName": "30021-tazuna-hayakawa"
+"urlName": "30021-tazuna-hayakawa",
+"hintSkills": [],
+"eventSkills": [
+200692,
+200432,
+200431,
+201611
+],
+"releaseEn": "2025-06-26"
 },
 "30022": {
 "name": "Mejiro McQueen",
 "title": "[Your Team Ace]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30022-mejiro-mcqueen"
+"urlName": "30022-mejiro-mcqueen",
+"hintSkills": [
+200062,
+200162,
+200232,
+200332,
+200362,
+200562,
+200582,
+200742,
+200752,
+200762
+],
+"eventSkills": [
+200741,
+200742,
+200532
+],
+"releaseEn": "2025-06-26"
 },
 "30023": {
 "name": "Rice Shower",
 "title": "[Showered in Joy]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30023-rice-shower"
+"urlName": "30023-rice-shower",
+"hintSkills": [
+200062,
+200272,
+200742,
+200801,
+200861,
+200871,
+201342,
+201372,
+201581
+],
+"eventSkills": [
+200762,
+200761,
+200152
+],
+"releaseEn": "2025-06-26"
 },
 "30024": {
 "name": "Oguri Cap",
 "title": "[Get Lots of Hugs for Me]",
 "rarity": 3,
 "type": "power",
-"urlName": "30024-oguri-cap"
+"urlName": "30024-oguri-cap",
+"hintSkills": [
+200222,
+200332,
+200342,
+200432,
+200492,
+200512,
+200722,
+201062,
+201352,
+201601
+],
+"eventSkills": [
+200562,
+200612,
+200701,
+200042
+],
+"releaseEn": "2025-06-26"
 },
 "30025": {
 "name": "Special Week",
 "title": "[The Setting Sun and Rising Stars]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30025-special-week"
+"urlName": "30025-special-week",
+"hintSkills": [
+200162,
+200232,
+200512,
+200612,
+200732,
+201352,
+201542
+],
+"eventSkills": [
+201621,
+201352,
+201351,
+200762
+],
+"releaseEn": "2025-06-26"
 },
 "30026": {
 "name": "Twin Turbo",
 "title": "[Turbo Booooost!]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30026-twin-turbo"
+"urlName": "30026-twin-turbo",
+"hintSkills": [
+200282,
+200292,
+200532,
+200542,
+201272,
+201282
+],
+"eventSkills": [
+201272,
+200532,
+200531,
+200692
+],
+"releaseEn": "2025-07-02"
 },
 "30027": {
 "name": "Mejiro Palmer",
 "title": "[Go Ahead and Laugh]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30027-mejiro-palmer"
+"urlName": "30027-mejiro-palmer",
+"hintSkills": [
+200042,
+200052,
+200532,
+200542,
+200871,
+201282,
+201631
+],
+"eventSkills": [
+201242,
+200472,
+201522,
+201192,
+201191,
+201641,
+200162
+],
+"releaseEn": "2025-07-10"
 },
 "30028": {
 "name": "Kitasan Black",
 "title": "[Fire at My Heels]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30028-kitasan-black"
+"urlName": "30028-kitasan-black",
+"hintSkills": [
+200332,
+200352,
+200382,
+200432,
+200762,
+201182,
+201242,
+201262
+],
+"eventSkills": [
+200362,
+200331
+],
+"releaseEn": "2025-07-16"
 },
 "30029": {
 "name": "Satono Diamond",
 "title": "[The Will to Overtake]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30029-satono-diamond"
+"urlName": "30029-satono-diamond",
+"hintSkills": [
+200152,
+200212,
+200841,
+201112,
+201152,
+201422,
+201432
+],
+"eventSkills": [
+201702,
+200441,
+200851
+],
+"releaseEn": "2025-07-16"
 },
 "30030": {
 "name": "Matikanetannhauser",
 "title": "[Just Keep Going]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30030-matikanetannhauser"
+"urlName": "30030-matikanetannhauser",
+"hintSkills": [
+200442,
+200472,
+200732,
+200742,
+201402
+],
+"eventSkills": [
+200481,
+200482,
+200831
+],
+"releaseEn": "2025-07-16"
 },
 "30031": {
 "name": "Yukino Bijin",
 "title": "[Hometown Cheers]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30031-yukino-bijin"
+"urlName": "30031-yukino-bijin",
+"hintSkills": [
+200042,
+200202,
+200732,
+201112
+],
+"eventSkills": [
+200252,
+201352,
+200491,
+200342
+],
+"releaseEn": "2025-07-27"
 },
 "30032": {
 "name": "Yaeno Muteki",
 "title": "[Fiery Discipline]",
 "rarity": 3,
 "type": "power",
-"urlName": "30032-yaeno-muteki"
+"urlName": "30032-yaeno-muteki",
+"hintSkills": [
+200462,
+200512,
+200582,
+200722,
+201611
+],
+"eventSkills": [
+200891,
+200911,
+201661,
+200461,
+201112
+],
+"releaseEn": "2025-08-03"
 },
 "30033": {
 "name": "Winning Ticket",
 "title": "[Dreams Do Come True!]",
 "rarity": 3,
 "type": "power",
-"urlName": "30033-winning-ticket"
+"urlName": "30033-winning-ticket",
+"hintSkills": [
+200152,
+200222,
+200592,
+200602,
+200612
+],
+"eventSkills": [
+200511,
+201392
+],
+"releaseEn": "2025-08-03"
 },
 "30034": {
 "name": "Rice Shower",
 "title": "[Happiness Just around the Bend]",
 "rarity": 3,
 "type": "power",
-"urlName": "30034-rice-shower"
+"urlName": "30034-rice-shower",
+"hintSkills": [
+200062,
+200272,
+200742,
+200801,
+200861,
+200871,
+201342,
+201372,
+201581
+],
+"eventSkills": [
+201202,
+200351,
+200152
+],
+"releaseEn": "2025-11-06"
 },
 "30036": {
 "name": "Riko Kashimoto",
 "title": "[Planned Perfection]",
 "rarity": 3,
 "type": "friend",
-"urlName": "30036-riko-kashimoto"
+"urlName": "30036-riko-kashimoto",
+"hintSkills": [],
+"eventSkills": [
+200462,
+200272,
+201641,
+200371,
+201631
+],
+"releaseEn": "2025-11-06"
 },
 "30037": {
 "name": "Symboli Rudolf",
 "title": "[The Unequivocal Emperor]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30037-symboli-rudolf"
+"urlName": "30037-symboli-rudolf",
+"hintSkills": [
+200012,
+200042,
+200352,
+200712,
+201112,
+201152,
+202092,
+202102,
+202412,
+202432,
+202472,
+202522
+],
+"eventSkills": [
+200342,
+200332,
+200351,
+200232
+],
+"releaseEn": null
 },
 "30038": {
 "name": "Sakura Chiyono O",
 "title": "[Peak Sakura Season]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30038-sakura-chiyono-o"
+"urlName": "30038-sakura-chiyono-o",
+"hintSkills": [
+200732,
+201052,
+201112,
+201532
+],
+"eventSkills": [
+200562,
+201102,
+200581,
+200172
+],
+"releaseEn": "2025-08-20"
 },
 "30039": {
 "name": "Kawakami Princess",
 "title": "[Princess Bride]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30039-kawakami-princess"
+"urlName": "30039-kawakami-princess",
+"hintSkills": [
+200132,
+200572,
+201142,
+201362
+],
+"eventSkills": [
+201152,
+200451,
+200732
+],
+"releaseEn": "2025-08-28"
 },
 "30040": {
 "name": "Hishi Akebono",
 "title": "[Who Wants the First Bite?]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30040-hishi-akebono"
+"urlName": "30040-hishi-akebono",
+"hintSkills": [
+200212,
+200552,
+200972,
+200992,
+201002,
+201352
+],
+"eventSkills": [
+200212,
+201352,
+200672,
+201261,
+201262,
+200652
+],
+"releaseEn": "2025-08-28"
 },
 "30041": {
 "name": "Mejiro Dober",
 "title": "[My Thoughts, My Desires]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30041-mejiro-dober"
+"urlName": "30041-mejiro-dober",
+"hintSkills": [
+200062,
+200212,
+200722,
+200732,
+201542
+],
+"eventSkills": [
+201431,
+201072
+],
+"releaseEn": "2025-08-28"
 },
 "30042": {
 "name": "Bamboo Memory",
 "title": "[Head-on Fight!]",
 "rarity": 3,
 "type": "power",
-"urlName": "30042-bamboo-memory"
+"urlName": "30042-bamboo-memory",
+"hintSkills": [
+200292,
+200362,
+200672,
+201032,
+201062,
+201382
+],
+"eventSkills": [
+200282,
+200512,
+200521,
+200911,
+200611,
+200612,
+200132
+],
+"releaseEn": "2025-09-17"
 },
 "30043": {
 "name": "Nakayama Festa",
 "title": "[43, 8, 1]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30043-nakayama-festa"
+"urlName": "30043-nakayama-festa",
+"hintSkills": [
+200162,
+200302,
+200602,
+200612,
+200732,
+201382,
+201442,
+201562,
+201702
+],
+"eventSkills": [
+201591,
+201701,
+201702,
+200042,
+200052
+],
+"releaseEn": "2025-12-08"
 },
 "30044": {
 "name": "Narita Brian",
 "title": "[Two Pieces]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30044-narita-brian"
+"urlName": "30044-narita-brian",
+"hintSkills": [
+200012,
+200572,
+200612,
+200752,
+201102,
+201112,
+201172,
+201352
+],
+"eventSkills": [
+201361,
+201641
+],
+"releaseEn": "2025-10-07"
 },
 "30045": {
 "name": "Sweep Tosho",
 "title": "[It's All Mine!]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30045-sweep-tosho"
+"urlName": "30045-sweep-tosho",
+"hintSkills": [
+200452,
+200771,
+200781,
+201162,
+201472,
+201482,
+201651
+],
+"eventSkills": [
+200642,
+201501
+],
+"releaseEn": "2025-10-14"
 },
 "30046": {
 "name": "Winning Ticket",
 "title": "[Full-Blown Tantrum]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30046-winning-ticket"
+"urlName": "30046-winning-ticket",
+"hintSkills": [
+200152,
+200222,
+200592,
+200602,
+200612
+],
+"eventSkills": [
+201571,
+201412,
+201102,
+200272,
+201401,
+201392
+],
+"releaseEn": "2025-10-14"
 },
 "30047": {
 "name": "Daiwa Scarlet",
 "title": "[Mini☆Vacation]",
 "rarity": 3,
 "type": "power",
-"urlName": "30047-daiwa-scarlet"
+"urlName": "30047-daiwa-scarlet",
+"hintSkills": [
+200282,
+200572,
+200582,
+200712,
+200722,
+201052
+],
+"eventSkills": [
+200571,
+200572,
+200562
+],
+"releaseEn": "2025-10-14"
 },
 "30048": {
 "name": "Mejiro Ryan",
 "title": "[Winning Pitch]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30048-mejiro-ryan"
+"urlName": "30048-mejiro-ryan",
+"hintSkills": [
+200162,
+200232,
+200722,
+201102
+],
+"eventSkills": [
+201532,
+200731,
+200472
+],
+"releaseEn": "2025-10-02"
 },
 "30052": {
 "name": "Light Hello",
 "title": "[From the Ground Up]",
 "rarity": 3,
 "type": "friend",
-"urlName": "30052-light-hello"
+"urlName": "30052-light-hello",
+"hintSkills": [],
+"eventSkills": [
+200272,
+201662,
+201522,
+201532
+],
+"releaseEn": null
 },
 "30053": {
 "name": "Taiki Shuttle",
 "title": "[Hands Up, Crook!]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30053-taiki-shuttle"
+"urlName": "30053-taiki-shuttle",
+"hintSkills": [
+200162,
+200682,
+201032,
+201052,
+201062,
+201082
+],
+"eventSkills": [
+201042,
+200681,
+202992,
+200582
+],
+"releaseEn": "2026-06-04"
 },
 "30054": {
 "name": "Nice Nature",
 "title": "[Daring to Dream]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30054-nice-nature"
+"urlName": "30054-nice-nature",
+"hintSkills": [
+200122,
+200342,
+200442,
+200502,
+200911,
+201162,
+201422,
+201442
+],
+"eventSkills": [
+200601,
+200462
+],
+"releaseEn": "2025-10-30"
 },
 "30055": {
 "name": "Seiun Sky",
 "title": "[Paint the Sky Red]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30055-seiun-sky"
+"urlName": "30055-seiun-sky",
+"hintSkills": [
+200252,
+200302,
+200771,
+200811,
+200881,
+201611
+],
+"eventSkills": [
+200801,
+201191,
+201192
+],
+"releaseEn": "2025-09-21"
 },
 "30056": {
 "name": "King Halo",
 "title": "[Tonight, We Waltz]",
 "rarity": 3,
 "type": "power",
-"urlName": "30056-king-halo"
+"urlName": "30056-king-halo",
+"hintSkills": [
+200152,
+200222,
+200262,
+200352,
+200662,
+200672
+],
+"eventSkills": [
+201022,
+201591,
+200672,
+200671,
+200512
+],
+"releaseEn": "2025-09-21"
 },
 "30057": {
 "name": "Gold Ship",
 "title": "[That Time I Became the Strongest]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30057-gold-ship"
+"urlName": "30057-gold-ship",
+"hintSkills": [
+200622,
+200642,
+200752,
+201212,
+201232,
+201472,
+201482,
+201502,
+201512,
+201552,
+201581,
+201591,
+201601,
+201631
+],
+"eventSkills": [
+201172,
+200752,
+200751,
+200272,
+200052
+],
+"releaseEn": "2025-09-21"
 },
 "30058": {
 "name": "Tokai Teio",
 "title": "[Regal Racers]",
 "rarity": 3,
 "type": "power",
-"urlName": "30058-tokai-teio"
+"urlName": "30058-tokai-teio",
+"hintSkills": [
+200452,
+200492,
+200502,
+201132,
+201142,
+201332
+],
+"eventSkills": [
+200761,
+201312
+],
+"releaseEn": null
 },
 "30059": {
 "name": "Mihono Bourbon",
 "title": "[Fugue of Fortune]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30059-mihono-bourbon"
+"urlName": "30059-mihono-bourbon",
+"hintSkills": [
+200242,
+200532,
+201242,
+201252
+],
+"eventSkills": [
+200551,
+200552,
+200432
+],
+"releaseEn": null
 },
 "30060": {
 "name": "Twin Turbo",
 "title": "[Constellation of Stars]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30060-twin-turbo"
+"urlName": "30060-twin-turbo",
+"hintSkills": [
+200282,
+200292,
+200532,
+200542,
+201272,
+201282
+],
+"eventSkills": [
+200721,
+200722,
+200532
+],
+"releaseEn": null
 },
 "30061": {
 "name": "Biwa Hayahide",
 "title": "[Our Resounding Steps]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30061-biwa-hayahide"
+"urlName": "30061-biwa-hayahide",
+"hintSkills": [
+200052,
+200162,
+200222,
+200262,
+200821
+],
+"eventSkills": [
+200352,
+200741,
+200752
+],
+"releaseEn": null
 },
 "30062": {
 "name": "Silence Suzuka",
 "title": "[Winning Dream]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30062-silence-suzuka"
+"urlName": "30062-silence-suzuka",
+"hintSkills": [
+200432,
+200532,
+200542,
+200552,
+200712,
+201242,
+201252,
+201522,
+201272
+],
+"eventSkills": [
+201352,
+201142,
+200431,
+200022
+],
+"releaseEn": "2025-11-03"
 },
 "30063": {
 "name": "Ikuno Dictus",
 "title": "[Warm Heart, Soft Steps]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30063-ikuno-dictus"
+"urlName": "30063-ikuno-dictus",
+"hintSkills": [
+200442,
+200482,
+201122,
+201432,
+201442
+],
+"eventSkills": [
+200502,
+201431,
+200781
+],
+"releaseEn": "2025-11-19"
 },
 "30064": {
 "name": "Tamamo Cross",
 "title": "[Beware! Halloween Night!]",
 "rarity": 3,
 "type": "power",
-"urlName": "30064-tamamo-cross"
+"urlName": "30064-tamamo-cross",
+"hintSkills": [
+200712,
+200811,
+200901,
+201112,
+201132,
+201142,
+201412
+],
+"eventSkills": [
+200162,
+201411,
+200482
+],
+"releaseEn": "2025-11-24"
 },
 "30065": {
 "name": "Zenno Rob Roy",
 "title": "[Magical Heroine]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30065-zenno-rob-roy"
+"urlName": "30065-zenno-rob-roy",
+"hintSkills": [
+200362,
+200452,
+200492,
+200502,
+201332,
+201432,
+201532,
+201542
+],
+"eventSkills": [
+200012,
+200022,
+201691,
+201102
+],
+"releaseEn": "2025-11-24"
 },
 "30066": {
 "name": "Mihono Bourbon",
 "title": "[The Ghost Finds Halloween Magic]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30066-mihono-bourbon"
+"urlName": "30066-mihono-bourbon",
+"hintSkills": [
+200242,
+200532,
+201242,
+201252
+],
+"eventSkills": [
+201282,
+200531,
+200432
+],
+"releaseEn": "2025-11-24"
 },
 "30067": {
 "name": "The Throne's Assemblage",
 "title": "[Esteemed and Adored]",
 "rarity": 3,
 "type": "group",
-"urlName": "30067-the-thrones-assemblage"
+"urlName": "30067-the-thrones-assemblage",
+"hintSkills": [],
+"eventSkills": [
+201312,
+200232,
+201402,
+202092,
+200452,
+202152,
+200042,
+201113,
+201112
+],
+"releaseEn": "2026-06-25"
 },
 "30068": {
 "name": "Curren Chan",
 "title": "[Cutie Pie with Shining Eyes]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30068-curren-chan"
+"urlName": "30068-curren-chan",
+"hintSkills": [
+200652,
+200911,
+200962,
+201002,
+201372
+],
+"eventSkills": [
+201022,
+201661,
+201001,
+201002,
+201012
+],
+"releaseEn": "2025-12-14"
 },
 "30069": {
 "name": "Narita Brian",
 "title": "[The Whistling Arrow's Taunt]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30069-narita-brian"
+"urlName": "30069-narita-brian",
+"hintSkills": [
+200012,
+200572,
+200612,
+200752,
+201102,
+201112,
+201172,
+201352
+],
+"eventSkills": [
+200722,
+200361,
+201641
+],
+"releaseEn": "2025-12-14"
 },
 "30070": {
 "name": "Yukino Bijin",
 "title": "[Dancing Light into the Night]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30070-yukino-bijin"
+"urlName": "30070-yukino-bijin",
+"hintSkills": [
+200042,
+200202,
+200732,
+201112
+],
+"eventSkills": [
+200242,
+201661,
+200341,
+200342
+],
+"releaseEn": "2025-12-14"
 },
 "30071": {
 "name": "Daitaku Helios",
 "title": "[Make! Some! NOISE!]",
 "rarity": 3,
 "type": "power",
-"urlName": "30071-daitaku-helios"
+"urlName": "30071-daitaku-helios",
+"hintSkills": [
+200462,
+200562,
+201042,
+201052,
+201082,
+201631,
+201651
+],
+"eventSkills": [
+200532,
+201322,
+200541,
+200542,
+200302
+],
+"releaseEn": "2025-12-28"
 },
 "30072": {
 "name": "Mayano Top Gun",
 "title": "[Party Formation]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30072-mayano-top-gun"
+"urlName": "30072-mayano-top-gun",
+"hintSkills": [
+200142,
+200332,
+200362,
+200382,
+200492,
+200502
+],
+"eventSkills": [
+201902,
+200282,
+201281,
+200362
+],
+"releaseEn": "2026-01-05"
 },
 "30073": {
 "name": "Narita Taishin",
 "title": "[Strict Shopper]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30073-narita-taishin"
+"urlName": "30073-narita-taishin",
+"hintSkills": [
+200442,
+200482,
+200622,
+200632,
+201462,
+201512,
+201641
+],
+"eventSkills": [
+201142,
+201202,
+200621,
+200622,
+201212
+],
+"releaseEn": "2026-01-05"
 },
 "30074": {
 "name": "Marvelous Sunday",
 "title": "[Dazzling Day in the Snow]",
 "rarity": 3,
 "type": "power",
-"urlName": "30074-marvelous-sunday"
+"urlName": "30074-marvelous-sunday",
+"hintSkills": [
+200362,
+200462,
+200851,
+200881,
+201611
+],
+"eventSkills": [
+200222,
+200591,
+200592,
+200052
+],
+"releaseEn": "2026-01-05"
 },
 "30075": {
 "name": "Manhattan Cafe",
 "title": "[My Solo Spun in Spiraling Runs]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30075-manhattan-cafe"
+"urlName": "30075-manhattan-cafe",
+"hintSkills": [
+200162,
+200232,
+201172,
+201202,
+201222,
+201581
+],
+"eventSkills": [
+201182,
+201221,
+200142
+],
+"releaseEn": "2026-01-15"
 },
 "30076": {
 "name": "Silence Suzuka",
 "title": "[Searching for Unseen Sights]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30076-silence-suzuka"
+"urlName": "30076-silence-suzuka",
+"hintSkills": [
+200432,
+200532,
+200542,
+200552,
+200712,
+201242,
+201252,
+201522,
+201272
+],
+"eventSkills": [
+200711,
+200022
+],
+"releaseEn": "2026-01-22"
 },
 "30077": {
 "name": "Admire Vega",
 "title": "[Lucky Star in the Sky]",
 "rarity": 3,
 "type": "power",
-"urlName": "30077-admire-vega"
+"urlName": "30077-admire-vega",
+"hintSkills": [
+200632,
+201152,
+201452,
+201492,
+201502
+],
+"eventSkills": [
+200871,
+202021,
+200861
+],
+"releaseEn": "2026-01-29"
 },
 "30078": {
 "name": "Matikanefukukitaru",
 "title": "[Touching Sleeves Is Good Luck! ♪]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30078-matikanefukukitaru"
+"urlName": "30078-matikanefukukitaru",
+"hintSkills": [
+200092,
+200482,
+200781,
+201392,
+201422,
+201562,
+201571
+],
+"eventSkills": [
+201561,
+201562
+],
+"releaseEn": "2026-01-29"
 },
 "30079": {
 "name": "Meisho Doto",
 "title": "[Leaping into the Unknown]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30079-meisho-doto"
+"urlName": "30079-meisho-doto",
+"hintSkills": [
+200142,
+200152,
+200252,
+200302,
+201122,
+201382,
+201621
+],
+"eventSkills": [
+201112,
+200721,
+201322
+],
+"releaseEn": "2026-01-29"
 },
 "30080": {
 "name": "Sasami Anshinzawa",
 "title": "[This Might Sting!]",
 "rarity": 3,
 "type": "friend",
-"urlName": "30080-sasami-anshinzawa"
+"urlName": "30080-sasami-anshinzawa",
+"hintSkills": [],
+"eventSkills": [
+200283,
+200353,
+202032,
+200521,
+202031,
+201591
+],
+"releaseEn": "2026-02-05"
 },
 "30081": {
 "name": "Team Sirius",
 "title": "[Passing the Dream On]",
 "rarity": 3,
 "type": "group",
-"urlName": "30081-team-sirius"
+"urlName": "30081-team-sirius",
+"hintSkills": [],
+"eventSkills": [
+200762,
+200022,
+200532,
+200152,
+201392,
+201641,
+202032,
+200292,
+202061,
+200352
+],
+"releaseEn": "2026-03-26"
 },
 "30082": {
 "name": "Nishino Flower",
 "title": "[Little Cupcakes, Big Emotions]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30082-nishino-flower"
+"urlName": "30082-nishino-flower",
+"hintSkills": [
+200052,
+200132,
+200152,
+200702,
+201322
+],
+"eventSkills": [
+201052,
+201341
+],
+"releaseEn": "2026-02-18"
 },
 "30083": {
 "name": "Sakura Bakushin O",
 "title": "[Super! Sonic! Flower Power!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30083-sakura-bakushin-o"
+"urlName": "30083-sakura-bakushin-o",
+"hintSkills": [
+200652,
+200791,
+200841,
+200962,
+200972,
+200982,
+200992,
+201012
+],
+"eventSkills": [
+201601,
+202041,
+202042,
+200672
+],
+"releaseEn": "2026-02-18"
 },
 "30084": {
 "name": "Tosen Jordan",
 "title": "[My Way]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30084-tosen-jordan"
+"urlName": "30084-tosen-jordan",
+"hintSkills": [
+200302,
+200562,
+200592,
+201102,
+201112,
+201312
+],
+"eventSkills": [
+200381,
+200382,
+201562
+],
+"releaseEn": "2026-02-18"
 },
 "30085": {
 "name": "Agnes Digital",
 "title": "[A Fan's Joy]",
 "rarity": 3,
 "type": "power",
-"urlName": "30085-agnes-digital"
+"urlName": "30085-agnes-digital",
+"hintSkills": [
+200022,
+201032,
+201382,
+201591,
+201682,
+201702
+],
+"eventSkills": [
+201352,
+200432,
+201681,
+201591,
+200232,
+200162
+],
+"releaseEn": "2026-02-25"
 },
 "30086": {
 "name": "Narita Top Road",
 "title": "[Peachy Silhouette]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30086-narita-top-road"
+"urlName": "30086-narita-top-road",
+"hintSkills": [
+200142,
+200152,
+200252,
+200572,
+200582,
+201172,
+201702
+],
+"eventSkills": [
+201532,
+201212,
+200154,
+200722
+],
+"releaseEn": "2026-03-12"
 },
 "30087": {
 "name": "Mejiro Bright",
 "title": "[Little by Little]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30087-mejiro-bright"
+"urlName": "30087-mejiro-bright",
+"hintSkills": [
+200012,
+200762,
+201202,
+201212,
+201222
+],
+"eventSkills": [
+202022,
+201211,
+200742
+],
+"releaseEn": "2026-03-12"
 },
 "30088": {
 "name": "Satono Diamond",
 "title": "[Special Dreamers!]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30088-satono-diamond"
+"urlName": "30088-satono-diamond",
+"hintSkills": [
+200592,
+201212,
+201382,
+201392,
+201542,
+201692
+],
+"eventSkills": [
+201631,
+201692,
+201691,
+200851
+],
+"releaseEn": "2026-03-12"
 },
 "30089": {
 "name": "Marvelous Sunday",
 "title": "[A MORE MARVELOUS WORLD! ☆]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30089-marvelous-sunday"
+"urlName": "30089-marvelous-sunday",
+"hintSkills": [
+200362,
+200462,
+200851,
+200881,
+201611
+],
+"eventSkills": [
+200761,
+200052
+],
+"releaseEn": "2026-03-22"
 },
 "30090": {
 "name": "Symboli Rudolf",
 "title": "[Enchaînement]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30090-symboli-rudolf"
+"urlName": "30090-symboli-rudolf",
+"hintSkills": [
+200831,
+200861,
+200891,
+200921,
+201102,
+201112,
+201152,
+201702
+],
+"eventSkills": [
+201142,
+202091,
+200232
+],
+"releaseEn": "2026-04-05"
 },
 "30091": {
 "name": "Sirius Symboli",
 "title": "[Escorte Étoile]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30091-sirius-symboli"
+"urlName": "30091-sirius-symboli",
+"hintSkills": [
+200162,
+201112,
+201382,
+201641,
+201692
+],
+"eventSkills": [
+201661,
+201542,
+202082,
+202081,
+201372
+],
+"releaseEn": "2026-04-05"
 },
 "30092": {
 "name": "Air Shakur",
 "title": "[Mag!c Number]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30092-air-shakur"
+"urlName": "30092-air-shakur",
+"hintSkills": [
+200622,
+200642,
+200722,
+201462,
+201492
+],
+"eventSkills": [
+202102,
+201452,
+201491,
+200472
+],
+"releaseEn": "2026-04-05"
 },
 "30093": {
 "name": "Daiwa Scarlet",
 "title": "[Number 1 Outfit]",
 "rarity": 3,
 "type": "power",
-"urlName": "30093-daiwa-scarlet"
+"urlName": "30093-daiwa-scarlet",
+"hintSkills": [
+200282,
+200572,
+200582,
+201322,
+201342
+],
+"eventSkills": [
+202012,
+200722,
+201901,
+200562
+],
+"releaseEn": "2026-04-12"
 },
 "30094": {
 "name": "Bamboo Memory",
 "title": "[Make These Feelings Reach You!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30094-bamboo-memory"
+"urlName": "30094-bamboo-memory",
+"hintSkills": [
+200292,
+200512,
+200612,
+200672,
+200702,
+201032
+],
+"eventSkills": [
+200592,
+202111,
+202112,
+200132
+],
+"releaseEn": "2026-04-26"
 },
 "30095": {
 "name": "Seeking the Pearl",
 "title": "[Cheer that Changed the World]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30095-seeking-the-pearl"
+"urlName": "30095-seeking-the-pearl",
+"hintSkills": [
+200152,
+200582,
+200602,
+200652,
+200692,
+201442,
+201532,
+201542,
+201902
+],
+"eventSkills": [
+200702,
+202042,
+202121,
+202992,
+201591
+],
+"releaseEn": "2026-04-26"
 },
 "30096": {
 "name": "Kawakami Princess",
 "title": "[Go Go☆Princess!]",
 "rarity": 3,
 "type": "power",
-"urlName": "30096-kawakami-princess"
+"urlName": "30096-kawakami-princess",
+"hintSkills": [
+200132,
+200572,
+201142,
+201362
+],
+"eventSkills": [
+200731,
+200732
+],
+"releaseEn": "2026-04-26"
 },
 "30097": {
 "name": "Mr. C.B.",
 "title": "[Dear Mr. C.B.]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30097-mr-cb"
+"urlName": "30097-mr-cb",
+"hintSkills": [
+200232,
+200342,
+200512,
+200642,
+201112,
+201502,
+201611
+],
+"eventSkills": [
+200352,
+201512,
+202021,
+202022
+],
+"releaseEn": "2026-04-30"
 },
 "30098": {
 "name": "Haru Urara",
 "title": "[Sunny Passion ♪]",
 "rarity": 3,
 "type": "power",
-"urlName": "30098-haru-urara"
+"urlName": "30098-haru-urara",
+"hintSkills": [],
+"eventSkills": [
+201401,
+200302
+],
+"releaseEn": "2026-05-18"
 },
 "30099": {
 "name": "Ikuno Dictus",
 "title": "[Beloved Orchid Bouquet]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30099-ikuno-dictus"
+"urlName": "30099-ikuno-dictus",
+"hintSkills": [
+200482,
+200592,
+201392,
+201432,
+201442,
+201542,
+201692
+],
+"eventSkills": [
+202151,
+202152,
+200781
+],
+"releaseEn": "2026-05-18"
 },
 "30100": {
 "name": "Rice Shower",
 "title": "[Day I Dreamed Of]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30100-rice-shower"
+"urlName": "30100-rice-shower",
+"hintSkills": [
+200742,
+201322,
+201342,
+201372,
+201532,
+202012
+],
+"eventSkills": [
+200062,
+201361,
+200152
+],
+"releaseEn": "2026-05-18"
 },
 "30101": {
 "name": "Agnes Tachyon",
 "title": "[Q≠0]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30101-agnes-tachyon"
+"urlName": "30101-agnes-tachyon",
+"hintSkills": [
+200722,
+201102,
+201112,
+201152,
+201322,
+201532,
+201902,
+202372
+],
+"eventSkills": [
+201312,
+201162,
+202371,
+201542
+],
+"releaseEn": null
 },
 "30102": {
 "name": "El Condor Pasa",
 "title": "[Twinkle in Your Eyes ∞]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30102-el-condor-pasa"
+"urlName": "30102-el-condor-pasa",
+"hintSkills": [
+200132,
+200572,
+200582,
+201122,
+201312,
+201532,
+201902
+],
+"eventSkills": [
+200581,
+200212
+],
+"releaseEn": "2026-06-11"
 },
 "30103": {
 "name": "Matikanetannhauser",
 "title": "[Machitan☆Adventure]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30103-matikanetannhauser"
+"urlName": "30103-matikanetannhauser",
+"hintSkills": [
+200352,
+200442,
+200472,
+200492,
+200512,
+201621
+],
+"eventSkills": [
+200462,
+200901,
+200461,
+200831
+],
+"releaseEn": "2026-06-11"
 },
 "30104": {
 "name": "Zenno Rob Roy",
 "title": "[\"Rhodonite and the Dreamstone\"]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30104-zenno-rob-roy"
+"urlName": "30104-zenno-rob-roy",
+"hintSkills": [
+200032,
+200722,
+201112,
+201152,
+201532,
+201542
+],
+"eventSkills": [
+201432,
+201362,
+201121,
+201102
+],
+"releaseEn": "2026-06-11"
 },
 "30105": {
 "name": "Special Week",
 "title": "[Take Hold of Our Dreams!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30105-special-week"
+"urlName": "30105-special-week",
+"hintSkills": [
+200012,
+200042,
+200142,
+200202,
+201172,
+201212
+],
+"eventSkills": [
+202012,
+200382,
+201211,
+200762
+],
+"releaseEn": "2026-06-25"
 },
 "30106": {
 "name": "Air Groove",
 "title": "[Tailwind to My Goals]",
 "rarity": 3,
 "type": "power",
-"urlName": "30106-air-groove"
+"urlName": "30106-air-groove",
+"hintSkills": [
+200931,
+200941,
+201382,
+201442,
+201692,
+202122
+],
+"eventSkills": [
+202122,
+202082,
+200702,
+201691,
+200502
+],
+"releaseEn": "2026-06-18"
 },
 "30107": {
 "name": "Maruzensky",
 "title": "[Sentimental Flare ♪]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30107-maruzensky"
+"urlName": "30107-maruzensky",
+"hintSkills": [
+200182,
+200432,
+200532,
+201242,
+201252,
+201272,
+201571,
+201601,
+201651,
+201661
+],
+"eventSkills": [
+200432,
+201271,
+200532
+],
+"releaseEn": "2026-07-02"
 },
 "30108": {
 "name": "Nakayama Festa",
 "title": "[Trusting the Dice]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30108-nakayama-festa"
+"urlName": "30108-nakayama-festa",
+"hintSkills": [
+200162,
+200182,
+200302,
+200492,
+200602,
+200732,
+201382,
+201562,
+201571,
+201591,
+201702,
+202032
+],
+"eventSkills": [
+202031,
+202032,
+200042,
+200052
+],
+"releaseEn": "2026-07-02"
 },
 "30109": {
 "name": "Sakura Chiyono O",
 "title": "[A Good Heart Blossoms to Its Fullest]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30109-sakura-chiyono-o"
+"urlName": "30109-sakura-chiyono-o",
+"hintSkills": [
+200182,
+201032,
+201052,
+201312,
+201322,
+201532,
+201902
+],
+"eventSkills": [
+201061,
+201062,
+200172
+],
+"releaseEn": "2026-07-02"
 },
 "30110": {
 "name": "Manhattan Cafe",
 "title": "[It's on the House]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30110-manhattan-cafe"
+"urlName": "30110-manhattan-cafe",
+"hintSkills": [
+200742,
+201172,
+201182,
+201202,
+201212,
+201222,
+201581
+],
+"eventSkills": [
+202071,
+200142
+],
+"releaseEn": null
 },
 "30111": {
 "name": "Tokai Teio",
 "title": "[Teio-Oo-Oo!!!]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30111-tokai-teio"
+"urlName": "30111-tokai-teio",
+"hintSkills": [
+200282,
+200332,
+200452,
+200492,
+200502,
+201142,
+201322,
+202132
+],
+"eventSkills": [
+200572,
+200331,
+201312
+],
+"releaseEn": null
 },
 "30112": {
 "name": "Twin Turbo",
 "title": "[TT Ignition!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30112-twin-turbo"
+"urlName": "30112-twin-turbo",
+"hintSkills": [
+200282,
+200292,
+200532,
+200542,
+201282,
+201272,
+202392
+],
+"eventSkills": [
+201661,
+202391,
+200532
+],
+"releaseEn": null
 },
 "30113": {
 "name": "Biwa Hayahide",
 "title": "[Uchronia Architect]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30113-biwa-hayahide"
+"urlName": "30113-biwa-hayahide",
+"hintSkills": [
+200052,
+200162,
+200262,
+200222,
+200562,
+201202,
+201312,
+201532,
+201611,
+201902,
+202192
+],
+"eventSkills": [
+200582,
+201201,
+200752
+],
+"releaseEn": null
 },
 "30114": {
 "name": "Daiichi Ruby",
 "title": "[Ah, Such Majesty]",
 "rarity": 3,
 "type": "power",
-"urlName": "30114-daiichi-ruby"
+"urlName": "30114-daiichi-ruby",
+"hintSkills": [
+200602,
+200672,
+200831,
+200841,
+200851,
+201022,
+201092,
+201152,
+201382,
+201641,
+202122
+],
+"eventSkills": [
+201392,
+200652,
+202401,
+200672
+],
+"releaseEn": null
 },
 "30115": {
 "name": "Mejiro Palmer",
 "title": "[Moonlit Devil ♪]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30115-mejiro-palmer"
+"urlName": "30115-mejiro-palmer",
+"hintSkills": [
+200532,
+200552,
+201192,
+201282,
+201522,
+201601,
+201631,
+201661
+],
+"eventSkills": [
+201202,
+201252,
+200531,
+200162
+],
+"releaseEn": null
 },
 "30116": {
 "name": "Daitaku Helios",
 "title": "[Sunlit Angel ♪]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30116-daitaku-helios"
+"urlName": "30116-daitaku-helios",
+"hintSkills": [
+200152,
+200192,
+200212,
+201042,
+201052,
+201082,
+201631,
+201651,
+202392
+],
+"eventSkills": [
+201242,
+201611,
+201652,
+200302
+],
+"releaseEn": null
 },
 "30117": {
 "name": "Shinko Windy",
 "title": "[Onwards, Demon Queen Lackeys!]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30117-shinko-windy"
+"urlName": "30117-shinko-windy",
+"hintSkills": [
+200582,
+200851,
+200282,
+200162,
+202282,
+202302,
+202312,
+202343,
+202362
+],
+"eventSkills": [
+202282,
+202341,
+201072
+],
+"releaseEn": null
 },
 "30118": {
 "name": "Symboli Kris S",
 "title": "[A Win Foreshadowed]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30118-symboli-kris-s"
+"urlName": "30118-symboli-kris-s",
+"hintSkills": [
+200352,
+200602,
+201172,
+201202,
+201392,
+201412,
+202122,
+202422
+],
+"eventSkills": [
+200282,
+202421,
+200222
+],
+"releaseEn": null
 },
 "30119": {
 "name": "Mejiro Ardan",
 "title": "[Hopeful Petals Dancing in the Night]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30119-mejiro-ardan"
+"urlName": "30119-mejiro-ardan",
+"hintSkills": [
+200022,
+200572,
+201142,
+201322,
+201532
+],
+"eventSkills": [
+200571,
+200881
+],
+"releaseEn": null
 },
 "30120": {
 "name": "Yaeno Muteki",
 "title": "[Pious Flame, Heavens Scorcher]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30120-yaeno-muteki"
+"urlName": "30120-yaeno-muteki",
+"hintSkills": [
+200462,
+200512,
+200582,
+200722,
+201102,
+201112,
+201611
+],
+"eventSkills": [
+201352,
+200022,
+200721,
+201112
+],
+"releaseEn": null
 },
 "30121": {
 "name": "Mihono Bourbon",
 "title": "[U & Me]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30121-mihono-bourbon"
+"urlName": "30121-mihono-bourbon",
+"hintSkills": [
+200432,
+200452,
+200532,
+201272,
+201242,
+201252
+],
+"eventSkills": [
+200542,
+200711,
+200432
+],
+"releaseEn": null
 },
 "30122": {
 "name": "Eishin Flash",
 "title": "[Danke Schön]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30122-eishin-flash"
+"urlName": "30122-eishin-flash",
+"hintSkills": [
+200132,
+201142,
+201382,
+201392,
+201402,
+201542,
+202082
+],
+"eventSkills": [
+200592,
+201383,
+200292
+],
+"releaseEn": null
 },
 "30123": {
 "name": "Narita Brian",
 "title": "[Glad Tidings]",
 "rarity": 3,
 "type": "power",
-"urlName": "30123-narita-brian"
+"urlName": "30123-narita-brian",
+"hintSkills": [
+200012,
+200152,
+200202,
+200572,
+200612,
+201172,
+202192,
+202432,
+202472,
+202482
+],
+"eventSkills": [
+202482,
+202471,
+201641
+],
+"releaseEn": null
 },
 "30124": {
 "name": "Air Groove",
 "title": "[Are You Merry?]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30124-air-groove"
+"urlName": "30124-air-groove",
+"hintSkills": [
+200132,
+200202,
+200592,
+200702,
+201382,
+201542,
+201692,
+202122
+],
+"eventSkills": [
+201432,
+200472,
+200591,
+200502
+],
+"releaseEn": null
 },
 "30125": {
 "name": "Sakura Laurel",
 "title": "[Don't Stop Anymore!]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30125-sakura-laurel"
+"urlName": "30125-sakura-laurel",
+"hintSkills": [
+200172,
+200202,
+200212,
+200742,
+201182,
+201222,
+201422,
+202072,
+202422
+],
+"eventSkills": [
+201692,
+202121,
+200861
+],
+"releaseEn": null
 },
 "30126": {
 "name": "Yamanin Zephyr",
 "title": "[To Winds Untraveled]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30126-yamanin-zephyr"
+"urlName": "30126-yamanin-zephyr",
+"hintSkills": [
+200192,
+200302,
+200342,
+201042,
+201052,
+201072,
+201112,
+201532,
+202412
+],
+"eventSkills": [
+201651,
+202411,
+202412
+],
+"releaseEn": null
 },
 "30127": {
 "name": "Special Week",
 "title": "[Outrunning Misfortune]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30127-special-week"
+"urlName": "30127-special-week",
+"hintSkills": [
+200022,
+200132,
+200492,
+200512,
+200722,
+200762,
+201142,
+201702,
+202012,
+202092
+],
+"eventSkills": [
+202072,
+200491,
+200762
+],
+"releaseEn": null
 },
 "30128": {
 "name": "Sweep Tosho",
 "title": "[Capricious Excellence]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30128-sweep-tosho"
+"urlName": "30128-sweep-tosho",
+"hintSkills": [
+200781,
+201162,
+201452,
+201472,
+201482,
+201651,
+202382,
+202492
+],
+"eventSkills": [
+201512,
+202161,
+202491
+],
+"releaseEn": null
 },
 "30129": {
 "name": "Grass Wonder",
 "title": "[From Icy Blues to Verdant Hues]",
 "rarity": 3,
 "type": "power",
-"urlName": "30129-grass-wonder"
+"urlName": "30129-grass-wonder",
+"hintSkills": [
+200202,
+200222,
+201182,
+201222,
+202192
+],
+"eventSkills": [
+201212,
+200741,
+200801,
+200292
+],
+"releaseEn": null
 },
 "30130": {
 "name": "K.S.Miracle",
 "title": "[To You]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30130-ksmiracle"
+"urlName": "30130-ksmiracle",
+"hintSkills": [
+200702,
+200972,
+200992,
+201312,
+201532,
+202372
+],
+"eventSkills": [
+200342,
+201901,
+202042
+],
+"releaseEn": null
 },
 "30131": {
 "name": "Marvelous Sunday",
 "title": "[Marvelous☆Chocolate Show]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30131-marvelous-sunday"
+"urlName": "30131-marvelous-sunday",
+"hintSkills": [
+200472,
+201172,
+201222,
+201611,
+201702,
+202082,
+202102,
+202422
+],
+"eventSkills": [
+200382,
+200471,
+200052
+],
+"releaseEn": null
 },
 "30132": {
 "name": "Biko Pegasus",
 "title": "[Transform! Garçon Form!]",
 "rarity": 3,
 "type": "power",
-"urlName": "30132-biko-pegasus"
+"urlName": "30132-biko-pegasus",
+"hintSkills": [
+200232,
+200492,
+200592,
+200652,
+201392,
+202122,
+202402
+],
+"eventSkills": [
+200811,
+200602,
+201393,
+200962
+],
+"releaseEn": null
 },
 "30133": {
 "name": "Hishi Akebono",
 "title": "[Fondente Smile]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30133-hishi-akebono"
+"urlName": "30133-hishi-akebono",
+"hintSkills": [
+200212,
+200552,
+200972,
+200992,
+201002,
+201352
+],
+"eventSkills": [
+200212,
+200991,
+200652
+],
+"releaseEn": null
 },
 "30134": {
 "name": "Mejiro Ramonu",
 "title": "[Radiant]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30134-mejiro-ramonu"
+"urlName": "30134-mejiro-ramonu",
+"hintSkills": [
+200362,
+200432,
+201032,
+201042,
+201052,
+201102,
+201702,
+202432,
+202532
+],
+"eventSkills": [
+201072,
+202092,
+202531,
+201112
+],
+"releaseEn": null
 },
 "30135": {
 "name": "Katsuragi Ace",
 "title": "[Hold Aloft the Blazing Torch]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30135-katsuragi-ace"
+"urlName": "30135-katsuragi-ace",
+"hintSkills": [
+200032,
+200542,
+200732,
+201102,
+201252,
+201272,
+202412,
+202432,
+202462
+],
+"eventSkills": [
+200552,
+200731,
+201601
+],
+"releaseEn": null
 },
 "30136": {
 "name": "Symboli Kris S",
 "title": "[Unyielding Resolve]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30136-symboli-kris-s"
+"urlName": "30136-symboli-kris-s",
+"hintSkills": [
+201112,
+201392,
+201412,
+201702,
+202092,
+202122
+],
+"eventSkills": [
+201122,
+202091,
+200222
+],
+"releaseEn": null
 },
 "30137": {
 "name": "Ancestors & Guides",
 "title": "[Chasing Eternal Glory]",
 "rarity": 3,
 "type": "group",
-"urlName": "30137-ancestors-guides"
+"urlName": "30137-ancestors-guides",
+"hintSkills": [],
+"eventSkills": [
+200462,
+200972,
+201172,
+200332,
+201042,
+201112,
+200362,
+201591,
+200682,
+200992,
+200742,
+201702,
+202551,
+201571,
+202552
+],
+"releaseEn": null
 },
 "30138": {
 "name": "Nice Nature",
 "title": "[Don't Close Your Eyes Now]",
 "rarity": 3,
 "type": "power",
-"urlName": "30138-nice-nature"
+"urlName": "30138-nice-nature",
+"hintSkills": [
+200122,
+200332,
+200362,
+200442,
+200512,
+200602,
+201591,
+201651
+],
+"eventSkills": [
+201611,
+200492,
+201652,
+200462
+],
+"releaseEn": null
 },
 "30139": {
 "name": "Mejiro McQueen",
 "title": "[Heart Aflutter in the Evening Breeze]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30139-mejiro-mcqueen"
+"urlName": "30139-mejiro-mcqueen",
+"hintSkills": [
+200062,
+200162,
+200352,
+200382,
+200762,
+201172,
+201182,
+202012,
+202582
+],
+"eventSkills": [
+202192,
+202482,
+202581,
+200532
+],
+"releaseEn": null
 },
 "30140": {
 "name": "Tokai Teio",
 "title": "[Soaring Waltz]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30140-tokai-teio"
+"urlName": "30140-tokai-teio",
+"hintSkills": [
+200452,
+200492,
+200502,
+201132,
+201142,
+201332,
+202432
+],
+"eventSkills": [
+201322,
+201131,
+201312
+],
+"releaseEn": null
 },
 "30141": {
 "name": "Mihono Bourbon",
 "title": "[Mission: Nourishing the Soul]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30141-mihono-bourbon"
+"urlName": "30141-mihono-bourbon",
+"hintSkills": [
+200022,
+200152,
+200162,
+200532,
+200542,
+200552,
+201292,
+201581,
+201601
+],
+"eventSkills": [
+201522,
+201602,
+200432
+],
+"releaseEn": null
 },
 "30142": {
 "name": "Sakura Laurel",
 "title": "[Among Cherry Blossoms in Bloom]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30142-sakura-laurel"
+"urlName": "30142-sakura-laurel",
+"hintSkills": [
+200172,
+200352,
+200382,
+201222,
+202072,
+202592,
+202612,
+202622
+],
+"eventSkills": [
+202612,
+200601,
+200861
+],
+"releaseEn": null
 },
 "30143": {
 "name": "Ikuno Dictus",
 "title": "[The View at Journey's End]",
 "rarity": 3,
 "type": "power",
-"urlName": "30143-ikuno-dictus"
+"urlName": "30143-ikuno-dictus",
+"hintSkills": [
+200482,
+200592,
+201382,
+201442,
+201542
+],
+"eventSkills": [
+201432,
+201401,
+200781
+],
+"releaseEn": null
 },
 "30145": {
 "name": "Tanino Gimlet",
 "title": "[Welcome to Umayuru]",
 "rarity": 3,
 "type": "power",
-"urlName": "30145-tanino-gimlet"
+"urlName": "30145-tanino-gimlet",
+"hintSkills": [
+200152,
+200642,
+200702,
+201122,
+202082,
+202102
+],
+"eventSkills": [
+200631,
+201552
+],
+"releaseEn": null
 },
 "30146": {
 "name": "Oguri Cap",
 "title": "[Run Forth! Dash On! Ever Forward!]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30146-oguri-cap"
+"urlName": "30146-oguri-cap",
+"hintSkills": [
+200222,
+200332,
+200492,
+200572,
+200722,
+201312,
+201322,
+201342,
+201352,
+201702,
+201902,
+202432
+],
+"eventSkills": [
+201571,
+202431,
+200042
+],
+"releaseEn": null
 },
 "30147": {
 "name": "Jungle Pocket",
 "title": "[The Frontier]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30147-jungle-pocket"
+"urlName": "30147-jungle-pocket",
+"hintSkills": [
+200332,
+200602,
+201102,
+201112,
+202082,
+202492,
+202662
+],
+"eventSkills": [
+201702,
+202661,
+202422
+],
+"releaseEn": null
 },
 "30148": {
 "name": "Daiwa Scarlet",
 "title": "[Something Blue]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30148-daiwa-scarlet"
+"urlName": "30148-daiwa-scarlet",
+"hintSkills": [
+200432,
+200712,
+200722,
+200732,
+201102,
+201262,
+201272,
+201522,
+202132,
+202462
+],
+"eventSkills": [
+200542,
+202461,
+200562
+],
+"releaseEn": null
 },
 "30149": {
 "name": "Aston Machan",
 "title": "[Haute Couture Memory]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30149-aston-machan"
+"urlName": "30149-aston-machan",
+"hintSkills": [
+200432,
+200532,
+200652,
+200962,
+200972,
+201002,
+201522
+],
+"eventSkills": [
+201012,
+201262,
+200431,
+202042
+],
+"releaseEn": null
 },
 "30150": {
 "name": "Vodka",
 "title": "[Heart Ignition!]",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30150-vodka"
+"urlName": "30150-vodka",
+"hintSkills": [
+200032,
+200382,
+200592,
+201062,
+202082,
+202152
+],
+"eventSkills": [
+201442,
+201411,
+200492
+],
+"releaseEn": null
 },
 "30151": {
 "name": "Mayano Top Gun",
 "title": "[Chill Chill Night]",
 "rarity": 3,
 "type": "power",
-"urlName": "30151-mayano-top-gun"
+"urlName": "30151-mayano-top-gun",
+"hintSkills": [
+200462,
+200492,
+200572,
+201142,
+201312,
+201902,
+202432
+],
+"eventSkills": [
+200491,
+200362
+],
+"releaseEn": null
 },
 "30152": {
 "name": "TM Opera O",
 "title": "[All'alba vincerò!]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30152-tm-opera-o"
+"urlName": "30152-tm-opera-o",
+"hintSkills": [
+200042,
+200362,
+200382,
+200752,
+201172,
+201182,
+202012,
+202482,
+202562
+],
+"eventSkills": [
+200742,
+200332,
+202481,
+200361,
+200142
+],
+"releaseEn": null
 },
 "30153": {
 "name": "Gold City",
 "title": "[Gentle Moon]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30153-gold-city"
+"urlName": "30153-gold-city",
+"hintSkills": [
+201042,
+201072,
+201092,
+201611,
+202402,
+202502,
+202672
+],
+"eventSkills": [
+201052,
+200184,
+202671,
+201422
+],
+"releaseEn": null
 },
 "30154": {
 "name": "Mejiro Palmer",
 "title": "[As the Seagulls Soar]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30154-mejiro-palmer"
+"urlName": "30154-mejiro-palmer",
+"hintSkills": [
+200332,
+200742,
+201172,
+201182,
+201242,
+201282,
+201601,
+201661,
+202392,
+202682
+],
+"eventSkills": [
+202681,
+200162
+],
+"releaseEn": null
 },
 "30155": {
 "name": "Daitaku Helios",
 "title": "[#Summer #NewMe]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30155-daitaku-helios"
+"urlName": "30155-daitaku-helios",
+"hintSkills": [
+200152,
+200182,
+200212,
+200972,
+201042,
+201372,
+201651,
+202042
+],
+"eventSkills": [
+201631,
+200981,
+200302
+],
+"releaseEn": null
 },
 "30156": {
 "name": "Wonder Acute",
 "title": "[Lifelong Wonder]",
 "rarity": 3,
 "type": "power",
-"urlName": "30156-wonder-acute"
+"urlName": "30156-wonder-acute",
+"hintSkills": [
+201072,
+201672,
+201682,
+202212,
+202232,
+202282,
+202302,
+202343,
+202362
+],
+"eventSkills": [
+201611,
+202301,
+202332
+],
+"releaseEn": null
 },
 "30157": {
 "name": "Manhattan Cafe",
 "title": "[The Bubbles We Gaze upon Together]",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30157-manhattan-cafe"
+"urlName": "30157-manhattan-cafe",
+"hintSkills": [
+200742,
+201172,
+202072,
+202422,
+202522,
+202562,
+202592
+],
+"eventSkills": [
+201611,
+201392,
+202421,
+200741,
+200142
+],
+"releaseEn": null
 },
 "30158": {
 "name": "Jungle Pocket",
 "title": "[Summer Splash]",
 "rarity": 3,
 "type": "guts",
-"urlName": "30158-jungle-pocket"
+"urlName": "30158-jungle-pocket",
+"hintSkills": [
+200592,
+200602,
+201102,
+201392,
+201412,
+201542,
+202082,
+202612,
+202622
+],
+"eventSkills": [
+202621,
+202422
+],
+"releaseEn": null
 },
 "30159": {
 "name": "Air Groove",
 "title": "[Seaside Bloom]",
 "rarity": 3,
 "type": "speed",
-"urlName": "30159-air-groove"
+"urlName": "30159-air-groove",
+"hintSkills": [
+200562,
+201322,
+201342,
+201372,
+201532,
+201902,
+202372
+],
+"eventSkills": [
+200372,
+200581,
+200502
+],
+"releaseEn": null
 },
 "30160": {
 "name": "Mei Satake",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30160-mei-satake"
+"urlName": "30160-mei-satake",
+"hintSkills": [],
+"eventSkills": [
+201641,
+202721,
+200362
+],
+"releaseEn": null
 },
 "30161": {
 "name": "El Condor Pasa",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30161-el-condor-pasa"
+"urlName": "30161-el-condor-pasa",
+"hintSkills": [
+200332,
+200352,
+201112,
+201322,
+202132,
+202172,
+202372,
+202712
+],
+"eventSkills": [
+200722,
+200732,
+202711,
+200331,
+200212
+],
+"releaseEn": null
 },
 "30162": {
 "name": "Admire Vega",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30162-admire-vega"
+"urlName": "30162-admire-vega",
+"hintSkills": [
+200622,
+200632,
+201462,
+201502,
+202022
+],
+"eventSkills": [
+201112,
+201491,
+200861
+],
+"releaseEn": null
 },
 "30163": {
 "name": "Nakayama Festa",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30163-nakayama-festa"
+"urlName": "30163-nakayama-festa",
+"hintSkills": [
+200462,
+200512,
+201641,
+202442,
+202652,
+202732
+],
+"eventSkills": [
+202092,
+200014,
+200012,
+200042,
+200052
+],
+"releaseEn": null
 },
 "30164": {
 "name": "Hishi Amazon",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30164-hishi-amazon"
+"urlName": "30164-hishi-amazon",
+"hintSkills": [
+200332,
+200492,
+200512,
+200622,
+200632,
+201452
+],
+"eventSkills": [
+201462,
+200642,
+201463,
+200641,
+200941
+],
+"releaseEn": null
 },
 "30165": {
 "name": "Tanino Gimlet",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30165-tanino-gimlet"
+"urlName": "30165-tanino-gimlet",
+"hintSkills": [
+200032,
+200362,
+200492,
+200642,
+200732,
+201102,
+201452,
+202102
+],
+"eventSkills": [
+201641,
+202101,
+201552
+],
+"releaseEn": null
 },
 "30166": {
 "name": "Tap Dance City",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30166-tap-dance-city"
+"urlName": "30166-tap-dance-city",
+"hintSkills": [
+200252,
+200532,
+200542,
+200552,
+201252
+],
+"eventSkills": [
+201282,
+200551,
+200541,
+201272
+],
+"releaseEn": null
 },
 "30167": {
 "name": "Fine Motion",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30167-fine-motion"
+"urlName": "30167-fine-motion",
+"hintSkills": [
+200012,
+200452,
+200562,
+200682,
+200722,
+202372
+],
+"eventSkills": [
+200561,
+200332
+],
+"releaseEn": null
 },
 "30168": {
 "name": "Gold Ship",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30168-gold-ship"
+"urlName": "30168-gold-ship",
+"hintSkills": [
+200012,
+200462,
+200512,
+200622,
+200642,
+201452,
+201462,
+201552,
+201591
+],
+"eventSkills": [
+202032,
+201462,
+201452,
+201592,
+200052
+],
+"releaseEn": null
 },
 "30169": {
 "name": "Tsurumaru Tsuyoshi",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30169-tsurumaru-tsuyoshi"
+"urlName": "30169-tsurumaru-tsuyoshi",
+"hintSkills": [
+200512,
+200582,
+200732,
+201102,
+202372,
+202472
+],
+"eventSkills": [
+200472,
+202152,
+201103,
+201402
+],
+"releaseEn": null
 },
 "30170": {
 "name": "King Halo",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30170-king-halo"
+"urlName": "30170-king-halo",
+"hintSkills": [
+200612,
+200652,
+200962,
+201002,
+202122,
+202542,
+202752
+],
+"eventSkills": [
+202541,
+202751,
+200512
+],
+"releaseEn": null
 },
 "30171": {
 "name": "Haru Urara",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30171-haru-urara"
+"urlName": "30171-haru-urara",
+"hintSkills": [],
+"eventSkills": [
+200441,
+200302
+],
+"releaseEn": null
 },
 "30172": {
 "name": "Mejiro McQueen",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30172-mejiro-mcqueen"
+"urlName": "30172-mejiro-mcqueen",
+"hintSkills": [
+200582,
+201312,
+201352,
+201611,
+201902,
+202372,
+202762,
+202772
+],
+"eventSkills": [
+200052,
+202762,
+202761,
+200532
+],
+"releaseEn": null
 },
 "30173": {
 "name": "Sounds of Earth",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30173-sounds-of-earth"
+"urlName": "30173-sounds-of-earth",
+"hintSkills": [
+200382,
+200492,
+200512,
+201651,
+201661,
+202792,
+202802
+],
+"eventSkills": [
+200362,
+200382,
+200361,
+200381,
+202562
+],
+"releaseEn": null
 },
 "30174": {
 "name": "Mejiro Dober",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30174-mejiro-dober"
+"urlName": "30174-mejiro-dober",
+"hintSkills": [
+200462,
+200612,
+200702,
+201042,
+202112,
+202402,
+202612
+],
+"eventSkills": [
+202161,
+202111,
+201072
+],
+"releaseEn": null
 },
 "30175": {
 "name": "Mejiro Ramonu",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30175-mejiro-ramonu"
+"urlName": "30175-mejiro-ramonu",
+"hintSkills": [
+200012,
+200722,
+201102,
+201581,
+201661,
+201702,
+202082,
+202432,
+202532,
+202712,
+202742
+],
+"eventSkills": [
+200202,
+200204,
+201112
+],
+"releaseEn": null
 },
 "30176": {
 "name": "Mejiro Ryan",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30176-mejiro-ryan"
+"urlName": "30176-mejiro-ryan",
+"hintSkills": [
+200142,
+200202,
+201212,
+201382,
+201402,
+202092
+],
+"eventSkills": [
+201401,
+200472
+],
+"releaseEn": null
 },
 "30177": {
 "name": "Vivlos",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30177-vivlos"
+"urlName": "30177-vivlos",
+"hintSkills": [
+200592,
+200602,
+201102,
+201412,
+201692,
+202102,
+202652
+],
+"eventSkills": [
+202622,
+200591,
+201691,
+201382
+],
+"releaseEn": null
 },
 "30178": {
 "name": "Duramente",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30178-duramente"
+"urlName": "30178-duramente",
+"hintSkills": [
+200382,
+201102,
+201452,
+201651,
+202552,
+202662,
+202722
+],
+"eventSkills": [
+202721,
+202602
+],
+"releaseEn": null
 },
 "30179": {
 "name": "Satono Diamond",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30179-satono-diamond"
+"urlName": "30179-satono-diamond",
+"hintSkills": [
+200342,
+200452,
+200602,
+202092,
+201392,
+202152,
+202612,
+202622
+],
+"eventSkills": [
+202662,
+202151,
+202091,
+200851
+],
+"releaseEn": null
 },
 "30180": {
 "name": "Carvers of History",
 "title": "",
 "rarity": 3,
 "type": "group",
-"urlName": "30180-group"
+"urlName": "30180-group",
+"hintSkills": [],
+"eventSkills": [
+200762,
+201312,
+201172,
+201132,
+200512,
+200032,
+200511
+],
+"releaseEn": null
 },
 "30181": {
 "name": "Twin Turbo",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30181-twin-turbo"
+"urlName": "30181-twin-turbo",
+"hintSkills": [
+200282,
+200462,
+200532,
+200552,
+200732,
+201192,
+201282,
+202032,
+202392,
+202652
+],
+"eventSkills": [
+201272,
+201271,
+200532
+],
+"releaseEn": null
 },
 "30182": {
 "name": "Hokko Tarumae",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30182-hokko-tarumae"
+"urlName": "30182-hokko-tarumae",
+"hintSkills": [
+201682,
+202262,
+202282,
+202312,
+202832,
+202842
+],
+"eventSkills": [
+201902,
+202831,
+201672
+],
+"releaseEn": null
 },
 "30183": {
 "name": "Winning Ticket",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30183-winning-ticket"
+"urlName": "30183-winning-ticket",
+"hintSkills": [
+200022,
+200492,
+200592,
+200602,
+202612,
+202622
+],
+"eventSkills": [
+202452,
+202451,
+201392
+],
+"releaseEn": null
 },
 "30184": {
 "name": "Sakura Bakushin O",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30184-sakura-bakushin-o"
+"urlName": "30184-sakura-bakushin-o",
+"hintSkills": [
+200972,
+200992,
+201601,
+202042,
+202752,
+202802,
+202862
+],
+"eventSkills": [
+200652,
+202861,
+200973,
+200672
+],
+"releaseEn": null
 },
 "30185": {
 "name": "North Flight",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30185-north-flight"
+"urlName": "30185-north-flight",
+"hintSkills": [
+200132,
+200432,
+200502,
+200582,
+200682,
+200702,
+201042,
+201062
+],
+"eventSkills": [
+201051,
+202672
+],
+"releaseEn": null
 },
 "30186": {
 "name": "Gentildonna",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30186-gentildonna"
+"urlName": "30186-gentildonna",
+"hintSkills": [
+200152,
+200362,
+200512,
+200562,
+201402,
+201591,
+202532
+],
+"eventSkills": [
+201032,
+201102,
+200461,
+202172
+],
+"releaseEn": null
 },
 "30187": {
 "name": "Orfevre",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30187-orfevre"
+"urlName": "30187-orfevre",
+"hintSkills": [
+200332,
+200492,
+201611,
+201661,
+202552,
+202662,
+202872
+],
+"eventSkills": [
+202552,
+202551,
+202522
+],
+"releaseEn": null
 },
 "30188": {
 "name": "Ryoka Tsurugi",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30188-ryoka-tsurugi"
+"urlName": "30188-ryoka-tsurugi",
+"hintSkills": [],
+"eventSkills": [
+200282,
+202801,
+200512
+],
+"releaseEn": null
 },
 "30189": {
 "name": "Kitasan Black",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30189-kitasan-black"
+"urlName": "30189-kitasan-black",
+"hintSkills": [
+200062,
+200432,
+200722,
+200762,
+201282,
+201522
+],
+"eventSkills": [
+200711
+],
+"releaseEn": null
 },
 "30190": {
 "name": "Duramente",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30190-duramente"
+"urlName": "30190-duramente",
+"hintSkills": [
+200472,
+200512,
+201102,
+202102
+],
+"eventSkills": [
+200371,
+202602
+],
+"releaseEn": null
 },
 "30191": {
 "name": "Sounds of Earth",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30191-sounds-of-earth"
+"urlName": "30191-sounds-of-earth",
+"hintSkills": [
+200462,
+200492,
+200512,
+200722,
+201631,
+202792
+],
+"eventSkills": [
+200481,
+202562
+],
+"releaseEn": null
 },
 "30192": {
 "name": "Vivlos",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30192-vivlos"
+"urlName": "30192-vivlos",
+"hintSkills": [
+200612,
+200692,
+201072,
+201162,
+201402,
+202652
+],
+"eventSkills": [
+201421,
+201382
+],
+"releaseEn": null
 },
 "30193": {
 "name": "Cheval Grand",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30193-cheval-grand"
+"urlName": "30193-cheval-grand",
+"hintSkills": [
+200562,
+200582,
+200752,
+201172,
+201182,
+201312,
+202372,
+202482
+],
+"eventSkills": [
+202011,
+202012,
+202762
+],
+"releaseEn": null
 },
 "30194": {
 "name": "Rhein Kraft",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30194-rhein-kraft"
+"urlName": "30194-rhein-kraft",
+"hintSkills": [
+200052,
+200582,
+200682,
+201032,
+201062,
+201072,
+201082
+],
+"eventSkills": [
+202371,
+201042
+],
+"releaseEn": null
 },
 "30195": {
 "name": "K.S.Miracle",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30195-ksmiracle"
+"urlName": "30195-ksmiracle",
+"hintSkills": [
+200182,
+200652,
+200962,
+200992,
+202172,
+202802,
+202862
+],
+"eventSkills": [
+200362,
+200651,
+202042
+],
+"releaseEn": null
 },
 "30196": {
 "name": "Yamanin Zephyr",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30196-yamanin-zephyr"
+"urlName": "30196-yamanin-zephyr",
+"hintSkills": [
+200582,
+200682,
+201312,
+201651,
+201902,
+202502,
+202532
+],
+"eventSkills": [
+202502,
+202501,
+202412
+],
+"releaseEn": null
 },
 "30197": {
 "name": "Bamboo Memory",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30197-bamboo-memory"
+"urlName": "30197-bamboo-memory",
+"hintSkills": [
+200032,
+200632,
+200672,
+200702,
+201002,
+201072,
+202382
+],
+"eventSkills": [
+201453,
+200132
+],
+"releaseEn": null
 },
 "30198": {
 "name": "Neo Universe",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30198-neo-universe"
+"urlName": "30198-neo-universe",
+"hintSkills": [
+200132,
+201112,
+201591,
+201702,
+202102,
+202161,
+202522,
+202602
+],
+"eventSkills": [
+202082,
+202081,
+202622
+],
+"releaseEn": null
 },
 "30199": {
 "name": "Hishi Miracle",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30199-hishi-miracle"
+"urlName": "30199-hishi-miracle",
+"hintSkills": [
+200602,
+200742,
+201222,
+201422,
+202562,
+202592,
+202622
+],
+"eventSkills": [
+202562,
+202561,
+202072
+],
+"releaseEn": null
 },
 "30200": {
 "name": "No Reason",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30200-no-reason"
+"urlName": "30200-no-reason",
+"hintSkills": [
+200302,
+200372,
+201402,
+201422,
+202092,
+202472,
+202652
+],
+"eventSkills": [
+202121,
+201702
+],
+"releaseEn": null
 },
 "30201": {
 "name": "Narita Taishin",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30201-narita-taishin"
+"urlName": "30201-narita-taishin",
+"hintSkills": [
+200642,
+201452,
+202382,
+202882,
+202902,
+202922,
+202932,
+202972
+],
+"eventSkills": [
+202902,
+200642,
+202901,
+200641,
+201212
+],
+"releaseEn": null
 },
 "30202": {
 "name": "Vodka",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30202-vodka"
+"urlName": "30202-vodka",
+"hintSkills": [
+200022,
+200332,
+200612,
+201072,
+202152,
+202402,
+202652
+],
+"eventSkills": [
+202402,
+202401,
+200492
+],
+"releaseEn": null
 },
 "30203": {
 "name": "Jungle Pocket",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30203-jungle-pocket"
+"urlName": "30203-jungle-pocket",
+"hintSkills": [
+200032,
+200482,
+200512,
+201102,
+202102,
+202522,
+202652
+],
+"eventSkills": [
+202101,
+202422
+],
+"releaseEn": null
 },
 "30204": {
 "name": "Seiun Sky",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30204-seiun-sky"
+"urlName": "30204-seiun-sky",
+"hintSkills": [
+200012,
+201112,
+201242,
+201262,
+201272,
+202132,
+202462
+],
+"eventSkills": [
+202692,
+202691,
+201192
+],
+"releaseEn": null
 },
 "30205": {
 "name": "Verxina",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30205-verxina"
+"urlName": "30205-verxina",
+"hintSkills": [
+200342,
+200432,
+200462,
+200502,
+201052,
+201292,
+202532
+],
+"eventSkills": [
+201033,
+200682
+],
+"releaseEn": null
 },
 "30206": {
 "name": "Vivlos",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30206-vivlos"
+"urlName": "30206-vivlos",
+"hintSkills": [
+200362,
+200492,
+201032,
+201591,
+202622,
+202802
+],
+"eventSkills": [
+201611,
+201612,
+201382
+],
+"releaseEn": null
 },
 "30207": {
 "name": "Yayoi Akikawa",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30207-yayoi-akikawa"
+"urlName": "30207-yayoi-akikawa",
+"hintSkills": [],
+"eventSkills": [
+200362,
+201592,
+202792
+],
+"releaseEn": null
 },
 "30208": {
 "name": "Nishino Flower",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30208-nishino-flower"
+"urlName": "30208-nishino-flower",
+"hintSkills": [
+200362,
+201601,
+201651,
+202802,
+203032,
+203042
+],
+"eventSkills": [
+203032,
+203042,
+203041,
+203031
+],
+"releaseEn": null
 },
 "30209": {
 "name": "Dantsu Flame",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30209-dantsu-flame"
+"urlName": "30209-dantsu-flame",
+"hintSkills": [
+200492,
+200562,
+200572,
+201102,
+201112,
+201312,
+201661,
+201702,
+203052
+],
+"eventSkills": [
+203052,
+203051,
+202472
+],
+"releaseEn": null
 },
 "30210": {
 "name": "Smart Falcon",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30210-smart-falcon"
+"urlName": "30210-smart-falcon",
+"hintSkills": [
+200452,
+200532,
+200542,
+201242,
+201252,
+201272,
+201522,
+201601,
+202462
+],
+"eventSkills": [
+200531,
+200532,
+200552
+],
+"releaseEn": null
 },
 "30211": {
 "name": "Copano Rickey",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30211-copano-rickey"
+"urlName": "30211-copano-rickey",
+"hintSkills": [
+200022,
+201601,
+202252,
+202262,
+202302,
+202332,
+202652,
+203093,
+203103
+],
+"eventSkills": [
+202952,
+202842,
+202951,
+202841,
+202262
+],
+"releaseEn": null
 },
 "30212": {
 "name": "Wonder Acute",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30212-wonder-acute"
+"urlName": "30212-wonder-acute",
+"hintSkills": [
+200472,
+201682,
+202252,
+202372,
+202842
+],
+"eventSkills": [
+202281,
+202332
+],
+"releaseEn": null
 },
 "30213": {
 "name": "Tokai Teio",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30213-tokai-teio"
+"urlName": "30213-tokai-teio",
+"hintSkills": [
+200042,
+200332,
+200502,
+200722,
+201611
+],
+"eventSkills": [
+201141,
+201312
+],
+"releaseEn": null
 },
 "30214": {
 "name": "Fine Motion",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30214-fine-motion"
+"urlName": "30214-fine-motion",
+"hintSkills": [
+200182,
+200382,
+201112,
+202532,
+202702,
+202982,
+203052,
+203112
+],
+"eventSkills": [
+200082,
+203112,
+203111,
+200332
+],
+"releaseEn": null
 },
 "30215": {
 "name": "Still in Love",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30215-still-in-love"
+"urlName": "30215-still-in-love",
+"hintSkills": [
+200332,
+200362,
+200492,
+201112,
+201611,
+201661,
+202742,
+202962
+],
+"eventSkills": [
+203152,
+203142,
+203151,
+203141,
+202532
+],
+"releaseEn": null
 },
 "30216": {
 "name": "Buena Vista",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30216-buena-vista"
+"urlName": "30216-buena-vista",
+"hintSkills": [
+200342,
+200372,
+200462,
+200702,
+201072,
+202112,
+202652
+],
+"eventSkills": [
+200341,
+202612
+],
+"releaseEn": null
 },
 "30217": {
 "name": "Cesario",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30217-cesario"
+"urlName": "30217-cesario",
+"hintSkills": [
+200132,
+200462,
+200512,
+201702,
+202092,
+202472
+],
+"eventSkills": [
+201113,
+202712
+],
+"releaseEn": null
 },
 "30218": {
 "name": "Taiki Shuttle",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30218-taiki-shuttle"
+"urlName": "30218-taiki-shuttle",
+"hintSkills": [
+200682,
+201042,
+201072,
+201601,
+202502,
+202672,
+203022,
+203162
+],
+"eventSkills": [
+203162,
+203161,
+202992,
+200582
+],
+"releaseEn": null
 },
 "30219": {
 "name": "Fuji Kiseki",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30219-fuji-kiseki"
+"urlName": "30219-fuji-kiseki",
+"hintSkills": [
+201322,
+201661,
+201902,
+202372,
+202472,
+202982,
+203042
+],
+"eventSkills": [
+202982,
+202981,
+200582
+],
+"releaseEn": null
 },
 "30220": {
 "name": "Symboli Kris S",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30220-symboli-kris-s"
+"urlName": "30220-symboli-kris-s",
+"hintSkills": [
+200462,
+200472,
+200742,
+200762,
+201182,
+201222,
+202792
+],
+"eventSkills": [
+200751,
+200222
+],
+"releaseEn": null
 },
 "30221": {
 "name": "Satono Diamond",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30221-satono-diamond"
+"urlName": "30221-satono-diamond",
+"hintSkills": [
+200512,
+200742,
+200752,
+200762,
+201202,
+202192,
+202472
+],
+"eventSkills": [
+200851
+],
+"releaseEn": null
 },
 "30222": {
 "name": "Espoir City",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30222-espoir-city"
+"urlName": "30222-espoir-city",
+"hintSkills": [
+201072,
+201661,
+202252,
+202262,
+202302,
+202332,
+202952,
+203103,
+203182
+],
+"eventSkills": [
+202331,
+203181,
+202842
+],
+"releaseEn": null
 },
 "30223": {
 "name": "Hishi Amazon",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30223-hishi-amazon"
+"urlName": "30223-hishi-amazon",
+"hintSkills": [
+200632,
+200642,
+201462,
+201591,
+201651,
+202872,
+202882,
+202912
+],
+"eventSkills": [
+202022,
+202021,
+200941
+],
+"releaseEn": null
 },
 "30224": {
 "name": "Narita Brian",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30224-narita-brian"
+"urlName": "30224-narita-brian",
+"hintSkills": [
+201312,
+201322,
+201902,
+202472,
+202482,
+203222,
+203232
+],
+"eventSkills": [
+202481,
+203221,
+201641
+],
+"releaseEn": null
 },
 "30225": {
 "name": "Matikanefukukitaru",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30225-matikanefukukitaru"
+"urlName": "30225-matikanefukukitaru",
+"hintSkills": [
+201412,
+201422,
+201562,
+201571,
+202542,
+202642
+],
+"eventSkills": [
+201393
+],
+"releaseEn": null
 },
 "30226": {
 "name": "Air Shakur",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30226-air-shakur"
+"urlName": "30226-air-shakur",
+"hintSkills": [
+200142,
+200332,
+200512,
+201182,
+202522,
+203242,
+203252
+],
+"eventSkills": [
+203242,
+203252,
+203241,
+203251,
+200472
+],
+"releaseEn": null
 },
 "30227": {
 "name": "Daiwa Scarlet",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30227-daiwa-scarlet"
+"urlName": "30227-daiwa-scarlet",
+"hintSkills": [
+200362,
+201252,
+201262,
+201272,
+201661,
+202802,
+202812,
+202822,
+203262,
+203272
+],
+"eventSkills": [
+201242,
+202012,
+200542,
+202821,
+201271,
+200562
+],
+"releaseEn": null
 },
 "30228": {
 "name": "Symboli Kris S",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30228-symboli-kris-s"
+"urlName": "30228-symboli-kris-s",
+"hintSkills": [
+200592,
+201392,
+201651,
+202452,
+202542,
+202592,
+202612,
+202622
+],
+"eventSkills": [
+202422,
+202642,
+202421,
+202641,
+200222
+],
+"releaseEn": null
 },
 "30229": {
 "name": "Agnes Digital",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30229-agnes-digital"
+"urlName": "30229-agnes-digital",
+"hintSkills": [
+201032,
+201042,
+201072,
+201651,
+202112,
+202402,
+202962,
+203022
+],
+"eventSkills": [
+203351,
+203352,
+200232,
+200162
+],
+"releaseEn": null
 },
 "30230": {
 "name": "Meisho Doto",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30230-meisho-doto"
+"urlName": "30230-meisho-doto",
+"hintSkills": [
+200012,
+200602,
+201382,
+201412,
+201591,
+202152,
+202472,
+203362
+],
+"eventSkills": [
+201692,
+202622,
+202621,
+201322
+],
+"releaseEn": null
 },
 "30231": {
 "name": "TM Opera O",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30231-tm-opera-o"
+"urlName": "30231-tm-opera-o",
+"hintSkills": [
+200352,
+200462,
+200572,
+201312,
+201332,
+202762
+],
+"eventSkills": [
+200581,
+200142
+],
+"releaseEn": null
 },
 "30232": {
 "name": "Blast Onepiece",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30232-blast-onepiece"
+"urlName": "30232-blast-onepiece",
+"hintSkills": [
+200332,
+200562,
+201312,
+201591,
+202372,
+202772,
+203132,
+203412,
+203422
+],
+"eventSkills": [
+203422,
+203412,
+203411,
+203421,
+201172
+],
+"releaseEn": null
 },
 "30233": {
 "name": "Symboli Rudolf",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30233-symboli-rudolf"
+"urlName": "30233-symboli-rudolf",
+"hintSkills": [
+201102,
+201591,
+201611,
+201651,
+202172,
+202552,
+202712,
+202802,
+203432
+],
+"eventSkills": [
+202712,
+201651,
+202711,
+201652,
+200232
+],
+"releaseEn": null
 },
 "30234": {
 "name": "Mejiro Ardan",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30234-mejiro-ardan"
+"urlName": "30234-mejiro-ardan",
+"hintSkills": [
+200022,
+201322,
+202372,
+202532,
+202742,
+202982,
+203032,
+203132,
+203232,
+203442
+],
+"eventSkills": [
+202741,
+203131,
+200881
+],
+"releaseEn": null
 },
 "30235": {
 "name": "Maruzensky",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30235-maruzensky"
+"urlName": "30235-maruzensky",
+"hintSkills": [
+200372,
+200432,
+200552,
+201252,
+201282,
+201522,
+201661,
+203032
+],
+"eventSkills": [
+202461,
+200532
+],
+"releaseEn": null
 },
 "30236": {
 "name": "Seeking the Pearl",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30236-seeking-the-pearl"
+"urlName": "30236-seeking-the-pearl",
+"hintSkills": [
+200652,
+200962,
+200972,
+202402,
+203012,
+203042,
+203452
+],
+"eventSkills": [
+202752,
+202751,
+202992,
+201591
+],
+"releaseEn": null
 },
 "30237": {
 "name": "Curren Chan",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30237-curren-chan"
+"urlName": "30237-curren-chan",
+"hintSkills": [
+200432,
+200652,
+200962,
+200972,
+201601,
+202042,
+202862,
+203012,
+203492
+],
+"eventSkills": [
+202802,
+203491,
+200431,
+201012
+],
+"releaseEn": null
 },
 "30238": {
 "name": "Ikuno Dictus",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30238-ikuno-dictus"
+"urlName": "30238-ikuno-dictus",
+"hintSkills": [
+201032,
+201042,
+201072,
+201601,
+202502,
+202652,
+202962,
+203022,
+203042
+],
+"eventSkills": [
+201072,
+201071,
+200781
+],
+"releaseEn": null
 },
 "30239": {
 "name": "Nice Nature",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30239-nice-nature"
+"urlName": "30239-nice-nature",
+"hintSkills": [
+200442,
+200472,
+200592,
+200781,
+201152,
+201692,
+202102,
+202122
+],
+"eventSkills": [
+201421,
+200462
+],
+"releaseEn": null
 },
 "30240": {
 "name": "Jungle Pocket",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30240-jungle-pocket"
+"urlName": "30240-jungle-pocket",
+"hintSkills": [
+200032,
+200502,
+200512,
+200612,
+201382,
+201402,
+201422,
+201542
+],
+"eventSkills": [
+202422
+],
+"releaseEn": null
 },
 "30241": {
 "name": "Embodiment of Legends",
 "title": "",
 "rarity": 3,
 "type": "group",
-"urlName": "30241-group"
+"urlName": "30241-group",
+"hintSkills": [],
+"eventSkills": [
+201651,
+200332,
+202802,
+202792,
+203502,
+201611,
+202092,
+201601,
+203501
+],
+"releaseEn": null
 },
 "30242": {
 "name": "Almond Eye",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30242-almond-eye"
+"urlName": "30242-almond-eye",
+"hintSkills": [
+200332,
+200362,
+200492,
+201591,
+201611,
+202702,
+202982,
+203122,
+203432,
+203442
+],
+"eventSkills": [
+202701,
+203431,
+200361,
+200331,
+202742
+],
+"releaseEn": null
 },
 "30243": {
 "name": "Gran Alegria",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30243-gran-alegria"
+"urlName": "30243-gran-alegria",
+"hintSkills": [
+200132,
+200702,
+202112,
+202552,
+202652,
+203042,
+203362
+],
+"eventSkills": [
+201033,
+201032
+],
+"releaseEn": null
 },
 "30244": {
 "name": "Mejiro Bright",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30244-mejiro-bright"
+"urlName": "30244-mejiro-bright",
+"hintSkills": [
+200172,
+201172,
+201222,
+201382,
+201692,
+202422,
+202562,
+202592,
+203242,
+203332,
+203562
+],
+"eventSkills": [
+202591,
+200742
+],
+"releaseEn": null
 },
 "30245": {
 "name": "Vodka",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30245-vodka"
+"urlName": "30245-vodka",
+"hintSkills": [
+200022,
+201112,
+201382,
+201392,
+202452,
+202612,
+202652,
+202712,
+203312,
+203572
+],
+"eventSkills": [
+201383,
+203571,
+200492
+],
+"releaseEn": null
 },
 "30246": {
 "name": "Dream Journey",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30246-dream-journey"
+"urlName": "30246-dream-journey",
+"hintSkills": [
+200012,
+200492,
+200632,
+201462,
+202022,
+202882,
+202902,
+202922,
+202932,
+203582
+],
+"eventSkills": [
+202382,
+202881,
+202931,
+202902
+],
+"releaseEn": null
 },
 "30247": {
 "name": "Symboli Kris S",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30247-symboli-kris-s"
+"urlName": "30247-symboli-kris-s",
+"hintSkills": [
+200472,
+200512,
+200742,
+201212,
+201222,
+202072,
+202562,
+203302
+],
+"eventSkills": [
+201183,
+200222
+],
+"releaseEn": null
 },
 "30248": {
 "name": "Daring Tact",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30248-daring-tact"
+"urlName": "30248-daring-tact",
+"hintSkills": [
+200172,
+200592,
+201382,
+201412,
+202172,
+202452,
+202612,
+202622,
+203322,
+203592
+],
+"eventSkills": [
+202532,
+203591,
+200591,
+203362
+],
+"releaseEn": null
 },
 "30249": {
 "name": "Transcend",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30249-transcend"
+"urlName": "30249-transcend",
+"hintSkills": [
+201601,
+201661,
+201672,
+201682,
+202332,
+202952,
+203093,
+203103,
+203182,
+203602
+],
+"eventSkills": [
+202952,
+203091,
+203601,
+201682
+],
+"releaseEn": null
 },
 "30250": {
 "name": "Buena Vista",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30250-buena-vista"
+"urlName": "30250-buena-vista",
+"hintSkills": [
+201102,
+201462,
+202102,
+202532,
+202872,
+203172,
+203342,
+203432,
+203522,
+203532
+],
+"eventSkills": [
+202871,
+202101,
+202612
+],
+"releaseEn": null
 },
 "30251": {
 "name": "Espoir City",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30251-espoir-city"
+"urlName": "30251-espoir-city",
+"hintSkills": [
+200462,
+200502,
+201032,
+202282,
+202302,
+202343,
+202652,
+203022
+],
+"eventSkills": [
+201671,
+202842
+],
+"releaseEn": null
 },
 "30252": {
 "name": "Silence Suzuka",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30252-silence-suzuka"
+"urlName": "30252-silence-suzuka",
+"hintSkills": [
+200452,
+200542,
+201242,
+201601,
+202692,
+203032,
+203382,
+203392,
+203402,
+203462
+],
+"eventSkills": [
+203381,
+200541,
+200022
+],
+"releaseEn": null
 },
 "30253": {
 "name": "Rhein Kraft",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30253-rhein-kraft"
+"urlName": "30253-rhein-kraft",
+"hintSkills": [
+200682,
+201032,
+201052,
+201082,
+201601,
+202402,
+202672,
+203022,
+203032,
+203472
+],
+"eventSkills": [
+201051,
+202671,
+201042
+],
+"releaseEn": null
 },
 "30254": {
 "name": "Daring Heart",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30254-daring-heart"
+"urlName": "30254-daring-heart",
+"hintSkills": [
+201042,
+201072,
+201312,
+201902,
+202502,
+202652,
+203042,
+203162,
+203422
+],
+"eventSkills": [
+202502,
+202501,
+203222
+],
+"releaseEn": null
 },
 "30255": {
 "name": "Air Messiah",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30255-air-messiah"
+"urlName": "30255-air-messiah",
+"hintSkills": [
+200132,
+200502,
+200592,
+201402,
+201581,
+203242,
+203322
+],
+"eventSkills": [
+201411,
+200602
+],
+"releaseEn": null
 },
 "30256": {
 "name": "Tamamo Cross",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30256-tamamo-cross"
+"urlName": "30256-tamamo-cross",
+"hintSkills": [
+200492,
+200512,
+201611,
+202522,
+202552,
+203362,
+203502,
+203662
+],
+"eventSkills": [
+201651,
+202802,
+202551,
+203361,
+203661,
+200482
+],
+"releaseEn": null
 },
 "30257": {
 "name": "Tucker Bryne",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30257-tucker-bryne"
+"urlName": "30257-tucker-bryne",
+"hintSkills": [],
+"eventSkills": [
+200382,
+203652,
+203651,
+203242
+],
+"releaseEn": null
 },
 "30258": {
 "name": "Mejiro Ryan",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30258-mejiro-ryan"
+"urlName": "30258-mejiro-ryan",
+"hintSkills": [
+200602,
+201392,
+201702,
+202082,
+202102,
+202122,
+203322,
+203332,
+203572,
+203682
+],
+"eventSkills": [
+203681,
+200472
+],
+"releaseEn": null
 },
 "30259": {
 "name": "Fusaichi Pandora",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30259-fusaichi-pandora"
+"urlName": "30259-fusaichi-pandora",
+"hintSkills": [
+200502,
+200512,
+200572,
+201322,
+201342,
+202432,
+202982
+],
+"eventSkills": [
+201323,
+203172
+],
+"releaseEn": null
 },
 "30260": {
 "name": "Mejiro McQueen",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30260-mejiro-mcqueen"
+"urlName": "30260-mejiro-mcqueen",
+"hintSkills": [
+200502,
+200762,
+201182,
+201352,
+201532,
+202372,
+202762
+],
+"eventSkills": [
+203301,
+200532
+],
+"releaseEn": null
 },
 "30261": {
 "name": "Win Variation",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30261-win-variation"
+"urlName": "30261-win-variation",
+"hintSkills": [
+200012,
+200182,
+200382,
+200752,
+201172,
+202582,
+202852,
+203562,
+203652,
+203732,
+203772
+],
+"eventSkills": [
+203502,
+203731,
+200751,
+201182
+],
+"releaseEn": null
 },
 "30262": {
 "name": "Duramente",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30262-duramente"
+"urlName": "30262-duramente",
+"hintSkills": [
+200642,
+201452,
+201462,
+201651,
+202382,
+202892,
+203152,
+203512,
+203752,
+203762
+],
+"eventSkills": [
+202901,
+203751,
+202602
+],
+"releaseEn": null
 },
 "30263": {
 "name": "Vivlos",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30263-vivlos"
+"urlName": "30263-vivlos",
+"hintSkills": [
+201062,
+201072,
+201412,
+201542,
+202172,
+202642,
+202652
+],
+"eventSkills": [
+202111,
+201382
+],
+"releaseEn": null
 },
 "30264": {
 "name": "Stay Gold",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30264-stay-gold"
+"urlName": "30264-stay-gold",
+"hintSkills": [
+200332,
+201591,
+201601,
+201651,
+202532,
+202602,
+202722,
+203362,
+203502,
+203632,
+203852,
+203862
+],
+"eventSkills": [
+203502,
+202721,
+203851,
+203861,
+200362
+],
+"releaseEn": null
 },
 "30265": {
 "name": "Admire Groove",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30265-admire-groove"
+"urlName": "30265-admire-groove",
+"hintSkills": [
+200192,
+201102,
+201112,
+201412,
+202122,
+203322,
+203432,
+203572,
+203672,
+203832,
+203842
+],
+"eventSkills": [
+202612,
+203831,
+203841,
+202082
+],
+"releaseEn": null
 },
 "30266": {
 "name": "Chrono Genesis",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30266-chrono-genesis"
+"urlName": "30266-chrono-genesis",
+"hintSkills": [
+200142,
+200482,
+202472,
+203052,
+203142,
+203232
+],
+"eventSkills": [
+200721,
+203112
+],
+"releaseEn": null
 },
 "30267": {
 "name": "Calstone Light O",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30267-calstone-light-o"
+"urlName": "30267-calstone-light-o",
+"hintSkills": [
+200192,
+200362,
+200452,
+200652,
+200962,
+201661,
+202862,
+203032,
+203042,
+203061,
+203071,
+203482,
+203882
+],
+"eventSkills": [
+202041,
+203881,
+200362,
+202992
+],
+"releaseEn": null
 },
 "30268": {
 "name": "Durandal",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30268-durandal"
+"urlName": "30268-durandal",
+"hintSkills": [
+200152,
+200362,
+201452,
+202382,
+202402,
+202922,
+203152,
+203762,
+203892,
+203902
+],
+"eventSkills": [
+202402,
+203762,
+201453,
+202401,
+203761,
+203582
+],
+"releaseEn": null
 },
 "30269": {
 "name": "Dantsu Flame",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30269-dantsu-flame"
+"urlName": "30269-dantsu-flame",
+"hintSkills": [
+200052,
+200582,
+200602,
+202152,
+202722,
+202742,
+203122
+],
+"eventSkills": [
+201701,
+202472
+],
+"releaseEn": null
 },
 "30270": {
 "name": "Daiichi Ruby",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30270-daiichi-ruby"
+"urlName": "30270-daiichi-ruby",
+"hintSkills": [
+200192,
+200602,
+200962,
+201002,
+201392,
+202402,
+202752,
+203042,
+203452,
+203912,
+203922
+],
+"eventSkills": [
+203911,
+200672
+],
+"releaseEn": null
 },
 "30271": {
 "name": "Fuji Kiseki",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30271-fuji-kiseki"
+"urlName": "30271-fuji-kiseki",
+"hintSkills": [
+200362,
+200492,
+200682,
+201042,
+201651,
+201902,
+202372,
+202672,
+202742,
+203162,
+203232,
+203962
+],
+"eventSkills": [
+203961,
+200582
+],
+"releaseEn": null
 },
 "30272": {
 "name": "Eishin Flash",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30272-eishin-flash"
+"urlName": "30272-eishin-flash",
+"hintSkills": [
+200362,
+200462,
+201382,
+201392,
+201661,
+202122,
+202152,
+202612,
+202642,
+203672
+],
+"eventSkills": [
+203332,
+202641,
+203671,
+210091,
+210082,
+210062,
+200292
+],
+"releaseEn": null
 },
 "30273": {
 "name": "Tosen Jordan",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30273-tosen-jordan"
+"urlName": "30273-tosen-jordan",
+"hintSkills": [
+200032,
+200602,
+201402,
+201661,
+201692,
+202612,
+202722,
+203312
+],
+"eventSkills": [
+202121,
+201562
+],
+"releaseEn": null
 },
 "30274": {
 "name": "Curren Bouquetd'or",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30274-curren-bouquetdor"
+"urlName": "30274-curren-bouquetdor",
+"hintSkills": [
+200172,
+200352,
+200562,
+202372,
+202472,
+202482,
+202982,
+203032,
+203642,
+203652,
+203992
+],
+"eventSkills": [
+200351,
+203991,
+203122
+],
+"releaseEn": null
 },
 "30275": {
 "name": "Tokai Teio",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30275-tokai-teio"
+"urlName": "30275-tokai-teio",
+"hintSkills": [
+201312,
+201322,
+201902,
+202372,
+203122,
+203232,
+203422,
+203442,
+203642,
+203712,
+203992,
+204002
+],
+"eventSkills": [
+203502,
+203432,
+204001,
+203421,
+203441,
+201312
+],
+"releaseEn": null
 },
 "30276": {
 "name": "Kiyoko Hoshina",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30276-kiyoko-hoshina"
+"urlName": "30276-kiyoko-hoshina",
+"hintSkills": [],
+"eventSkills": [
+202802,
+201662,
+202792
+],
+"releaseEn": null
 },
 "30277": {
 "name": "Mihono Bourbon",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30277-mihono-bourbon"
+"urlName": "30277-mihono-bourbon",
+"hintSkills": [
+200132,
+200452,
+200532,
+200542,
+201242,
+201252,
+201272,
+201601,
+202161,
+203272,
+203462,
+204092
+],
+"eventSkills": [
+200452,
+200531,
+203461,
+200432
+],
+"releaseEn": null
 },
 "30278": {
 "name": "Gold Ship",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30278-gold-ship"
+"urlName": "30278-gold-ship",
+"hintSkills": [
+200202,
+200642,
+201182,
+201452,
+201591,
+202562,
+202852,
+202882,
+202892,
+203252,
+203532,
+203582,
+203762
+],
+"eventSkills": [
+202972,
+200641,
+202891,
+200052
+],
+"releaseEn": null
 },
 "30279": {
 "name": "Fenomeno",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30279-fenomeno"
+"urlName": "30279-fenomeno",
+"hintSkills": [
+201182,
+202012,
+202192,
+202482,
+202662,
+202772,
+203132,
+203412,
+203702,
+203712,
+204012
+],
+"eventSkills": [
+203412,
+202011,
+202771,
+202772
+],
+"releaseEn": null
 },
 "30280": {
 "name": "Orfevre",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30280-orfevre"
+"urlName": "30280-orfevre",
+"hintSkills": [
+201492,
+202022,
+202382,
+202552,
+202662,
+202902,
+202972,
+203752
+],
+"eventSkills": [
+201481,
+202522
+],
+"releaseEn": null
 },
 "30281": {
 "name": "Inari One",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30281-inari-one"
+"urlName": "30281-inari-one",
+"hintSkills": [
+200012,
+201172,
+201392,
+201692,
+202422,
+202592,
+202662,
+203152,
+203252,
+203332,
+203772,
+204022
+],
+"eventSkills": [
+202592,
+202421,
+203331,
+200062
+],
+"releaseEn": null
 },
 "30282": {
 "name": "Air Groove",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30282-air-groove"
+"urlName": "30282-air-groove",
+"hintSkills": [
+200022,
+201102,
+201112,
+201702,
+202092,
+202472,
+202652,
+202712,
+203312,
+203432,
+204032,
+204042,
+204112
+],
+"eventSkills": [
+203632,
+203422,
+203332,
+202711,
+204031,
+204041,
+200502
+],
+"releaseEn": null
 },
 "30283": {
 "name": "Fine Motion",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30283-fine-motion"
+"urlName": "30283-fine-motion",
+"hintSkills": [
+200202,
+200362,
+201342,
+202172,
+202702,
+202742,
+202762,
+202982,
+203032,
+203222,
+204052,
+204072,
+204082,
+204162
+],
+"eventSkills": [
+203032,
+202761,
+204071,
+204072,
+210101,
+210262,
+200332
+],
+"releaseEn": null
 },
 "30284": {
 "name": "Bubble Gum Fellow",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30284-bubble-gum-fellow"
+"urlName": "30284-bubble-gum-fellow",
+"hintSkills": [
+200282,
+200342,
+201532,
+201601,
+202372,
+202412,
+202472,
+203222
+],
+"eventSkills": [
+201313,
+201902
+],
+"releaseEn": null
 },
 "30285": {
 "name": "King Halo",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30285-king-halo"
+"urlName": "30285-king-halo",
+"hintSkills": [
+200592,
+200602,
+201382,
+201412,
+202402,
+202622,
+203152,
+203332,
+203362,
+203542,
+203852,
+204132
+],
+"eventSkills": [
+203592,
+202621,
+204131,
+200512
+],
+"releaseEn": null
 },
 "30286": {
 "name": "Matikanefukukitaru",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30286-matikanefukukitaru"
+"urlName": "30286-matikanefukukitaru",
+"hintSkills": [
+200012,
+200752,
+201172,
+201591,
+202482,
+202682,
+202772,
+203302,
+203472,
+203702,
+204082,
+204202
+],
+"eventSkills": [
+203701
+],
+"releaseEn": null
 },
 "30287": {
 "name": "Neo Universe",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30287-neo-universe"
+"urlName": "30287-neo-universe",
+"hintSkills": [
+201611,
+201631,
+201702,
+202082,
+202532,
+202552,
+202602,
+203142,
+203572,
+203632,
+203652,
+204052
+],
+"eventSkills": [
+203362,
+202601,
+203141,
+202622
+],
+"releaseEn": null
 },
 "30288": {
 "name": "Silence Suzuka",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30288-silence-suzuka"
+"urlName": "30288-silence-suzuka",
+"hintSkills": [
+200022,
+200432,
+201042,
+201262,
+201302,
+201522,
+201601,
+203022,
+203042
+],
+"eventSkills": [
+201243,
+200022
+],
+"releaseEn": null
 },
 "30289": {
 "name": "Forever Young",
 "title": "",
 "rarity": 3,
 "type": "intelligence",
-"urlName": "30289-forever-young"
+"urlName": "30289-forever-young",
+"hintSkills": [
+200362,
+200462,
+200492,
+201601,
+201611,
+201661,
+202552,
+202952,
+203502,
+203852,
+204122,
+204182,
+204222
+],
+"eventSkills": [
+203982,
+202832,
+204192,
+202831,
+204191,
+201612,
+204181,
+204052
+],
+"releaseEn": null
 },
 "30290": {
 "name": "Casino Drive",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30290-casino-drive"
+"urlName": "30290-casino-drive",
+"hintSkills": [],
+"eventSkills": [
+201591,
+201651,
+201652,
+200512
+],
+"releaseEn": null
 },
 "30291": {
 "name": "Victoire Pisa",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30291-victoire-pisa"
+"urlName": "30291-victoire-pisa",
+"hintSkills": [
+200042,
+200352,
+200512,
+201591,
+202602,
+202792,
+203652,
+203662,
+204142
+],
+"eventSkills": [
+203651,
+203852
+],
+"releaseEn": null
 },
 "30292": {
 "name": "Marche Lorraine",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30292-marche-lorraine"
+"urlName": "30292-marche-lorraine",
+"hintSkills": [
+200302,
+201672,
+201682,
+202262,
+202302,
+202332,
+203093,
+203103,
+203182,
+203602,
+203612,
+203792,
+203982
+],
+"eventSkills": [
+203852,
+203611,
+202301,
+204102
+],
+"releaseEn": null
 },
 "30293": {
 "name": "Daring Tact",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30293-daring-tact"
+"urlName": "30293-daring-tact",
+"hintSkills": [
+200172,
+201591,
+202102,
+202172,
+202532,
+202652,
+203152,
+203352,
+203362,
+203792,
+204052,
+204322
+],
+"eventSkills": [
+202962,
+203572,
+203791,
+204051,
+203362
+],
+"releaseEn": null
 },
 "30294": {
 "name": "Daring Heart",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30294-daring-heart"
+"urlName": "30294-daring-heart",
+"hintSkills": [
+200172,
+201082,
+201661,
+202532,
+202652,
+202742,
+202802,
+203032,
+203862,
+204052,
+204072,
+204322
+],
+"eventSkills": [
+202502,
+203052,
+202531,
+202741,
+203222
+],
+"releaseEn": null
 },
 "30295": {
 "name": "Curren Bouquetd'or",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30295-curren-bouquetdor"
+"urlName": "30295-curren-bouquetdor",
+"hintSkills": [
+200472,
+200562,
+201362,
+202161,
+202372,
+203412,
+203442,
+203992
+],
+"eventSkills": [
+201323,
+203122
+],
+"releaseEn": null
 },
 "30296": {
 "name": "Aston Machan",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30296-aston-machan"
+"urlName": "30296-aston-machan",
+"hintSkills": [
+200192,
+200962,
+200972,
+201012,
+202042,
+202862,
+203012,
+203482,
+203492,
+203872,
+204162,
+204272,
+204282,
+204312
+],
+"eventSkills": [
+201262,
+200652,
+204271,
+204311,
+204312,
+210272,
+210322,
+202042
+],
+"releaseEn": null
 },
 "30297": {
 "name": "Agnes Digital",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30297-agnes-digital"
+"urlName": "30297-agnes-digital",
+"hintSkills": [
+200602,
+201382,
+201392,
+201412,
+202152,
+202472,
+202622,
+203592,
+204112,
+204132,
+204352,
+204362,
+204372
+],
+"eventSkills": [
+203362,
+202151,
+204351,
+200232,
+200162
+],
+"releaseEn": null
 },
 "30298": {
 "name": "Tap Dance City",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30298-tap-dance-city"
+"urlName": "30298-tap-dance-city",
+"hintSkills": [
+200432,
+200542,
+201242,
+201252,
+201262,
+201272,
+202392,
+202692,
+202802,
+203032,
+203382,
+203402,
+203472,
+204342
+],
+"eventSkills": [
+204092,
+200431,
+201271,
+203401,
+201272
+],
+"releaseEn": null
 },
 "30299": {
 "name": "Agnes Tachyon",
 "title": "",
 "rarity": 3,
 "type": "guts",
-"urlName": "30299-agnes-tachyon"
+"urlName": "30299-agnes-tachyon",
+"hintSkills": [
+200572,
+201322,
+201332,
+201362,
+202412,
+202792,
+202982,
+204082
+],
+"eventSkills": [
+200581,
+201542
+],
+"releaseEn": null
 },
 "30300": {
 "name": "Sakura Chiyono O",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30300-sakura-chiyono-o"
+"urlName": "30300-sakura-chiyono-o",
+"hintSkills": [
+200562,
+200722,
+202092,
+202602,
+202712,
+202742,
+203052,
+203122,
+203442,
+203862,
+204012,
+204082,
+204332
+],
+"eventSkills": [
+203121,
+204331,
+200172
+],
+"releaseEn": null
 },
 "30301": {
 "name": "Gran Alegria",
 "title": "",
 "rarity": 3,
 "type": "power",
-"urlName": "30301-gran-alegria"
+"urlName": "30301-gran-alegria",
+"hintSkills": [
+201032,
+201042,
+201072,
+202112,
+202402,
+202962,
+203042,
+203542,
+203552,
+203942,
+204172,
+204462
+],
+"eventSkills": [
+203352,
+203541,
+204171,
+201032
+],
+"releaseEn": null
 },
 "30302": {
 "name": "Satono Diamond",
 "title": "",
 "rarity": 3,
 "type": "speed",
-"urlName": "30302-satono-diamond"
+"urlName": "30302-satono-diamond",
+"hintSkills": [
+200382,
+200752,
+201172,
+201182,
+202562,
+203242,
+203512,
+203562,
+203772,
+204022,
+204202,
+204293,
+204382
+],
+"eventSkills": [
+202422,
+203241,
+203561,
+204381,
+200851
+],
+"releaseEn": null
 },
 "30303": {
 "name": "Blast Onepiece",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30303-blast-onepiece"
+"urlName": "30303-blast-onepiece",
+"hintSkills": [
+200332,
+200572,
+201422,
+202452,
+202662,
+202792,
+203952,
+204112,
+204132
+],
+"eventSkills": [
+202471,
+201172
+],
+"releaseEn": null
 },
 "30304": {
 "name": "Meisho Doto",
 "title": "",
 "rarity": 3,
 "type": "stamina",
-"urlName": "30304-meisho-doto"
+"urlName": "30304-meisho-doto",
+"hintSkills": [
+200332,
+200352,
+201591,
+201651,
+202012,
+202172,
+202602,
+203642,
+203652,
+204392,
+204472
+],
+"eventSkills": [
+201591,
+200331,
+203651,
+203641,
+204391,
+201322
+],
+"releaseEn": null
 },
 "30305": {
 "name": "Tazuna Hayakawa",
 "title": "",
 "rarity": 3,
 "type": "friend",
-"urlName": "30305-tazuna-hayakawa"
+"urlName": "30305-tazuna-hayakawa",
+"hintSkills": [],
+"eventSkills": [
+203852,
+201661,
+201662,
+202792
+],
+"releaseEn": null
 }
 }
