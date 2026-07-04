@@ -40,3 +40,6 @@ scripts/build_tt_meta.py
 scripts/sniff_umamoe.mjs
 scripts/umamoe_requests*.json
 scripts/tt_out/
+
+# Local-only game capture hook (version.dll + dumps + install scripts).
+game-hook/
