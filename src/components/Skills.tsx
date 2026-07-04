@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { Card, Category, Skill, Style } from '../types'
 import { CATEGORIES, CATEGORY_LABEL, STYLES, STYLE_LABEL } from '../types'
-import { charIcon, skillIcon } from '../data/load'
+import { charThumb, skillIcon } from '../data/load'
 import { allGuaranteedEntries, normalizeName } from '../scoring/classify'
 import type { GuaranteedEntry, Scope } from '../scoring/guaranteedSkills'
 
@@ -64,25 +64,40 @@ function byCard(a: Card, b: Card): number {
   return b.rarity - a.rarity || a.name.localeCompare(b.name)
 }
 
+function CardChip({ card }: { card: Card }) {
+  const [err, setErr] = useState(false)
+  return (
+    <div
+      className="flex items-center gap-1.5 rounded-md bg-bg px-1.5 py-1"
+      title={`${card.name} — ${card.title}`}
+    >
+      {err ? (
+        <div className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-surface-2 text-[10px] text-faint">
+          {card.name.charAt(0)}
+        </div>
+      ) : (
+        <img
+          src={charThumb(card)}
+          alt=""
+          className="h-6 w-6 shrink-0 rounded-full object-cover object-top"
+          loading="lazy"
+          draggable={false}
+          onError={() => setErr(true)}
+        />
+      )}
+      <div className="min-w-0 leading-tight">
+        <div className="truncate text-[11px] font-medium text-text">{card.name}</div>
+        {card.title && <div className="truncate text-[9px] text-faint">{card.title}</div>}
+      </div>
+    </div>
+  )
+}
+
 function CardRow({ cards }: { cards: Card[] }) {
   return (
-    <div className="flex flex-wrap gap-1">
+    <div className="space-y-1">
       {cards.map((c) => (
-        <div
-          key={c.cardId}
-          className="flex items-center gap-1 rounded bg-surface-2 py-0.5 pl-0.5 pr-1.5"
-          title={`${c.name} — ${c.title}`}
-        >
-          <img
-            src={charIcon(c)}
-            alt=""
-            className="h-5 w-5 shrink-0 rounded-full"
-            loading="lazy"
-            draggable={false}
-            onError={(e) => (e.currentTarget.style.visibility = 'hidden')}
-          />
-          <span className="max-w-[92px] truncate text-[10px] text-muted">{c.name}</span>
-        </div>
+        <CardChip key={c.cardId} card={c} />
       ))}
     </div>
   )
@@ -92,7 +107,7 @@ function CardsPopover({ cards }: { cards?: SkillCards }) {
   const random = cards?.random ?? []
   const event = cards?.event ?? []
   return (
-    <div className="absolute left-0 top-full z-50 mt-1 w-72 max-w-[min(20rem,80vw)] rounded-lg border border-border bg-surface p-2.5 shadow-xl">
+    <div className="absolute left-0 top-full z-50 w-80 max-w-[min(22rem,88vw)] rounded-lg border border-border-strong bg-surface-2 p-2.5 shadow-2xl">
       <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-faint">
         Cards granting this skill
       </div>
