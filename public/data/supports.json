@@ -547,14 +547,14 @@
 },
 "10079": {
 "name": "Daiichi Ruby",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
 "urlName": "10079-daiichi-ruby"
 },
 "10080": {
 "name": "K.S.Miracle",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
 "urlName": "10080-ksmiracle"
@@ -568,56 +568,56 @@
 },
 "10082": {
 "name": "Symboli Kris S",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
 "urlName": "10082-symboli-kris-s"
 },
 "10083": {
 "name": "Light Hello",
-"title": "",
+"title": "[Event Producer]",
 "rarity": 1,
 "type": "friend",
 "urlName": "10083-light-hello"
 },
 "10084": {
 "name": "Tanino Gimlet",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
 "urlName": "10084-tanino-gimlet"
 },
 "10085": {
 "name": "Sakura Laurel",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "stamina",
 "urlName": "10085-sakura-laurel"
 },
 "10086": {
 "name": "Yamanin Zephyr",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
 "urlName": "10086-yamanin-zephyr"
 },
 "10087": {
 "name": "Aston Machan",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
 "urlName": "10087-aston-machan"
 },
 "10088": {
 "name": "Mejiro Ramonu",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "intelligence",
 "urlName": "10088-mejiro-ramonu"
 },
 "10089": {
 "name": "Jungle Pocket",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
 "urlName": "10089-jungle-pocket"
@@ -631,21 +631,21 @@
 },
 "10091": {
 "name": "Katsuragi Ace",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "speed",
 "urlName": "10091-katsuragi-ace"
 },
 "10092": {
 "name": "Copano Rickey",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "guts",
 "urlName": "10092-copano-rickey"
 },
 "10093": {
 "name": "Wonder Acute",
-"title": "",
+"title": "[Tracen Academy]",
 "rarity": 1,
 "type": "power",
 "urlName": "10093-wonder-acute"
@@ -1338,112 +1338,112 @@
 },
 "20050": {
 "name": "Seiun Sky",
-"title": "",
+"title": "[Bobbing with the Waves]",
 "rarity": 2,
 "type": "intelligence",
 "urlName": "20050-seiun-sky"
 },
 "20051": {
 "name": "K.S.Miracle",
-"title": "",
+"title": "[The 3rd Miracle]",
 "rarity": 2,
 "type": "guts",
 "urlName": "20051-ksmiracle"
 },
 "20052": {
 "name": "Tsurumaru Tsuyoshi",
-"title": "",
+"title": "[Go, Go! Tsuyoshi!]",
 "rarity": 2,
 "type": "guts",
 "urlName": "20052-tsurumaru-tsuyoshi"
 },
 "20053": {
 "name": "Narita Top Road",
-"title": "",
+"title": "[Stop, Prez!]",
 "rarity": 2,
 "type": "power",
 "urlName": "20053-narita-top-road"
 },
 "20054": {
 "name": "TM Opera O",
-"title": "",
+"title": "[Mighty Fotografia]",
 "rarity": 2,
 "type": "stamina",
 "urlName": "20054-tm-opera-o"
 },
 "20055": {
 "name": "Aston Machan",
-"title": "",
+"title": "[A Clip to Keep Your Heart Warm]",
 "rarity": 2,
 "type": "speed",
 "urlName": "20055-aston-machan"
 },
 "20056": {
 "name": "Jungle Pocket",
-"title": "",
+"title": "[Dead End: Blocking the Path]",
 "rarity": 2,
 "type": "speed",
 "urlName": "20056-jungle-pocket"
 },
 "20057": {
 "name": "Mejiro Dober",
-"title": "",
+"title": "[Gentle and Sleek]",
 "rarity": 2,
 "type": "guts",
 "urlName": "20057-mejiro-dober"
 },
 "20058": {
 "name": "Symboli Rudolf",
-"title": "",
+"title": "[Your Laugh After School]",
 "rarity": 2,
 "type": "stamina",
 "urlName": "20058-symboli-rudolf"
 },
 "20059": {
 "name": "Agnes Tachyon",
-"title": "",
+"title": "[Ah, Wonderful Saccharinity]",
 "rarity": 2,
 "type": "power",
 "urlName": "20059-agnes-tachyon"
 },
 "20060": {
 "name": "Hishi Akebono",
-"title": "",
+"title": "[Try a Sweet Swim Ring]",
 "rarity": 2,
 "type": "power",
 "urlName": "20060-hishi-akebono"
 },
 "20061": {
 "name": "Gold Ship",
-"title": "",
+"title": "[Golshi's House Specialty]",
 "rarity": 2,
 "type": "stamina",
 "urlName": "20061-gold-ship"
 },
 "20062": {
 "name": "Maruzensky",
-"title": "",
+"title": "[One Bomb Drive ♪]",
 "rarity": 2,
 "type": "intelligence",
 "urlName": "20062-maruzensky"
 },
 "20063": {
 "name": "Silence Suzuka",
-"title": "",
+"title": "[Summer Evening Shower]",
 "rarity": 2,
 "type": "speed",
 "urlName": "20063-silence-suzuka"
 },
 "20064": {
 "name": "Copano Rickey",
-"title": "",
+"title": "[Gods of Luck Are Early to Rise]",
 "rarity": 2,
 "type": "guts",
 "urlName": "20064-copano-rickey"
 },
 "20065": {
 "name": "Grass Wonder",
-"title": "",
+"title": "[The Splendid Aftertaste of Good Tea]",
 "rarity": 2,
 "type": "power",
 "urlName": "20065-grass-wonder"
@@ -1933,7 +1933,7 @@
 },
 "30037": {
 "name": "Symboli Rudolf",
-"title": "",
+"title": "[The Unequivocal Emperor]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30037-symboli-rudolf"
@@ -2017,7 +2017,7 @@
 },
 "30052": {
 "name": "Light Hello",
-"title": "",
+"title": "[From the Ground Up]",
 "rarity": 3,
 "type": "friend",
 "urlName": "30052-light-hello"
@@ -2360,7 +2360,7 @@
 },
 "30101": {
 "name": "Agnes Tachyon",
-"title": "",
+"title": "[Q≠0]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30101-agnes-tachyon"
@@ -2402,364 +2402,364 @@
 },
 "30107": {
 "name": "Maruzensky",
-"title": "",
+"title": "[Sentimental Flare ♪]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30107-maruzensky"
 },
 "30108": {
 "name": "Nakayama Festa",
-"title": "",
+"title": "[Trusting the Dice]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30108-nakayama-festa"
 },
 "30109": {
 "name": "Sakura Chiyono O",
-"title": "",
+"title": "[A Good Heart Blossoms to Its Fullest]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30109-sakura-chiyono-o"
 },
 "30110": {
 "name": "Manhattan Cafe",
-"title": "",
+"title": "[It's on the House]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30110-manhattan-cafe"
 },
 "30111": {
 "name": "Tokai Teio",
-"title": "",
+"title": "[Teio-Oo-Oo!!!]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30111-tokai-teio"
 },
 "30112": {
 "name": "Twin Turbo",
-"title": "",
+"title": "[TT Ignition!]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30112-twin-turbo"
 },
 "30113": {
 "name": "Biwa Hayahide",
-"title": "",
+"title": "[Uchronia Architect]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30113-biwa-hayahide"
 },
 "30114": {
 "name": "Daiichi Ruby",
-"title": "",
+"title": "[Ah, Such Majesty]",
 "rarity": 3,
 "type": "power",
 "urlName": "30114-daiichi-ruby"
 },
 "30115": {
 "name": "Mejiro Palmer",
-"title": "",
+"title": "[Moonlit Devil ♪]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30115-mejiro-palmer"
 },
 "30116": {
 "name": "Daitaku Helios",
-"title": "",
+"title": "[Sunlit Angel ♪]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30116-daitaku-helios"
 },
 "30117": {
 "name": "Shinko Windy",
-"title": "",
+"title": "[Onwards, Demon Queen Lackeys!]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30117-shinko-windy"
 },
 "30118": {
 "name": "Symboli Kris S",
-"title": "",
+"title": "[A Win Foreshadowed]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30118-symboli-kris-s"
 },
 "30119": {
 "name": "Mejiro Ardan",
-"title": "",
+"title": "[Hopeful Petals Dancing in the Night]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30119-mejiro-ardan"
 },
 "30120": {
 "name": "Yaeno Muteki",
-"title": "",
+"title": "[Pious Flame, Heavens Scorcher]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30120-yaeno-muteki"
 },
 "30121": {
 "name": "Mihono Bourbon",
-"title": "",
+"title": "[U & Me]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30121-mihono-bourbon"
 },
 "30122": {
 "name": "Eishin Flash",
-"title": "",
+"title": "[Danke Schön]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30122-eishin-flash"
 },
 "30123": {
 "name": "Narita Brian",
-"title": "",
+"title": "[Glad Tidings]",
 "rarity": 3,
 "type": "power",
 "urlName": "30123-narita-brian"
 },
 "30124": {
 "name": "Air Groove",
-"title": "",
+"title": "[Are You Merry?]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30124-air-groove"
 },
 "30125": {
 "name": "Sakura Laurel",
-"title": "",
+"title": "[Don't Stop Anymore!]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30125-sakura-laurel"
 },
 "30126": {
 "name": "Yamanin Zephyr",
-"title": "",
+"title": "[To Winds Untraveled]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30126-yamanin-zephyr"
 },
 "30127": {
 "name": "Special Week",
-"title": "",
+"title": "[Outrunning Misfortune]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30127-special-week"
 },
 "30128": {
 "name": "Sweep Tosho",
-"title": "",
+"title": "[Capricious Excellence]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30128-sweep-tosho"
 },
 "30129": {
 "name": "Grass Wonder",
-"title": "",
+"title": "[From Icy Blues to Verdant Hues]",
 "rarity": 3,
 "type": "power",
 "urlName": "30129-grass-wonder"
 },
 "30130": {
 "name": "K.S.Miracle",
-"title": "",
+"title": "[To You]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30130-ksmiracle"
 },
 "30131": {
 "name": "Marvelous Sunday",
-"title": "",
+"title": "[Marvelous☆Chocolate Show]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30131-marvelous-sunday"
 },
 "30132": {
 "name": "Biko Pegasus",
-"title": "",
+"title": "[Transform! Garçon Form!]",
 "rarity": 3,
 "type": "power",
 "urlName": "30132-biko-pegasus"
 },
 "30133": {
 "name": "Hishi Akebono",
-"title": "",
+"title": "[Fondente Smile]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30133-hishi-akebono"
 },
 "30134": {
 "name": "Mejiro Ramonu",
-"title": "",
+"title": "[Radiant]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30134-mejiro-ramonu"
 },
 "30135": {
 "name": "Katsuragi Ace",
-"title": "",
+"title": "[Hold Aloft the Blazing Torch]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30135-katsuragi-ace"
 },
 "30136": {
 "name": "Symboli Kris S",
-"title": "",
+"title": "[Unyielding Resolve]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30136-symboli-kris-s"
 },
 "30137": {
 "name": "Ancestors & Guides",
-"title": "",
+"title": "[Chasing Eternal Glory]",
 "rarity": 3,
 "type": "group",
 "urlName": "30137-ancestors-guides"
 },
 "30138": {
 "name": "Nice Nature",
-"title": "",
+"title": "[Don't Close Your Eyes Now]",
 "rarity": 3,
 "type": "power",
 "urlName": "30138-nice-nature"
 },
 "30139": {
 "name": "Mejiro McQueen",
-"title": "",
+"title": "[Heart Aflutter in the Evening Breeze]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30139-mejiro-mcqueen"
 },
 "30140": {
 "name": "Tokai Teio",
-"title": "",
+"title": "[Soaring Waltz]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30140-tokai-teio"
 },
 "30141": {
 "name": "Mihono Bourbon",
-"title": "",
+"title": "[Mission: Nourishing the Soul]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30141-mihono-bourbon"
 },
 "30142": {
 "name": "Sakura Laurel",
-"title": "",
+"title": "[Among Cherry Blossoms in Bloom]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30142-sakura-laurel"
 },
 "30143": {
 "name": "Ikuno Dictus",
-"title": "",
+"title": "[The View at Journey's End]",
 "rarity": 3,
 "type": "power",
 "urlName": "30143-ikuno-dictus"
 },
 "30145": {
 "name": "Tanino Gimlet",
-"title": "",
+"title": "[Welcome to Umayuru]",
 "rarity": 3,
 "type": "power",
 "urlName": "30145-tanino-gimlet"
 },
 "30146": {
 "name": "Oguri Cap",
-"title": "",
+"title": "[Run Forth! Dash On! Ever Forward!]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30146-oguri-cap"
 },
 "30147": {
 "name": "Jungle Pocket",
-"title": "",
+"title": "[The Frontier]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30147-jungle-pocket"
 },
 "30148": {
 "name": "Daiwa Scarlet",
-"title": "",
+"title": "[Something Blue]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30148-daiwa-scarlet"
 },
 "30149": {
 "name": "Aston Machan",
-"title": "",
+"title": "[Haute Couture Memory]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30149-aston-machan"
 },
 "30150": {
 "name": "Vodka",
-"title": "",
+"title": "[Heart Ignition!]",
 "rarity": 3,
 "type": "stamina",
 "urlName": "30150-vodka"
 },
 "30151": {
 "name": "Mayano Top Gun",
-"title": "",
+"title": "[Chill Chill Night]",
 "rarity": 3,
 "type": "power",
 "urlName": "30151-mayano-top-gun"
 },
 "30152": {
 "name": "TM Opera O",
-"title": "",
+"title": "[All'alba vincerò!]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30152-tm-opera-o"
 },
 "30153": {
 "name": "Gold City",
-"title": "",
+"title": "[Gentle Moon]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30153-gold-city"
 },
 "30154": {
 "name": "Mejiro Palmer",
-"title": "",
+"title": "[As the Seagulls Soar]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30154-mejiro-palmer"
 },
 "30155": {
 "name": "Daitaku Helios",
-"title": "",
+"title": "[#Summer #NewMe]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30155-daitaku-helios"
 },
 "30156": {
 "name": "Wonder Acute",
-"title": "",
+"title": "[Lifelong Wonder]",
 "rarity": 3,
 "type": "power",
 "urlName": "30156-wonder-acute"
 },
 "30157": {
 "name": "Manhattan Cafe",
-"title": "",
+"title": "[The Bubbles We Gaze upon Together]",
 "rarity": 3,
 "type": "intelligence",
 "urlName": "30157-manhattan-cafe"
 },
 "30158": {
 "name": "Jungle Pocket",
-"title": "",
+"title": "[Summer Splash]",
 "rarity": 3,
 "type": "guts",
 "urlName": "30158-jungle-pocket"
 },
 "30159": {
 "name": "Air Groove",
-"title": "",
+"title": "[Seaside Bloom]",
 "rarity": 3,
 "type": "speed",
 "urlName": "30159-air-groove"
@@ -3771,5 +3771,19 @@
 "rarity": 3,
 "type": "stamina",
 "urlName": "30303-blast-onepiece"
+},
+"30304": {
+"name": "Meisho Doto",
+"title": "",
+"rarity": 3,
+"type": "stamina",
+"urlName": "30304-meisho-doto"
+},
+"30305": {
+"name": "Tazuna Hayakawa",
+"title": "",
+"rarity": 3,
+"type": "friend",
+"urlName": "30305-tazuna-hayakawa"
 }
 }
