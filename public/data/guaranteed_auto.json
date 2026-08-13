@@ -978,6 +978,15 @@
   }
  },
  {
+  "name": "Lightning Surge",
+  "tier": "gold",
+  "bracket": true,
+  "scope": {
+   "kind": "dist",
+   "category": "sprint"
+  }
+ },
+ {
   "name": "Master of Declines",
   "tier": "gold",
   "bracket": true,
