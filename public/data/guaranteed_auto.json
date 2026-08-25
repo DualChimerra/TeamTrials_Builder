@@ -1,5 +1,14 @@
 [
  {
+  "name": "A Journey in a Step",
+  "tier": "gold",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
   "name": "All-Seeing Eyes",
   "tier": "gold",
   "bracket": false,
@@ -709,15 +718,6 @@
   }
  },
  {
-  "name": "A Journey in a Step",
-  "tier": "gold",
-  "bracket": true,
-  "scope": {
-   "kind": "style",
-   "style": "late"
-  }
- },
- {
   "name": "Adored by All",
   "tier": "gold",
   "bracket": true,
@@ -1382,6 +1382,15 @@
  },
  {
   "name": "Fighter",
+  "tier": "normal",
+  "bracket": false,
+  "scope": {
+   "kind": "style",
+   "style": "late"
+  }
+ },
+ {
+  "name": "First Step",
   "tier": "normal",
   "bracket": false,
   "scope": {
@@ -2215,15 +2224,6 @@
   "scope": {
    "kind": "style",
    "style": "front"
-  }
- },
- {
-  "name": "First Step",
-  "tier": "normal",
-  "bracket": true,
-  "scope": {
-   "kind": "style",
-   "style": "late"
   }
  },
  {
