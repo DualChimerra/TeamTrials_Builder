@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { Category, Grade, OwnedState, Style } from '../types'
+import type { DumpCard } from '../data/umadump'
 
 // Manual per-slot override keyed by the slot's auto-assigned running style.
 //  - card:  a chosen cardId, or 'empty' to leave the slot blank (undefined = auto)
@@ -37,6 +38,9 @@ interface RosterState {
   setSlotOverride: (category: Category, slotStyle: Style, patch: SlotOverride | null) => void
   setAptStyle: (cardId: number, style: Style, grade: Grade | null) => void
   importData: (data: RosterExport) => void
+  // Mark the given cards owned (with stars/potential when known). With `replace`,
+  // every other card is marked not owned (locks and aptitude overrides are kept).
+  importOwnedCards: (cards: DumpCard[], replace: boolean) => void
   reset: () => void
 }
 
@@ -129,6 +133,22 @@ export const useRoster = create<RosterState>()(
           overrides: data.overrides ?? s.overrides,
           settings: data.settings ? { ...s.settings, ...data.settings } : s.settings,
         })),
+
+      importOwnedCards: (cards, replace) =>
+        set((s) => {
+          const next: Record<number, OwnedState> = {}
+          for (const [id, st] of Object.entries(s.owned)) next[+id] = replace ? { ...st, owned: false } : st
+          for (const c of cards) {
+            const cur = ensure(s.owned, c.cardId)
+            next[c.cardId] = {
+              ...cur,
+              owned: true,
+              stars: c.stars ?? cur.stars,
+              potential: c.potential ?? cur.potential,
+            }
+          }
+          return { owned: next }
+        }),
 
       reset: () => set({ owned: {}, overrides: {} }),
     }),

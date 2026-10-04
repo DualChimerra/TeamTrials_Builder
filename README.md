@@ -35,6 +35,7 @@ This tool encodes those rules. You tell it what you own; it tells you the best t
 | | |
 |---|---|
 | 🗂️ **Roster tracking** | Mark owned cards, **stars (★)**, **potential level (1–5)**, with search & filters. Saved in your browser. |
+| 📥 **umadump import** | Load your owned horses (with ★ and potential) straight from a [umadump](https://github.com/jalbarrang/umadump) `card_data.json` — or a `trained_chara_data.json` veteran list — via **Settings → Import**. |
 | 🏇 **5 teams** | Suggests 3 horses for each race category: **Sprint / Mile / Medium / Long / Dirt**. |
 | 🎯 **Smart assignment** | Picks **3 distinct running styles** per team and assigns each horse the style (aptitude ≥ your threshold) where its skills score best. |
 | 🥇 **Skill-tier scoring** | Only guaranteed-activation white/gold skills count: golds ≫ normals, lower-priority ("bracketed") skills discounted. Uniques and raw aptitude grades are **not** scored. |

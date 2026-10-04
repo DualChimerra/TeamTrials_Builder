@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { Grade } from './types'
+import type { Card, Grade } from './types'
 import { useGameData } from './data/useGameData'
+import { parseUmadump } from './data/umadump'
 import { exportRoster, useRoster, type RosterExport } from './state/store'
 import { allGuaranteedEntries } from './scoring/classify'
 import { Roster } from './components/Roster'
@@ -127,10 +128,11 @@ function Sidebar({
   )
 }
 
-function SettingsMenu() {
+function SettingsMenu({ cards }: { cards: Card[] }) {
   const settings = useRoster((s) => s.settings)
   const updateSettings = useRoster((s) => s.updateSettings)
   const importData = useRoster((s) => s.importData)
+  const importOwnedCards = useRoster((s) => s.importOwnedCards)
   const reset = useRoster((s) => s.reset)
   const [open, setOpen] = useState(false)
   const fileInput = useRef<HTMLInputElement>(null)
@@ -152,14 +154,46 @@ function SettingsMenu() {
     file
       .text()
       .then((txt) => {
-        const data = JSON.parse(txt) as RosterExport
+        const json: unknown = JSON.parse(txt)
+        const dump = parseUmadump(json)
+        if (dump) {
+          importUmadump(dump)
+          return
+        }
+        const data = json as RosterExport
         if (!data || typeof data !== 'object' || (!data.owned && !data.overrides && !data.settings)) {
           throw new Error('Not a roster file')
         }
         importData(data)
         setOpen(false)
       })
-      .catch(() => alert('Could not import: the file is not a valid roster JSON.'))
+      .catch(() =>
+        alert('Could not import: the file is neither a roster backup nor a umadump card_data.json / trained_chara_data.json.'),
+      )
+  }
+
+  const importUmadump = (dump: NonNullable<ReturnType<typeof parseUmadump>>) => {
+    const known = new Set(cards.map((c) => c.cardId))
+    const matched = dump.cards.filter((c) => known.has(c.cardId))
+    const unknown = dump.cards.length - matched.length
+    if (!matched.length) {
+      alert('No horses from this umadump file match the dataset.')
+      return
+    }
+    const what = dump.kind === 'cards' ? 'owned horses (with ★ and potential)' : 'horses from your veteran list'
+    const replace =
+      dump.kind === 'cards' &&
+      confirm(
+        `Found ${matched.length} ${what}.\n\n` +
+          'OK — replace your roster: mark only these horses as owned.\n' +
+          'Cancel — merge: add them to the horses already marked.',
+      )
+    importOwnedCards(matched, replace)
+    setOpen(false)
+    alert(
+      `Imported ${matched.length} ${what}.` +
+        (unknown ? `\n${unknown} card(s) were skipped because they are not in the dataset yet.` : ''),
+    )
   }
 
   return (
@@ -218,6 +252,10 @@ function SettingsMenu() {
                   <Icon d={I.upload} /> Import
                 </button>
                 <input ref={fileInput} type="file" accept="application/json,.json" className="hidden" onChange={handleImport} />
+              </div>
+              <div className="text-[11px] leading-snug text-faint">
+                Import also accepts a umadump <code>card_data.json</code> (owned horses, ★, potential) or{' '}
+                <code>trained_chara_data.json</code>.
               </div>
             </div>
             <button
@@ -300,7 +338,7 @@ export default function App() {
             >
               <Icon d={theme === 'dark' ? I.sun : I.moon} />
             </button>
-            <SettingsMenu />
+            <SettingsMenu cards={data?.cards ?? []} />
           </div>
         </div>
 
